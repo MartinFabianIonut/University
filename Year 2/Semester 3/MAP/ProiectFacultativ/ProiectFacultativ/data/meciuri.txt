@@ -1,0 +1,8 @@
+﻿1,San Antonio Spurs,New Orleans Pelicans,13.01.2023
+2,San Antonio Spurs,Charlotte Hornets,17.01.2023
+3,New Orleans Pelicans,Charlotte Hornets,23.01.2023
+4,Indiana Pacers,Charlotte Hornets,13.01.2023
+5,Indiana Pacers,New Orleans Pelicans,27.01.2023
+6,LA Clippers,Sacramento Kings,13.01.2023
+7,Sacramento Kings,Orlando Magic,29.01.2023
+8,Orlando Magic,LA Clippers,18.01.2023

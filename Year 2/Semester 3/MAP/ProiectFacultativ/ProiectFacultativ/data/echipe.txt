@@ -1,0 +1,9 @@
+﻿1,San Antonio Spurs
+2,Orlando Magic
+3,New York Knicks
+4,Miami Heat
+5,Charlotte Hornets
+6,New Orleans Pelicans
+7,Indiana Pacers
+8,LA Clippers
+9,Sacramento Kings

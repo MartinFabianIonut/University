@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ProiectFacultativ/1.0.0": {
+        "runtime": {
+          "ProiectFacultativ.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProiectFacultativ/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

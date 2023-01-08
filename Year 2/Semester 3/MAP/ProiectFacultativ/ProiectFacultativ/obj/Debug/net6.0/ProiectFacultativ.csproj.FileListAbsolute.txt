@@ -1,0 +1,30 @@
+C:\Users\marti\source\repos\ProiectFacultativ\ProiectFacultativ\bin\Debug\net6.0\ProiectFacultativ.exe
+C:\Users\marti\source\repos\ProiectFacultativ\ProiectFacultativ\bin\Debug\net6.0\ProiectFacultativ.deps.json
+C:\Users\marti\source\repos\ProiectFacultativ\ProiectFacultativ\bin\Debug\net6.0\ProiectFacultativ.runtimeconfig.json
+C:\Users\marti\source\repos\ProiectFacultativ\ProiectFacultativ\bin\Debug\net6.0\ProiectFacultativ.dll
+C:\Users\marti\source\repos\ProiectFacultativ\ProiectFacultativ\bin\Debug\net6.0\ProiectFacultativ.pdb
+C:\Users\marti\source\repos\ProiectFacultativ\ProiectFacultativ\obj\Debug\net6.0\ProiectFacultativ.csproj.AssemblyReference.cache
+C:\Users\marti\source\repos\ProiectFacultativ\ProiectFacultativ\obj\Debug\net6.0\ProiectFacultativ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marti\source\repos\ProiectFacultativ\ProiectFacultativ\obj\Debug\net6.0\ProiectFacultativ.AssemblyInfoInputs.cache
+C:\Users\marti\source\repos\ProiectFacultativ\ProiectFacultativ\obj\Debug\net6.0\ProiectFacultativ.AssemblyInfo.cs
+C:\Users\marti\source\repos\ProiectFacultativ\ProiectFacultativ\obj\Debug\net6.0\ProiectFacultativ.csproj.CoreCompileInputs.cache
+C:\Users\marti\source\repos\ProiectFacultativ\ProiectFacultativ\obj\Debug\net6.0\ProiectFacultativ.dll
+C:\Users\marti\source\repos\ProiectFacultativ\ProiectFacultativ\obj\Debug\net6.0\refint\ProiectFacultativ.dll
+C:\Users\marti\source\repos\ProiectFacultativ\ProiectFacultativ\obj\Debug\net6.0\ProiectFacultativ.pdb
+C:\Users\marti\source\repos\ProiectFacultativ\ProiectFacultativ\obj\Debug\net6.0\ProiectFacultativ.genruntimeconfig.cache
+C:\Users\marti\source\repos\ProiectFacultativ\ProiectFacultativ\obj\Debug\net6.0\ref\ProiectFacultativ.dll
+C:\GIT\University\Year 2\Semester 3\MAP\ProiectFacultativ\ProiectFacultativ\bin\Debug\net6.0\ProiectFacultativ.exe
+C:\GIT\University\Year 2\Semester 3\MAP\ProiectFacultativ\ProiectFacultativ\bin\Debug\net6.0\ProiectFacultativ.deps.json
+C:\GIT\University\Year 2\Semester 3\MAP\ProiectFacultativ\ProiectFacultativ\bin\Debug\net6.0\ProiectFacultativ.runtimeconfig.json
+C:\GIT\University\Year 2\Semester 3\MAP\ProiectFacultativ\ProiectFacultativ\bin\Debug\net6.0\ProiectFacultativ.dll
+C:\GIT\University\Year 2\Semester 3\MAP\ProiectFacultativ\ProiectFacultativ\bin\Debug\net6.0\ProiectFacultativ.pdb
+C:\GIT\University\Year 2\Semester 3\MAP\ProiectFacultativ\ProiectFacultativ\obj\Debug\net6.0\ProiectFacultativ.csproj.AssemblyReference.cache
+C:\GIT\University\Year 2\Semester 3\MAP\ProiectFacultativ\ProiectFacultativ\obj\Debug\net6.0\ProiectFacultativ.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT\University\Year 2\Semester 3\MAP\ProiectFacultativ\ProiectFacultativ\obj\Debug\net6.0\ProiectFacultativ.AssemblyInfoInputs.cache
+C:\GIT\University\Year 2\Semester 3\MAP\ProiectFacultativ\ProiectFacultativ\obj\Debug\net6.0\ProiectFacultativ.AssemblyInfo.cs
+C:\GIT\University\Year 2\Semester 3\MAP\ProiectFacultativ\ProiectFacultativ\obj\Debug\net6.0\ProiectFacultativ.csproj.CoreCompileInputs.cache
+C:\GIT\University\Year 2\Semester 3\MAP\ProiectFacultativ\ProiectFacultativ\obj\Debug\net6.0\ProiectFacultativ.dll
+C:\GIT\University\Year 2\Semester 3\MAP\ProiectFacultativ\ProiectFacultativ\obj\Debug\net6.0\refint\ProiectFacultativ.dll
+C:\GIT\University\Year 2\Semester 3\MAP\ProiectFacultativ\ProiectFacultativ\obj\Debug\net6.0\ProiectFacultativ.pdb
+C:\GIT\University\Year 2\Semester 3\MAP\ProiectFacultativ\ProiectFacultativ\obj\Debug\net6.0\ProiectFacultativ.genruntimeconfig.cache
+C:\GIT\University\Year 2\Semester 3\MAP\ProiectFacultativ\ProiectFacultativ\obj\Debug\net6.0\ref\ProiectFacultativ.dll
