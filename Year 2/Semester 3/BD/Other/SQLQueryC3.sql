@@ -98,13 +98,14 @@ SELECT * FROM Inchirieri
 GO
 CREATE OR ALTER VIEW vwAngajatiCuInchirieriLunaAstaPentruMarca 
 AS
-SELECT nume+' '+prenume AS NumeAngajat, COUNT(*) AS NrInchirieriDeBMW
+SELECT TOP (SELECT COUNT(*) FROM Angajati) nume+' '+prenume AS NumeAngajat, COUNT(*) AS NrInchirieriDeBMW
 FROM Angajati A 
 INNER JOIN Inchirieri I ON A.id_a = I.id_a
 INNER JOIN Autovehicule AU ON I.id_auto=AU.id_auto
 INNER JOIN Marci M ON M.id_m=AU.id_m
-WHERE M.denumire = 'BMW' AND MONTH(GETDATE())=MONTH(I.inchiriere)
+WHERE M.denumire = 'Audi' AND MONTH(GETDATE())=MONTH(I.inchiriere)
 GROUP BY nume+' '+prenume
+ORDER BY nume+' '+prenume
 GO
 
 SELECT * FROM vwAngajatiCuInchirieriLunaAstaPentruMarca

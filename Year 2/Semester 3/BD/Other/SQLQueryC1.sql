@@ -78,16 +78,19 @@ GO
 CREATE OR ALTER VIEW vwFacturiCuShaorma 
 AS
 SELECT DenumireClient, NumarFactura, DataEmiterii, SUM(L.pret*L.cantitate) AS ValoareTotala
-from (
-SELECT F.id_f, C.denumire AS DenumireClient, F.numar AS NumarFactura, F.data_emiterii AS DataEmiterii
-FROM Lista_produse L 
-INNER JOIN Produse P ON L.id_p=P.id_p
-INNER JOIN Facturi F ON L.id_f=F.id_f 
-INNER JOIN Clienti C ON F.id_c=C.id_c
-WHERE P.denumire IN ('Shaorma')) AS CEVA INNER JOIN Lista_produse L ON L.id_f = CEVA.id_f
-GROUP BY DenumireClient, NumarFactura, DataEmiterii
-HAVING SUM(L.pret*L.cantitate) > 300
---DMF
+FROM (
+	SELECT F.id_f, C.denumire AS DenumireClient, F.numar AS NumarFactura, F.data_emiterii AS DataEmiterii
+	FROM Lista_produse L 
+	INNER JOIN Produse P ON L.id_p=P.id_p
+	INNER JOIN Facturi F ON L.id_f=F.id_f 
+	INNER JOIN Clienti C ON F.id_c=C.id_c
+	WHERE P.denumire IN ('Shaorma')
+)AS CEVA 
+
+	INNER JOIN Lista_produse L ON L.id_f = CEVA.id_f
+	GROUP BY DenumireClient, NumarFactura, DataEmiterii
+	HAVING SUM(L.pret*L.cantitate) > 300
+
 GO
 SELECT * FROM vwFacturiCuShaorma
 --e necesar select peste select, pt ca altfel primesc doar pretul pentru shaorma
@@ -112,8 +115,6 @@ CREATE FUNCTION ValoareTotala ()
 RETURNS @Tabelul TABLE (Luna INT, NumeAgent VARCHAR(20), PrenumeAgent VARCHAR(20), ValoareTotala MONEY)
 AS 
 BEGIN
-	DECLARE @luna INT, @anul INT
-
 	INSERT INTO @Tabelul
 
 	SELECT MONTH(F.data_emiterii) AS Luna, A.nume, A.prenume, SUM(L.pret*L.cantitate) AS ValoareTotala

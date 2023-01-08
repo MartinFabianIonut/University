@@ -63,7 +63,7 @@ BEGIN
 		WHERE id_m=@id_m AND id_p=@id_p AND data_consult=@data
 	ELSE
 		INSERT INTO Lista_pacienti (id_m, id_p, id_d, data_consult, ora_consult, observatii)
-		VALUES (@id_m,@id_p,@id_d,@data, @ora, @observatii)
+		VALUES (@id_m, @id_p, @id_d, @data, @ora, @observatii)
 END
 GO
 
@@ -72,12 +72,13 @@ EXEC AdaugaProgramare 1,1,1,'Sa nu manance','2023-02-17','17:00:00'
 GO
 CREATE OR ALTER VIEW vwMediciPopulariLunaAceasta 
 AS
-SELECT M.nume, M.prenume, COUNT(*) AS NrPacienti
+SELECT TOP(1000) M.nume, M.prenume, COUNT(*) AS NrPacienti
 FROM Medici M
 INNER JOIN Lista_pacienti LP ON LP.id_m=M.id_m
 WHERE MONTH(LP.data_consult) = MONTH(GETDATE())
 GROUP BY M.nume, M.prenume
-HAVING COUNT(*) > 20
+HAVING COUNT(*) > 1
+ORDER BY M.nume, M.prenume
 GO
 SELECT * FROM vwMediciPopulariLunaAceasta
 
