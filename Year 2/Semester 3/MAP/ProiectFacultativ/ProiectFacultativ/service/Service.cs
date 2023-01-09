@@ -17,33 +17,45 @@ namespace ProiectFacultativ.service
             this.echipaRepository = echipaRepository;
             this.jucatorActivRepository = jucatorActivRepository;
         }
-
+        /*
+         * Functia returneaza lista tuturor jucatorilor (participanti si rezerve) ai unei echipe, pe baza numelui echipei
+         */
         public List<Jucator<ID>> GetJucatoriEchipaData(string numeEchipa)
         {
             List<Jucator<ID>> jucatori = (List<Jucator<ID>>)jucatorRepository.GetAll();
             IEnumerable<Jucator<ID>> jucatoriEchipaData = jucatori.Where(x => x.Echipa.Numele.Equals(numeEchipa));
             return jucatoriEchipaData.ToList();
         }
-
+        /*
+         * Returneaza un jucator dupa ID
+         */
         public Jucator<ID> FindJucator(ID id)
         {
             return jucatorRepository.FindOne(id);
         }
-
+        /*
+         * Functia returneaza lista jucatorilor activi (participanti) dintr-o echipa, pe baza numelui acesteia, la un
+         * anumit meci, pe baza ID-ului meciului
+         * In cazul in care nu se gasesc, lista returnata va fi vida
+         */
         public List<JucatorActiv<ID>> GetJucatoriActiviPeEchipaLaMeci(string numeEchipa, ID idMeci)
         {
             List<JucatorActiv<ID>> jucatoriActivi = (List<JucatorActiv<ID>>)jucatorActivRepository.GetAll();
             List<JucatorActiv<ID>> jucatoriPeEchipaLaMeci = new();
             foreach (var jucator in jucatoriActivi)
             {
-                if (jucator.IdMeci.Equals(idMeci) && 
+                if (jucator.IdMeci.Equals(idMeci) &&
                     jucatorRepository.FindOne(jucator.IdJucator).Echipa.Numele.Equals(numeEchipa)
                     && jucator.Tip.Equals("Participant"))
                     jucatoriPeEchipaLaMeci.Add(jucator);
             }
             return jucatoriPeEchipaLaMeci;
         }
-
+        /*
+         * Functia returneaza lista meciurilor dintr-o perioada delimitata de doua inputuri,
+         * ambele de tip string (vor fi convertite in DateTime)
+         * In cazul in care nu se gasesc, lista returnata va fi vida
+         */
         public List<Meci<ID>> GetMeciuriInPerioada(string data1, string data2)
         {
             DateTime start = DateTime.Parse(data1);
@@ -53,7 +65,11 @@ namespace ProiectFacultativ.service
             meciuriInPerioada = meciuri.FindAll(meci => start.CompareTo(meci.Data) <= 0 && end.CompareTo(meci.Data) >= 0);
             return meciuriInPerioada;
         }
-
+        /*
+         * Functia returneaza un string, care contine rezultatul-scorul la un meci dat prin ID
+         * Daca acel meci nu exista, se va afisa un mesaj corespunzator, iar in cazul in care meciul exista, 
+         * dar nu sunt date pentru el, se va afisa un scor de tipul 0-0
+         */
         public string GetScorLaMeci(ID idMeci)
         {
             Meci<ID> meci = meciRepository.FindOne(idMeci);
@@ -76,21 +92,15 @@ namespace ProiectFacultativ.service
             rezultat += scor[scor.Keys.ToArray()[0]].ToString() + "-" + scor[scor.Keys.ToArray()[1]].ToString();
             return rezultat;
         }
-
+        /* Returneaza lista tuturor meciurilor*/
         public List<Meci<ID>> GetMeciuri()
         {
             return (List<Meci<ID>>)meciRepository.GetAll();
         }
-        public List<Jucator<ID>> GetJucatori()
-        {
-            return (List<Jucator<ID>>)jucatorRepository.GetAll();
-        }public List<Echipa<ID>> GetEchipe()
+        /* Returneaza lista tuturor echipelor*/
+        public List<Echipa<ID>> GetEchipe()
         {
             return (List<Echipa<ID>>)echipaRepository.GetAll();
-        }
-        public List<JucatorActiv<ID>> GetJucatoriActivi()
-        {
-            return (List<JucatorActiv<ID>>)jucatorActivRepository.GetAll();
         }
     }
 }
