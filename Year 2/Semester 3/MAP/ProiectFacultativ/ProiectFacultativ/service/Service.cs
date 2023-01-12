@@ -10,7 +10,8 @@ namespace ProiectFacultativ.service
         private readonly EchipaRepository<ID> echipaRepository;
         private readonly JucatorActivRepository<ID> jucatorActivRepository;
 
-        public Service(MeciRepository<ID> meciRepository, JucatorRepository<ID> jucatorRepository, EchipaRepository<ID> echipaRepository, JucatorActivRepository<ID> jucatorActivRepository)
+        public Service(MeciRepository<ID> meciRepository, JucatorRepository<ID> jucatorRepository, EchipaRepository<ID> echipaRepository,
+            JucatorActivRepository<ID> jucatorActivRepository)
         {
             this.meciRepository = meciRepository;
             this.jucatorRepository = jucatorRepository;
