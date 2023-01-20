@@ -1,0 +1,5 @@
+nasm lab12asm_19.asm -fwin32 -o lab12asm_19.obj
+cl /Z7 lab12_19.c /link lab12asm_19.obj
+
+-se executa:
+lab12_19.exe
