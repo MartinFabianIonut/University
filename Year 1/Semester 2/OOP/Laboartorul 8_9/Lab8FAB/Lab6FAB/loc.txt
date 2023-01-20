@@ -1,0 +1,5 @@
+1 Marta 45.3 2
+2 Elena 31.3 3
+3 David 67.2 1
+5 Simona 78.2 1
+4 Vlad 34.2 3

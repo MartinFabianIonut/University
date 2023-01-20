@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\marti\source\repos\Lab6FAB\Lab6FAB\</FILEPATH>
+      <FILENAME>pok.h</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class Locatar', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>Locatar::{ctor}</FUNCTION>
+    <DECORATED>??0Locatar@@QEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>21</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\marti\source\repos\Lab6FAB\Lab6FAB\</FILEPATH>
+      <FILENAME>vectordinamic.h</FILENAME>
+      <LINE>141</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class VectorDinamic&lt;class Locatar&gt;', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>VectorDinamic&lt;Locatar&gt;::{dtor}</FUNCTION>
+    <DECORATED>??1?$VectorDinamic@VLocatar@@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>141</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\marti\source\repos\Lab8FAB\Lab6FAB\</FILEPATH>
+      <FILENAME>repo.h</FILENAME>
+      <LINE>79</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26447</DEFECTCODE>
+    <DESCRIPTION>The function is declared 'noexcept' but calls function 'getAll()' which may throw exceptions (f.6).</DESCRIPTION>
+    <FUNCTION>RepoFile::getAll</FUNCTION>
+    <DECORATED>?getAll@RepoFile@@UEAAAEAV?$vector@VLocatar@@V?$allocator@VLocatar@@@std@@@std@@XZ</DECORATED>
+    <FUNCLINE>78</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\marti\source\repos\Lab8FAB\Lab6FAB\</FILEPATH>
+      <FILENAME>reponou.cpp</FILENAME>
+      <LINE>15</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>RepoNou::adauga</FUNCTION>
+    <DECORATED>?adauga@RepoNou@@UEAAXAEBVLocatar@@@Z</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\marti\source\repos\Lab8FAB\Lab6FAB\</FILEPATH>
+      <FILENAME>reponou.cpp</FILENAME>
+      <LINE>26</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>RepoNou::sterge_dupa_id</FUNCTION>
+    <DECORATED>?sterge_dupa_id@RepoNou@@UEAA?AVLocatar@@H@Z</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\marti\source\repos\Lab8FAB\Lab6FAB\</FILEPATH>
+      <FILENAME>reponou.cpp</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>RepoNou::modifica</FUNCTION>
+    <DECORATED>?modifica@RepoNou@@UEAA?AVLocatar@@AEBV2@@Z</DECORATED>
+    <FUNCLINE>35</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\marti\source\repos\Lab8FAB\Lab6FAB\</FILEPATH>
+      <FILENAME>reponou.cpp</FILENAME>
+      <LINE>55</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'l' does not change after construction, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>RepoNou::cauta</FUNCTION>
+    <DECORATED>?cauta@RepoNou@@UEAAAEBVLocatar@@AEBV2@@Z</DECORATED>
+    <FUNCLINE>48</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\marti\source\repos\Lab8FAB\Lab6FAB\</FILEPATH>
+      <FILENAME>reponou.cpp</FILENAME>
+      <LINE>50</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>RepoNou::cauta</FUNCTION>
+    <DECORATED>?cauta@RepoNou@@UEAAAEBVLocatar@@AEBV2@@Z</DECORATED>
+    <FUNCLINE>48</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\marti\source\repos\Lab8FAB\Lab6FAB\</FILEPATH>
+      <FILENAME>reponou.cpp</FILENAME>
+      <LINE>86</LINE>
+      <COLUMN>42</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>RepoNou::getAll</FUNCTION>
+    <DECORATED>?getAll@RepoNou@@UEAAAEAV?$vector@VLocatar@@V?$allocator@VLocatar@@@std@@@std@@XZ</DECORATED>
+    <FUNCLINE>81</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\marti\source\repos\Lab8FAB\Lab6FAB\</FILEPATH>
+      <FILENAME>reponou.cpp</FILENAME>
+      <LINE>86</LINE>
+      <COLUMN>42</COLUMN>
+    </SFA>
+    <DEFECTCODE>26400</DEFECTCODE>
+    <DESCRIPTION>Do not assign the result of an allocation or a function call with an owner&lt;T&gt; return value to a raw pointer, use owner&lt;T&gt; instead (i.11).</DESCRIPTION>
+    <FUNCTION>RepoNou::getAll</FUNCTION>
+    <DECORATED>?getAll@RepoNou@@UEAAAEAV?$vector@VLocatar@@V?$allocator@VLocatar@@@std@@@std@@XZ</DECORATED>
+    <FUNCLINE>81</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\marti\source\repos\Lab8FAB\Lab6FAB\</FILEPATH>
+      <FILENAME>reponou.cpp</FILENAME>
+      <LINE>83</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>RepoNou::getAll</FUNCTION>
+    <DECORATED>?getAll@RepoNou@@UEAAAEAV?$vector@VLocatar@@V?$allocator@VLocatar@@@std@@@std@@XZ</DECORATED>
+    <FUNCLINE>81</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\marti\source\repos\Lab8FAB\Lab6FAB\</FILEPATH>
+      <FILENAME>reponou.cpp</FILENAME>
+      <LINE>93</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class RepoNou', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>RepoNou::{dtor}</FUNCTION>
+    <DECORATED>??1RepoNou@@UEAA@XZ</DECORATED>
+    <FUNCLINE>93</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

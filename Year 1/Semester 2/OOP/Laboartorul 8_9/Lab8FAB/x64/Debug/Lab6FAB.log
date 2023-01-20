@@ -1,0 +1,24 @@
+﻿  main.cpp
+  Lab6FAB.vcxproj -> C:\Users\marti\source\repos\Lab6FAB\x64\Debug\Lab6FAB.exe
+C:\Users\marti\source\repos\Lab6FAB\Lab6FAB\pok.h(21): warning C26432: If you define or delete any default operation in the type 'class Locatar', define or delete them all (c.21).
+C:\Users\marti\source\repos\Lab6FAB\Lab6FAB\vectordinamic.h(141): warning C26432: If you define or delete any default operation in the type 'class VectorDinamic<class Locatar>', define or delete them all (c.21).
+C:\Users\marti\source\repos\Lab6FAB\Lab6FAB\vectordinamic.h(203): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+C:\Users\marti\source\repos\Lab6FAB\Lab6FAB\vectordinamic.h(88): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+C:\Users\marti\source\repos\Lab6FAB\Lab6FAB\vectordinamic.h(88): warning C26447: The function is declared 'noexcept' but calls function 'operator new[]()' which may throw exceptions (f.6).
+C:\Users\marti\source\repos\Lab6FAB\Lab6FAB\vectordinamic.h(148): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+C:\Users\marti\source\repos\Lab6FAB\Lab6FAB\vectordinamic.h(171): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+C:\Users\marti\source\repos\Lab6FAB\Lab6FAB\vectordinamic.h(51): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+C:\Users\marti\source\repos\Lab6FAB\Lab6FAB\vectordinamic.h(55): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+C:\Users\marti\source\repos\Lab6FAB\Lab6FAB\pok.h(19): warning C26495: Variable 'Locatar::sup' is uninitialized. Always initialize a member variable (type.6).
+C:\Users\marti\source\repos\Lab6FAB\Lab6FAB\vectordinamic.h(131): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+C:\Users\marti\source\repos\Lab6FAB\Lab6FAB\vectordinamic.h(131): warning C26400: Do not assign the result of an allocation or a function call with an owner<T> return value to a raw pointer, use owner<T> instead (i.11).
+C:\Users\marti\source\repos\Lab6FAB\Lab6FAB\vectordinamic.h(133): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+C:\Users\marti\source\repos\Lab6FAB\Lab6FAB\vectordinamic.h(222): warning C26432: If you define or delete any default operation in the type 'class IteratorVector<class Locatar>', define or delete them all (c.21).
+C:\Users\marti\source\repos\Lab6FAB\Lab6FAB\service.cpp(74): warning C26429: Symbol 'maiMicF' is never tested for nullness, it can be marked as not_null (f.23).
+C:\Users\marti\source\repos\Lab6FAB\Lab6FAB\vectordinamic.h(100): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+C:\Users\marti\source\repos\Lab6FAB\Lab6FAB\vectordinamic.h(104): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+C:\Users\marti\source\repos\Lab6FAB\Lab6FAB\vectordinamic.h(94): warning C26432: If you define or delete any default operation in the type 'class VectorDinamic<class Locatar>', define or delete them all (c.21).
+C:\Users\marti\source\repos\Lab6FAB\Lab6FAB\vectordinamic.h(164): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+C:\Users\marti\source\repos\Lab6FAB\Lab6FAB\vectordinamic.h(156): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+C:\Users\marti\source\repos\Lab6FAB\Lab6FAB\vectordinamic.h(120): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+C:\Users\marti\source\repos\Lab6FAB\Lab6FAB\vectordinamic.h(122): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).

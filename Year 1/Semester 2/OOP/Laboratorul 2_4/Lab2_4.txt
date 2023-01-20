@@ -1,0 +1,142 @@
+Cerinte generale
+
+Creati o aplicatie modulara in C.
+Se cere interfata utilizator de tip consola.
+Datele introduse de utilizator trebuie validate. 
+Folositi athitectura stratificata.
+Folositi dezvoltare dirijata de teste (Test Driven Development)
+Fiecare metoda din aplicatie trebuie specificat si testat.
+Implementati vector dinamic pentru lucru cu liste:
+    - in prima saptamana puteti folosi reprezentarea cu un struct ( un vector static si lungime in el)
+    - pana in saptamana 2 trebuie folosit alocare dinamica (sa acomodeze oricate elemente)
+Timp de lucru 2 saptamani.
+
+
+1. Concurs de programare
+
+La concursul anual de programare, comitetul de evaluare inregistreaza intr-o lista scorul 
+obtinut de fiecare participant. Despre fiecare participant se inregistreaza urmatoarele
+informatii: Nume, Prenume, Scor. Fiecare participant trebuie sa rezolve 10 probleme, maximul 
+de puncte pe fiecare problema este 10.
+  Creati o aplicatie care permite comitetului de organizare sa:
+a) Adauge participanti
+b) Actualizare participant existent
+C) Sterge participanti
+d) Permite afisearea participantilor filtrat dupa o proprietate (cei care au un scor mai mic decat o valoare data, 
+cei cu nume incepand cu o litera data,etc)
+e) Permite sortarea participantilor dupa: nume sau dupa scor (crescator/descrescator)
+
+
+2 Gestiune farmacie
+
+Administratorul unei farmacii are nevoie de o aplicatie care permite gestiunea stocului din farmacie.
+Fiecare medicament din stoc are un cod unic, un nume,concentratie, cantitate disponibila in stoc.
+Creati o aplicatie care permite:
+ a) Adaugare de noi medicamente. Daca medicamentul este deja in stoc trebuie actualizat cantitatea
+ b) Actualizare medicamente (modificare nume, concentratie pentru un medicament din stoc)
+ c) Stergerea intregului stoc dintr-un medicament dat
+ d) Vizualizare medicamente din stoc, ordonat dupa nume, cantitate (crescator/descrescator)
+ e) Vizualizare lista de medicamente filtrate dupa un criteriu. Medicamente unde stocul disponibil este
+mai mic decat o valoare data; medicamente cu numele incepand cu o litera data.
+
+
+3 Buget de familie
+
+Creati o aplicatie care permite gestiunea bugetului pentru o familie. Aplicatia trebuie sa 
+stocheze cheltuielile pe o luna. Fiecare cheltuiala are: zi (ziua in care s-a efectuat), suma,
+tip (mancare, transport, telefon&internet,inbracaminte,altele)
+Aplicatia permite:
+a) Adaugarea de cheltuieli noi (cand familia cumpara ceva sau plateste o factura)
+b) Modificarea unei cheltuieli existente (ziua, tipul, suma)
+c) Stergere cheltuiala
+d) Vizualizare lista de cheltuieli filtrat dupa o proprietate (suma, ziua, tipul)
+e) Vizualizare lista de cheltuieli ordonat dupa suma sau tip (crescator/descrescator)
+
+
+4. Inchiriere masini
+
+Creati o aplicatie pentru o firma de inchirieri auto. Fiecare masina are un numar de inmatriculare, 
+model si categorie (mini, sport, suv, etc). 
+Aplicatia permite:
+a) adaugare de masini
+b) actualizare masina existenta
+c) inchiriere masina/returnare masina
+d) Vizualizare masini dupa un criteru dat (categorie, model)
+e) Permite sortarea masinilor dupa: model sau categorie (crescator/descrescator)
+
+5. Gestiune cont bancar
+
+Creati o aplicatie care permite gestiunea tranzactiilor unui cont bancar. 
+O tranzactie are urmatoarele elemente: ziua (ziua din luna in care s-a efectuat tranzactia),
+suma, tip (intrare/iesire), descriere.
+Aplicatia permite:
+a) adaugare de tranzactii
+b) modificare tranzactie existenta
+c) stergere  tranzactie existenta
+d) Vizualizare tranzactii dupa un criteriu (tranzactii de un anumit tip, tranzactii cu suma mai mare/mai mica decat o suma data)
+e) Vizualizare tranzactii ordonat dupa suma sau zi (crescator/descrescator)
+
+
+6. Cofetarie
+
+Creati o aplicatie care permite gestiunea stocului de materii prime folosite intr-o cofetarie.
+Fiecare materie prima din stoc are un nume unic, un producator si cantitate.
+Aplicatia permite:
+a) adaugare de materie prima (daca exista deza in stoc se actualizeaza cantitatea)
+b) modificare materie prima 
+c) stergere  materie prima
+d) Vizualizare materii prime care satisfac un criteriu (nume incepe cu o litera data, cantitatea disponibila e mai mica decat un numar dat)
+e) Vizualizare materii prime din stoc ordonat dupa nume sau cantitate disponibila (crescator/descrescator)
+
+
+
+7. Administrator imobil
+
+Creati o aplicatie care petmite gestiunea de cheltuieli lunare pentru apartamentele dintr-un bloc.
+Fiecare cheltuiala are: numarul apartamentului, suma, tipul (apa, canal, incalzire, gaz).
+Aplicatia permite:
+a) Adaugarea de cheltuieli pentru un apartament
+b) Modificarea unei cheltuieli existente (tipul, suma)
+c) Stergere cheltuiala
+d) Vizualizare lista de cheltuieli filtrat dupa o proprietate (suma, tipul,apartament)
+e) Vizualizare lista de cheltuieli ordonat dupa suma sau tip (crescator/descrescator)
+
+
+8. Magazin electronice
+
+Creati o aplicatie care permite gestiunea stocului de produse intr-un magazin de electronice.
+Fiecare produs are un identificator unic, tip (laptop, frigider, televizor,etc), producator, model,
+pret, cantitate.
+Aplicatia permite:
+ a) Adaugarea de noi produse. Daca produsul este deja in stoc trebuie actualizat cantitatea
+ b) Actualizare produse (modificare pret sau cantitate)
+ c) Stergere produs
+ d) Vizualizare produse din stoc, ordonat dupa pret, cantitate (crescator/descrescator)
+ e) Vizualizare lista de produse filtrate dupa un criteriu (producator, pret, cantitate)
+
+
+
+9. Agentie de turism
+
+Creati o aplicatie care permite gestiunea ofertelor de la o agentie de turism.
+Fiecare oferta are: tip (munte,mare, citiy break), destinatie, data plecare, pret
+Aplicatia permite:
+ a) Adaugarea de noi oferte. 
+ b) Actualizare oferte
+ c) Stergere oferta
+ d) Vizualizare oferete ordonat dupa pret, destinatie (crescator/descrescator)
+ e) Vizualizare oferta filtrate dupa un criteriu (destinatie, tip, pret)
+
+
+
+10. Agentie imobiliara
+
+Creati o aplicatie care permite gestiunea ofertelor de la o agentie imobiliara.
+Fiecare oferta are: tip (teren, casa, apartament), suprafata, adresa, pret
+
+Aplicatia permite:
+ a) Adaugarea de noi oferte. 
+ b) Actualizare oferte
+ c) Stergere oferta
+ d) Vizualizare oferete ordonat dupa pret, tip (crescator/descrescator)
+ e) Vizualizare oferta filtrate dupa un criteriu (suprafata, tip, pret)

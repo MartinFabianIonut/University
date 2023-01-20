@@ -1,0 +1,409 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26447",
+          "message": {
+            "text": "The function is declared 'noexcept' but calls function 'getAll()' which may throw exceptions (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/marti/source/repos/Lab8FAB/Lab6FAB/repo.h"
+                },
+                "region": {
+                  "startLine": 79,
+                  "startColumn": 16,
+                  "endLine": 79,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RepoFile::getAll",
+                  "decoratedName": "?getAll@RepoFile@@UEAAAEAV?$vector@VLocatar@@V?$allocator@VLocatar@@@std@@@std@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26493",
+          "message": {
+            "text": "Don't use C-style casts (type.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/marti/source/repos/Lab8FAB/Lab6FAB/reponou.cpp"
+                },
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 7,
+                  "endLine": 15,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RepoNou::adauga",
+                  "decoratedName": "?adauga@RepoNou@@UEAAXAEBVLocatar@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26493",
+          "message": {
+            "text": "Don't use C-style casts (type.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/marti/source/repos/Lab8FAB/Lab6FAB/reponou.cpp"
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 7,
+                  "endLine": 26,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RepoNou::sterge_dupa_id",
+                  "decoratedName": "?sterge_dupa_id@RepoNou@@UEAA?AVLocatar@@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26493",
+          "message": {
+            "text": "Don't use C-style casts (type.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/marti/source/repos/Lab8FAB/Lab6FAB/reponou.cpp"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 7,
+                  "endLine": 37,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RepoNou::modifica",
+                  "decoratedName": "?modifica@RepoNou@@UEAA?AVLocatar@@AEBV2@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'l' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/marti/source/repos/Lab8FAB/Lab6FAB/reponou.cpp"
+                },
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 12,
+                  "endLine": 55,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RepoNou::cauta",
+                  "decoratedName": "?cauta@RepoNou@@UEAAAEBVLocatar@@AEBV2@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26493",
+          "message": {
+            "text": "Don't use C-style casts (type.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/marti/source/repos/Lab8FAB/Lab6FAB/reponou.cpp"
+                },
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 7,
+                  "endLine": 50,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RepoNou::cauta",
+                  "decoratedName": "?cauta@RepoNou@@UEAAAEBVLocatar@@AEBV2@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26409",
+          "message": {
+            "text": "Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/marti/source/repos/Lab8FAB/Lab6FAB/reponou.cpp"
+                },
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RepoNou::getAll",
+                  "decoratedName": "?getAll@RepoNou@@UEAAAEAV?$vector@VLocatar@@V?$allocator@VLocatar@@@std@@@std@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26400",
+          "message": {
+            "text": "Do not assign the result of an allocation or a function call with an owner<T> return value to a raw pointer, use owner<T> instead (i.11)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/marti/source/repos/Lab8FAB/Lab6FAB/reponou.cpp"
+                },
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 43,
+                  "endLine": 86,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RepoNou::getAll",
+                  "decoratedName": "?getAll@RepoNou@@UEAAAEAV?$vector@VLocatar@@V?$allocator@VLocatar@@@std@@@std@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26493",
+          "message": {
+            "text": "Don't use C-style casts (type.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/marti/source/repos/Lab8FAB/Lab6FAB/reponou.cpp"
+                },
+                "region": {
+                  "startLine": 83,
+                  "startColumn": 7,
+                  "endLine": 83,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RepoNou::getAll",
+                  "decoratedName": "?getAll@RepoNou@@UEAAAEAV?$vector@VLocatar@@V?$allocator@VLocatar@@@std@@@std@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class RepoNou', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/marti/source/repos/Lab8FAB/Lab6FAB/reponou.cpp"
+                },
+                "region": {
+                  "startLine": 93,
+                  "startColumn": 11,
+                  "endLine": 93,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RepoNou::{dtor}",
+                  "decoratedName": "??1RepoNou@@UEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.31.31106.2",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00007FF67F109CC0 -il C:\\Users\\marti\\AppData\\Local\\Temp\\_CL_8a595628ast -typedil -f reponou.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1931 -D_MSC_FULL_VER=193131106 -D_MSC_BUILD=2 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -nologo -W 4 -WX -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -std:c++20 -permissive- -Fox64\\Debug\\reponou.obj -Fdx64\\Debug\\vc143.pdb -external:W 4 -Gd -analyze:projectdirectory C:\\Users\\marti\\source\\repos\\Lab8FAB\\Lab6FAB -analyze:rulesetdirectory ;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\CppCoreCheckRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/marti/source/repos/Lab8FAB/Lab6FAB/repo.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "e6a53f931964a693eec4181e6f0c3c8934652816c370cb570c099302a992ec59"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/marti/source/repos/Lab8FAB/Lab6FAB/undo.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "dc39fd5b227e3b444c3bcae7bb37869b30e5d98874f3fc3f2ceb8c0a94bdc784"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/marti/source/repos/lab8fab/lab6fab/teste.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "8e1887541ec5f4dafec3cda97de66066ff7883d469dc66afcf2f5bbb9ec72046"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/marti/source/repos/lab8fab/lab6fab/teste.h"
+          },
+          "hashes": {
+            "sha-256": "caa7bad873c19f50223e10aeccffa9421aed603ac4ca7106b62454eabf5f1778"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/marti/source/repos/lab8fab/lab6fab/pok.h"
+          },
+          "hashes": {
+            "sha-256": "f23eb16beae272aa073a4524f1a63686d8598efa9cbd837f4198cdda39925639"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/marti/source/repos/lab8fab/lab6fab/repoexception.h"
+          },
+          "hashes": {
+            "sha-256": "86ecd2a682eca163720e53b824fb9b2ce3f21eec325744d609de67395b6d639e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/marti/source/repos/lab8fab/lab6fab/reponou.h"
+          },
+          "hashes": {
+            "sha-256": "d7ddfbae3af55dc941e0342906c2e0fd90bdc0b39d8ed1b4788e970d7eba2fdb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/marti/source/repos/lab8fab/lab6fab/service.h"
+          },
+          "hashes": {
+            "sha-256": "2a6b3aab0e7403c33b7d4506370814311da0f12b7ba8312103f514009bd5b896"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/marti/source/repos/lab8fab/lab6fab/valid.h"
+          },
+          "hashes": {
+            "sha-256": "d66d0ae2be566485931b33b47f0526dbdcadd62b588b6057e5dff4a9e3ef3f36"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/marti/source/repos/Lab8FAB/Lab6FAB/service.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "f2c9fe31ebcf2645277ad3048ab30394f6d20220f88b6cd2ded6d8aed9e6fa15"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/marti/source/repos/Lab8FAB/Lab6FAB/reponou.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "051d1e738c0cd2d340305a6f99f93286c7b83587e85e993c39cea35fbcdaf0b6"
+          }
+        }
+      ]
+    }
+  ]
+}

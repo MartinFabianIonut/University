@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\marti\source\repos\Lab8FAB\Lab6FAB\</FILEPATH>
+      <FILENAME>repo.h</FILENAME>
+      <LINE>79</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26447</DEFECTCODE>
+    <DESCRIPTION>The function is declared 'noexcept' but calls function 'getAll()' which may throw exceptions (f.6).</DESCRIPTION>
+    <FUNCTION>RepoFile::getAll</FUNCTION>
+    <DECORATED>?getAll@RepoFile@@UEAAAEAV?$vector@VLocatar@@V?$allocator@VLocatar@@@std@@@std@@XZ</DECORATED>
+    <FUNCLINE>78</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\marti\source\repos\Lab8FAB\Lab6FAB\</FILEPATH>
+      <FILENAME>undo.h</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'UndoAdauga::UndoAdauga' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>UndoAdauga::{ctor}</FUNCTION>
+    <DECORATED>??0UndoAdauga@@QEAA@AEAVRepoAbstract@@AEBH@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

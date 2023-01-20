@@ -1,0 +1,22 @@
+[2022-05-15 22:19:15] [info] Start Program:
+Path:"C:\Users\marti\source\repos\Lab10-11FAB\x64\Debug\Lab10-11FAB.exe"
+Arguments:
+Working directory: "C:\Users\marti\source\repos\Lab10-11FAB\Lab10-11FAB\"
+Modules: Selected: C:\Users\marti\source\repos\Lab10-11FAB\x64\Debug\Lab10-11FAB.exe Excluded: 
+Sources: Selected: C:\Users\marti\source\repos\Lab10-11FAB\Lab10-11FAB Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\marti\AppData\Local\Temp\4t4vkupn.yee 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-05-15 22:19:15] [info] Module: C:\Users\marti\source\repos\Lab10-11FAB\x64\Debug\Lab10-11FAB.exe is selected because it matches selected pattern: C:\Users\marti\source\repos\Lab10-11FAB\x64\Debug\Lab10-11FAB.exe
+[2022-05-15 22:19:15] [info] ----------------------------------------------------
+[2022-05-15 22:19:15] [info] Coverage binary generated in file: C:\Users\marti\AppData\Local\Temp\4t4vkupn.yee
+[2022-05-15 22:19:15] [info] ----------------------------------------------------
+[2022-05-15 22:19:15] [error] Your program stop with error code: -1073741515

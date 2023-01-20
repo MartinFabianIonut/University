@@ -1,0 +1,22 @@
+[2022-03-30 22:22:07] [info] Start Program:
+Path:"C:\Users\marti\source\repos\FARMACIE\x64\Debug\FARMACIE.exe"
+Arguments:
+Working directory: "C:\Users\marti\source\repos\FARMACIE\FARMACIE\"
+Modules: Selected: C:\Users\marti\source\repos\FARMACIE\x64\Debug\FARMACIE.exe Excluded: 
+Sources: Selected: C:\Users\marti\source\repos\FARMACIE\FARMACIE Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\marti\AppData\Local\Temp\paxshurp.pof 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-03-30 22:22:07] [info] Module: C:\Users\marti\source\repos\FARMACIE\x64\Debug\FARMACIE.exe is selected because it matches selected pattern: C:\Users\marti\source\repos\FARMACIE\x64\Debug\FARMACIE.exe
+[2022-03-31 02:52:52] [info] ----------------------------------------------------
+[2022-03-31 02:52:52] [info] Coverage binary generated in file: C:\Users\marti\AppData\Local\Temp\paxshurp.pof
+[2022-03-31 02:52:52] [info] ----------------------------------------------------
+[2022-03-31 02:52:52] [error] Your program stop with error code: -1073741510

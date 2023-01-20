@@ -1,0 +1,22 @@
+[2022-04-21 14:11:47] [info] Start Program:
+Path:"C:\Users\marti\source\repos\Lab6FAB\x64\Debug\Lab6FAB.exe"
+Arguments:
+Working directory: "C:\Users\marti\source\repos\Lab8FAB"
+Modules: Selected: C:\Users\marti\source\repos\Lab8FAB\x64\Debug\Lab6FAB.exe Excluded: 
+Sources: Selected: C:\Users\marti\source\repos\Lab8FAB\Lab6FAB Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\marti\AppData\Local\Temp\guqfhyhw.kro 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-04-21 14:11:47] [info] ----------------------------------------------------
+[2022-04-21 14:11:47] [info] Coverage binary generated in file: C:\Users\marti\AppData\Local\Temp\guqfhyhw.kro
+[2022-04-21 14:11:47] [info] ----------------------------------------------------
+[2022-04-21 14:11:47] [warning] No modules were selected. Please check the values of --modules and --excluded_modules.
+You can try to remove all --modules and --excluded_modules and use --modules=C:\Users\marti\source\repos\Lab6FAB\x64\Debug instead.

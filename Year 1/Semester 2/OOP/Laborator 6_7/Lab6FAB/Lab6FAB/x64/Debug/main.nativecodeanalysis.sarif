@@ -1,0 +1,132 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class Locatar', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/marti/source/repos/Lab6FAB/Lab6FAB/pok.h"
+                },
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 2,
+                  "endLine": 21,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Locatar::{ctor}",
+                  "decoratedName": "??0Locatar@@QEAA@AEBV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.31.31106.2",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00007FF6EEBE9CC0 -il C:\\Users\\marti\\AppData\\Local\\Temp\\_CL_bbf3fa27ast -typedil -f main.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1931 -D_MSC_FULL_VER=193131106 -D_MSC_BUILD=2 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -nologo -W 4 -WX -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -std:c++20 -permissive- -Fox64\\Debug\\main.obj -Fdx64\\Debug\\vc143.pdb -external:W 4 -Gd -analyze:projectdirectory C:\\Users\\marti\\source\\repos\\Lab6FAB\\Lab6FAB -analyze:rulesetdirectory ;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\CppCoreCheckRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/marti/source/repos/Lab6FAB/Lab6FAB/pok.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "d2dd7e9094841a6566805a6b4fd19011eac3c361b9d8b46ceaaaa8b66d160e8a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/marti/source/repos/lab6fab/lab6fab/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "c2ee1fe859d3968b16493f11f04bd5e47a3de0af21eb358ebfeb050b8b459197"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/marti/source/repos/lab6fab/lab6fab/teste.h"
+          },
+          "hashes": {
+            "sha-256": "0d9dc7ba9c7820176c335d2a5b6fe5a2bb64039f648c179be953bef7bb7363c7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/marti/source/repos/lab6fab/lab6fab/service.h"
+          },
+          "hashes": {
+            "sha-256": "f1b6dc1bc1f346e4878aedd812d948d17e1ec0d1bfbdc8fa67cb236921003577"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/marti/source/repos/lab6fab/lab6fab/repo.h"
+          },
+          "hashes": {
+            "sha-256": "ae068ef8f0b11b9539c12a28a8dac04c568ecc239eea5b68eb5cfbc418a5d465"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/marti/source/repos/lab6fab/lab6fab/repoexception.h"
+          },
+          "hashes": {
+            "sha-256": "86ecd2a682eca163720e53b824fb9b2ce3f21eec325744d609de67395b6d639e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/marti/source/repos/lab6fab/lab6fab/vectordinamic.h"
+          },
+          "hashes": {
+            "sha-256": "8ec22e9e36052cb69fd1078766557ff566595ddad09bc663f3af0f6b337d62df"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/marti/source/repos/lab6fab/lab6fab/valid.h"
+          },
+          "hashes": {
+            "sha-256": "d66d0ae2be566485931b33b47f0526dbdcadd62b588b6057e5dff4a9e3ef3f36"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/marti/source/repos/lab6fab/lab6fab/prezentare.h"
+          },
+          "hashes": {
+            "sha-256": "9aad0eb00a85a9ec2e3856be8d624df858445ffef3ff36d9247dec5bbacd5ae1"
+          }
+        }
+      ]
+    }
+  ]
+}

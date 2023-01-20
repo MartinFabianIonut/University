@@ -1,0 +1,67 @@
+*****************************************************************
+              P1. Program C simplu
+*****************************************************************
+
+Sa se scrie un program C pentru unul dintre urmatoarele probleme.
+Aplicatia ofera un mic meniu pentru a efectua repetat operatia ceruta.
+Programul trebuie sa contina cel putin 2 functii. (functia main+ 1,2 functii)
+Fiecare funtie trebuie specificata. Specificatia contine: a scurta descriere, descrierea parametrilor, conditii impuse asupra datelor de intrare (preconditii), descriere rezultatului (post conditii)
+
+1. Genereaza numere prime mai mici decat un numar natural dat.
+
+2. Genereaza primele n (n natural dat) numere prime.
+
+3. Determina toate reprezentarile posibile a unui numar natural ca suma
+   de numere naturale consecutive.
+
+4. Determina primele n cifre din scrierea fractiei subunitare
+   k/m = 0.c1c2c3..., pentru k si m numere naturale date.
+
+5. Tipareste un numar precizat de termeni din sirul
+   1, 2,1, 3,2,1, 4,2,2, 5,4,3,2,1, 6,2,2,3,3,3, 7,6, ...
+   obtinut din sirul numerelor naturale prin inlocuirea fiecarui
+   numar natural n printr-un grup de numere. Numarul prim p este
+   inlocuit prin numerele p,p-1,...3,2,1, iar numarul compus n
+   este inlocuit prin n urmat de toti divizorii sai proprii,
+   un divizor d repetandu-se de d ori.
+
+6. Tiparste triunghiul lui Pascal, cu toate combinarile C(m,k) de m obiecte
+   luate cite k, k = 0, 1, ..., m, in linia m, pentru m = 1, 2, ..., n.
+
+7. Calculeaza o valoare aproximativa a radacinii patrate a unui numar
+   real pozitiv, cu o precizie data.
+
+8.  Tipareste exponentul la care numarul prim p apare in descompunerea
+    in factori primi a numarului N = 1*2*...*n (n natural nenul dat).
+
+9. Citeste un sir de numere naturale nenule terminat cu 0 si determina
+    numarul cifrelor 0 in care se termina numarul produs al numerelor citite.
+
+10. Tipareste un numar precizat de sume partiale din dezvoltarea
+
+    sin(x) = x - x^3/3! + x^5/5! - x^7/7! + ...
+
+11. Determina intersectia a doua segmente plane (date prin coordonatele
+    lor carteziene).
+
+12. Determina valoarea x^n (x este un numar real dat, n este un numar natural
+    dat), utilizand operatii de inmultire si de ridicare la patrat.
+
+13. Descompune in factori primi un numar natural nenul dat.
+
+14. Descompune un numar natural par, mai mare strict ca 2, intr-o suma
+    de doua numere prime (verificarea ipotezei lui Goldbach).
+
+15. Determina primele n perechi de numere prime gemene, unde n este un
+    numar natural nenul dat. Doua numere prime p si q sunt gemene
+    daca q-p = 2.
+
+16. Determina toate numerele naturale mai mici decat un numar naturtal
+    nenul dat n si care sunt relativ prime cu n.
+
+17. Determina primele 10 numere naturale strict mai mari ca 2, care au
+    proprietatea ca toate numerele naturale strict mai mici decat ele
+    si care sunt prime cu ele sunt numere prime.
+
+
+****************************************************************)

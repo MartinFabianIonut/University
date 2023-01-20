@@ -1,0 +1,525 @@
+﻿C:\Users\marti\AppData\Local\QtMsBuild\moc\qtmoc.targets(453,7): error MSB4186: Invalid static method invocation syntax: "[MSBuild]::MakeRelative($(ProjectDir), C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\Lab1011FAB.h).TrimStart('\')". Method '[MSBuild]::MakeRelative' not found. Static method invocation should be of the form: $([FullTypeName]::Method()), e.g. $([System.IO.Path]::Combine(`a`, `b`)). Check that all parameters are defined, are of the correct type, and are specified in the right order.
+  cosuri.cpp
+  GUI.cpp
+  pok.cpp
+  repo.cpp
+  repoException.cpp
+  service.cpp
+  teste.cpp
+  valid.cpp
+  Lab1011FAB.cpp
+  main.cpp
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\service.cpp(65,8): error C3848: expression having type 'const std::uniform_int_distribution<int>' would lose some const-volatile qualifiers in order to call 'int std::uniform_int<_Ty>::operator ()<std::mt19937>(_Engine &)'
+          with
+          [
+              _Ty=int,
+              _Engine=std::mt19937
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1817,28): message : could be 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file service.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\service.cpp(65,8): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1822,28): message : or       'int std::uniform_int<_Ty>::operator ()(_Engine &,int)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file service.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\service.cpp(65,8): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,int)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ]
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\service.cpp(65,8): message : while trying to match the argument list '(std::mt19937)'
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\service.cpp(67,9): error C3848: expression having type 'const std::uniform_int_distribution<int>' would lose some const-volatile qualifiers in order to call 'int std::uniform_int<_Ty>::operator ()<std::mt19937>(_Engine &)'
+          with
+          [
+              _Ty=int,
+              _Engine=std::mt19937
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1817,28): message : could be 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file service.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\service.cpp(67,9): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1822,28): message : or       'int std::uniform_int<_Ty>::operator ()(_Engine &,int)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file service.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\service.cpp(67,9): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,int)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ]
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\service.cpp(67,9): message : while trying to match the argument list '(std::mt19937)'
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\service.cpp(68,9): error C3848: expression having type 'const std::uniform_int_distribution<int>' would lose some const-volatile qualifiers in order to call 'int std::uniform_int<_Ty>::operator ()<std::mt19937>(_Engine &)'
+          with
+          [
+              _Ty=int,
+              _Engine=std::mt19937
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1817,28): message : could be 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file service.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\service.cpp(68,9): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1822,28): message : or       'int std::uniform_int<_Ty>::operator ()(_Engine &,int)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file service.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\service.cpp(68,9): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,int)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ]
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\service.cpp(68,9): message : while trying to match the argument list '(std::mt19937)'
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\service.cpp(93,19): error C3848: expression having type 'const std::uniform_int_distribution<int>' would lose some const-volatile qualifiers in order to call 'int std::uniform_int<_Ty>::operator ()<std::mt19937>(_Engine &)'
+          with
+          [
+              _Ty=int,
+              _Engine=std::mt19937
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1817,28): message : could be 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file service.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\service.cpp(93,19): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1822,28): message : or       'int std::uniform_int<_Ty>::operator ()(_Engine &,int)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file service.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\service.cpp(93,19): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,int)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ]
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\service.cpp(93,19): message : while trying to match the argument list '(std::mt19937)'
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\service.cpp(93,13): error C2737: 'rdm': const object must be initialized
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(69,8): error C3848: expression having type 'const std::uniform_int_distribution<int>' would lose some const-volatile qualifiers in order to call 'int std::uniform_int<_Ty>::operator ()<std::mt19937>(_Engine &)'
+          with
+          [
+              _Ty=int,
+              _Engine=std::mt19937
+          ] (compiling source file cosuri.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1817,28): message : could be 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file cosuri.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(69,8): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ] (compiling source file cosuri.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1822,28): message : or       'int std::uniform_int<_Ty>::operator ()(_Engine &,int)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file cosuri.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(69,8): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,int)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ] (compiling source file cosuri.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(69,8): message : while trying to match the argument list '(std::mt19937)' (compiling source file cosuri.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(70,8): error C3848: expression having type 'const std::uniform_int_distribution<int>' would lose some const-volatile qualifiers in order to call 'int std::uniform_int<_Ty>::operator ()<std::mt19937>(_Engine &)'
+          with
+          [
+              _Ty=int,
+              _Engine=std::mt19937
+          ] (compiling source file cosuri.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1817,28): message : could be 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file cosuri.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(70,8): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ] (compiling source file cosuri.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1822,28): message : or       'int std::uniform_int<_Ty>::operator ()(_Engine &,int)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file cosuri.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(70,8): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,int)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ] (compiling source file cosuri.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(70,8): message : while trying to match the argument list '(std::mt19937)' (compiling source file cosuri.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(71,8): error C3848: expression having type 'const std::uniform_int_distribution<int>' would lose some const-volatile qualifiers in order to call 'int std::uniform_int<_Ty>::operator ()<std::mt19937>(_Engine &)'
+          with
+          [
+              _Ty=int,
+              _Engine=std::mt19937
+          ] (compiling source file cosuri.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1817,28): message : could be 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file cosuri.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(71,8): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ] (compiling source file cosuri.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1822,28): message : or       'int std::uniform_int<_Ty>::operator ()(_Engine &,int)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file cosuri.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(71,8): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,int)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ] (compiling source file cosuri.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(71,8): message : while trying to match the argument list '(std::mt19937)' (compiling source file cosuri.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(72,8): error C3848: expression having type 'const std::uniform_int_distribution<int>' would lose some const-volatile qualifiers in order to call 'int std::uniform_int<_Ty>::operator ()<std::mt19937>(_Engine &)'
+          with
+          [
+              _Ty=int,
+              _Engine=std::mt19937
+          ] (compiling source file cosuri.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1817,28): message : could be 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file cosuri.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(72,8): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ] (compiling source file cosuri.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1822,28): message : or       'int std::uniform_int<_Ty>::operator ()(_Engine &,int)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file cosuri.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(72,8): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,int)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ] (compiling source file cosuri.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(72,8): message : while trying to match the argument list '(std::mt19937)' (compiling source file cosuri.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(73,8): error C3848: expression having type 'const std::uniform_int_distribution<int>' would lose some const-volatile qualifiers in order to call 'int std::uniform_int<_Ty>::operator ()<std::mt19937>(_Engine &)'
+          with
+          [
+              _Ty=int,
+              _Engine=std::mt19937
+          ] (compiling source file cosuri.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1817,28): message : could be 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file cosuri.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(73,8): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ] (compiling source file cosuri.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1822,28): message : or       'int std::uniform_int<_Ty>::operator ()(_Engine &,int)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file cosuri.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(73,8): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,int)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ] (compiling source file cosuri.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(73,8): message : while trying to match the argument list '(std::mt19937)' (compiling source file cosuri.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(69,8): error C3848: expression having type 'const std::uniform_int_distribution<int>' would lose some const-volatile qualifiers in order to call 'int std::uniform_int<_Ty>::operator ()<std::mt19937>(_Engine &)'
+          with
+          [
+              _Ty=int,
+              _Engine=std::mt19937
+          ] (compiling source file GUI.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1817,28): message : could be 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file GUI.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(69,8): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ] (compiling source file GUI.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1822,28): message : or       'int std::uniform_int<_Ty>::operator ()(_Engine &,int)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file GUI.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(69,8): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,int)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ] (compiling source file GUI.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(69,8): message : while trying to match the argument list '(std::mt19937)' (compiling source file GUI.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(70,8): error C3848: expression having type 'const std::uniform_int_distribution<int>' would lose some const-volatile qualifiers in order to call 'int std::uniform_int<_Ty>::operator ()<std::mt19937>(_Engine &)'
+          with
+          [
+              _Ty=int,
+              _Engine=std::mt19937
+          ] (compiling source file GUI.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1817,28): message : could be 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file GUI.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(70,8): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ] (compiling source file GUI.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1822,28): message : or       'int std::uniform_int<_Ty>::operator ()(_Engine &,int)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file GUI.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(70,8): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,int)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ] (compiling source file GUI.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(70,8): message : while trying to match the argument list '(std::mt19937)' (compiling source file GUI.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(71,8): error C3848: expression having type 'const std::uniform_int_distribution<int>' would lose some const-volatile qualifiers in order to call 'int std::uniform_int<_Ty>::operator ()<std::mt19937>(_Engine &)'
+          with
+          [
+              _Ty=int,
+              _Engine=std::mt19937
+          ] (compiling source file GUI.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1817,28): message : could be 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file GUI.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(71,8): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ] (compiling source file GUI.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1822,28): message : or       'int std::uniform_int<_Ty>::operator ()(_Engine &,int)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file GUI.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(71,8): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,int)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ] (compiling source file GUI.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(71,8): message : while trying to match the argument list '(std::mt19937)' (compiling source file GUI.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(72,8): error C3848: expression having type 'const std::uniform_int_distribution<int>' would lose some const-volatile qualifiers in order to call 'int std::uniform_int<_Ty>::operator ()<std::mt19937>(_Engine &)'
+          with
+          [
+              _Ty=int,
+              _Engine=std::mt19937
+          ] (compiling source file GUI.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1817,28): message : could be 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file GUI.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(72,8): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ] (compiling source file GUI.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1822,28): message : or       'int std::uniform_int<_Ty>::operator ()(_Engine &,int)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file GUI.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(72,8): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,int)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ] (compiling source file GUI.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(72,8): message : while trying to match the argument list '(std::mt19937)' (compiling source file GUI.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(73,8): error C3848: expression having type 'const std::uniform_int_distribution<int>' would lose some const-volatile qualifiers in order to call 'int std::uniform_int<_Ty>::operator ()<std::mt19937>(_Engine &)'
+          with
+          [
+              _Ty=int,
+              _Engine=std::mt19937
+          ] (compiling source file GUI.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1817,28): message : could be 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file GUI.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(73,8): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ] (compiling source file GUI.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1822,28): message : or       'int std::uniform_int<_Ty>::operator ()(_Engine &,int)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file GUI.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(73,8): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,int)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ] (compiling source file GUI.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(73,8): message : while trying to match the argument list '(std::mt19937)' (compiling source file GUI.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(69,8): error C3848: expression having type 'const std::uniform_int_distribution<int>' would lose some const-volatile qualifiers in order to call 'int std::uniform_int<_Ty>::operator ()<std::mt19937>(_Engine &)'
+          with
+          [
+              _Ty=int,
+              _Engine=std::mt19937
+          ] (compiling source file main.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1817,28): message : could be 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file main.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(69,8): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ] (compiling source file main.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1822,28): message : or       'int std::uniform_int<_Ty>::operator ()(_Engine &,int)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file main.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(69,8): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,int)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ] (compiling source file main.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(69,8): message : while trying to match the argument list '(std::mt19937)' (compiling source file main.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(70,8): error C3848: expression having type 'const std::uniform_int_distribution<int>' would lose some const-volatile qualifiers in order to call 'int std::uniform_int<_Ty>::operator ()<std::mt19937>(_Engine &)'
+          with
+          [
+              _Ty=int,
+              _Engine=std::mt19937
+          ] (compiling source file main.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1817,28): message : could be 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file main.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(70,8): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ] (compiling source file main.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1822,28): message : or       'int std::uniform_int<_Ty>::operator ()(_Engine &,int)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file main.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(70,8): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,int)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ] (compiling source file main.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(70,8): message : while trying to match the argument list '(std::mt19937)' (compiling source file main.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(71,8): error C3848: expression having type 'const std::uniform_int_distribution<int>' would lose some const-volatile qualifiers in order to call 'int std::uniform_int<_Ty>::operator ()<std::mt19937>(_Engine &)'
+          with
+          [
+              _Ty=int,
+              _Engine=std::mt19937
+          ] (compiling source file main.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1817,28): message : could be 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file main.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(71,8): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ] (compiling source file main.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1822,28): message : or       'int std::uniform_int<_Ty>::operator ()(_Engine &,int)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file main.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(71,8): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,int)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ] (compiling source file main.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(71,8): message : while trying to match the argument list '(std::mt19937)' (compiling source file main.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(72,8): error C3848: expression having type 'const std::uniform_int_distribution<int>' would lose some const-volatile qualifiers in order to call 'int std::uniform_int<_Ty>::operator ()<std::mt19937>(_Engine &)'
+          with
+          [
+              _Ty=int,
+              _Engine=std::mt19937
+          ] (compiling source file main.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1817,28): message : could be 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file main.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(72,8): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ] (compiling source file main.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1822,28): message : or       'int std::uniform_int<_Ty>::operator ()(_Engine &,int)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file main.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(72,8): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,int)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ] (compiling source file main.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(72,8): message : while trying to match the argument list '(std::mt19937)' (compiling source file main.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(73,8): error C3848: expression having type 'const std::uniform_int_distribution<int>' would lose some const-volatile qualifiers in order to call 'int std::uniform_int<_Ty>::operator ()<std::mt19937>(_Engine &)'
+          with
+          [
+              _Ty=int,
+              _Engine=std::mt19937
+          ] (compiling source file main.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1817,28): message : could be 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file main.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(73,8): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,const std::uniform_int<_Ty>::param_type &)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ] (compiling source file main.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random(1822,28): message : or       'int std::uniform_int<_Ty>::operator ()(_Engine &,int)'
+          with
+          [
+              _Ty=int
+          ] (compiling source file main.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(73,8): message : 'int std::uniform_int<_Ty>::operator ()(_Engine &,int)': expects 2 arguments - 1 provided
+          with
+          [
+              _Ty=int
+          ] (compiling source file main.cpp)
+C:\GIT\University\Year 1\Semester 2\OOP\Laborator 10_11,13_14\Lab10-11FAB\Lab10-11FAB\cosuri.h(73,8): message : while trying to match the argument list '(std::mt19937)' (compiling source file main.cpp)
