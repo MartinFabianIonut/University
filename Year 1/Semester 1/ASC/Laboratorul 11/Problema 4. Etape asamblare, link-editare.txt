@@ -1,0 +1,3 @@
+nasm -f obj modul-lab11_4.asm
+nasm -f obj start-lab11_4.asm
+alink start-lab11_4.obj modul-lab11_4.obj -oPE -subsys console -entry start
