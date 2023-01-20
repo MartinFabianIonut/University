@@ -1,0 +1,4 @@
+class ValidatorPictura(object):
+    pass
+
+

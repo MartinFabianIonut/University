@@ -1,0 +1,8 @@
+1,Mona Lisa,Leonardo da Vinci,1520
+2,Strigatul,Edward Munch,1873
+3,Incoronarea lui Napoleon,Jacques-Louis David,1815
+4,Crearea lui Adam,Michelangelo Buonarroti,1504
+5,Barbat contempland marea de nori,Caspar David Friedrich,1773
+6,Salvator Mundi,Leonardo da Vinci,1525
+7,Madonna cu perna verde,Andrea di Solario,1530
+8,Madonna cu struguri,Andrea di Solario,1533

@@ -1,0 +1,11 @@
+1,Zori la Semineu,Petre Ispirescu,1990
+2,Catelul meu,Claudiu Costea,2021
+3,Adevarul gol golut,Andrei Cizmas,1950
+4,Mizerabilii,Victor Hugo,1870
+5,Lumea Sofiei,Jostein Gaarder,1989
+6,Melancolia,Mircea Cartarescu,2020
+7,Tratat de istoria religiilor,Mircea Eliade,1950
+8,Martin Eden,Jack London,1920
+9,Jocul cu margele de sticla,Herman Hesse,1890
+10,Tot inainte,Ioana Nicolaie,2021
+11,Visul nomazilor,Autor inventat,1973

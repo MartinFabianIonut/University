@@ -1,0 +1,5 @@
+Faust,Goethe,Drama,4
+Hamlet,William Shakespeare,Drama,3
+Doua loturi,I.L. Caragiale,Comedie,2
+Act venetian,Camil Petrescu,Satira,3
+Eroii nostri,Mihail Sorbul,Drama,4

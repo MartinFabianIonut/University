@@ -1,0 +1,6 @@
+1,Zori la Semineu,Petre Ispirescu,1990
+2,Catelul meu,Claudiu Costea,2021
+3,Adevarul gol golut,Andrei Cizmas,1950
+4,Mizerabilii,Victor Hugo,1870
+5,Lumea Sofiei,Jostein Gaarder,1989
+6,Melancolia,Mircea Cartarescu,2020
