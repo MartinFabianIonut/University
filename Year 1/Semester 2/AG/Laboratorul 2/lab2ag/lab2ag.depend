@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1653838590 source:c:\surse\lab2ag\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+	<queue>
+	<string>
+	<iostream>
+	<fstream>
+	<algorithm>
+	<queue>
+

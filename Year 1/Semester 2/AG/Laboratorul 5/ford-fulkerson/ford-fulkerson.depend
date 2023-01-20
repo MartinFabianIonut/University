@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1674251695 source:c:\surse\ford-fulkerson\main.cpp
+	<iostream>
+	<limits.h>
+	<fstream>
+	<queue>
+	<string.h>
+	<vector>
+	<iterator>
+

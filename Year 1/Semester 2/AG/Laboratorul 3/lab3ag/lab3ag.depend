@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1649495478 source:c:\surse\lab3ag\main.cpp
+	<iostream>
+	<fstream>
+	<queue>
+	<vector>
+	<set>
+	<iterator>
+

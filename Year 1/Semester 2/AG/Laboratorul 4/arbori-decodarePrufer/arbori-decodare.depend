@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1651446205 source:c:\surse\arbori-decodare\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<iterator>
+
