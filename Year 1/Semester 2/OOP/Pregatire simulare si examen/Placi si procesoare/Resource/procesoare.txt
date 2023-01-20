@@ -1,0 +1,5 @@
+bob 12 bun 130
+silviu 8 extra 250
+marian 12 asa 80
+bolta 16 magic 300
+vidra 8 clar 140

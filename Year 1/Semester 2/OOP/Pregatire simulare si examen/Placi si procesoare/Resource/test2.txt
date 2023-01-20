@@ -1,0 +1,3 @@
+f123 bun 30
+ge23 extra 50
+tu13 bun 40

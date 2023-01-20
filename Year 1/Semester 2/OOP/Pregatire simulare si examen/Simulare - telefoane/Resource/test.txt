@@ -1,0 +1,4 @@
+1000 Samsung nou 340
+1001 Samsung vechi 80
+1002 Huawei nou 240
+1003 Xiaomi nou 190
