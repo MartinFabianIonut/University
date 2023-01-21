@@ -1,12 +1,18 @@
 # University 
 
-I have uploaded the solutions for the lab assignments. 
+I have uploaded the solutions for the lab assignments and, also, the exercises for the preparation of the practical exams or even the written exams.
 
 Year 1
 - 📂 Semester 1
   - 💡 [Computer Systems Architecture](https://github.com/MartinFabianIonut/University/tree/main/Year%201/Semester%201/ASC)<br/>
   - 🐍 [Fundamental of Programming](https://github.com/MartinFabianIonut/University/tree/main/Year%201/Semester%201/FP)<br/>
   - 🔟 [Computational Logic](https://github.com/MartinFabianIonut/University/tree/main/Year%201/Semester%201/LC)<br/>
+- 📂 Semester 2
+  - 🌲 [Graph Algorithms](https://github.com/MartinFabianIonut/University/tree/main/Year%201/Semester%202/AG)
+  - 🏀 [Object Oriented Programming](https://github.com/MartinFabianIonut/University/tree/main/Year%201/Semester%202/OOP)
+  - 📈 [Operating System](https://github.com/MartinFabianIonut/University/tree/main/Year%201/Semester%202/OS)
+  - 📐 [Dynamical Systems](https://github.com/MartinFabianIonut/University/tree/main/Year%201/Semester%202/SD)
+  - 📅 [Data Structures and Algorithms](https://github.com/MartinFabianIonut/University/tree/main/Year%201/Semester%202/SDA)
 
 Year 2
 - 📂 Semester 3
