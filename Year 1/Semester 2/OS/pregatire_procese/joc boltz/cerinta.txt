@@ -1,0 +1,12 @@
+5. Write a C program that implements the boltz game. Exactly N processes (numbered 1 to N, where N is given) take turns incrementing a number, starting from 1, and sending it to the next process. Process 1 starts the game by incrementing the number and sends it to process 2, which increments and sends it to process 3 and so on. Process N will send the number back to process 1, ant the cycle starts again. Each process must print the number it sends, unless the number contains the digit 7 or is divisible by 7, in which case it must print "boltz". Implement so that each process has a 1 in 3 chance to fail printing "boltz" when it should, in which case the game stops.
+Scrieti un program C care implementeaza un joc de boltz. Se creeaza exact N procese (numerotate de la 1 la N, unde N este dat) incrementeaza pe rand un numar, pornind de la 1, si il trimit unui proces "vecin". Procesul 1 porneste jocul incrementand numarul si trimitandu-l procesului 2, care il incrementeaza si il trimite procesului 3, si asa mai departe. Procesul N va trimite numarul procesului 1, si ciclul se repeta. Fiecare proces va afisa numarul inainte sa il trilita, cu exceptia cazului in care numarul contine cifra 7 sau este multiplu de 7, caz in care procesul va afisa cuvantul "boltz". Ca procesele sa isi incheie executia, implementati ca un proces sa nu afiseze "boltz" intr-o situatie in care ar trebui sa afiseze "boltz", cu o probabilitate de 1/3. In acest caz, toate procesele se vor opri.
+  Process hierarchy
+  P
+   | - C1
+         | - C2
+               | - C3
+                     ...
+                        | - C(n-1)
+
+ Communication order
+ P -> C1 -> C2 -> C3 -> ... -> C(n-1) -> P -> C1 -> C2 -> C3 -> ... -> C(n-1) -> ... etc.

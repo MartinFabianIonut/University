@@ -1,0 +1,2 @@
+6. Create a C program that generates N random integers (N given at the command line). It then creates a child, sends the numbers via pipe. The child calculates the average and sends the result back.
+Scrieti un program C care genereaza N numere intregi aleatoate (N dat la linia de comanda). Apoi creeaza un proces fiu si ii trimite numerele prin pipe. Procesul fiu calculeaza media numerelor si trimite rezultatul inapoi parintelui.

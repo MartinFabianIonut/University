@@ -1,0 +1,2 @@
+1. Write a C program that creates n child processes. Each child process will print its PID and its parent PID. The parent process will print its PID and the PID of each of the child processes.
+Scrieti un program C care creeaza n procese fiu. Fiecare proces fiu va afisa propriul PID si PID-ul procesului parinte, iar procesul parinte va afisa propriul PID si PID-urile tuturor proceselor sale fiu.
