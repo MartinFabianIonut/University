@@ -1,0 +1,47 @@
+body {
+    width: 100%;
+    margin: 0;
+    font-size: large;
+}
+
+header {
+    background-color: red;
+    padding: 70px 0 70px;
+}
+
+.main{
+    width: 100%;
+    padding: 337px 0 337px;
+    background-color: green;
+    position: relative;
+}
+
+footer{
+    background-color: pink;
+    padding: 30px 0 30px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;    
+}
+
+ul {
+    list-style-type: none;
+    overflow: auto;
+    background-color: yellow;
+    width: 100%; 
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    float: left;
+    width: 20%;
+}
+  
+li a {
+    display: block;
+    text-align: left;
+    padding: 0 0 0 8px ;
+    text-decoration: none;
+    border-right: 1px solid black;
+}

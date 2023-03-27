@@ -1,0 +1,27 @@
+.principal{
+    border: 1px solid black;
+    width: 400px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.stanga{
+    width: 200px;
+    text-align: center;
+    align-self: center; /*centrare pe verticala*/
+    flex: 1;
+}
+.dreapta{
+    width: 200px;
+    flex: 1;
+    align-self: center;
+}
+
+.dreapta img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    /*centrare pe orizontala*/
+    margin-left: auto;
+    margin-right: auto;
+}

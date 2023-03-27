@@ -1,0 +1,118 @@
+#navlist {
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 83px; /*pentru meniu orizontal, se comenteaza width*/
+    /*width: 83px;*/
+}
+
+#navlist li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+#navlist li,
+#navlist a {
+    height: 83px;
+    width: 83px;
+    display: block;
+}
+
+/*Fiecare bucata de imagine are 83x83px, asa ca cele disabled vor incepe la -84 pe Oy
+Obs: primul element cu - de dupa url reprezinta cu cati pixeli este mai la dreapta*/
+
+#iconita1 {
+    background: url('css-pr4.png') 0 -84px;
+}
+  
+#iconita2  {
+    background: url('css-pr4.png') -84px -84px;
+}
+  
+#iconita3 {
+    background: url('css-pr4.png') -168px -84px;
+}
+
+#iconita4 {
+    background: url('css-pr4.png') -252px -84px;
+}
+  
+#iconita5  {
+    background: url('css-pr4.png') -336px -84px;
+}
+  
+#iconita6 {
+    background: url('css-pr4.png') -420px -84px;
+}
+
+#iconita7 {
+    background: url('css-pr4.png') -504px -84px;
+}
+  
+#iconita8  {
+    background: url('css-pr4.png') -588px -84px;
+}
+  
+#iconita9 {
+    background: url('css-pr4.png') -672px -84px;
+}
+
+#iconita10 {
+    background: url('css-pr4.png') -756px -84px;
+}
+  
+#iconita11  {
+    background: url('css-pr4.png') -840px -84px;
+}
+
+#iconita1 a:hover {
+    /* left: 0px;
+    width: 83px; */
+    background: url("css-pr4.png") 0 0;
+}
+
+#iconita2 a:hover {
+    /* left: 84px;
+    width: 83px; */
+    background: url("css-pr4.png") -84px 0;
+}
+
+#iconita3 a:hover {
+    background: url("css-pr4.png") -168px 0;
+}
+
+#iconita4 a:hover {
+    background: url("css-pr4.png") -252px 0;
+}
+
+#iconita5 a:hover {
+    background: url("css-pr4.png") -336px 0;
+}
+
+#iconita6 a:hover {
+    background: url("css-pr4.png") -420px 0;
+}
+
+#iconita7 a:hover {
+    background: url("css-pr4.png") -504px 0;
+}
+
+#iconita8 a:hover {
+    background: url("css-pr4.png") -588px 0;
+}
+
+#iconita9 a:hover {
+    background: url("css-pr4.png") -672px 0;
+}
+
+#iconita10 a:hover {
+    background: url("css-pr4.png") -756px 0;
+}
+
+#iconita11 a:hover {
+    background: url("css-pr4.png") -840px 0;
+}
+

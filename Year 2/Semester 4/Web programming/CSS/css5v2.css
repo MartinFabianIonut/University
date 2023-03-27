@@ -1,0 +1,29 @@
+.border {
+    background-color: yellow;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 400px;
+}
+
+img {
+    position: relative;
+    height: 160px;
+    width: 120px;
+    object-fit: cover;
+}
+
+figure {
+    display: flex;
+    align-items: center;
+    margin: 10px 10px 0;
+}
+
+figcaption {
+    margin-left: 10px;
+}
+
+figure:last-of-type {
+    margin: 10px 10px 10px;
+}

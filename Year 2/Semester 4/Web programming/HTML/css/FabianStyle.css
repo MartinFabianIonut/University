@@ -1,0 +1,41 @@
+header {
+    margin: 25px 0px;
+}
+
+body {
+    background: rgb(226, 255, 250);
+    text-align: center;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 1px auto 0 auto;
+}
+
+details {
+    font-size: 2em;
+    font-family: 'Garamond', sans-serif;
+    font-weight: bold;
+}
+
+a {
+    padding: 10px;
+    margin:auto;
+    text-decoration: none;
+    color: rgb(30, 122, 241);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(9, 216, 164);
+}
+
+.info {
+    font-size: 2.5em;
+    color: blue;
+}
+
+h2::selection{
+    color:rgb(66, 22, 168);
+}

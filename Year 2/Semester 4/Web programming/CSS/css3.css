@@ -1,0 +1,68 @@
+body {
+    width: 100%;
+    margin: 0;
+    font-size: large;    
+    min-height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+
+header {
+    background-color: red;
+    height: 100px;
+    text-align: center;
+    grid-area: header;
+}
+
+/*Pentru definirea celor 3 zone pe verticala, astfel incat potrivirea sa se faca 100%*/
+.main-body{
+    display: grid;
+    grid-template-rows: fit-content(8rem) auto fit-content(8rem);
+    grid-template-areas: "header" "main" "footer";
+}
+
+.main-content{
+    grid-area: main;
+}
+
+.main{
+    background-color: green;
+    min-height: 100%;
+    padding: 10px;
+}
+
+footer{
+    background-color: pink;
+    position: relative;
+    bottom: 0;
+    width: 100%;    
+    height: 60px;
+    text-align: center;    
+    grid-area: footer;
+}
+
+ul {
+    list-style-type: none;
+    overflow: auto;
+    background-color: yellow;
+    width: 100%; 
+    height: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    float: left;
+    width: 20%;
+}
+  
+ul li a {
+    display: block;
+    text-align: left;
+    padding: 0 0 0 8px ;
+    text-decoration: none;
+    border-right: 1px solid black;
+}

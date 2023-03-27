@@ -1,0 +1,85 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: large;
+    min-height: 100%;
+}
+
+html{
+    height: 100%;
+}
+
+
+
+header {
+    background-color: red;
+    padding: 70px 0 70px;
+    grid-area: header;
+}
+
+
+
+/*Pentru definirea celor 3 zone pe verticala, astfel incat potrivirea sa se faca 100%*/
+.main-body{
+    display: grid;
+    grid-template-rows: fit-content(5rem) auto fit-content(5rem);
+    grid-template-areas: "header" "main" "footer";
+}
+
+.main-content{
+    grid-area: main;
+}
+
+.main{  
+    background-color: green; 
+    display: flex;
+    align-items: center; /*Aliniez testul pe mijloc stanga*/
+}
+
+ul {
+    list-style-type: none;
+    background-color: yellow;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+  
+li a {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+}
+
+
+
+/*Pentru impartirea meniului si a contentului, unul langa celalalt*/
+.split {
+    display: flex;
+}
+
+.split ul {
+    flex:0.2;
+}
+
+.split .main {
+    flex:0.8;
+}
+
+
+
+footer{
+    background-color: pink;
+    padding: 30px 0 30px;
+    position: relative;
+    bottom: 0;
+    width: 100%;   
+    grid-area: footer;
+}
+

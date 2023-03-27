@@ -1,0 +1,28 @@
+.border {
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+img {
+    height: 200px;
+    width: 140px;
+    object-fit: cover;
+    outline: 30px solid #00ffff;
+    margin: 40px 7px 7px 7px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+figure{
+    flex-direction: column;
+}
+
+figcaption {
+    vertical-align: middle;
+    text-align: center;
+}

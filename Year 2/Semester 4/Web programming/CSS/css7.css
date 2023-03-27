@@ -1,0 +1,61 @@
+.dialog{
+    width: 100%;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul li {
+    padding: 0;
+    margin: 0;
+    min-height: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.alice, .bob{
+	position: relative;
+	border-style: solid;
+    left: 200px;
+	border-width: 2px;
+	text-align: center;
+	border-radius: 20px;
+	max-width: 70%;
+    width: fit-content;
+	padding: 5px;
+	margin: 20px;
+}
+
+.alice::after, .bob::after {
+ 	content: "";
+    position: absolute;
+    border-style: solid;
+    border-width: 20px 50px 20px 0;
+    border-color: transparent black transparent transparent;
+ 	width: 0;
+ 	height: 0;
+    left: -50px;
+    top: 10px;
+}
+
+.alice::before, .bob::before{
+	content: "";
+	position: absolute;
+	left: -100px;
+	top: 10px;
+	width: 50px;
+	height: 60px;
+}
+
+.alice::before {
+    background: url('alice&bob.jpg') -43px -7px;
+    background-size: 180%;
+}
+
+.bob::before {
+    background: url('alice&bob.jpg') 3px -7px;
+    background-size: 180%;
+}

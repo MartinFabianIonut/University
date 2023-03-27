@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Acces restrictionat"
+AuthUserFile "C:\GIT\University\Year 2\Semester 4\Web programming\HTML\css\.htparola"
+require valid-user
