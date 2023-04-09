@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group 'SeventhWeekServerClient'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation group: 'junit', name: 'junit', version: '4.13.1'
+}

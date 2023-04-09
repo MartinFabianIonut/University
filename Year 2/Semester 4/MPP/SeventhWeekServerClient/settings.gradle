@@ -1,0 +1,8 @@
+rootProject.name = "SeventhWeekServerClient"
+include 'Persistance'
+include 'Domain'
+include 'ServerRPC'
+include 'Services'
+include 'Networking'
+include 'EmployeeFX'
+
