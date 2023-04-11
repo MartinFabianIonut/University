@@ -1,0 +1,3 @@
+Macro Average Accuracy = 0.3076923076923077
+Macro Average Precision = 0.4726987924356345
+Macro Average Recall = 0.4726987924356345
