@@ -21,3 +21,10 @@ Year 2
   - 📃 [Databases](https://github.com/MartinFabianIonut/University/tree/main/Year%202/Semester%203/BD)<br/>
   - 💾 [Functional and Logic Programming](https://github.com/MartinFabianIonut/University/tree/main/Year%202/Semester%203/PLF)<br/>
   - 🎲 [Probability and Statistics](https://github.com/MartinFabianIonut/University/tree/main/Year%202/Semester%203/PS)<br/>
+- 📂 Semester 4
+  - ⁉️ [Artificial Intelligence](https://github.com/MartinFabianIonut/University/tree/main/Year%202/Semester%204/AI)<br/>
+  - 🏛️ [Programming and Projection Environments](https://github.com/MartinFabianIonut/University/tree/main/Year%202/Semester%204/MPP)<br/>
+  - 📃 [Database Management Systems](https://github.com/MartinFabianIonut/University/tree/main/Year%202/Semester%204/SGBD)<br/>
+  - 🌎 [Web Programming](https://github.com/MartinFabianIonut/University/tree/main/Year%202/Semester%204/Web%20programming)<br/>
+  - 🏗️ [Software Systems Engineering](https://github.com/MartinFabianIonut/University/tree/main/Year%202/Semester%204/ISS)<br/>
+
