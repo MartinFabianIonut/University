@@ -1,0 +1,6 @@
+﻿2023-03-27 22:29:24,970 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-03-27 22:29:24,999 [1] INFO ShowDBRepository - finding all shows
+2023-03-27 22:29:25,099 [1] INFO ShowDBRepository - {The show 'The Greatest Show' will take place on 24.03.2023, at Cluj-Napoca}
+2023-03-28 12:18:08,141 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-03-28 12:18:08,269 [1] INFO ShowDBRepository - finding all shows
+2023-03-28 12:18:08,368 [1] INFO ShowDBRepository - {The show 'The Greatest Show' will take place on 24.03.2023, at Cluj-Napoca}

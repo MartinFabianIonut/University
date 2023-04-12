@@ -1,0 +1,1321 @@
+26 Mar 2023 15:48:41,748 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 15:49:02,037 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 15:49:02,315 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 15:49:02,780 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 24 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 15:51:21,314 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 15:51:21,314 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 15:51:21,314 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 15:51:21,314 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 15:51:21,315 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 15:51:21,315 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 15:51:21,411 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@641423bf)
+26 Mar 2023 15:51:21,413 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Darius Marcu)
+26 Mar 2023 15:51:31,247 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 15:51:31,247 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 15:51:31,248 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@641423bf)
+26 Mar 2023 15:51:31,248 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Darius Marcu)
+26 Mar 2023 15:54:16,570 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 15:54:16,575 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 15:54:16,576 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 15:54:16,578 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 24 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 15:54:55,947 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 15:54:55,947 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 15:54:55,947 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 15:54:55,948 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 15:54:55,948 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 15:54:55,948 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 15:54:56,042 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7b2fb09c)
+26 Mar 2023 15:54:56,045 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Darius Marcu)
+26 Mar 2023 15:56:06,288 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 15:56:06,292 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 15:56:06,294 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 15:56:06,295 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 24 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 15:56:11,404 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 15:56:11,404 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 15:56:11,404 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 15:56:11,404 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 15:56:11,405 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 15:56:11,405 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 15:56:11,494 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@64288e10)
+26 Mar 2023 15:56:11,497 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Darius Marcu)
+26 Mar 2023 15:58:01,490 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 15:58:01,494 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 15:58:01,495 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 15:58:01,497 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 24 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 15:58:06,783 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 15:58:06,784 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 15:58:06,784 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 15:58:06,784 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 15:58:06,784 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 15:58:06,785 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 15:58:06,876 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7b2fb09c)
+26 Mar 2023 15:58:06,879 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Andrei Deusu)
+26 Mar 2023 15:59:48,972 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 15:59:48,976 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 15:59:48,977 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 15:59:48,978 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 24 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 15:59:53,287 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 15:59:53,287 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 15:59:53,287 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 15:59:53,287 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 15:59:53,288 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 15:59:53,288 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 15:59:53,379 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@72506aa7)
+26 Mar 2023 15:59:53,381 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Andrei Deusu)
+26 Mar 2023 16:00:21,311 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:00:21,314 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:00:21,316 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:00:21,317 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 24 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:00:52,738 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 16:00:52,738 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:00:52,738 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:00:52,738 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:00:52,739 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:00:52,739 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:00:52,827 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7b2fb09c)
+26 Mar 2023 16:00:52,830 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Andrei Deusu)
+26 Mar 2023 16:03:14,497 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:03:14,501 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:03:14,502 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:03:14,503 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 24 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:03:19,288 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 16:03:19,288 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:03:19,288 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:03:19,288 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:03:19,289 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:03:19,289 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:03:19,375 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6a6b7111)
+26 Mar 2023 16:03:19,377 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Darius Marcu)
+26 Mar 2023 16:03:19,416 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 141 getAllShows - Enter finding all shows dto
+26 Mar 2023 16:03:19,416 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:03:19,416 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:03:19,416 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:03:19,416 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:03:19,416 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:03:19,417 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6897bf55)
+26 Mar 2023 16:03:19,418 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 176 getAllShows - Exit with([])
+26 Mar 2023 16:03:19,418 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 58 getAll - Enter finding all artists
+26 Mar 2023 16:03:19,418 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:03:19,418 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:03:19,418 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:03:19,418 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:03:19,418 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:03:19,419 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cbe08b4)
+26 Mar 2023 16:03:19,420 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 71 getAll - Exit with([])
+26 Mar 2023 16:10:43,901 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:10:43,905 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:10:43,906 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:10:43,907 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 24 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:10:52,856 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 16:10:52,856 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:10:52,856 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:10:52,856 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:10:52,857 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:10:52,857 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:10:52,946 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2597e8bd)
+26 Mar 2023 16:10:52,985 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 141 getAllShows - Enter finding all shows dto
+26 Mar 2023 16:10:52,985 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:10:52,986 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:10:52,986 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:10:52,986 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:10:52,986 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:10:52,987 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3d9a21bb)
+26 Mar 2023 16:10:52,989 ERROR com.example.temasaptamana5.repository.ShowDBIRepository 174 getAllShows - ERROR for getAll in ShowDBRepository: java.sql.SQLException: Error parsing time stamp
+26 Mar 2023 16:10:52,989 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 176 getAllShows - Exit with([])
+26 Mar 2023 16:10:52,989 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 58 getAll - Enter finding all artists
+26 Mar 2023 16:10:52,989 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:10:52,989 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:10:52,989 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:10:52,989 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:10:52,990 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:10:52,990 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@229495d1)
+26 Mar 2023 16:10:52,991 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 71 getAll - Exit with([Liam Payne, Selena Gomez, Adele null, Harry Styles])
+26 Mar 2023 16:13:15,735 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:13:15,738 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:13:15,739 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:13:15,740 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 24 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:13:21,733 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 16:13:21,734 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:13:21,734 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:13:21,734 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:13:21,734 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:13:21,735 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:13:21,823 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6dba472)
+26 Mar 2023 16:13:21,826 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 149 authenticateEmployee - Exit with(authentication failed)
+26 Mar 2023 16:13:30,304 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 16:13:30,304 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:13:30,304 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6dba472)
+26 Mar 2023 16:13:30,305 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Andrei Deusu)
+26 Mar 2023 16:13:30,344 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 141 getAllShows - Enter finding all shows dto
+26 Mar 2023 16:13:30,344 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:13:30,344 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:13:30,344 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:13:30,344 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:13:30,344 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:13:30,345 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6d5388a1)
+26 Mar 2023 16:13:30,347 ERROR com.example.temasaptamana5.repository.ShowDBIRepository 174 getAllShows - ERROR for getAll in ShowDBRepository: java.sql.SQLException: Error parsing time stamp
+26 Mar 2023 16:13:30,347 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 176 getAllShows - Exit with([])
+26 Mar 2023 16:13:30,347 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 58 getAll - Enter finding all artists
+26 Mar 2023 16:13:30,348 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:13:30,348 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:13:30,348 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:13:30,348 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:13:30,348 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:13:30,349 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@67b424dc)
+26 Mar 2023 16:13:30,349 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 71 getAll - Exit with([Liam Payne, Selena Gomez, Adele null, Harry Styles])
+26 Mar 2023 16:14:31,823 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:14:31,827 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:14:31,828 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:14:31,829 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 24 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:14:36,416 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 16:14:36,416 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:14:36,417 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:14:36,417 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:14:36,417 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:14:36,418 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:14:36,511 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29917abf)
+26 Mar 2023 16:14:36,513 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Andrei Deusu)
+26 Mar 2023 16:14:42,545 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 141 getAllShows - Enter finding all shows dto
+26 Mar 2023 16:14:42,953 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:14:42,953 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:14:42,954 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:14:42,954 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:14:42,955 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:14:42,956 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4e5fd032)
+26 Mar 2023 16:15:36,335 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:15:36,340 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:15:36,341 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:15:36,343 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 24 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:15:41,783 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 16:15:41,784 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:15:41,784 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:15:41,784 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:15:41,784 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:15:41,784 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:15:41,874 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7b2fb09c)
+26 Mar 2023 16:15:41,877 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Darius Marcu)
+26 Mar 2023 16:15:45,373 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 141 getAllShows - Enter finding all shows dto
+26 Mar 2023 16:15:45,627 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:15:45,627 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:15:45,628 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:15:45,628 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:15:45,628 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:15:45,630 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3f60a616)
+26 Mar 2023 16:18:22,509 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:18:22,513 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:18:22,514 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:18:22,515 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 24 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:18:27,980 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 16:18:27,981 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:18:27,981 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:18:27,981 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:18:27,982 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:18:27,982 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:18:28,073 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3905fa80)
+26 Mar 2023 16:18:28,075 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Andrei Deusu)
+26 Mar 2023 16:18:28,114 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 141 getAllShows - Enter finding all shows dto
+26 Mar 2023 16:18:28,114 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:18:28,114 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:18:28,114 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:18:28,114 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:18:28,114 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:18:28,115 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25d48535)
+26 Mar 2023 16:18:28,117 ERROR com.example.temasaptamana5.repository.ShowDBIRepository 174 getAllShows - ERROR for getAll in ShowDBRepository: java.sql.SQLException: Error parsing time stamp
+26 Mar 2023 16:18:28,117 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 176 getAllShows - Exit with([])
+26 Mar 2023 16:18:28,118 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 58 getAll - Enter finding all artists
+26 Mar 2023 16:18:28,118 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:18:28,118 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:18:28,118 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:18:28,118 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:18:28,118 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:18:28,119 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2a1c3900)
+26 Mar 2023 16:18:28,120 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 71 getAll - Exit with([Liam Payne, Selena Gomez, Adele null, Harry Styles])
+26 Mar 2023 16:20:32,625 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:20:32,630 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:20:32,631 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:20:32,632 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 24 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:20:38,347 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 16:20:38,347 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:20:38,348 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:20:38,348 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:20:38,348 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:20:38,349 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:20:38,439 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7a2c8ecc)
+26 Mar 2023 16:20:38,442 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Andrei Deusu)
+26 Mar 2023 16:20:38,479 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 141 getAllShows - Enter finding all shows dto
+26 Mar 2023 16:20:38,480 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:20:38,480 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:20:38,480 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:20:38,480 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:20:38,480 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:20:38,481 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@20050f74)
+26 Mar 2023 16:20:38,488 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 176 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+26 Mar 2023 16:20:38,488 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 58 getAll - Enter finding all artists
+26 Mar 2023 16:20:38,489 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:20:38,489 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:20:38,489 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:20:38,489 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:20:38,489 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:20:38,490 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@13d5adef)
+26 Mar 2023 16:20:38,491 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 71 getAll - Exit with([Liam Payne, Selena Gomez, Adele null, Harry Styles])
+26 Mar 2023 16:23:02,809 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:23:02,813 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:23:02,815 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:23:02,816 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 24 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:23:07,621 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 16:23:07,621 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:23:07,621 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:23:07,621 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:23:07,622 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:23:07,622 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:23:07,714 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3905fa80)
+26 Mar 2023 16:23:07,717 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Darius Marcu)
+26 Mar 2023 16:23:07,756 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 141 getAllShows - Enter finding all shows dto
+26 Mar 2023 16:23:07,756 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:23:07,756 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:23:07,756 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:23:07,756 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:23:07,756 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:23:07,757 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25d48535)
+26 Mar 2023 16:23:07,764 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 176 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+26 Mar 2023 16:23:07,764 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 58 getAll - Enter finding all artists
+26 Mar 2023 16:23:07,765 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:23:07,765 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:23:07,765 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:23:07,765 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:23:07,765 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:23:07,766 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d5102e)
+26 Mar 2023 16:23:07,767 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 71 getAll - Exit with([Liam Payne, Selena Gomez, Adele null, Harry Styles])
+26 Mar 2023 16:50:40,053 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:50:40,056 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:50:40,057 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:50:40,058 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 24 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:50:44,824 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 16:50:44,824 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:50:44,824 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:50:44,825 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:50:44,825 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:50:44,825 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:50:44,915 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3905fa80)
+26 Mar 2023 16:50:44,917 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Andrei Deusu)
+26 Mar 2023 16:50:44,955 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+26 Mar 2023 16:50:44,955 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:50:44,955 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:50:44,956 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:50:44,956 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:50:44,956 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:50:44,957 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cbe08b4)
+26 Mar 2023 16:50:44,963 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+26 Mar 2023 16:50:44,963 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 58 getAll - Enter finding all artists
+26 Mar 2023 16:50:44,964 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:50:44,964 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:50:44,964 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:50:44,964 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:50:44,964 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:50:44,965 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d5102e)
+26 Mar 2023 16:50:44,966 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 71 getAll - Exit with([Liam Payne, Selena Gomez, Adele null, Harry Styles])
+26 Mar 2023 16:52:08,726 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:52:08,730 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:52:08,731 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:52:08,732 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 24 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:52:13,333 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 16:52:13,334 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:52:13,334 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:52:13,334 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:52:13,334 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:52:13,335 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:52:13,425 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7b2fb09c)
+26 Mar 2023 16:52:13,428 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Andrei Deusu)
+26 Mar 2023 16:52:13,469 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+26 Mar 2023 16:52:13,470 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:52:13,470 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:52:13,470 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:52:13,470 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:52:13,470 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:52:13,471 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b8308b)
+26 Mar 2023 16:52:13,480 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+26 Mar 2023 16:52:13,480 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 58 getAll - Enter finding all artists
+26 Mar 2023 16:52:13,480 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:52:13,480 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:52:13,480 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:52:13,481 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:52:13,481 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:52:13,482 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@10b92085)
+26 Mar 2023 16:52:13,482 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 71 getAll - Exit with([Liam Payne, Selena Gomez, Adele null, Harry Styles])
+26 Mar 2023 16:53:01,104 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:53:01,108 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:53:01,109 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:53:01,110 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 24 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:53:06,893 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 16:53:06,894 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:53:06,894 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:53:06,894 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:53:06,894 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:53:06,895 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:53:06,980 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ac757cb)
+26 Mar 2023 16:53:06,982 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Darius Marcu)
+26 Mar 2023 16:53:07,020 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+26 Mar 2023 16:53:07,021 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:53:07,021 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:53:07,021 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:53:07,021 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:53:07,021 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:53:07,021 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@648d1edb)
+26 Mar 2023 16:53:07,028 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+26 Mar 2023 16:53:07,028 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 58 getAll - Enter finding all artists
+26 Mar 2023 16:53:07,028 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:53:07,028 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:53:07,028 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:53:07,028 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:53:07,029 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:53:07,030 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2fd29a11)
+26 Mar 2023 16:53:07,030 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 71 getAll - Exit with([Liam Payne, Selena Gomez, Adele null, Harry Styles])
+26 Mar 2023 16:54:16,509 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:54:16,512 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:54:16,513 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:54:16,514 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 24 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:54:22,540 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 16:54:22,541 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:54:22,541 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:54:22,541 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:54:22,541 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:54:22,542 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:54:22,634 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3905fa80)
+26 Mar 2023 16:54:22,636 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Andrei Deusu)
+26 Mar 2023 16:54:22,675 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+26 Mar 2023 16:54:22,675 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:54:22,676 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:54:22,676 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:54:22,676 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:54:22,676 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:54:22,677 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cbe08b4)
+26 Mar 2023 16:54:22,683 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+26 Mar 2023 16:54:22,683 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 58 getAll - Enter finding all artists
+26 Mar 2023 16:54:22,684 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:54:22,684 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:54:22,684 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:54:22,684 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:54:22,684 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:54:22,685 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d5102e)
+26 Mar 2023 16:54:22,685 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 71 getAll - Exit with([Liam Payne, Selena Gomez, Adele , Harry Styles])
+26 Mar 2023 16:54:48,607 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+26 Mar 2023 16:54:48,607 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:54:48,607 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cbe08b4)
+26 Mar 2023 16:54:48,608 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+26 Mar 2023 16:54:49,540 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+26 Mar 2023 16:54:49,541 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:54:49,541 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cbe08b4)
+26 Mar 2023 16:54:49,541 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+26 Mar 2023 16:55:13,222 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:55:13,226 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:55:13,228 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:55:13,229 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 24 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:55:18,107 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 16:55:18,107 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:55:18,107 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:55:18,107 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:55:18,108 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:55:18,108 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:55:18,197 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@623bdf53)
+26 Mar 2023 16:55:18,200 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Darius Marcu)
+26 Mar 2023 16:55:18,243 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+26 Mar 2023 16:55:18,244 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:55:18,244 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:55:18,244 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:55:18,244 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:55:18,244 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:55:18,245 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@31ab11f6)
+26 Mar 2023 16:55:18,252 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+26 Mar 2023 16:55:18,253 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 58 getAll - Enter finding all artists
+26 Mar 2023 16:55:18,253 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:55:18,253 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:55:18,253 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:55:18,253 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:55:18,254 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:55:18,254 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5473c1c5)
+26 Mar 2023 16:55:18,255 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 71 getAll - Exit with([Liam Payne, Selena Gomez, Adele , Harry Styles])
+26 Mar 2023 16:57:07,771 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:57:07,775 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:57:07,776 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:57:07,777 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 24 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:57:11,626 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 16:57:11,627 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:57:11,627 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:57:11,627 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:57:11,627 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:57:11,628 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:57:11,716 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7b2fb09c)
+26 Mar 2023 16:57:11,719 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Andrei Deusu)
+26 Mar 2023 16:57:11,762 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+26 Mar 2023 16:57:11,762 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:57:11,762 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:57:11,763 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:57:11,763 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:57:11,763 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:57:11,764 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b8308b)
+26 Mar 2023 16:57:11,771 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+26 Mar 2023 16:57:11,771 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 58 getAll - Enter finding all artists
+26 Mar 2023 16:57:11,772 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:57:11,772 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:57:11,772 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:57:11,772 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:57:11,772 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:57:11,773 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@10b92085)
+26 Mar 2023 16:57:11,774 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 71 getAll - Exit with([Liam Payne, Selena Gomez, Adele , Harry Styles])
+26 Mar 2023 16:57:28,884 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+26 Mar 2023 16:57:28,885 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:57:28,885 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b8308b)
+26 Mar 2023 16:57:28,887 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+26 Mar 2023 16:58:42,509 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:58:42,513 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:58:42,514 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:58:42,515 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 24 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 16:58:47,013 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 16:58:47,014 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:58:47,014 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:58:47,014 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:58:47,015 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:58:47,015 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:58:47,102 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3905fa80)
+26 Mar 2023 16:58:47,104 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Andrei Deusu)
+26 Mar 2023 16:58:47,142 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+26 Mar 2023 16:58:47,142 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:58:47,142 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:58:47,142 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:58:47,143 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:58:47,143 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:58:47,144 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cbe08b4)
+26 Mar 2023 16:58:47,150 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+26 Mar 2023 16:58:47,150 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 58 getAll - Enter finding all artists
+26 Mar 2023 16:58:47,150 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:58:47,150 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 16:58:47,151 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 16:58:47,151 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 16:58:47,151 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 16:58:47,151 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d5102e)
+26 Mar 2023 16:58:47,152 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 71 getAll - Exit with([Liam Payne, Selena Gomez, Adele , Harry Styles])
+26 Mar 2023 16:58:53,909 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+26 Mar 2023 16:58:53,909 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:58:53,910 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cbe08b4)
+26 Mar 2023 16:58:53,910 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+26 Mar 2023 16:58:53,911 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+26 Mar 2023 16:58:53,911 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:58:53,911 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d5102e)
+26 Mar 2023 16:58:53,911 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Harry Styles)
+26 Mar 2023 16:58:53,912 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+26 Mar 2023 16:58:53,912 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:58:53,912 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d5102e)
+26 Mar 2023 16:58:53,912 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Harry Styles)
+26 Mar 2023 16:58:53,912 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+26 Mar 2023 16:58:53,912 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:58:53,912 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d5102e)
+26 Mar 2023 16:58:53,913 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Adele )
+26 Mar 2023 16:58:53,913 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+26 Mar 2023 16:58:53,913 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:58:53,913 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d5102e)
+26 Mar 2023 16:58:53,913 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Selena Gomez)
+26 Mar 2023 16:58:53,913 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+26 Mar 2023 16:58:53,914 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 16:58:53,914 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d5102e)
+26 Mar 2023 16:58:53,914 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Liam Payne)
+26 Mar 2023 17:00:13,732 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:00:13,737 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:00:13,738 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:00:13,739 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 24 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:00:18,093 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 17:00:18,094 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:00:18,094 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:00:18,094 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:00:18,094 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:00:18,095 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:00:18,187 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@56c19e66)
+26 Mar 2023 17:00:18,189 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Darius Marcu)
+26 Mar 2023 17:00:18,233 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+26 Mar 2023 17:00:18,233 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:00:18,233 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:00:18,233 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:00:18,233 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:00:18,233 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:00:18,234 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@527e8112)
+26 Mar 2023 17:00:18,241 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+26 Mar 2023 17:00:18,242 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 58 getAll - Enter finding all artists
+26 Mar 2023 17:00:18,242 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:00:18,242 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:00:18,242 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:00:18,242 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:00:18,242 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:00:18,243 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@b7157d4)
+26 Mar 2023 17:00:18,244 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 71 getAll - Exit with([Liam Payne, Selena Gomez, Adele , Harry Styles])
+26 Mar 2023 17:01:01,107 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:01:01,111 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:01:01,112 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:01:01,113 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 24 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:01:06,949 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 17:01:06,949 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:01:06,949 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:01:06,950 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:01:06,950 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:01:06,950 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:01:07,043 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@64288e10)
+26 Mar 2023 17:01:07,046 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Darius Marcu)
+26 Mar 2023 17:01:07,090 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+26 Mar 2023 17:01:07,090 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:01:07,090 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:01:07,090 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:01:07,090 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:01:07,090 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:01:07,091 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4e5fd032)
+26 Mar 2023 17:01:07,099 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+26 Mar 2023 17:01:07,099 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 58 getAll - Enter finding all artists
+26 Mar 2023 17:01:07,099 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:01:07,099 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:01:07,100 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:01:07,100 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:01:07,100 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:01:07,101 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3852ec9)
+26 Mar 2023 17:01:07,101 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 71 getAll - Exit with([Liam Payne, Selena Gomez, Adele , Harry Styles])
+26 Mar 2023 17:01:24,329 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+26 Mar 2023 17:01:24,330 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:01:24,330 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4e5fd032)
+26 Mar 2023 17:01:24,332 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+26 Mar 2023 17:01:34,234 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+26 Mar 2023 17:01:34,235 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:01:34,235 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3852ec9)
+26 Mar 2023 17:01:34,236 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Harry Styles)
+26 Mar 2023 17:02:16,627 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+26 Mar 2023 17:02:16,628 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:02:16,628 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3852ec9)
+26 Mar 2023 17:02:16,629 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Harry Styles)
+26 Mar 2023 17:02:16,631 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+26 Mar 2023 17:02:16,631 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:02:16,632 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3852ec9)
+26 Mar 2023 17:02:16,632 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Adele )
+26 Mar 2023 17:02:16,634 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+26 Mar 2023 17:02:16,635 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:02:16,635 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3852ec9)
+26 Mar 2023 17:02:16,636 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Selena Gomez)
+26 Mar 2023 17:02:16,637 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+26 Mar 2023 17:02:16,638 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:02:16,638 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3852ec9)
+26 Mar 2023 17:02:16,639 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Liam Payne)
+26 Mar 2023 17:04:01,698 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:04:01,702 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:04:01,703 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:04:01,704 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 24 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:04:08,120 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 17:04:08,120 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:04:08,120 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:04:08,120 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:04:08,122 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:04:08,122 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:04:08,211 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3905fa80)
+26 Mar 2023 17:04:08,214 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Andrei Deusu)
+26 Mar 2023 17:04:08,252 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+26 Mar 2023 17:04:08,253 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:04:08,253 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:04:08,253 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:04:08,253 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:04:08,253 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:04:08,254 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cbe08b4)
+26 Mar 2023 17:04:08,261 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+26 Mar 2023 17:04:08,261 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 58 getAll - Enter finding all artists
+26 Mar 2023 17:04:08,261 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:04:08,261 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:04:08,262 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:04:08,262 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:04:08,262 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:04:08,263 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d5102e)
+26 Mar 2023 17:04:08,263 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 71 getAll - Exit with([Liam Payne, Selena Gomez, Adele , Harry Styles])
+26 Mar 2023 17:04:15,296 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+26 Mar 2023 17:04:15,296 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:04:15,296 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cbe08b4)
+26 Mar 2023 17:04:15,297 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+26 Mar 2023 17:04:15,298 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+26 Mar 2023 17:04:15,298 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:04:15,298 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d5102e)
+26 Mar 2023 17:04:15,298 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Harry Styles)
+26 Mar 2023 17:04:15,298 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+26 Mar 2023 17:04:15,298 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:04:15,298 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d5102e)
+26 Mar 2023 17:04:15,299 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Harry Styles)
+26 Mar 2023 17:04:15,299 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+26 Mar 2023 17:04:15,299 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:04:15,299 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d5102e)
+26 Mar 2023 17:04:15,299 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Adele )
+26 Mar 2023 17:04:15,299 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+26 Mar 2023 17:04:15,299 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:04:15,300 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d5102e)
+26 Mar 2023 17:04:15,300 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Selena Gomez)
+26 Mar 2023 17:04:15,300 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+26 Mar 2023 17:04:15,300 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:04:15,300 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d5102e)
+26 Mar 2023 17:04:15,300 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Liam Payne)
+26 Mar 2023 17:04:19,205 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+26 Mar 2023 17:04:19,205 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:04:19,205 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cbe08b4)
+26 Mar 2023 17:04:19,206 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+26 Mar 2023 17:04:19,206 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+26 Mar 2023 17:04:19,206 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:04:19,207 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d5102e)
+26 Mar 2023 17:04:19,207 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Harry Styles)
+26 Mar 2023 17:04:19,207 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+26 Mar 2023 17:04:19,207 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:04:19,207 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d5102e)
+26 Mar 2023 17:04:19,207 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Harry Styles)
+26 Mar 2023 17:04:19,208 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+26 Mar 2023 17:04:19,208 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:04:19,208 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d5102e)
+26 Mar 2023 17:04:19,208 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Adele )
+26 Mar 2023 17:04:19,208 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+26 Mar 2023 17:04:19,208 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:04:19,208 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d5102e)
+26 Mar 2023 17:04:19,209 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Selena Gomez)
+26 Mar 2023 17:04:19,209 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+26 Mar 2023 17:04:19,209 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:04:19,209 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d5102e)
+26 Mar 2023 17:04:19,209 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Liam Payne)
+26 Mar 2023 17:04:21,283 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+26 Mar 2023 17:04:21,283 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:04:21,283 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cbe08b4)
+26 Mar 2023 17:04:21,284 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+26 Mar 2023 17:04:21,284 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+26 Mar 2023 17:04:21,284 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:04:21,284 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d5102e)
+26 Mar 2023 17:04:21,285 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Harry Styles)
+26 Mar 2023 17:04:21,285 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+26 Mar 2023 17:04:21,285 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:04:21,285 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d5102e)
+26 Mar 2023 17:04:21,285 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Harry Styles)
+26 Mar 2023 17:04:21,285 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+26 Mar 2023 17:04:21,286 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:04:21,286 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d5102e)
+26 Mar 2023 17:04:21,286 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Adele )
+26 Mar 2023 17:04:21,286 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+26 Mar 2023 17:04:21,286 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:04:21,286 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d5102e)
+26 Mar 2023 17:04:21,286 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Selena Gomez)
+26 Mar 2023 17:04:21,287 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+26 Mar 2023 17:04:21,287 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:04:21,287 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d5102e)
+26 Mar 2023 17:04:21,287 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Liam Payne)
+26 Mar 2023 17:04:24,054 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+26 Mar 2023 17:04:24,054 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:04:24,054 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cbe08b4)
+26 Mar 2023 17:04:24,055 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+26 Mar 2023 17:04:24,055 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+26 Mar 2023 17:04:24,056 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:04:24,056 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d5102e)
+26 Mar 2023 17:04:24,056 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Harry Styles)
+26 Mar 2023 17:04:24,056 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+26 Mar 2023 17:04:24,056 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:04:24,056 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d5102e)
+26 Mar 2023 17:04:24,056 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Harry Styles)
+26 Mar 2023 17:04:24,057 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+26 Mar 2023 17:04:24,057 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:04:24,057 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d5102e)
+26 Mar 2023 17:04:24,057 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Adele )
+26 Mar 2023 17:04:24,057 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+26 Mar 2023 17:04:24,057 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:04:24,057 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d5102e)
+26 Mar 2023 17:04:24,057 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Selena Gomez)
+26 Mar 2023 17:04:24,058 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+26 Mar 2023 17:04:24,058 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:04:24,058 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d5102e)
+26 Mar 2023 17:04:24,058 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Liam Payne)
+26 Mar 2023 17:10:32,098 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:10:32,101 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:10:32,102 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:10:32,103 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 24 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:10:36,331 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 17:10:36,332 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:10:36,332 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:10:36,332 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:10:36,332 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:10:36,333 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:10:36,423 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6a6b7111)
+26 Mar 2023 17:10:36,426 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Andrei Deusu)
+26 Mar 2023 17:10:36,465 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+26 Mar 2023 17:10:36,465 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:10:36,465 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:10:36,465 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:10:36,466 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:10:36,466 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:10:36,467 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@33492197)
+26 Mar 2023 17:10:36,473 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+26 Mar 2023 17:10:36,474 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 58 getAll - Enter finding all artists
+26 Mar 2023 17:10:36,474 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:10:36,474 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:10:36,474 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:10:36,474 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:10:36,475 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:10:36,475 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3256b33c)
+26 Mar 2023 17:10:36,478 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 71 getAll - Exit with([Liam Payne, Selena Gomez, Adele , Harry Styles])
+26 Mar 2023 17:11:35,883 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:11:35,887 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:11:35,888 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:11:35,890 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 24 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:11:42,734 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 17:11:42,735 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:11:42,735 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:11:42,735 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:11:42,735 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:11:42,735 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:11:42,822 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3905fa80)
+26 Mar 2023 17:11:42,824 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Darius Marcu)
+26 Mar 2023 17:11:42,863 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+26 Mar 2023 17:11:42,864 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:11:42,864 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:11:42,864 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:11:42,864 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:11:42,864 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:11:42,865 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4df281c5)
+26 Mar 2023 17:11:42,871 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+26 Mar 2023 17:11:42,871 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 58 getAll - Enter finding all artists
+26 Mar 2023 17:11:42,871 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:11:42,872 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:11:42,872 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:11:42,872 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:11:42,872 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:11:42,873 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@b4dc1ee)
+26 Mar 2023 17:11:42,873 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 71 getAll - Exit with([Liam Payne, Selena Gomez, Adele , Harry Styles])
+26 Mar 2023 17:41:25,710 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:41:25,714 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:41:25,715 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:41:25,716 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 24 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:41:30,413 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 17:41:30,414 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:41:30,414 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:41:30,414 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:41:30,414 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:41:30,415 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:41:30,504 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3905fa80)
+26 Mar 2023 17:41:30,506 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Andrei Deusu)
+26 Mar 2023 17:41:30,545 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+26 Mar 2023 17:41:30,545 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:41:30,545 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:41:30,545 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:41:30,545 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:41:30,545 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:41:30,546 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4df281c5)
+26 Mar 2023 17:41:30,552 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+26 Mar 2023 17:41:30,553 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 58 getAll - Enter finding all artists
+26 Mar 2023 17:41:30,553 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:41:30,553 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:41:30,553 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:41:30,553 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:41:30,553 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:41:30,554 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@b4dc1ee)
+26 Mar 2023 17:41:30,555 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 71 getAll - Exit with([Liam Payne, Selena Gomez, Adele , Harry Styles])
+26 Mar 2023 17:41:40,493 TRACE com.example.temasaptamana5.repository.TicketDBIRepository 129 addTicket - Enter adding ticket to available seat
+26 Mar 2023 17:41:40,493 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:41:40,493 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:41:40,493 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:41:40,493 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:41:40,494 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:41:40,495 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4bfe9855)
+26 Mar 2023 17:41:40,496 ERROR com.example.temasaptamana5.repository.TicketDBIRepository 139 addTicket - ERROR for adding ticket in TicketDBRepository: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "(": syntax error)
+26 Mar 2023 17:41:40,497 TRACE com.example.temasaptamana5.repository.TicketDBIRepository 129 addTicket - Enter adding ticket to available seat
+26 Mar 2023 17:41:40,497 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:41:40,497 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4bfe9855)
+26 Mar 2023 17:41:40,497 ERROR com.example.temasaptamana5.repository.TicketDBIRepository 139 addTicket - ERROR for adding ticket in TicketDBRepository: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "(": syntax error)
+26 Mar 2023 17:43:23,898 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:43:23,902 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:43:23,903 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:43:23,906 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 24 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:43:28,929 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 17:43:28,930 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:43:28,930 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:43:28,930 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:43:28,930 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:43:28,931 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:43:29,031 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7b2fb09c)
+26 Mar 2023 17:43:29,033 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Andrei Deusu)
+26 Mar 2023 17:43:29,079 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+26 Mar 2023 17:43:29,079 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:43:29,079 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:43:29,079 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:43:29,079 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:43:29,080 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:43:29,080 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@431cc4cc)
+26 Mar 2023 17:43:29,089 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+26 Mar 2023 17:43:29,089 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 58 getAll - Enter finding all artists
+26 Mar 2023 17:43:29,089 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:43:29,089 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:43:29,090 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:43:29,090 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:43:29,090 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:43:29,091 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4194a520)
+26 Mar 2023 17:43:29,092 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 71 getAll - Exit with([Liam Payne, Selena Gomez, Adele , Harry Styles])
+26 Mar 2023 17:44:01,052 TRACE com.example.temasaptamana5.repository.TicketDBIRepository 129 addTicket - Enter adding ticket to available seat
+26 Mar 2023 17:44:01,651 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:44:01,652 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:44:01,652 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:44:01,653 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:44:01,653 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:44:01,655 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@58d44d27)
+26 Mar 2023 17:50:06,439 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:50:06,443 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:50:06,444 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:50:06,447 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 24 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:50:11,192 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 17:50:11,192 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:50:11,192 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:50:11,192 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:50:11,193 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:50:11,193 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:50:11,283 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@72506aa7)
+26 Mar 2023 17:50:11,286 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Andrei Deusu)
+26 Mar 2023 17:50:11,328 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+26 Mar 2023 17:50:11,328 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:50:11,328 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:50:11,328 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:50:11,328 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:50:11,328 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:50:11,329 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2bdcc972)
+26 Mar 2023 17:50:11,336 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+26 Mar 2023 17:50:11,337 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 58 getAll - Enter finding all artists
+26 Mar 2023 17:50:11,337 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:50:11,337 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:50:11,337 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:50:11,337 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:50:11,337 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:50:11,338 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@cec41a9)
+26 Mar 2023 17:50:11,339 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 71 getAll - Exit with([Liam Payne, Selena Gomez, Adele , Harry Styles])
+26 Mar 2023 17:50:20,666 TRACE com.example.temasaptamana5.repository.TicketDBIRepository 129 addTicket - Enter adding ticket to available seat
+26 Mar 2023 17:50:21,051 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:50:21,052 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:50:21,052 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:50:21,053 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:50:21,053 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:50:21,055 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@58d44d27)
+26 Mar 2023 17:51:16,899 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:51:16,903 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:51:16,904 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:51:16,907 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 24 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:51:22,063 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 17:51:22,063 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:51:22,063 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:51:22,063 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:51:22,064 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:51:22,064 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:51:22,155 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7b2fb09c)
+26 Mar 2023 17:51:22,158 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Andrei Deusu)
+26 Mar 2023 17:51:22,201 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+26 Mar 2023 17:51:22,201 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:51:22,201 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:51:22,201 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:51:22,201 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:51:22,202 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:51:22,202 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@431cc4cc)
+26 Mar 2023 17:51:22,210 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+26 Mar 2023 17:51:22,210 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 58 getAll - Enter finding all artists
+26 Mar 2023 17:51:22,210 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:51:22,211 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:51:22,211 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:51:22,211 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:51:22,211 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:51:22,212 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4194a520)
+26 Mar 2023 17:51:22,212 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 71 getAll - Exit with([Liam Payne, Selena Gomez, Adele , Harry Styles])
+26 Mar 2023 17:51:29,433 TRACE com.example.temasaptamana5.repository.TicketDBIRepository 129 addTicket - Enter adding ticket to available seat
+26 Mar 2023 17:51:29,884 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:51:29,885 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:51:29,885 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:51:29,886 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:51:29,886 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:51:29,888 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@720ad305)
+26 Mar 2023 17:59:42,003 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:59:42,007 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:59:42,008 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:59:42,011 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 24 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 17:59:47,335 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 17:59:47,336 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:59:47,336 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:59:47,336 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:59:47,336 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:59:47,337 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:59:47,427 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7b2fb09c)
+26 Mar 2023 17:59:47,430 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Darius Marcu)
+26 Mar 2023 17:59:47,470 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+26 Mar 2023 17:59:47,470 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:59:47,470 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:59:47,470 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:59:47,470 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:59:47,470 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:59:47,471 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@431cc4cc)
+26 Mar 2023 17:59:47,479 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+26 Mar 2023 17:59:47,479 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 58 getAll - Enter finding all artists
+26 Mar 2023 17:59:47,479 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:59:47,479 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:59:47,479 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:59:47,480 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:59:47,480 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:59:47,481 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4194a520)
+26 Mar 2023 17:59:47,481 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 71 getAll - Exit with([Liam Payne, Selena Gomez, Adele , Harry Styles])
+26 Mar 2023 17:59:53,675 TRACE com.example.temasaptamana5.repository.TicketDBIRepository 129 addTicket - Enter adding ticket to available seat
+26 Mar 2023 17:59:53,928 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 17:59:53,928 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 17:59:53,929 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 17:59:53,929 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 17:59:53,930 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 17:59:53,931 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@720ad305)
+26 Mar 2023 17:59:57,607 ERROR com.example.temasaptamana5.repository.TicketDBIRepository 139 addTicket - ERROR for adding ticket in TicketDBRepository: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "1": syntax error)
+26 Mar 2023 21:38:55,041 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 21:38:55,044 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 21:38:55,046 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 21:38:55,047 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 24 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 21:39:00,070 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 21:39:00,070 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 21:39:00,070 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 21:39:00,070 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 21:39:00,071 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 21:39:00,071 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 21:39:00,158 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2597e8bd)
+26 Mar 2023 21:39:00,160 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Darius Marcu)
+26 Mar 2023 21:39:00,199 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+26 Mar 2023 21:39:00,199 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 21:39:00,199 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 21:39:00,199 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 21:39:00,199 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 21:39:00,200 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 21:39:00,200 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@229495d1)
+26 Mar 2023 21:39:00,207 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+26 Mar 2023 21:39:00,207 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 58 getAll - Enter finding all artists
+26 Mar 2023 21:39:00,207 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 21:39:00,207 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 21:39:00,208 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 21:39:00,208 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 21:39:00,208 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 21:39:00,209 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@a39fa10)
+26 Mar 2023 21:39:00,209 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 71 getAll - Exit with([Liam Payne, Selena Gomez, Adele , Harry Styles])
+26 Mar 2023 21:39:07,153 TRACE com.example.temasaptamana5.repository.TicketDBIRepository 129 addTicket - Enter adding ticket to available seat
+26 Mar 2023 21:39:07,153 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 21:39:07,153 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 21:39:07,153 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 21:39:07,153 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 21:39:07,153 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 21:39:07,154 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1da27921)
+26 Mar 2023 21:39:07,158 TRACE com.example.temasaptamana5.repository.TicketDBIRepository 142 addTicket - bought 1 instance of ticket
+26 Mar 2023 21:39:07,159 TRACE com.example.temasaptamana5.repository.TicketDBIRepository 150 addTicket - Exit with(added successfully)
+26 Mar 2023 21:39:07,159 TRACE com.example.temasaptamana5.repository.TicketDBIRepository 129 addTicket - Enter adding ticket to available seat
+26 Mar 2023 21:39:07,159 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 21:39:07,159 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1da27921)
+26 Mar 2023 21:39:07,162 TRACE com.example.temasaptamana5.repository.TicketDBIRepository 142 addTicket - bought 1 instance of ticket
+26 Mar 2023 21:39:07,162 TRACE com.example.temasaptamana5.repository.TicketDBIRepository 150 addTicket - Exit with(added successfully)
+26 Mar 2023 21:39:24,125 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 21:39:24,125 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 21:39:24,125 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2597e8bd)
+26 Mar 2023 21:39:24,126 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Andrei Deusu)
+26 Mar 2023 21:39:24,134 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+26 Mar 2023 21:39:24,134 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 21:39:24,134 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@229495d1)
+26 Mar 2023 21:39:24,135 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+26 Mar 2023 21:39:24,135 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 58 getAll - Enter finding all artists
+26 Mar 2023 21:39:24,135 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 21:39:24,135 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@a39fa10)
+26 Mar 2023 21:39:24,136 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 71 getAll - Exit with([Liam Payne, Selena Gomez, Adele , Harry Styles])
+26 Mar 2023 21:40:06,436 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 21:40:06,440 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 21:40:06,441 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 21:40:06,442 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 24 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 21:40:11,575 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 21:40:11,576 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 21:40:11,576 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 21:40:11,576 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 21:40:11,576 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 21:40:11,576 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 21:40:11,669 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3905fa80)
+26 Mar 2023 21:40:11,672 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Andrei Deusu)
+26 Mar 2023 21:40:11,711 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+26 Mar 2023 21:40:11,711 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 21:40:11,712 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 21:40:11,712 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 21:40:11,712 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 21:40:11,712 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 21:40:11,713 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4df281c5)
+26 Mar 2023 21:40:11,720 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+26 Mar 2023 21:40:11,720 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 58 getAll - Enter finding all artists
+26 Mar 2023 21:40:11,720 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 21:40:11,720 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 21:40:11,720 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 21:40:11,720 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 21:40:11,721 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 21:40:11,721 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@b4dc1ee)
+26 Mar 2023 21:40:11,722 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 71 getAll - Exit with([Liam Payne, Selena Gomez, Adele , Harry Styles])
+26 Mar 2023 21:44:09,388 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 21:44:09,391 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 21:44:09,392 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 21:44:09,393 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 25 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 21:44:13,975 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+26 Mar 2023 21:44:13,976 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 21:44:13,976 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 21:44:13,976 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 21:44:13,977 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 21:44:13,977 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 21:44:14,069 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6966c245)
+26 Mar 2023 21:44:14,071 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Andrei Deusu)
+26 Mar 2023 21:44:14,110 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+26 Mar 2023 21:44:14,111 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 21:44:14,111 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 21:44:14,111 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 21:44:14,111 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 21:44:14,111 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 21:44:14,112 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4df281c5)
+26 Mar 2023 21:44:14,119 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+26 Mar 2023 21:44:14,119 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 58 getAll - Enter finding all artists
+26 Mar 2023 21:44:14,119 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 21:44:14,120 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 21:44:14,120 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 21:44:14,120 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 21:44:14,120 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 21:44:14,121 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@b4dc1ee)
+26 Mar 2023 21:44:14,121 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 71 getAll - Exit with([Liam Payne, Selena Gomez, Adele , Harry Styles])
+26 Mar 2023 21:44:34,009 TRACE com.example.temasaptamana5.repository.TicketDBIRepository 130 addTicket - Enter adding ticket to available seat
+26 Mar 2023 21:44:34,009 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 21:44:34,009 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 21:44:34,009 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+26 Mar 2023 21:44:34,009 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+26 Mar 2023 21:44:34,009 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+26 Mar 2023 21:44:34,010 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@eb71cb7)
+26 Mar 2023 21:44:34,013 TRACE com.example.temasaptamana5.repository.TicketDBIRepository 144 addTicket - bought 1 instance of ticket
+26 Mar 2023 21:44:34,013 TRACE com.example.temasaptamana5.repository.TicketDBIRepository 152 addTicket - Exit with(added successfully)
+26 Mar 2023 21:53:18,620 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 21:53:18,623 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 21:53:18,625 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+26 Mar 2023 21:53:18,627 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 25 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+27 Mar 2023 12:27:38,048 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+27 Mar 2023 12:27:38,053 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+27 Mar 2023 12:27:38,055 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+27 Mar 2023 12:27:38,056 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 25 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+27 Mar 2023 12:27:43,669 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+27 Mar 2023 12:27:43,670 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 12:27:43,670 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+27 Mar 2023 12:27:43,670 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+27 Mar 2023 12:27:43,671 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+27 Mar 2023 12:27:43,671 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+27 Mar 2023 12:27:43,832 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@583686a)
+27 Mar 2023 12:27:43,835 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Darius Marcu)
+27 Mar 2023 12:27:43,890 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+27 Mar 2023 12:27:43,891 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 12:27:43,891 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+27 Mar 2023 12:27:43,891 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+27 Mar 2023 12:27:43,891 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+27 Mar 2023 12:27:43,891 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+27 Mar 2023 12:27:43,893 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57751fab)
+27 Mar 2023 12:27:43,903 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+27 Mar 2023 12:27:43,904 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 58 getAll - Enter finding all artists
+27 Mar 2023 12:27:43,904 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 12:27:43,904 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+27 Mar 2023 12:27:43,904 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+27 Mar 2023 12:27:43,905 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+27 Mar 2023 12:27:43,905 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+27 Mar 2023 12:27:43,906 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@37423ac9)
+27 Mar 2023 12:27:43,907 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 71 getAll - Exit with([Liam Payne, Selena Gomez, Adele , Harry Styles])
+27 Mar 2023 12:27:55,135 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+27 Mar 2023 12:27:55,135 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 12:27:55,135 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57751fab)
+27 Mar 2023 12:27:55,136 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+27 Mar 2023 12:27:55,137 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+27 Mar 2023 12:27:55,137 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 12:27:55,138 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@37423ac9)
+27 Mar 2023 12:27:55,138 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Harry Styles)
+27 Mar 2023 12:27:55,138 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+27 Mar 2023 12:27:55,138 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 12:27:55,138 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@37423ac9)
+27 Mar 2023 12:27:55,139 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Harry Styles)
+27 Mar 2023 12:27:55,139 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+27 Mar 2023 12:27:55,139 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 12:27:55,139 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@37423ac9)
+27 Mar 2023 12:27:55,139 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Adele )
+27 Mar 2023 12:27:55,139 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+27 Mar 2023 12:27:55,139 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 12:27:55,140 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@37423ac9)
+27 Mar 2023 12:27:55,140 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Selena Gomez)
+27 Mar 2023 12:27:55,140 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+27 Mar 2023 12:27:55,140 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 12:27:55,140 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@37423ac9)
+27 Mar 2023 12:27:55,141 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Liam Payne)
+27 Mar 2023 12:28:18,159 TRACE com.example.temasaptamana5.repository.TicketDBIRepository 130 addTicket - Enter adding ticket to available seat
+27 Mar 2023 12:28:18,160 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 12:28:18,160 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+27 Mar 2023 12:28:18,160 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+27 Mar 2023 12:28:18,160 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+27 Mar 2023 12:28:18,160 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+27 Mar 2023 12:28:18,161 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@79c5293c)
+27 Mar 2023 12:28:18,166 TRACE com.example.temasaptamana5.repository.TicketDBIRepository 144 addTicket - bought 1 instance of ticket
+27 Mar 2023 12:28:18,167 TRACE com.example.temasaptamana5.repository.TicketDBIRepository 151 addTicket - Exit with(added successfully)
+27 Mar 2023 12:28:18,168 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+27 Mar 2023 12:28:18,168 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 12:28:18,168 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57751fab)
+27 Mar 2023 12:28:18,169 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+27 Mar 2023 21:08:38,189 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+27 Mar 2023 21:08:38,195 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+27 Mar 2023 21:08:38,198 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+27 Mar 2023 21:08:38,201 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 25 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+27 Mar 2023 21:18:25,255 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+27 Mar 2023 21:18:25,259 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+27 Mar 2023 21:18:25,262 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+27 Mar 2023 21:18:25,263 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 25 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+28 Mar 2023 12:19:59,681 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+28 Mar 2023 12:19:59,685 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+28 Mar 2023 12:19:59,686 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+28 Mar 2023 12:19:59,688 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 25 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+28 Mar 2023 12:20:07,764 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+28 Mar 2023 12:20:07,765 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+28 Mar 2023 12:20:07,765 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+28 Mar 2023 12:20:07,765 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+28 Mar 2023 12:20:07,766 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+28 Mar 2023 12:20:07,766 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+28 Mar 2023 12:20:07,889 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4dd2e8e7)
+28 Mar 2023 12:20:07,892 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Darius Marcu)
+28 Mar 2023 12:20:07,949 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+28 Mar 2023 12:20:07,949 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+28 Mar 2023 12:20:07,949 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+28 Mar 2023 12:20:07,949 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+28 Mar 2023 12:20:07,950 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+28 Mar 2023 12:20:07,950 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+28 Mar 2023 12:20:07,951 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@74e29d8a)
+28 Mar 2023 12:20:07,960 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+28 Mar 2023 12:20:07,960 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 58 getAll - Enter finding all artists
+28 Mar 2023 12:20:07,960 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+28 Mar 2023 12:20:07,961 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+28 Mar 2023 12:20:07,961 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+28 Mar 2023 12:20:07,961 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+28 Mar 2023 12:20:07,961 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+28 Mar 2023 12:20:07,962 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@117c2944)
+28 Mar 2023 12:20:07,963 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 71 getAll - Exit with([Liam Payne, Selena Gomez, Adele , Harry Styles])
+28 Mar 2023 12:20:18,706 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+28 Mar 2023 12:20:18,707 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+28 Mar 2023 12:20:18,707 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@74e29d8a)
+28 Mar 2023 12:20:18,708 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+28 Mar 2023 12:20:18,709 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+28 Mar 2023 12:20:18,709 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+28 Mar 2023 12:20:18,709 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@117c2944)
+28 Mar 2023 12:20:18,710 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Harry Styles)
+28 Mar 2023 12:20:18,710 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+28 Mar 2023 12:20:18,710 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+28 Mar 2023 12:20:18,710 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@117c2944)
+28 Mar 2023 12:20:18,710 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Harry Styles)
+28 Mar 2023 12:20:18,710 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+28 Mar 2023 12:20:18,711 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+28 Mar 2023 12:20:18,711 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@117c2944)
+28 Mar 2023 12:20:18,711 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Adele )
+28 Mar 2023 12:20:18,711 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+28 Mar 2023 12:20:18,711 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+28 Mar 2023 12:20:18,712 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@117c2944)
+28 Mar 2023 12:20:18,712 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Selena Gomez)
+28 Mar 2023 12:20:18,712 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 37 findById - Enter find an artist by id
+28 Mar 2023 12:20:18,712 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+28 Mar 2023 12:20:18,712 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@117c2944)
+28 Mar 2023 12:20:18,712 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 45 findById - Exit with(Liam Payne)
+28 Mar 2023 12:20:42,637 TRACE com.example.temasaptamana5.repository.TicketDBIRepository 130 addTicket - Enter adding ticket to available seat
+28 Mar 2023 12:20:42,637 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+28 Mar 2023 12:20:42,637 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+28 Mar 2023 12:20:42,637 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+28 Mar 2023 12:20:42,638 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+28 Mar 2023 12:20:42,638 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+28 Mar 2023 12:20:42,639 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38b92137)
+28 Mar 2023 12:20:42,645 TRACE com.example.temasaptamana5.repository.TicketDBIRepository 144 addTicket - bought 1 instance of ticket
+28 Mar 2023 12:20:42,645 TRACE com.example.temasaptamana5.repository.TicketDBIRepository 151 addTicket - Exit with(added successfully)
+28 Mar 2023 12:20:42,646 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+28 Mar 2023 12:20:42,646 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+28 Mar 2023 12:20:42,647 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@74e29d8a)
+28 Mar 2023 12:20:42,648 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+28 Mar 2023 12:20:42,648 TRACE com.example.temasaptamana5.repository.TicketDBIRepository 130 addTicket - Enter adding ticket to available seat
+28 Mar 2023 12:20:42,648 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+28 Mar 2023 12:20:42,648 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38b92137)
+28 Mar 2023 12:20:42,655 TRACE com.example.temasaptamana5.repository.TicketDBIRepository 144 addTicket - bought 1 instance of ticket
+28 Mar 2023 12:20:42,656 TRACE com.example.temasaptamana5.repository.TicketDBIRepository 151 addTicket - Exit with(added successfully)
+28 Mar 2023 12:20:42,656 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+28 Mar 2023 12:20:42,656 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+28 Mar 2023 12:20:42,656 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@74e29d8a)
+28 Mar 2023 12:20:42,657 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+28 Mar 2023 12:20:48,503 TRACE com.example.temasaptamana5.repository.TicketDBIRepository 130 addTicket - Enter adding ticket to available seat
+28 Mar 2023 12:20:48,503 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+28 Mar 2023 12:20:48,503 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38b92137)
+28 Mar 2023 12:20:48,510 TRACE com.example.temasaptamana5.repository.TicketDBIRepository 144 addTicket - bought 1 instance of ticket
+28 Mar 2023 12:20:48,510 TRACE com.example.temasaptamana5.repository.TicketDBIRepository 151 addTicket - Exit with(added successfully)
+28 Mar 2023 12:20:48,510 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+28 Mar 2023 12:20:48,510 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+28 Mar 2023 12:20:48,510 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@74e29d8a)
+28 Mar 2023 12:20:48,511 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+28 Mar 2023 12:20:48,512 TRACE com.example.temasaptamana5.repository.TicketDBIRepository 130 addTicket - Enter adding ticket to available seat
+28 Mar 2023 12:20:48,512 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+28 Mar 2023 12:20:48,512 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38b92137)
+28 Mar 2023 12:20:48,515 TRACE com.example.temasaptamana5.repository.TicketDBIRepository 144 addTicket - bought 1 instance of ticket
+28 Mar 2023 12:20:48,515 TRACE com.example.temasaptamana5.repository.TicketDBIRepository 151 addTicket - Exit with(added successfully)
+28 Mar 2023 12:20:48,516 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+28 Mar 2023 12:20:48,516 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+28 Mar 2023 12:20:48,516 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@74e29d8a)
+28 Mar 2023 12:20:48,516 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+03 Apr 2023 23:59:24,895 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+03 Apr 2023 23:59:24,900 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+03 Apr 2023 23:59:24,902 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+03 Apr 2023 23:59:24,903 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 25 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+03 Apr 2023 23:59:31,389 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 133 authenticateEmployee - Enter find a employee by username and password
+03 Apr 2023 23:59:31,389 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+03 Apr 2023 23:59:31,389 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+03 Apr 2023 23:59:31,389 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+03 Apr 2023 23:59:31,389 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+03 Apr 2023 23:59:31,390 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+03 Apr 2023 23:59:31,511 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3039715c)
+03 Apr 2023 23:59:31,514 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 142 authenticateEmployee - Exit with(Darius Marcu)
+03 Apr 2023 23:59:31,563 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 142 getAllShows - Enter finding all shows dto
+03 Apr 2023 23:59:31,563 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+03 Apr 2023 23:59:31,563 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+03 Apr 2023 23:59:31,564 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+03 Apr 2023 23:59:31,564 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+03 Apr 2023 23:59:31,564 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+03 Apr 2023 23:59:31,565 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2a1c3900)
+03 Apr 2023 23:59:31,572 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 177 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+03 Apr 2023 23:59:31,572 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 58 getAll - Enter finding all artists
+03 Apr 2023 23:59:31,573 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+03 Apr 2023 23:59:31,573 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+03 Apr 2023 23:59:31,573 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+03 Apr 2023 23:59:31,573 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+03 Apr 2023 23:59:31,573 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+03 Apr 2023 23:59:31,574 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@35ffa66b)
+03 Apr 2023 23:59:31,575 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 71 getAll - Exit with([Liam Payne, Selena Gomez, Adele , Harry Styles])
+04 Apr 2023 19:11:04,933 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+04 Apr 2023 19:11:04,938 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+04 Apr 2023 19:11:04,939 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+04 Apr 2023 19:11:04,940 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 25 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db}
+04 Apr 2023 19:29:25,157 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db} 
+04 Apr 2023 19:29:25,162 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db} 
+04 Apr 2023 19:29:25,163 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db} 
+04 Apr 2023 19:29:25,164 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 25 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db} 
+04 Apr 2023 19:30:55,713 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 24 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db} 
+04 Apr 2023 19:30:55,718 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 24 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db} 
+04 Apr 2023 19:30:55,719 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 23 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db} 
+04 Apr 2023 19:30:55,720 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 25 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db} 
+04 Apr 2023 19:36:08,583 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 25 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db} 
+04 Apr 2023 19:36:08,587 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 25 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db} 
+04 Apr 2023 19:36:08,589 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 24 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db} 
+04 Apr 2023 19:36:08,590 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 26 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db} 
+08 Apr 2023 20:25:52,032 INFO  com.example.temasaptamana5.repository.ArtistDBIRepository 25 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db} 
+08 Apr 2023 20:25:52,037 INFO  com.example.temasaptamana5.repository.EmployeeDBIRepository 25 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db} 
+08 Apr 2023 20:25:52,038 INFO  com.example.temasaptamana5.repository.ShowDBIRepository 24 <init> - Initializing ShowDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db} 
+08 Apr 2023 20:25:52,040 INFO  com.example.temasaptamana5.repository.TicketDBIRepository 26 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db} 
+08 Apr 2023 20:25:57,559 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 134 authenticateEmployee - Enter find a employee by username and password
+08 Apr 2023 20:25:57,559 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+08 Apr 2023 20:25:57,559 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+08 Apr 2023 20:25:57,559 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+08 Apr 2023 20:25:57,560 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+08 Apr 2023 20:25:57,560 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+08 Apr 2023 20:25:58,098 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b3ba039)
+08 Apr 2023 20:25:58,100 TRACE com.example.temasaptamana5.repository.EmployeeDBIRepository 143 authenticateEmployee - Exit with(Darius Marcu)
+08 Apr 2023 20:25:58,146 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 143 getAllShows - Enter finding all shows dto
+08 Apr 2023 20:25:58,147 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+08 Apr 2023 20:25:58,147 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+08 Apr 2023 20:25:58,147 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+08 Apr 2023 20:25:58,147 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+08 Apr 2023 20:25:58,147 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+08 Apr 2023 20:25:58,148 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3e1107e6)
+08 Apr 2023 20:25:58,158 TRACE com.example.temasaptamana5.repository.ShowDBIRepository 178 getAllShows - Exit with([com.example.temasaptamana5.domain.ShowDTO@20, com.example.temasaptamana5.domain.ShowDTO@21, com.example.temasaptamana5.domain.ShowDTO@22, com.example.temasaptamana5.domain.ShowDTO@23, com.example.temasaptamana5.domain.ShowDTO@24])
+08 Apr 2023 20:25:58,158 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 59 getAll - Enter finding all artists
+08 Apr 2023 20:25:58,158 TRACE com.example.temasaptamana5.utils.JdbcUtils 48 getConnection - Enter
+08 Apr 2023 20:25:58,158 TRACE com.example.temasaptamana5.utils.JdbcUtils 25 getNewConnection - Enter
+08 Apr 2023 20:25:58,158 INFO  com.example.temasaptamana5.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+08 Apr 2023 20:25:58,159 INFO  com.example.temasaptamana5.utils.JdbcUtils 31 getNewConnection - user: null
+08 Apr 2023 20:25:58,159 INFO  com.example.temasaptamana5.utils.JdbcUtils 32 getNewConnection - pass: null
+08 Apr 2023 20:25:58,159 TRACE com.example.temasaptamana5.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b66c9b5)
+08 Apr 2023 20:25:58,160 TRACE com.example.temasaptamana5.repository.ArtistDBIRepository 72 getAll - Exit with([Liam Payne, Selena Gomez, Adele , Harry Styles])

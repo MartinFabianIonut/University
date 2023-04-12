@@ -1,0 +1,84 @@
+ž28 Mar 2023 12:19:20,667 INFO  repository.AbstractRepository 15 <init> - Initializing AbstractRepository with properties: {jdbc.url=jdbc:sqlite:./shows.db} 
+l28 Mar 2023 12:19:20,675 TRACE repository.ArtistDBRepository 68 add - Enter adding artist domain.Artist@20
+I28 Mar 2023 12:19:20,676 TRACE utils.JdbcUtils 48 getConnection - Enter
+L28 Mar 2023 12:19:20,676 TRACE utils.JdbcUtils 25 getNewConnection - Enter
+28 Mar 2023 12:19:20,677 INFO  utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:./shows.db
+Q28 Mar 2023 12:19:20,678 INFO  utils.JdbcUtils 31 getNewConnection - user: null
+Q28 Mar 2023 12:19:20,678 INFO  utils.JdbcUtils 32 getNewConnection - pass: null
+x28 Mar 2023 12:19:20,788 TRACE utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3d6300e8)
+X28 Mar 2023 12:19:20,793 TRACE repository.ArtistDBRepository 75 add - saved 1 instance
+h28 Mar 2023 12:19:20,793 TRACE repository.ArtistDBRepository 80 add - Exit with(inserted successfully)
+l28 Mar 2023 12:19:20,794 TRACE repository.ArtistDBRepository 68 add - Enter adding artist domain.Artist@21
+I28 Mar 2023 12:19:20,794 TRACE utils.JdbcUtils 48 getConnection - Enter
+x28 Mar 2023 12:19:20,794 TRACE utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3d6300e8)
+X28 Mar 2023 12:19:20,798 TRACE repository.ArtistDBRepository 75 add - saved 1 instance
+h28 Mar 2023 12:19:20,799 TRACE repository.ArtistDBRepository 80 add - Exit with(inserted successfully)
+l28 Mar 2023 12:19:20,799 TRACE repository.ArtistDBRepository 68 add - Enter adding artist domain.Artist@22
+I28 Mar 2023 12:19:20,799 TRACE utils.JdbcUtils 48 getConnection - Enter
+x28 Mar 2023 12:19:20,799 TRACE utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3d6300e8)
+X28 Mar 2023 12:19:20,803 TRACE repository.ArtistDBRepository 75 add - saved 1 instance
+h28 Mar 2023 12:19:20,803 TRACE repository.ArtistDBRepository 80 add - Exit with(inserted successfully)
+l28 Mar 2023 12:19:20,803 TRACE repository.ArtistDBRepository 68 add - Enter adding artist domain.Artist@23
+I28 Mar 2023 12:19:20,804 TRACE utils.JdbcUtils 48 getConnection - Enter
+x28 Mar 2023 12:19:20,804 TRACE utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3d6300e8)
+X28 Mar 2023 12:19:20,807 TRACE repository.ArtistDBRepository 75 add - saved 1 instance
+h28 Mar 2023 12:19:20,808 TRACE repository.ArtistDBRepository 80 add - Exit with(inserted successfully)
+l28 Mar 2023 12:19:20,808 TRACE repository.ArtistDBRepository 68 add - Enter adding artist domain.Artist@24
+I28 Mar 2023 12:19:20,808 TRACE utils.JdbcUtils 48 getConnection - Enter
+x28 Mar 2023 12:19:20,808 TRACE utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3d6300e8)
+X28 Mar 2023 12:19:20,812 TRACE repository.ArtistDBRepository 75 add - saved 1 instance
+h28 Mar 2023 12:19:20,812 TRACE repository.ArtistDBRepository 80 add - Exit with(inserted successfully)
+d28 Mar 2023 12:19:20,813 TRACE repository.ArtistDBRepository 49 getAll - Enter finding all artists
+I28 Mar 2023 12:19:20,813 TRACE utils.JdbcUtils 48 getConnection - Enter
+x28 Mar 2023 12:19:20,813 TRACE utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3d6300e8)
+°28 Mar 2023 12:19:20,815 TRACE repository.ArtistDBRepository 62 getAll - Exit with([domain.Artist@48, domain.Artist@49, domain.Artist@4a, domain.Artist@4b, domain.Artist@4c])
+g28 Mar 2023 12:19:20,815 TRACE repository.ArtistDBRepository 28 findById - Enter find an artist by id
+I28 Mar 2023 12:19:20,815 TRACE utils.JdbcUtils 48 getConnection - Enter
+x28 Mar 2023 12:19:20,815 TRACE utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3d6300e8)
+h28 Mar 2023 12:19:20,815 TRACE repository.ArtistDBRepository 36 findById - Exit with(domain.Artist@4c)
+^28 Mar 2023 12:19:20,816 TRACE repository.ArtistDBRepository 86 delete - Enter delete artist
+I28 Mar 2023 12:19:20,816 TRACE utils.JdbcUtils 48 getConnection - Enter
+x28 Mar 2023 12:19:20,816 TRACE utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3d6300e8)
+]28 Mar 2023 12:19:20,820 TRACE repository.ArtistDBRepository 91 delete - deleted 1 instance
+j28 Mar 2023 12:19:20,820 TRACE repository.ArtistDBRepository 98 delete - Exit with(deleted successfully)
+^28 Mar 2023 12:19:20,821 TRACE repository.ArtistDBRepository 86 delete - Enter delete artist
+I28 Mar 2023 12:19:20,821 TRACE utils.JdbcUtils 48 getConnection - Enter
+x28 Mar 2023 12:19:20,821 TRACE utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3d6300e8)
+]28 Mar 2023 12:19:20,825 TRACE repository.ArtistDBRepository 91 delete - deleted 1 instance
+j28 Mar 2023 12:19:20,825 TRACE repository.ArtistDBRepository 98 delete - Exit with(deleted successfully)
+^28 Mar 2023 12:19:20,826 TRACE repository.ArtistDBRepository 86 delete - Enter delete artist
+I28 Mar 2023 12:19:20,826 TRACE utils.JdbcUtils 48 getConnection - Enter
+x28 Mar 2023 12:19:20,826 TRACE utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3d6300e8)
+]28 Mar 2023 12:19:20,826 TRACE repository.ArtistDBRepository 91 delete - deleted 0 instance
+d28 Mar 2023 12:19:20,827 TRACE repository.ArtistDBRepository 49 getAll - Enter finding all artists
+I28 Mar 2023 12:19:20,827 TRACE utils.JdbcUtils 48 getConnection - Enter
+x28 Mar 2023 12:19:20,827 TRACE utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3d6300e8)
+Œ28 Mar 2023 12:19:20,828 TRACE repository.ArtistDBRepository 62 getAll - Exit with([domain.Artist@48, domain.Artist@49, domain.Artist@4a])
+a28 Mar 2023 12:19:20,828 TRACE repository.ArtistDBRepository 104 update - Enter updating artist
+I28 Mar 2023 12:19:20,828 TRACE utils.JdbcUtils 48 getConnection - Enter
+x28 Mar 2023 12:19:20,828 TRACE utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3d6300e8)
+^28 Mar 2023 12:19:20,832 TRACE repository.ArtistDBRepository 113 update - updated 1 instance
+k28 Mar 2023 12:19:20,832 TRACE repository.ArtistDBRepository 120 update - Exit with(updated successfully)
+g28 Mar 2023 12:19:20,832 TRACE repository.ArtistDBRepository 28 findById - Enter find an artist by id
+I28 Mar 2023 12:19:20,833 TRACE utils.JdbcUtils 48 getConnection - Enter
+x28 Mar 2023 12:19:20,833 TRACE utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3d6300e8)
+h28 Mar 2023 12:19:20,833 TRACE repository.ArtistDBRepository 36 findById - Exit with(domain.Artist@49)
+a28 Mar 2023 12:19:20,834 TRACE repository.ArtistDBRepository 104 update - Enter updating artist
+I28 Mar 2023 12:19:20,834 TRACE utils.JdbcUtils 48 getConnection - Enter
+x28 Mar 2023 12:19:20,834 TRACE utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3d6300e8)
+^28 Mar 2023 12:19:20,834 TRACE repository.ArtistDBRepository 113 update - updated 0 instance
+^28 Mar 2023 12:19:20,835 TRACE repository.ArtistDBRepository 86 delete - Enter delete artist
+I28 Mar 2023 12:19:20,835 TRACE utils.JdbcUtils 48 getConnection - Enter
+x28 Mar 2023 12:19:20,835 TRACE utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3d6300e8)
+]28 Mar 2023 12:19:20,839 TRACE repository.ArtistDBRepository 91 delete - deleted 1 instance
+j28 Mar 2023 12:19:20,840 TRACE repository.ArtistDBRepository 98 delete - Exit with(deleted successfully)
+^28 Mar 2023 12:19:20,840 TRACE repository.ArtistDBRepository 86 delete - Enter delete artist
+I28 Mar 2023 12:19:20,840 TRACE utils.JdbcUtils 48 getConnection - Enter
+x28 Mar 2023 12:19:20,840 TRACE utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3d6300e8)
+]28 Mar 2023 12:19:20,844 TRACE repository.ArtistDBRepository 91 delete - deleted 1 instance
+j28 Mar 2023 12:19:20,844 TRACE repository.ArtistDBRepository 98 delete - Exit with(deleted successfully)
+^28 Mar 2023 12:19:20,844 TRACE repository.ArtistDBRepository 86 delete - Enter delete artist
+I28 Mar 2023 12:19:20,844 TRACE utils.JdbcUtils 48 getConnection - Enter
+x28 Mar 2023 12:19:20,844 TRACE utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3d6300e8)
+]28 Mar 2023 12:19:20,847 TRACE repository.ArtistDBRepository 91 delete - deleted 1 instance
+j28 Mar 2023 12:19:20,848 TRACE repository.ArtistDBRepository 98 delete - Exit with(deleted successfully)

@@ -1,0 +1,58 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'Saptamana3'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+sourceCompatibility = '17'
+targetCompatibility = '17'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+application {
+    mainClass = 'Main'
+}
+
+ext {
+    junitVersion = '5.8.2'
+}
+dependencies {
+    implementation('org.controlsfx:controlsfx:11.1.1')
+    implementation('com.dlsc.formsfx:formsfx-core:11.5.0') {
+        exclude(group: 'org.openjfx')
+    }
+    implementation('org.kordamp.bootstrapfx:bootstrapfx-core:0.4.0')
+    implementation('com.github.almasb:fxgl:17.1') {
+        exclude(group: 'org.openjfx')
+    }
+    implementation group: 'org.apache.logging.log4j', name:'log4j-core', version: '2.14.0'
+    implementation group: 'org.apache.logging.log4j', name:'log4j-api', version: '2.14.0'
+    implementation group: 'com.google.guava', name: 'guava', version:'31.0.1-jre'
+
+    testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
+
+    implementation group: 'org.postgresql', name: 'postgresql', version: '42.5.1'
+}
+jar{
+    duplicatesStrategy (DuplicatesStrategy.EXCLUDE)
+    manifest{
+        attributes('Main-Class':'Main')
+    }
+    from{
+        configurations.runtimeClasspath.collect{
+            it.isDirectory() ? it : zipTree(it)
+        }
+    }
+}
+
+test {
+    useJUnitPlatform()
+}
