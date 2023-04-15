@@ -133,30 +133,30 @@ namespace BibliotecaSGBD
         private void buttonSterge_Click(object sender, EventArgs e)
         {
 
-            if (dataGridViewCopil.CurrentRow != null)
-            {
-                var row = dataGridViewCopil.CurrentRow.Index;
-                var lenght = dataGridViewCopil.ColumnCount;
-                var id_cos = (int)dataGridViewCopil.Rows[row].Cells[0].Value;
-                try
+                if (dataGridViewCopil.CurrentRow != null)
                 {
-                    using (var sqlConnection = new SqlConnection(connectionString))
+                    var row = dataGridViewCopil.CurrentRow.Index;
+                    var lenght = dataGridViewCopil.ColumnCount;
+                    var id_cos = (int)dataGridViewCopil.Rows[row].Cells[0].Value;
+                    try
                     {
-                        sqlConnection.Open();
-                        var command = new SqlCommand(deleteCommand,sqlConnection);
-                        command.Parameters.AddWithValue("@id_cos", id_cos);
-                        command.ExecuteNonQuery();
-                        RefreshChildTable();
-                        MessageBox.Show("Succes!");
+                        using (var sqlConnection = new SqlConnection(connectionString))
+                        {
+                            sqlConnection.Open();
+                            var command = new SqlCommand(deleteCommand,sqlConnection);
+                            command.Parameters.AddWithValue("@id_cos", id_cos);
+                            command.ExecuteNonQuery();
+                            RefreshChildTable();
+                            MessageBox.Show("Succes!");
+                        }
+                    }
+                    catch (Exception exception)
+                    {
+                        MessageBox.Show(exception.Message);
                     }
                 }
-                catch (Exception exception)
-                {
-                    MessageBox.Show(exception.Message);
-                }
-            }
-            else
-                MessageBox.Show("Nimic selectat");
+                else
+                    MessageBox.Show("Nimic selectat");
         }
 
         private void RefreshChildTable()
@@ -168,28 +168,6 @@ namespace BibliotecaSGBD
                 dataSet.Tables["Cos_de_cumparaturi"].Clear();
                 cosUtilizatorAdapter.Fill(dataSet, "Cos_de_cumparaturi");
             }
-        }
-
-        private void dataGridViewCopil_CellValueChanged(object sender, DataGridViewCellEventArgs e)
-        {
-            if (e.ColumnIndex == 0) {
-                var c = e.ToString();
-            }
-        }
-
-        private void dataGridViewCopil_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void dataGridViewCopil_Leave(object sender, EventArgs e)
-        {
-            if(e.Equals(null)) { }
-        }
-
-        private void dataGridViewCopil_RowLeave(object sender, DataGridViewCellEventArgs e)
-        {
-            if(e.ColumnIndex == 0) { }
         }
     }
 }

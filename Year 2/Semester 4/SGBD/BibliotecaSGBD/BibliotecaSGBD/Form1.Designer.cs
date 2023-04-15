@@ -60,10 +60,6 @@
             this.dataGridViewCopil.Name = "dataGridViewCopil";
             this.dataGridViewCopil.Size = new System.Drawing.Size(600, 182);
             this.dataGridViewCopil.TabIndex = 1;
-            this.dataGridViewCopil.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewCopil_CellContentClick);
-            this.dataGridViewCopil.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewCopil_CellValueChanged);
-            this.dataGridViewCopil.RowLeave += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewCopil_RowLeave);
-            this.dataGridViewCopil.Leave += new System.EventHandler(this.dataGridViewCopil_Leave);
             // 
             // label1
             // 
