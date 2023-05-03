@@ -1,0 +1,1292 @@
+2023-04-18 17:00:37,528 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-18 17:00:37,535 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-18 17:00:37,536 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-18 17:00:37,536 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-18 17:00:37,537 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-18 17:00:37,541 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-18 17:03:22,824 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-18 17:03:22,835 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-18 17:03:22,835 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-18 17:03:22,835 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-18 17:03:22,835 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-18 17:03:22,835 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-18 17:03:32,259 [1] INFO AbstractServer - Client connected ...
+2023-04-18 17:03:32,260 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-18 17:03:32,263 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-18 17:03:32,272 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-18 17:03:32,327 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-18 17:03:32,328 [5] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-18 17:03:33,334 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:03:33,335 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:03:33,337 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:03:47,087 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:03:47,087 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:03:47,088 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:03:48,102 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:03:48,104 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:03:48,104 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:03:50,945 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:03:50,946 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:03:50,947 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:03:58,013 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:03:58,014 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:03:58,015 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:04:00,297 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Marcu Ioan'}
+2023-04-18 17:04:00,300 [5] INFO ClientRpcReflectionWorker - User logged out
+2023-04-18 17:09:25,297 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-18 17:09:25,304 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-18 17:09:25,304 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-18 17:09:25,305 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-18 17:09:25,306 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-18 17:09:25,309 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-18 17:10:05,118 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-18 17:10:05,125 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-18 17:10:05,125 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-18 17:10:05,126 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-18 17:10:05,127 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-18 17:10:05,130 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-18 17:11:17,314 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-18 17:11:17,321 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-18 17:11:17,321 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-18 17:11:17,322 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-18 17:11:17,323 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-18 17:11:17,327 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-18 17:13:54,766 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-18 17:13:54,773 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-18 17:13:54,775 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-18 17:13:54,775 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-18 17:13:54,776 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-18 17:13:54,780 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-18 17:15:13,019 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-18 17:15:13,027 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-18 17:15:13,027 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-18 17:15:13,028 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-18 17:15:13,029 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-18 17:15:13,033 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-18 17:17:18,492 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-18 17:17:18,500 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-18 17:17:18,501 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-18 17:17:18,501 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-18 17:17:18,502 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-18 17:17:18,505 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-18 17:20:05,385 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-18 17:20:05,393 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-18 17:20:05,393 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-18 17:20:05,394 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-18 17:20:05,394 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-18 17:20:05,397 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-18 17:20:12,542 [1] INFO AbstractServer - Client connected ...
+2023-04-18 17:20:12,543 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-18 17:20:12,546 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-18 17:20:12,555 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-18 17:20:12,608 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-18 17:20:12,610 [5] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-18 17:20:13,628 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:20:13,629 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:20:13,630 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:20:17,795 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:20:17,796 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:20:17,797 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:20:18,815 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:20:18,815 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:20:18,816 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:20:20,097 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:20:20,097 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:20:20,098 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:20:21,415 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Marcu Ioan'}
+2023-04-18 17:20:21,416 [5] INFO ClientRpcReflectionWorker - User logged out
+2023-04-18 17:24:37,695 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-18 17:24:37,702 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-18 17:24:37,703 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-18 17:24:37,703 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-18 17:24:37,704 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-18 17:24:37,708 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-18 17:24:45,209 [1] INFO AbstractServer - Client connected ...
+2023-04-18 17:24:45,210 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-18 17:24:45,212 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-18 17:24:45,222 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-18 17:24:45,275 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-18 17:24:45,277 [5] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-18 17:24:46,286 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:24:46,287 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:24:46,289 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:24:50,553 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:24:50,554 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:24:50,554 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:24:51,563 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:24:51,564 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:24:51,565 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:24:52,570 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:24:52,571 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:24:52,571 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:24:53,582 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:24:53,583 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:24:53,585 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:24:54,598 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:24:54,598 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:24:54,599 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:24:55,608 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:24:55,609 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:24:55,610 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:24:56,618 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:24:56,619 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:24:56,620 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:24:57,628 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:24:57,629 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:24:57,629 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:24:58,641 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:24:58,642 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:24:58,643 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:24:59,654 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:24:59,655 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:24:59,656 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:25:00,667 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:25:00,668 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:25:00,669 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:25:01,679 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:25:01,681 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:25:01,681 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:25:02,692 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:25:02,692 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:25:02,694 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:25:03,704 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:25:03,705 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:25:03,705 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:25:04,717 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:25:04,718 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:25:04,719 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:25:05,731 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:25:05,732 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:25:05,732 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:25:06,741 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:25:06,742 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:25:06,743 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:25:07,759 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:25:07,759 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:25:07,761 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:25:17,614 [1] INFO AbstractServer - Client connected ...
+2023-04-18 17:25:17,616 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-18 17:25:17,617 [7] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-18 17:25:17,617 [7] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-18 17:25:17,617 [7] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-18 17:25:17,618 [7] ERROR ClientRpcReflectionWorker - Error in worker (solving method handleLOGIN): {0}
+SeventhWeekCSharpServerClient.services.MyException: User already logged in.
+   at SeventhWeekCSharpServerClient.server.ServicesImpl.AuthenticateEmployee(Employee`1 employee, IObserver employeeObserver) in C:\GIT\mpp-proiect-csharp-MartinFabianIonut\SeventhWeekCSharpServerClient\SeventhWeekCSharpServerClient\ServicesImpl.cs:line 42
+   at SeventhWeekCSharpServerClient.networking.ClientRpcReflectionWorker.HandleLOGIN(Request request) in C:\GIT\mpp-proiect-csharp-MartinFabianIonut\SeventhWeekCSharpServerClient\networking\ClientRpcReflectionWorker.cs:line 119
+2023-04-18 17:25:22,452 [1] INFO AbstractServer - Client connected ...
+2023-04-18 17:25:22,453 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-18 17:25:22,453 [9] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-18 17:25:22,454 [9] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-18 17:25:22,454 [9] INFO EmployeeDBRepository - Andrei Deusu
+2023-04-18 17:25:22,455 [9] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-18 17:25:23,467 [9] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:25:23,468 [9] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:25:23,469 [9] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:25:26,208 [9] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:25:26,208 [9] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:25:26,209 [9] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:25:27,483 [9] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:25:27,483 [9] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:25:27,484 [9] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:25:29,133 [9] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:25:29,133 [9] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:25:29,134 [9] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:25:31,565 [9] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Andrei Deusu'}
+2023-04-18 17:25:31,566 [9] INFO ClientRpcReflectionWorker - User logged out
+2023-04-18 17:29:07,575 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-18 17:29:07,584 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-18 17:29:07,585 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-18 17:29:07,585 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-18 17:29:07,586 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-18 17:29:07,589 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-18 17:32:14,095 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-18 17:32:14,101 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-18 17:32:14,103 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-18 17:32:14,104 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-18 17:32:14,105 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-18 17:32:14,108 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-18 17:32:21,512 [1] INFO AbstractServer - Client connected ...
+2023-04-18 17:32:21,513 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-18 17:32:21,516 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-18 17:32:21,525 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-18 17:32:21,578 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-18 17:32:21,580 [5] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-18 17:32:22,587 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:32:22,588 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:32:22,590 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:32:47,335 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Marcu Ioan'}
+2023-04-18 17:32:47,335 [5] INFO ClientRpcReflectionWorker - User logged out
+2023-04-18 17:35:27,332 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-18 17:35:27,339 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-18 17:35:27,340 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-18 17:35:27,340 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-18 17:35:27,341 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-18 17:35:27,345 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-18 17:35:34,822 [1] INFO AbstractServer - Client connected ...
+2023-04-18 17:35:34,823 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-18 17:35:34,825 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-18 17:35:34,836 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-18 17:35:34,889 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-18 17:35:34,890 [5] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-18 17:35:35,909 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:35:35,909 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:35:35,911 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:35:41,321 [5] INFO ClientRpcReflectionWorker - method entered: handleBUY_TICKET with parameters Request{type='BUY_TICKET', data='1  2 Simina noOfSeats: 1'}
+2023-04-18 17:35:41,323 [5] INFO TicketDBRepository - adding ticket to available seat
+2023-04-18 17:35:41,327 [5] INFO TicketDBRepository - ticket bought successfully 1  2 Simina noOfSeats: 1
+2023-04-18 17:35:41,329 [5] INFO ClientRpcReflectionWorker - Ticket bought
+2023-04-18 17:35:41,329 [6] INFO ClientRpcReflectionWorker - Ticket sold 1  2 Simina noOfSeats: 1
+2023-04-18 17:35:41,331 [6] INFO ClientRpcReflectionWorker - Response sent
+2023-04-18 17:35:50,572 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Marcu Ioan'}
+2023-04-18 17:35:50,577 [5] INFO ClientRpcReflectionWorker - User logged out
+2023-04-18 17:35:54,250 [1] INFO AbstractServer - Client connected ...
+2023-04-18 17:35:54,251 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-18 17:35:54,251 [10] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-18 17:35:54,251 [10] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-18 17:35:54,252 [10] INFO EmployeeDBRepository - Andrei Deusu
+2023-04-18 17:35:54,252 [10] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-18 17:35:55,269 [10] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:35:55,270 [10] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:35:55,270 [10] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:36:01,334 [10] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Andrei Deusu'}
+2023-04-18 17:36:01,335 [10] INFO ClientRpcReflectionWorker - User logged out
+2023-04-18 17:36:33,483 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-18 17:36:33,493 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-18 17:36:33,493 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-18 17:36:33,493 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-18 17:36:33,493 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-18 17:36:33,493 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-18 17:36:39,953 [1] INFO AbstractServer - Client connected ...
+2023-04-18 17:36:39,956 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-18 17:36:39,956 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-18 17:36:39,967 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-18 17:36:40,021 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-18 17:36:40,021 [5] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-18 17:36:41,031 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:36:41,032 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:36:41,034 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:36:46,687 [5] INFO ClientRpcReflectionWorker - method entered: handleBUY_TICKET with parameters Request{type='BUY_TICKET', data='1  5 Dorel noOfSeats: 2'}
+2023-04-18 17:36:46,687 [5] INFO TicketDBRepository - adding ticket to available seat
+2023-04-18 17:36:46,693 [5] INFO TicketDBRepository - ticket bought successfully 1  5 Dorel noOfSeats: 2
+2023-04-18 17:36:46,693 [5] INFO TicketDBRepository - ticket bought successfully 1  5 Dorel noOfSeats: 2
+2023-04-18 17:36:46,698 [5] INFO ClientRpcReflectionWorker - Ticket bought
+2023-04-18 17:36:46,698 [6] INFO ClientRpcReflectionWorker - Ticket sold 1  5 Dorel noOfSeats: 2
+2023-04-18 17:36:46,698 [6] INFO ClientRpcReflectionWorker - Response sent
+2023-04-18 17:36:51,273 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Marcu Ioan'}
+2023-04-18 17:36:51,273 [5] INFO ClientRpcReflectionWorker - User logged out
+2023-04-18 17:37:28,852 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-18 17:37:28,860 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-18 17:37:28,860 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-18 17:37:28,860 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-18 17:37:28,860 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-18 17:37:28,863 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-18 17:37:35,806 [1] INFO AbstractServer - Client connected ...
+2023-04-18 17:37:35,816 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-18 17:37:35,817 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-18 17:37:35,828 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-18 17:37:35,876 [5] INFO EmployeeDBRepository - Andrei Deusu
+2023-04-18 17:37:35,881 [5] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-18 17:37:36,897 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:37:36,899 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:37:36,900 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:37:39,615 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:37:39,616 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:37:39,617 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:37:40,703 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:37:40,703 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:37:40,704 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:37:42,199 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:37:42,200 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:37:42,200 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:37:44,297 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Andrei Deusu'}
+2023-04-18 17:37:44,298 [5] INFO ClientRpcReflectionWorker - User logged out
+2023-04-18 17:37:50,290 [1] INFO AbstractServer - Client connected ...
+2023-04-18 17:37:50,292 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-18 17:37:50,292 [8] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-18 17:37:50,293 [8] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-18 17:37:50,293 [8] INFO EmployeeDBRepository - Andrei Deusu
+2023-04-18 17:37:50,294 [8] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-18 17:37:51,299 [8] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:37:51,300 [8] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:37:51,300 [8] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:37:52,619 [8] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Andrei Deusu'}
+2023-04-18 17:37:52,620 [8] INFO ClientRpcReflectionWorker - User logged out
+2023-04-18 17:40:50,403 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-18 17:40:50,410 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-18 17:40:50,411 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-18 17:40:50,412 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-18 17:40:50,413 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-18 17:40:50,416 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-18 17:41:00,151 [1] INFO AbstractServer - Client connected ...
+2023-04-18 17:41:00,153 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-18 17:41:00,155 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-18 17:41:00,165 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-18 17:41:00,217 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-18 17:41:00,219 [5] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-18 17:41:01,232 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:41:01,234 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:41:01,236 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:41:08,517 [1] INFO AbstractServer - Client connected ...
+2023-04-18 17:41:08,517 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-18 17:41:08,519 [6] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-18 17:41:08,520 [6] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-18 17:41:08,520 [6] INFO EmployeeDBRepository - Andrei Deusu
+2023-04-18 17:41:08,520 [6] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-18 17:41:09,525 [6] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-18 17:41:09,526 [6] INFO ShowDBRepository - finding all shows dto
+2023-04-18 17:41:09,526 [6] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-18 17:41:20,274 [5] INFO ClientRpcReflectionWorker - method entered: handleBUY_TICKET with parameters Request{type='BUY_TICKET', data='1  3 Emilian noOfSeats: 1'}
+2023-04-18 17:41:20,276 [5] INFO TicketDBRepository - adding ticket to available seat
+2023-04-18 17:41:20,280 [5] INFO TicketDBRepository - ticket bought successfully 1  3 Emilian noOfSeats: 1
+2023-04-18 17:41:20,282 [5] INFO ClientRpcReflectionWorker - Ticket bought
+2023-04-18 17:41:20,282 [8] INFO ClientRpcReflectionWorker - Ticket sold 1  3 Emilian noOfSeats: 1
+2023-04-18 17:41:20,283 [9] INFO ClientRpcReflectionWorker - Ticket sold 1  3 Emilian noOfSeats: 1
+2023-04-18 17:41:20,284 [9] INFO ClientRpcReflectionWorker - Response sent
+2023-04-18 17:41:20,284 [8] INFO ClientRpcReflectionWorker - Response sent
+2023-04-18 17:41:24,890 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Marcu Ioan'}
+2023-04-18 17:41:24,890 [5] INFO ClientRpcReflectionWorker - User logged out
+2023-04-18 17:41:25,807 [6] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Andrei Deusu'}
+2023-04-18 17:41:25,807 [6] INFO ClientRpcReflectionWorker - User logged out
+2023-04-24 13:19:35,741 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-24 13:19:35,750 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-24 13:19:35,751 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-24 13:19:35,751 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-24 13:19:35,752 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-24 13:19:35,757 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:20:02,295 [1] INFO AbstractServer - Client connected ...
+2023-04-24 13:20:02,296 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:20:02,300 [6] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 13:20:02,327 [6] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 13:20:02,419 [6] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-24 13:20:02,421 [6] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-24 13:20:03,436 [6] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 13:20:03,437 [6] INFO ShowDBRepository - finding all shows dto
+2023-04-24 13:20:03,441 [6] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 13:20:09,668 [1] INFO AbstractServer - Client connected ...
+2023-04-24 13:20:09,668 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:20:09,671 [3] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 13:20:09,672 [3] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 13:20:09,672 [3] INFO EmployeeDBRepository - Andrei Deusu
+2023-04-24 13:20:09,672 [3] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-24 13:20:10,680 [3] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 13:20:10,681 [3] INFO ShowDBRepository - finding all shows dto
+2023-04-24 13:20:10,682 [3] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 13:20:59,258 [3] INFO ClientRpcReflectionWorker - method entered: handleBUY_TICKET with parameters Request{type='BUY_TICKET', data='1  4 Adrian noOfSeats: 1'}
+2023-04-24 13:20:59,259 [3] INFO TicketDBRepository - adding ticket to available seat
+2023-04-24 13:20:59,265 [3] INFO TicketDBRepository - ticket bought successfully 1  4 Adrian noOfSeats: 1
+2023-04-24 13:20:59,268 [3] INFO ClientRpcReflectionWorker - Ticket bought
+2023-04-24 13:20:59,269 [8] INFO ClientRpcReflectionWorker - Ticket sold 1  4 Adrian noOfSeats: 1
+2023-04-24 13:20:59,270 [9] INFO ClientRpcReflectionWorker - Ticket sold 1  4 Adrian noOfSeats: 1
+2023-04-24 13:20:59,271 [8] INFO ClientRpcReflectionWorker - Response sent
+2023-04-24 13:20:59,272 [9] INFO ClientRpcReflectionWorker - Response sent
+2023-04-24 13:21:06,872 [3] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 13:21:06,873 [3] INFO ShowDBRepository - finding all shows dto
+2023-04-24 13:21:06,874 [3] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 13:21:07,889 [3] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 13:21:07,891 [3] INFO ShowDBRepository - finding all shows dto
+2023-04-24 13:21:07,891 [3] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 13:21:10,634 [3] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 13:21:10,634 [3] INFO ShowDBRepository - finding all shows dto
+2023-04-24 13:21:10,635 [3] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 13:21:11,707 [3] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 13:21:11,709 [3] INFO ShowDBRepository - finding all shows dto
+2023-04-24 13:21:11,709 [3] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 13:21:14,371 [3] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Andrei Deusu'}
+2023-04-24 13:21:14,373 [3] INFO ClientRpcReflectionWorker - User logged out
+2023-04-24 13:21:21,515 [1] INFO AbstractServer - Client connected ...
+2023-04-24 13:21:21,517 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:21:21,517 [10] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 13:21:21,518 [10] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 13:21:21,518 [10] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-24 13:21:21,520 [10] ERROR ClientRpcReflectionWorker - Error in worker (solving method handleLOGIN): {0}
+SeventhWeekCSharpServerClient.services.MyException: User already logged in.
+   at SeventhWeekCSharpServerClient.server.ServicesImpl.AuthenticateEmployee(Employee`1 employee, IObserver employeeObserver) in C:\GIT\mpp-proiect-csharp-MartinFabianIonut\SeventhWeekCSharpServerClient\SeventhWeekCSharpServerClient\ServicesImpl.cs:line 42
+   at SeventhWeekCSharpServerClient.networking.ClientRpcReflectionWorker.HandleLOGIN(Request request) in C:\GIT\mpp-proiect-csharp-MartinFabianIonut\SeventhWeekCSharpServerClient\networking\ClientRpcReflectionWorker.cs:line 119
+2023-04-24 13:21:25,754 [1] INFO AbstractServer - Client connected ...
+2023-04-24 13:21:25,755 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:21:25,755 [9] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 13:21:25,756 [9] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 13:21:25,756 [9] INFO EmployeeDBRepository - Andrei Deusu
+2023-04-24 13:21:25,757 [9] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-24 13:21:26,763 [9] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 13:21:26,764 [9] INFO ShowDBRepository - finding all shows dto
+2023-04-24 13:21:26,765 [9] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 13:21:30,648 [9] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Andrei Deusu'}
+2023-04-24 13:21:30,649 [9] INFO ClientRpcReflectionWorker - User logged out
+2023-04-24 13:21:41,063 [6] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Marcu Ioan'}
+2023-04-24 13:21:41,064 [6] INFO ClientRpcReflectionWorker - User logged out
+2023-04-24 13:27:32,495 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-24 13:27:32,504 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-24 13:27:32,505 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-24 13:27:32,505 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-24 13:27:32,506 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-24 13:27:32,517 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:27:46,469 [1] INFO AbstractServer - Client connected ...
+2023-04-24 13:27:46,471 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:27:46,473 [9] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 13:27:46,485 [9] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 13:27:46,544 [9] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-24 13:27:46,545 [9] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-24 13:27:47,561 [9] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 13:27:47,563 [9] INFO ShowDBRepository - finding all shows dto
+2023-04-24 13:27:47,564 [9] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 13:27:52,727 [9] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Marcu Ioan'}
+2023-04-24 13:27:52,728 [9] INFO ClientRpcReflectionWorker - User logged out
+2023-04-24 13:30:24,471 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-24 13:30:24,482 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-24 13:30:24,483 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-24 13:30:24,483 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-24 13:30:24,484 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-24 13:30:24,490 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:30:33,420 [1] INFO AbstractServer - Client connected ...
+2023-04-24 13:30:33,421 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:30:33,425 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 13:30:33,436 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 13:30:33,493 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-24 13:30:33,495 [5] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-24 13:30:34,499 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 13:30:34,500 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-24 13:30:34,503 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 13:31:41,033 [1] INFO AbstractServer - Client connected ...
+2023-04-24 13:31:41,034 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:31:41,036 [6] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 13:31:41,036 [6] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 13:31:41,036 [6] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-24 13:31:41,037 [6] ERROR ClientRpcReflectionWorker - Error in worker (solving method handleLOGIN): {0}
+SeventhWeekCSharpServerClient.services.MyException: User already logged in.
+   at SeventhWeekCSharpServerClient.server.ServicesImpl.AuthenticateEmployee(Employee`1 employee, IObserver employeeObserver) in C:\GIT\mpp-proiect-csharp-MartinFabianIonut\SeventhWeekCSharpServerClient\SeventhWeekCSharpServerClient\ServicesImpl.cs:line 42
+   at SeventhWeekCSharpServerClient.networking.ClientRpcReflectionWorker.HandleLOGIN(Request request) in C:\GIT\mpp-proiect-csharp-MartinFabianIonut\SeventhWeekCSharpServerClient\networking\ClientRpcReflectionWorker.cs:line 119
+2023-04-24 13:31:45,068 [1] INFO AbstractServer - Client connected ...
+2023-04-24 13:31:45,069 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:31:45,069 [8] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 13:31:45,070 [8] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 13:31:45,070 [8] INFO EmployeeDBRepository - Andrei Deusu
+2023-04-24 13:31:45,071 [8] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-24 13:31:46,084 [8] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 13:31:46,085 [8] INFO ShowDBRepository - finding all shows dto
+2023-04-24 13:31:46,086 [8] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 13:32:04,631 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-24 13:32:04,640 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-24 13:32:04,641 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-24 13:32:04,641 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-24 13:32:04,642 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-24 13:32:04,647 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:32:11,720 [1] INFO AbstractServer - Client connected ...
+2023-04-24 13:32:11,721 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:32:11,725 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 13:32:11,736 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 13:32:11,795 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-24 13:32:11,796 [5] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-24 13:32:12,815 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 13:32:12,817 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-24 13:32:12,819 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 13:32:24,205 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Marcu Ioan'}
+2023-04-24 13:32:24,206 [5] INFO ClientRpcReflectionWorker - User logged out
+2023-04-24 13:32:39,702 [1] INFO AbstractServer - Client connected ...
+2023-04-24 13:32:39,703 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:32:39,708 [8] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 13:32:39,708 [8] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 13:32:39,709 [8] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-24 13:32:39,709 [8] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-24 13:32:40,714 [8] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 13:32:40,715 [8] INFO ShowDBRepository - finding all shows dto
+2023-04-24 13:32:40,716 [8] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 13:33:48,289 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-24 13:33:48,299 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-24 13:33:48,300 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-24 13:33:48,300 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-24 13:33:48,302 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-24 13:33:48,308 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:33:55,086 [1] INFO AbstractServer - Client connected ...
+2023-04-24 13:33:55,087 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:33:55,090 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 13:33:55,101 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 13:33:55,161 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-24 13:33:55,163 [5] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-24 13:33:56,168 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 13:33:56,169 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-24 13:33:56,171 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 13:34:00,778 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Marcu Ioan'}
+2023-04-24 13:34:00,779 [5] INFO ClientRpcReflectionWorker - User logged out
+2023-04-24 13:34:12,005 [1] INFO AbstractServer - Client connected ...
+2023-04-24 13:34:12,006 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:34:12,010 [6] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 13:34:12,011 [6] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 13:34:12,012 [6] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-24 13:34:12,012 [6] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-24 13:34:13,018 [6] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 13:34:13,020 [6] INFO ShowDBRepository - finding all shows dto
+2023-04-24 13:34:13,020 [6] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 13:34:44,589 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-24 13:34:44,598 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-24 13:34:44,599 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-24 13:34:44,599 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-24 13:34:44,600 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-24 13:34:44,606 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:34:49,218 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-24 13:34:49,227 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-24 13:34:49,228 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-24 13:34:49,229 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-24 13:34:49,230 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-24 13:34:49,234 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:34:56,562 [1] INFO AbstractServer - Client connected ...
+2023-04-24 13:34:56,564 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:34:56,567 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 13:34:56,579 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 13:34:56,639 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-24 13:34:56,640 [5] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-24 13:34:57,654 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 13:34:57,655 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-24 13:34:57,657 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 13:35:05,204 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Marcu Ioan'}
+2023-04-24 13:35:05,205 [5] INFO ClientRpcReflectionWorker - User logged out
+2023-04-24 13:37:47,311 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-24 13:37:47,320 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-24 13:37:47,320 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-24 13:37:47,321 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-24 13:37:47,322 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-24 13:37:47,327 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:37:54,656 [1] INFO AbstractServer - Client connected ...
+2023-04-24 13:37:54,657 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:37:54,660 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 13:37:54,671 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 13:37:54,730 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-24 13:37:54,732 [5] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-24 13:37:55,738 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 13:37:55,739 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-24 13:37:55,741 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 13:38:03,502 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Marcu Ioan'}
+2023-04-24 13:38:03,503 [5] INFO ClientRpcReflectionWorker - User logged out
+2023-04-24 13:39:36,789 [1] INFO AbstractServer - Client connected ...
+2023-04-24 13:39:36,790 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:39:36,791 [7] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 13:39:36,791 [7] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 13:39:36,792 [7] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-24 13:39:36,792 [7] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-24 13:39:37,806 [7] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 13:39:37,808 [7] INFO ShowDBRepository - finding all shows dto
+2023-04-24 13:39:37,809 [7] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 13:39:46,085 [7] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Marcu Ioan'}
+2023-04-24 13:39:46,087 [7] INFO ClientRpcReflectionWorker - User logged out
+2023-04-24 13:40:01,395 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-24 13:40:01,404 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-24 13:40:01,404 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-24 13:40:01,405 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-24 13:40:01,406 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-24 13:40:01,411 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:40:08,528 [1] INFO AbstractServer - Client connected ...
+2023-04-24 13:40:08,529 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:40:08,532 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 13:40:08,543 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 13:40:08,601 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-24 13:40:08,602 [5] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-24 13:40:09,619 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 13:40:09,620 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-24 13:40:09,623 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 13:40:13,824 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Marcu Ioan'}
+2023-04-24 13:40:13,824 [5] INFO ClientRpcReflectionWorker - User logged out
+2023-04-24 13:40:27,646 [1] INFO AbstractServer - Client connected ...
+2023-04-24 13:40:27,647 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:40:27,649 [6] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 13:40:27,650 [6] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 13:40:27,650 [6] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-24 13:40:27,651 [6] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-24 13:40:28,663 [6] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 13:40:28,664 [6] INFO ShowDBRepository - finding all shows dto
+2023-04-24 13:40:28,665 [6] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 13:40:31,413 [6] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Marcu Ioan'}
+2023-04-24 13:40:31,413 [6] INFO ClientRpcReflectionWorker - User logged out
+2023-04-24 13:40:52,926 [1] INFO AbstractServer - Client connected ...
+2023-04-24 13:40:52,927 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:40:52,928 [8] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 13:40:52,928 [8] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 13:40:52,929 [8] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-24 13:40:52,929 [8] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-24 13:40:53,944 [8] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 13:40:53,944 [8] INFO ShowDBRepository - finding all shows dto
+2023-04-24 13:40:53,946 [8] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 13:40:57,382 [8] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Marcu Ioan'}
+2023-04-24 13:40:57,383 [8] INFO ClientRpcReflectionWorker - User logged out
+2023-04-24 13:42:04,558 [1] INFO AbstractServer - Client connected ...
+2023-04-24 13:42:04,560 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:42:04,561 [11] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 13:42:04,562 [11] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 13:42:04,562 [11] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-24 13:42:04,563 [11] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-24 13:42:05,575 [11] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 13:42:05,575 [11] INFO ShowDBRepository - finding all shows dto
+2023-04-24 13:42:05,576 [11] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 13:42:11,360 [11] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Marcu Ioan'}
+2023-04-24 13:42:11,361 [11] INFO ClientRpcReflectionWorker - User logged out
+2023-04-24 13:52:05,305 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-24 13:52:05,311 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-24 13:52:05,311 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-24 13:52:05,311 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-24 13:52:05,315 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-24 13:52:05,315 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:52:18,088 [1] INFO AbstractServer - Client connected ...
+2023-04-24 13:52:18,090 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:52:18,093 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 13:52:18,105 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 13:52:18,157 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-24 13:52:18,157 [5] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-24 13:52:19,171 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 13:52:19,173 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-24 13:52:19,173 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 13:52:23,506 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Marcu Ioan'}
+2023-04-24 13:52:23,512 [5] INFO ClientRpcReflectionWorker - User logged out
+2023-04-24 13:52:35,268 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-24 13:52:35,285 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-24 13:52:35,286 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-24 13:52:35,286 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-24 13:52:35,286 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-24 13:52:35,286 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:52:43,068 [1] INFO AbstractServer - Client connected ...
+2023-04-24 13:52:43,068 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:52:43,084 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 13:52:43,084 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 13:52:43,148 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-24 13:52:43,148 [5] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-24 13:52:44,170 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 13:52:44,171 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-24 13:52:44,174 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 13:54:23,023 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-24 13:54:23,030 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-24 13:54:23,032 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-24 13:54:23,032 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-24 13:54:23,033 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-24 13:54:23,038 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:54:29,452 [1] INFO AbstractServer - Client connected ...
+2023-04-24 13:54:29,454 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:54:29,458 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 13:54:29,469 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 13:54:29,526 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-24 13:54:29,527 [5] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-24 13:54:30,536 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 13:54:30,538 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-24 13:54:30,540 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 13:54:54,050 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Marcu Ioan'}
+2023-04-24 13:54:54,051 [5] INFO ClientRpcReflectionWorker - User logged out
+2023-04-24 13:55:25,923 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-24 13:55:25,931 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-24 13:55:25,932 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-24 13:55:25,933 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-24 13:55:25,934 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-24 13:55:25,938 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:55:33,379 [1] INFO AbstractServer - Client connected ...
+2023-04-24 13:55:33,380 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:55:33,384 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 13:55:33,396 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 13:55:33,451 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-24 13:55:33,453 [5] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-24 13:55:34,461 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 13:55:34,461 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-24 13:55:34,463 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 13:55:40,172 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Marcu Ioan'}
+2023-04-24 13:55:40,173 [5] INFO ClientRpcReflectionWorker - User logged out
+2023-04-24 13:56:33,427 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-24 13:56:33,435 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-24 13:56:33,436 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-24 13:56:33,436 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-24 13:56:33,437 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-24 13:56:33,442 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:56:44,549 [1] INFO AbstractServer - Client connected ...
+2023-04-24 13:56:44,551 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 13:56:44,554 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 13:56:44,566 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 13:56:44,621 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-24 13:56:44,622 [5] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-24 13:56:45,642 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 13:56:45,643 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-24 13:56:45,645 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 13:56:48,026 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Marcu Ioan'}
+2023-04-24 13:56:48,027 [5] INFO ClientRpcReflectionWorker - User logged out
+2023-04-24 20:27:28,697 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-24 20:27:28,698 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-24 20:27:28,698 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-24 20:27:28,698 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-24 20:27:28,709 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-24 20:27:28,714 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 20:27:39,039 [1] INFO AbstractServer - Client connected ...
+2023-04-24 20:27:39,039 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 20:27:39,039 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 20:27:39,069 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 20:27:39,163 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-24 20:27:39,163 [5] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-24 20:27:40,176 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 20:27:40,178 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-24 20:27:40,180 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 20:27:43,336 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Marcu Ioan'}
+2023-04-24 20:27:43,337 [5] INFO ClientRpcReflectionWorker - User logged out
+2023-04-24 20:28:33,491 [1] INFO AbstractServer - Client connected ...
+2023-04-24 20:28:33,492 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 20:28:33,494 [6] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 20:28:33,495 [6] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 20:28:33,496 [6] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-24 20:28:33,496 [6] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-24 20:28:34,512 [6] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 20:28:34,513 [6] INFO ShowDBRepository - finding all shows dto
+2023-04-24 20:28:34,513 [6] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 20:28:37,324 [6] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Marcu Ioan'}
+2023-04-24 20:28:37,325 [6] INFO ClientRpcReflectionWorker - User logged out
+2023-04-24 20:34:27,665 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-24 20:34:27,665 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-24 20:34:27,665 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-24 20:34:27,665 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-24 20:34:27,679 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-24 20:34:27,682 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 20:34:34,655 [1] INFO AbstractServer - Client connected ...
+2023-04-24 20:34:34,657 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 20:34:34,659 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 20:34:34,670 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 20:34:34,728 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-24 20:34:34,730 [5] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-24 20:34:35,747 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 20:34:35,748 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-24 20:34:35,751 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 20:34:47,002 [5] INFO ClientRpcReflectionWorker - method entered: handleBUY_TICKET with parameters Request{type='BUY_TICKET', data='1  5 Edward noOfSeats: 1'}
+2023-04-24 20:34:47,004 [5] INFO TicketDBRepository - adding ticket to available seat
+2023-04-24 20:34:47,009 [5] INFO TicketDBRepository - ticket bought successfully 1  5 Edward noOfSeats: 1
+2023-04-24 20:34:47,012 [5] INFO ClientRpcReflectionWorker - Ticket bought
+2023-04-24 20:34:47,014 [7] INFO ClientRpcReflectionWorker - Ticket sold 1  5 Edward noOfSeats: 1
+2023-04-24 20:34:47,016 [7] INFO ClientRpcReflectionWorker - Response sent
+2023-04-24 20:35:10,829 [1] INFO AbstractServer - Client connected ...
+2023-04-24 20:35:10,831 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 20:35:10,833 [8] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 20:35:10,833 [8] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 20:35:10,834 [8] INFO EmployeeDBRepository - Andrei Deusu
+2023-04-24 20:35:10,834 [8] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-24 20:35:11,847 [8] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 20:35:11,848 [8] INFO ShowDBRepository - finding all shows dto
+2023-04-24 20:35:11,848 [8] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 20:35:16,296 [8] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 20:35:16,297 [8] INFO ShowDBRepository - finding all shows dto
+2023-04-24 20:35:16,298 [8] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 20:35:17,467 [8] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 20:35:17,468 [8] INFO ShowDBRepository - finding all shows dto
+2023-04-24 20:35:17,469 [8] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 20:35:18,590 [8] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 20:35:18,591 [8] INFO ShowDBRepository - finding all shows dto
+2023-04-24 20:35:18,593 [8] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 20:35:19,698 [8] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 20:35:19,699 [8] INFO ShowDBRepository - finding all shows dto
+2023-04-24 20:35:19,701 [8] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 20:35:26,029 [8] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Andrei Deusu'}
+2023-04-24 20:35:26,030 [8] INFO ClientRpcReflectionWorker - User logged out
+2023-04-24 20:36:05,232 [1] INFO AbstractServer - Client connected ...
+2023-04-24 20:36:05,234 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 20:36:05,236 [10] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 20:36:05,237 [10] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 20:36:05,238 [10] INFO EmployeeDBRepository - Andrei Deusu
+2023-04-24 20:36:05,238 [10] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-24 20:36:06,251 [10] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 20:36:06,252 [10] INFO ShowDBRepository - finding all shows dto
+2023-04-24 20:36:06,252 [10] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 20:36:08,599 [10] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 20:36:08,599 [10] INFO ShowDBRepository - finding all shows dto
+2023-04-24 20:36:08,601 [10] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 20:36:09,611 [10] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 20:36:09,613 [10] INFO ShowDBRepository - finding all shows dto
+2023-04-24 20:36:09,614 [10] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 20:36:11,640 [10] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 20:36:11,640 [10] INFO ShowDBRepository - finding all shows dto
+2023-04-24 20:36:11,643 [10] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 20:36:12,837 [10] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 20:36:12,838 [10] INFO ShowDBRepository - finding all shows dto
+2023-04-24 20:36:12,839 [10] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 20:36:19,881 [10] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Andrei Deusu'}
+2023-04-24 20:36:19,882 [10] INFO ClientRpcReflectionWorker - User logged out
+2023-04-24 20:39:16,783 [1] INFO AbstractServer - Client connected ...
+2023-04-24 20:39:16,785 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 20:39:16,790 [8] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 20:39:16,790 [8] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 20:39:16,791 [8] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-24 20:39:16,791 [8] ERROR ClientRpcReflectionWorker - Error in worker (solving method handleLOGIN): {0}
+SeventhWeekCSharpServerClient.services.MyException: User already logged in.
+   at SeventhWeekCSharpServerClient.server.ServicesImpl.AuthenticateEmployee(Employee`1 employee, IObserver employeeObserver) in C:\GIT\mpp-proiect-csharp-MartinFabianIonut\SeventhWeekCSharpServerClient\SeventhWeekCSharpServerClient\ServicesImpl.cs:line 42
+   at SeventhWeekCSharpServerClient.networking.ClientRpcReflectionWorker.HandleLOGIN(Request request) in C:\GIT\mpp-proiect-csharp-MartinFabianIonut\SeventhWeekCSharpServerClient\networking\ClientRpcReflectionWorker.cs:line 119
+2023-04-24 20:39:23,517 [1] INFO AbstractServer - Client connected ...
+2023-04-24 20:39:23,519 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 20:39:23,521 [4] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 20:39:23,522 [4] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 20:39:23,522 [4] INFO EmployeeDBRepository - Andrei Deusu
+2023-04-24 20:39:23,523 [4] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-24 20:39:24,537 [4] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 20:39:24,538 [4] INFO ShowDBRepository - finding all shows dto
+2023-04-24 20:39:24,539 [4] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 20:41:31,001 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-24 20:41:31,010 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-24 20:41:31,011 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-24 20:41:31,012 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-24 20:41:31,013 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-24 20:41:31,018 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 20:41:40,139 [1] INFO AbstractServer - Client connected ...
+2023-04-24 20:41:40,141 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 20:41:40,143 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 20:41:40,154 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 20:41:40,212 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-24 20:41:40,213 [5] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-24 20:41:41,219 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 20:41:41,221 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-24 20:41:41,223 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 20:41:51,186 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Marcu Ioan'}
+2023-04-24 20:41:51,188 [5] INFO ClientRpcReflectionWorker - User logged out
+2023-04-24 20:42:41,046 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-24 20:42:41,054 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-24 20:42:41,055 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-24 20:42:41,055 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-24 20:42:41,056 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-24 20:42:41,062 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 20:42:49,418 [1] INFO AbstractServer - Client connected ...
+2023-04-24 20:42:49,420 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 20:42:49,423 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 20:42:49,434 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 20:42:49,493 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-24 20:42:49,494 [5] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-24 20:42:50,502 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 20:42:50,503 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-24 20:42:50,504 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-24 20:42:56,447 [1] INFO AbstractServer - Client connected ...
+2023-04-24 20:42:56,448 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 20:42:56,449 [6] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 20:42:56,450 [6] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 20:42:56,450 [6] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-24 20:42:56,451 [6] ERROR ClientRpcReflectionWorker - Error in worker (solving method handleLOGIN): {0}
+SeventhWeekCSharpServerClient.services.MyException: User already logged in.
+   at SeventhWeekCSharpServerClient.server.ServicesImpl.AuthenticateEmployee(Employee`1 employee, IObserver employeeObserver) in C:\GIT\mpp-proiect-csharp-MartinFabianIonut\SeventhWeekCSharpServerClient\SeventhWeekCSharpServerClient\ServicesImpl.cs:line 42
+   at SeventhWeekCSharpServerClient.networking.ClientRpcReflectionWorker.HandleLOGIN(Request request) in C:\GIT\mpp-proiect-csharp-MartinFabianIonut\SeventhWeekCSharpServerClient\networking\ClientRpcReflectionWorker.cs:line 119
+2023-04-24 23:49:56,034 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-24 23:49:56,043 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-24 23:49:56,043 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-24 23:49:56,043 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-24 23:49:56,044 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-24 23:49:56,049 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 23:50:07,465 [1] INFO AbstractServer - Client connected ...
+2023-04-24 23:50:07,467 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-24 23:50:07,503 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-24 23:50:07,532 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 23:50:07,618 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-24 23:50:07,621 [5] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-24 23:50:28,905 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-24 23:50:28,906 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-24 23:50:28,908 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[SeventhWeekCSharpServerClient.domain.ShowDTO`1[System.Int32]]
+2023-04-26 10:40:57,977 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-26 10:40:57,985 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-26 10:40:57,986 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-26 10:40:57,986 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-26 10:40:57,987 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-26 10:40:57,993 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-26 10:41:08,452 [1] INFO AbstractServer - Client connected ...
+2023-04-26 10:41:08,454 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-26 10:41:08,457 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-26 10:41:08,478 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-26 10:41:08,580 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-26 10:41:08,581 [5] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-26 10:41:09,601 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-26 10:41:09,602 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-26 10:41:09,604 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[ProtobuffProject.domain.ShowDTO`1[System.Int32]]
+2023-04-26 10:41:12,741 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Marcu Ioan'}
+2023-04-26 10:41:12,742 [5] INFO ClientRpcReflectionWorker - User logged out
+2023-04-26 23:14:05,797 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-26 23:14:05,804 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-26 23:14:05,804 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-26 23:14:05,806 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-26 23:14:05,807 [1] INFO RpcConcurrentServer - ProtobuffConcurrentServer created
+2023-04-26 23:14:05,811 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-26 23:14:24,023 [1] INFO AbstractServer - Client connected ...
+2023-04-26 23:14:24,094 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-26 23:14:24,334 [6] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-26 23:14:24,447 [6] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-26 23:14:25,542 [6] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:20:00,165 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-26 23:20:00,175 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-26 23:20:00,175 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-26 23:20:00,177 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-26 23:20:00,178 [1] INFO RpcConcurrentServer - ProtobuffConcurrentServer created
+2023-04-26 23:20:00,182 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-26 23:20:07,854 [1] INFO AbstractServer - Client connected ...
+2023-04-26 23:20:07,865 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-26 23:20:40,283 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-26 23:20:40,283 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-26 23:20:40,283 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-26 23:20:40,283 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-26 23:20:40,283 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-26 23:20:40,300 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-26 23:20:47,533 [1] INFO AbstractServer - Client connected ...
+2023-04-26 23:20:47,533 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-26 23:20:47,537 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-26 23:20:47,544 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-26 23:20:47,601 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-26 23:20:47,601 [5] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-26 23:20:48,629 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-26 23:20:48,630 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:20:48,631 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[ProtobuffProject.domain.ShowDTO`1[System.Int32]]
+2023-04-26 23:21:03,599 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Marcu Ioan'}
+2023-04-26 23:21:03,599 [5] INFO ClientRpcReflectionWorker - User logged out
+2023-04-26 23:21:42,301 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-26 23:21:42,301 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-26 23:21:42,301 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-26 23:21:42,301 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-26 23:21:42,301 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-26 23:21:42,318 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-26 23:21:49,092 [1] INFO AbstractServer - Client connected ...
+2023-04-26 23:21:49,092 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-26 23:21:49,101 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-26 23:21:49,107 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-26 23:21:49,171 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-26 23:21:49,171 [5] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-26 23:21:50,186 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-26 23:21:50,186 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:21:50,189 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[ProtobuffProject.domain.ShowDTO`1[System.Int32]]
+2023-04-26 23:21:59,110 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-26 23:21:59,112 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:21:59,113 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[ProtobuffProject.domain.ShowDTO`1[System.Int32]]
+2023-04-26 23:22:00,131 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-26 23:22:00,131 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:22:00,131 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[ProtobuffProject.domain.ShowDTO`1[System.Int32]]
+2023-04-26 23:22:01,154 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-26 23:22:01,157 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:22:01,158 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[ProtobuffProject.domain.ShowDTO`1[System.Int32]]
+2023-04-26 23:22:02,173 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-26 23:22:02,173 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:22:02,179 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[ProtobuffProject.domain.ShowDTO`1[System.Int32]]
+2023-04-26 23:22:14,582 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Marcu Ioan'}
+2023-04-26 23:22:14,582 [5] INFO ClientRpcReflectionWorker - User logged out
+2023-04-26 23:23:52,050 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-26 23:23:52,050 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-26 23:23:52,050 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-26 23:23:52,050 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-26 23:23:52,062 [1] INFO RpcConcurrentServer - RpcConcurrentServer created
+2023-04-26 23:23:52,065 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-26 23:23:59,718 [1] INFO AbstractServer - Client connected ...
+2023-04-26 23:23:59,718 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-26 23:23:59,718 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGIN with parameters Request{type='LOGIN', data=' '}
+2023-04-26 23:23:59,732 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-26 23:23:59,797 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-26 23:23:59,797 [5] INFO ClientRpcReflectionWorker - Employee logged in
+2023-04-26 23:24:00,820 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-26 23:24:00,822 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:24:00,822 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[ProtobuffProject.domain.ShowDTO`1[System.Int32]]
+2023-04-26 23:24:03,989 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-26 23:24:03,993 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:24:03,994 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[ProtobuffProject.domain.ShowDTO`1[System.Int32]]
+2023-04-26 23:24:05,153 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-26 23:24:05,153 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:24:05,154 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[ProtobuffProject.domain.ShowDTO`1[System.Int32]]
+2023-04-26 23:24:06,635 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-26 23:24:06,635 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:24:06,635 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[ProtobuffProject.domain.ShowDTO`1[System.Int32]]
+2023-04-26 23:24:07,838 [5] INFO ClientRpcReflectionWorker - method entered: handleGET_ALL_SHOWS with parameters Request{type='GET_ALL_SHOWS', data=''}
+2023-04-26 23:24:07,838 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:24:07,838 [5] INFO ClientRpcReflectionWorker - Shows found System.Collections.Generic.List`1[ProtobuffProject.domain.ShowDTO`1[System.Int32]]
+2023-04-26 23:24:17,641 [5] INFO ClientRpcReflectionWorker - method entered: handleLOGOUT with parameters Request{type='LOGOUT', data='Marcu Ioan'}
+2023-04-26 23:24:17,641 [5] INFO ClientRpcReflectionWorker - User logged out
+2023-04-26 23:24:43,783 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-26 23:24:43,791 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-26 23:24:43,792 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-26 23:24:43,792 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-26 23:24:43,793 [1] INFO RpcConcurrentServer - ProtobuffConcurrentServer created
+2023-04-26 23:24:43,799 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-26 23:24:54,374 [1] INFO AbstractServer - Client connected ...
+2023-04-26 23:24:54,377 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-26 23:24:54,510 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-26 23:24:54,572 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-26 23:24:55,671 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:24:56,695 [5] INFO ArtistDBRepository - finding all artists
+2023-04-26 23:24:56,696 [5] INFO ArtistDBRepository - {Ionel Marinesecu, Liam Payne, Selena Gomez, Adele , Harry Styles}
+2023-04-26 23:25:10,260 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:25:11,272 [5] INFO ArtistDBRepository - find an artist by id
+2023-04-26 23:25:11,273 [5] INFO ArtistDBRepository - Ionel Marinesecu
+2023-04-26 23:25:12,277 [5] INFO ArtistDBRepository - find an artist by id
+2023-04-26 23:25:12,278 [5] INFO ArtistDBRepository - Adele 
+2023-04-26 23:25:13,288 [5] INFO ArtistDBRepository - find an artist by id
+2023-04-26 23:25:13,289 [5] INFO ArtistDBRepository - Harry Styles
+2023-04-26 23:25:14,293 [5] INFO ArtistDBRepository - find an artist by id
+2023-04-26 23:25:14,294 [5] INFO ArtistDBRepository - Adele 
+2023-04-26 23:25:15,300 [5] INFO ArtistDBRepository - find an artist by id
+2023-04-26 23:25:15,302 [5] INFO ArtistDBRepository - Selena Gomez
+2023-04-26 23:25:16,308 [5] INFO ArtistDBRepository - find an artist by id
+2023-04-26 23:25:16,309 [5] INFO ArtistDBRepository - Liam Payne
+2023-04-26 23:25:33,211 [5] INFO TicketDBRepository - adding ticket to available seat
+2023-04-26 23:25:34,222 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:27:56,740 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-26 23:27:56,749 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-26 23:27:56,749 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-26 23:27:56,750 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-26 23:27:56,751 [1] INFO RpcConcurrentServer - ProtobuffConcurrentServer created
+2023-04-26 23:27:56,755 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-26 23:28:05,947 [1] INFO AbstractServer - Client connected ...
+2023-04-26 23:28:05,950 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-26 23:28:06,084 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-26 23:28:06,143 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-26 23:28:07,240 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:28:08,250 [5] INFO ArtistDBRepository - finding all artists
+2023-04-26 23:28:08,252 [5] INFO ArtistDBRepository - {Ionel Marinesecu, Liam Payne, Selena Gomez, Adele , Harry Styles}
+2023-04-26 23:28:27,786 [5] INFO TicketDBRepository - adding ticket to available seat
+2023-04-26 23:28:28,791 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:31:20,969 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-26 23:31:20,983 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-26 23:31:20,992 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-26 23:31:20,993 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-26 23:31:20,993 [1] INFO RpcConcurrentServer - ProtobuffConcurrentServer created
+2023-04-26 23:31:21,001 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-26 23:31:30,162 [1] INFO AbstractServer - Client connected ...
+2023-04-26 23:31:30,176 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-26 23:31:30,367 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-26 23:31:30,439 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-26 23:31:31,536 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:31:32,546 [5] INFO ArtistDBRepository - finding all artists
+2023-04-26 23:31:32,547 [5] INFO ArtistDBRepository - {Ionel Marinesecu, Liam Payne, Selena Gomez, Adele , Harry Styles}
+2023-04-26 23:31:51,071 [5] INFO TicketDBRepository - adding ticket to available seat
+2023-04-26 23:33:44,513 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-26 23:33:44,521 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-26 23:33:44,521 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-26 23:33:44,523 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-26 23:33:44,524 [1] INFO RpcConcurrentServer - ProtobuffConcurrentServer created
+2023-04-26 23:33:44,528 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-26 23:33:52,657 [1] INFO AbstractServer - Client connected ...
+2023-04-26 23:33:52,660 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-26 23:33:52,792 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-26 23:33:52,852 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-26 23:33:53,940 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:33:54,950 [5] INFO ArtistDBRepository - finding all artists
+2023-04-26 23:33:54,952 [5] INFO ArtistDBRepository - {Ionel Marinesecu, Liam Payne, Selena Gomez, Adele , Harry Styles}
+2023-04-26 23:33:59,419 [5] INFO TicketDBRepository - adding ticket to available seat
+2023-04-26 23:33:59,426 [5] INFO TicketDBRepository - ticket bought successfully 1  6 Emanuel noOfSeats: 1
+2023-04-26 23:34:00,444 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:34:13,678 [1] INFO AbstractServer - Client connected ...
+2023-04-26 23:34:13,679 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-26 23:34:13,680 [9] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-26 23:34:13,681 [9] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-26 23:34:14,689 [9] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:34:15,698 [9] INFO ArtistDBRepository - finding all artists
+2023-04-26 23:34:15,700 [9] INFO ArtistDBRepository - {Ionel Marinesecu, Liam Payne, Selena Gomez, Adele , Harry Styles}
+2023-04-26 23:34:39,125 [9] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:34:40,145 [9] INFO ArtistDBRepository - find an artist by id
+2023-04-26 23:34:40,146 [9] INFO ArtistDBRepository - Ionel Marinesecu
+2023-04-26 23:34:41,152 [9] INFO ArtistDBRepository - find an artist by id
+2023-04-26 23:34:41,154 [9] INFO ArtistDBRepository - Adele 
+2023-04-26 23:34:42,162 [9] INFO ArtistDBRepository - find an artist by id
+2023-04-26 23:34:42,165 [9] INFO ArtistDBRepository - Harry Styles
+2023-04-26 23:34:43,170 [9] INFO ArtistDBRepository - find an artist by id
+2023-04-26 23:34:43,171 [9] INFO ArtistDBRepository - Adele 
+2023-04-26 23:34:44,177 [9] INFO ArtistDBRepository - find an artist by id
+2023-04-26 23:34:44,178 [9] INFO ArtistDBRepository - Selena Gomez
+2023-04-26 23:34:45,184 [9] INFO ArtistDBRepository - find an artist by id
+2023-04-26 23:34:45,186 [9] INFO ArtistDBRepository - Liam Payne
+2023-04-26 23:39:00,368 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-26 23:39:00,378 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-26 23:39:00,378 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-26 23:39:00,379 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-26 23:39:00,380 [1] INFO RpcConcurrentServer - ProtobuffConcurrentServer created
+2023-04-26 23:39:00,384 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-26 23:39:07,545 [1] INFO AbstractServer - Client connected ...
+2023-04-26 23:39:07,548 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-26 23:39:07,683 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-26 23:39:07,743 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-26 23:39:08,835 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:39:14,416 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:40:15,492 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-26 23:40:15,500 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-26 23:40:15,501 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-26 23:40:15,502 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-26 23:40:15,503 [1] INFO RpcConcurrentServer - ProtobuffConcurrentServer created
+2023-04-26 23:40:15,508 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-26 23:40:23,743 [1] INFO AbstractServer - Client connected ...
+2023-04-26 23:40:23,746 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-26 23:40:23,880 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-26 23:40:23,942 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-26 23:40:25,041 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:41:05,092 [1] INFO AbstractServer - Client connected ...
+2023-04-26 23:41:05,093 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-26 23:41:05,207 [6] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-26 23:41:05,208 [6] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-26 23:41:17,492 [1] INFO AbstractServer - Client connected ...
+2023-04-26 23:41:17,494 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-26 23:41:17,494 [8] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-26 23:41:17,495 [8] INFO EmployeeDBRepository - Andrei Deusu
+2023-04-26 23:41:18,510 [8] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:41:30,752 [8] INFO TicketDBRepository - adding ticket to available seat
+2023-04-26 23:41:30,760 [8] INFO TicketDBRepository - ticket bought successfully 1  5 Cristian noOfSeats: 2
+2023-04-26 23:41:30,767 [8] INFO TicketDBRepository - ticket bought successfully 1  5 Cristian noOfSeats: 2
+2023-04-26 23:41:30,779 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:41:31,781 [8] INFO TicketDBRepository - adding ticket to available seat
+2023-04-26 23:41:31,789 [8] INFO TicketDBRepository - ticket bought successfully 1  5 Cristian noOfSeats: 2
+2023-04-26 23:41:31,794 [8] INFO TicketDBRepository - ticket bought successfully 1  5 Cristian noOfSeats: 2
+2023-04-26 23:41:31,803 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:41:32,807 [8] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:41:33,827 [8] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:41:50,221 [8] INFO TicketDBRepository - adding ticket to available seat
+2023-04-26 23:41:50,229 [8] INFO TicketDBRepository - ticket bought successfully 1  5 Dan noOfSeats: 1
+2023-04-26 23:41:50,235 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:41:51,239 [8] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:42:00,191 [5] INFO TicketDBRepository - adding ticket to available seat
+2023-04-26 23:42:00,198 [5] INFO TicketDBRepository - ticket bought successfully 1  5 Mirela noOfSeats: 1
+2023-04-26 23:42:00,203 [8] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:42:01,215 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:42:09,186 [8] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:42:14,805 [8] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:42:21,470 [8] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:42:29,102 [1] INFO AbstractServer - Client connected ...
+2023-04-26 23:42:29,104 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-26 23:42:29,104 [15] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-26 23:42:29,106 [15] INFO EmployeeDBRepository - Andrei Deusu
+2023-04-26 23:42:30,116 [15] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:54:38,677 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-26 23:54:38,694 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-26 23:54:38,695 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-26 23:54:38,695 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-26 23:54:38,696 [1] INFO RpcConcurrentServer - ProtobuffConcurrentServer created
+2023-04-26 23:54:38,702 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-26 23:54:51,058 [1] INFO AbstractServer - Client connected ...
+2023-04-26 23:54:51,061 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-26 23:54:51,198 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-26 23:54:51,289 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-26 23:54:52,387 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-26 23:55:18,392 [1] INFO AbstractServer - Client connected ...
+2023-04-26 23:55:18,393 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-26 23:55:18,517 [7] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-26 23:55:18,518 [7] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-26 23:55:55,327 [1] INFO AbstractServer - Client connected ...
+2023-04-26 23:55:55,329 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-26 23:55:55,451 [9] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-26 23:55:55,453 [9] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-26 23:56:52,983 [1] INFO AbstractServer - Client connected ...
+2023-04-26 23:56:52,985 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-26 23:57:00,069 [11] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-26 23:57:00,072 [11] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-26 23:57:43,423 [1] INFO AbstractServer - Client connected ...
+2023-04-26 23:57:43,424 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-26 23:57:43,545 [13] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-26 23:57:43,546 [13] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-27 00:04:25,133 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-27 00:04:25,141 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-27 00:04:25,142 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-27 00:04:25,143 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-27 00:04:25,144 [1] INFO RpcConcurrentServer - ProtobuffConcurrentServer created
+2023-04-27 00:04:25,149 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-27 00:04:37,673 [1] INFO AbstractServer - Client connected ...
+2023-04-27 00:04:37,675 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-27 00:04:37,828 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-27 00:04:37,892 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-27 00:04:39,008 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-27 00:04:47,915 [1] INFO AbstractServer - Client connected ...
+2023-04-27 00:04:47,916 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-27 00:04:48,030 [6] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-27 00:04:48,031 [6] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-27 00:13:43,404 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-27 00:13:43,412 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-27 00:13:43,413 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-27 00:13:43,413 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-27 00:13:43,414 [1] INFO RpcConcurrentServer - ProtobuffConcurrentServer created
+2023-04-27 00:13:44,791 [1] INFO AbstractServer - Server stopped
+2023-04-27 00:14:22,944 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-27 00:14:22,953 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-27 00:14:22,953 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-27 00:14:22,954 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-27 00:14:22,955 [1] INFO RpcConcurrentServer - ProtobuffConcurrentServer created
+2023-04-27 00:14:24,092 [1] INFO AbstractServer - Server stopped
+2023-04-27 00:15:03,892 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-27 00:15:03,900 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-27 00:15:03,900 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-27 00:15:03,901 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-27 00:15:03,902 [1] INFO RpcConcurrentServer - ProtobuffConcurrentServer created
+2023-04-27 00:15:05,076 [1] INFO AbstractServer - Server stopped
+2023-04-27 00:15:07,958 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-27 00:15:07,966 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-27 00:15:07,966 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-27 00:15:07,967 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-27 00:15:07,968 [1] INFO RpcConcurrentServer - ProtobuffConcurrentServer created
+2023-04-27 00:15:09,089 [1] INFO AbstractServer - Server stopped
+2023-04-27 00:15:28,237 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-27 00:15:28,246 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-27 00:15:28,246 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-27 00:15:28,247 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-27 00:15:28,248 [1] INFO RpcConcurrentServer - ProtobuffConcurrentServer created
+2023-04-27 00:15:29,529 [1] INFO AbstractServer - Server stopped
+2023-04-27 00:15:31,982 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-27 00:15:31,992 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-27 00:15:31,992 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-27 00:15:31,993 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-27 00:15:31,995 [1] INFO RpcConcurrentServer - ProtobuffConcurrentServer created
+2023-04-27 00:15:33,132 [1] INFO AbstractServer - Server stopped
+2023-04-27 00:16:39,000 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-27 00:16:39,008 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-27 00:16:39,008 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-27 00:16:39,008 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-27 00:16:39,008 [1] INFO RpcConcurrentServer - ProtobuffConcurrentServer created
+2023-04-27 00:16:40,191 [1] INFO AbstractServer - Server stopped
+2023-04-27 00:17:04,304 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-27 00:17:04,313 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-27 00:17:04,314 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-27 00:17:04,315 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-27 00:17:04,317 [1] INFO RpcConcurrentServer - ProtobuffConcurrentServer created
+2023-04-27 00:17:04,322 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-27 00:17:15,303 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-27 00:17:15,316 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-27 00:17:15,317 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-27 00:17:15,317 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-27 00:17:15,319 [1] INFO RpcConcurrentServer - ProtobuffConcurrentServer created
+2023-04-27 00:17:16,344 [1] INFO AbstractServer - Server stopped
+2023-04-27 00:22:03,149 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-27 00:22:03,161 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-27 00:22:03,161 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-27 00:22:03,163 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-27 00:22:03,163 [1] INFO RpcConcurrentServer - ProtobuffConcurrentServer created
+2023-04-27 00:22:03,165 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-27 00:22:15,065 [1] INFO AbstractServer - Client connected ...
+2023-04-27 00:22:15,068 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-27 00:22:15,206 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-27 00:22:15,266 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-27 00:22:16,369 [5] INFO ShowDBRepository - finding all shows dto
+2023-04-27 00:22:35,002 [1] INFO AbstractServer - Client connected ...
+2023-04-27 00:22:35,003 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-27 00:22:35,116 [7] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-27 00:22:35,117 [7] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-27 00:24:50,341 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-27 00:24:50,350 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-27 00:24:50,352 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-27 00:24:50,353 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-27 00:24:50,354 [1] INFO RpcConcurrentServer - ProtobuffConcurrentServer created
+2023-04-27 00:24:50,359 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-27 00:24:56,106 [1] INFO AbstractServer - Client connected ...
+2023-04-27 00:24:56,109 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-27 00:24:56,245 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-27 00:24:56,306 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-27 00:25:22,879 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-27 00:25:22,887 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-27 00:25:22,887 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-27 00:25:22,888 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-27 00:25:22,889 [1] INFO RpcConcurrentServer - ProtobuffConcurrentServer created
+2023-04-27 00:25:22,894 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-27 00:25:33,455 [1] INFO AbstractServer - Client connected ...
+2023-04-27 00:25:33,457 [1] INFO AbstractServer - Waiting for clients ...
+2023-04-27 00:25:33,590 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-27 00:25:33,650 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-05-02 12:20:07,324 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-05-02 12:20:07,339 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-05-02 12:20:07,339 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-05-02 12:20:07,339 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-05-02 12:20:07,339 [1] INFO RpcConcurrentServer - ProtobuffConcurrentServer created
+2023-05-02 12:20:07,345 [1] INFO AbstractServer - Waiting for clients ...
+2023-05-02 12:20:20,416 [1] INFO AbstractServer - Client connected ...
+2023-05-02 12:20:20,419 [1] INFO AbstractServer - Waiting for clients ...
+2023-05-02 12:20:20,583 [5] INFO EmployeeDBRepository - find a employee by username and password
+2023-05-02 12:20:20,725 [5] INFO EmployeeDBRepository - Marcu Ioan
+2023-05-02 12:20:21,834 [5] INFO ShowDBRepository - finding all shows dto
+2023-05-02 12:21:01,827 [1] INFO AbstractServer - Client connected ...
+2023-05-02 12:21:01,827 [1] INFO AbstractServer - Waiting for clients ...
+2023-05-02 12:21:01,843 [4] INFO EmployeeDBRepository - find a employee by username and password
+2023-05-02 12:21:01,843 [4] INFO EmployeeDBRepository - Andrei Deusu
+2023-05-02 12:21:02,871 [4] INFO ShowDBRepository - finding all shows dto
+2023-05-02 12:21:15,493 [5] INFO TicketDBRepository - adding ticket to available seat
+2023-05-02 12:21:15,501 [5] INFO TicketDBRepository - ticket bought successfully 1  5 Damian noOfSeats: 3
+2023-05-02 12:21:15,506 [5] INFO TicketDBRepository - ticket bought successfully 1  5 Damian noOfSeats: 3
+2023-05-02 12:21:15,511 [5] INFO TicketDBRepository - ticket bought successfully 1  5 Damian noOfSeats: 3
+2023-05-02 12:21:16,520 [5] INFO TicketDBRepository - adding ticket to available seat
+2023-05-02 12:21:16,528 [5] INFO TicketDBRepository - ticket bought successfully 1  5 Damian noOfSeats: 3
+2023-05-02 12:21:16,532 [5] INFO TicketDBRepository - ticket bought successfully 1  5 Damian noOfSeats: 3
+2023-05-02 12:21:17,549 [5] INFO TicketDBRepository - adding ticket to available seat
+2023-05-02 12:21:18,555 [5] INFO ShowDBRepository - finding all shows dto
+2023-05-02 12:21:19,570 [5] INFO ShowDBRepository - finding all shows dto
+2023-05-02 12:21:20,581 [5] INFO ShowDBRepository - finding all shows dto

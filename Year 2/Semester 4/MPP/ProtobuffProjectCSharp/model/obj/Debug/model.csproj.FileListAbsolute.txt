@@ -1,0 +1,16 @@
+C:\GIT\mpp-proiect-csharp-MartinFabianIonut\SeventhWeekCSharpServerClient\model\obj\Debug\model.csproj.AssemblyReference.cache
+C:\GIT\mpp-proiect-csharp-MartinFabianIonut\SeventhWeekCSharpServerClient\model\obj\Debug\model.csproj.GenerateResource.cache
+C:\GIT\mpp-proiect-csharp-MartinFabianIonut\SeventhWeekCSharpServerClient\model\obj\Debug\model.csproj.CoreCompileInputs.cache
+C:\GIT\mpp-proiect-csharp-MartinFabianIonut\SeventhWeekCSharpServerClient\model\bin\Debug\model.dll
+C:\GIT\mpp-proiect-csharp-MartinFabianIonut\SeventhWeekCSharpServerClient\model\bin\Debug\model.pdb
+C:\GIT\mpp-proiect-csharp-MartinFabianIonut\SeventhWeekCSharpServerClient\model\obj\Debug\model.dll
+C:\GIT\mpp-proiect-csharp-MartinFabianIonut\SeventhWeekCSharpServerClient\model\obj\Debug\model.pdb
+C:\GIT\mpp-proiect-csharp-MartinFabianIonut\SeventhWeekCSharpServerClient\model\obj\Debug\SeventhWeekCSharpServerClient.domain.Properties.Resources.resources
+C:\GIT\mpp-proiect-csharp-MartinFabianIonut\ProtobuffProject\model\bin\Debug\model.dll
+C:\GIT\mpp-proiect-csharp-MartinFabianIonut\ProtobuffProject\model\bin\Debug\model.pdb
+C:\GIT\mpp-proiect-csharp-MartinFabianIonut\ProtobuffProject\model\obj\Debug\model.csproj.AssemblyReference.cache
+C:\GIT\mpp-proiect-csharp-MartinFabianIonut\ProtobuffProject\model\obj\Debug\ProtobuffProject.domain.Properties.Resources.resources
+C:\GIT\mpp-proiect-csharp-MartinFabianIonut\ProtobuffProject\model\obj\Debug\model.csproj.GenerateResource.cache
+C:\GIT\mpp-proiect-csharp-MartinFabianIonut\ProtobuffProject\model\obj\Debug\model.csproj.CoreCompileInputs.cache
+C:\GIT\mpp-proiect-csharp-MartinFabianIonut\ProtobuffProject\model\obj\Debug\model.dll
+C:\GIT\mpp-proiect-csharp-MartinFabianIonut\ProtobuffProject\model\obj\Debug\model.pdb
