@@ -1202,7 +1202,7 @@ namespace Test7
 int main()
 {
 	{
-		Test6::man4();
+		Test1::SmoothyMain();
 	}
 	_CrtDumpMemoryLeaks();
 	return 0;

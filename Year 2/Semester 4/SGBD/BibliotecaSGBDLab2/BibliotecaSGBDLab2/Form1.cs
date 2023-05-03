@@ -1,11 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Microsoft.Data.SqlClient;
 using System.Configuration;
@@ -54,7 +50,7 @@ namespace BibliotecaSGBDLab2
             textBoxes = new TextBox[size];
             labels = new Label[size];
 
-            for (int i = 0; i < size; i++)
+            for (var i = 0; i < size; i++)
             {
                 textBoxes[i] = new TextBox();
                 labels[i] = new Label();
@@ -66,7 +62,7 @@ namespace BibliotecaSGBDLab2
                 labels[i].Text = columnName;
             }
 
-            for (int i = 0; i < size; i++)
+            for (var i = 0; i < size; i++)
             {
                 flowLayoutPanel1.Controls.Add(labels[i]);
                 flowLayoutPanel1.Controls.Add(textBoxes[i]);
@@ -95,7 +91,7 @@ namespace BibliotecaSGBDLab2
                     var parentColumn = dataSet.Tables[parent].Columns[paramsForInsert[0].Substring(1)];
                     var childColumn = dataSet.Tables[child].Columns[paramsForInsert[0].Substring(1)];
 
-                    string relationName = "FK_" + parent + "_" + child;
+                    var relationName = "FK_" + parent + "_" + child;
                     var relation = new DataRelation(relationName, parentColumn, childColumn);
                     dataSet.Relations.Add(relation);
                     childBS.DataSource = parentBS;
@@ -106,7 +102,7 @@ namespace BibliotecaSGBDLab2
                     dataGridViews.Add(dataGridViewChild);
                     dataGridViews.Add(dataGridViewParent);
 
-                    foreach(DataGridView dataGridView in dataGridViews)
+                    foreach(var dataGridView in dataGridViews)
                     {
                         dataGridView.DefaultCellStyle.Font = new Font("Palatino Linotype", 10);
                         dataGridView.DefaultCellStyle.BackColor = SystemColors.GradientInactiveCaption;
@@ -152,7 +148,7 @@ namespace BibliotecaSGBDLab2
                         sqlConnection.Open();
                         var command = new SqlCommand(insertCommand, sqlConnection);
                         command.Parameters.AddWithValue(paramsForInsert[0], id_parent);
-                        for (int i = 0; i < size; i++)
+                        for (var i = 0; i < size; i++)
                             command.Parameters.AddWithValue(paramsForInsert[i+1], textBoxes[i].Text);
                         command.ExecuteNonQuery();
                         MessageBox.Show("Success in inserting data into the child table: " + child);
