@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Fourth problem jQuery</title>
+		<title>Tables</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<table id="tabel">
+			<tr>
+				<th onclick="sortColumn(0)"><div>Fructe</div></th>
+				<th onclick="sortColumn(1)"><div>Cantitate</div></th>
+				<th onclick="sortColumn(2)"><div>Pret</div></th>
+			</tr>
+			<tr>
+				<td><div>Smochine</div></td>
+				<td><div>10</div></td>
+				<td><div>7.5</div></td>
+			</tr>
+			<tr>
+				<td><div>Agave</div></td>
+				<td><div>8</div></td>
+				<td><div>32</div></td>
+			</tr>
+			<tr>
+				<td><div>Fructul dragonului</div></td>
+				<td><div>3</div></td>
+				<td><div>41.22</div></td>
+			</tr>
+			<tr>
+				<td><div>Bambus</div></td>
+				<td><div>34</div></td>
+				<td><div>150</div></td>
+			</tr>
+		</table>
+		<table id="tabel2">
+			<tr>
+				<th onclick="sortRow(0)">
+					<div>Fructe</div>
+				</th>
+				<td>
+					<div>Smochine</div>
+				</td>
+				<td>
+					<div>Agave</div>
+				</td>
+				<td>
+					<div>Fructul dragonului</div>
+				</td>
+				<td>
+					<div>Bambus</div>
+				</td>
+			</tr>
+			<tr>
+				<th onclick="sortRow(1)">
+					<div>Cantitate</div>
+				</th>
+				<td>
+					<div>10</div>
+				</td>
+				<td>
+					<div>8</div>
+				</td>
+				<td>
+					<div>3</div>
+				</td>
+				<td>
+					<div>34</div>
+				</td>
+			</tr>
+			<tr>
+				<th onclick="sortRow(2)">
+					<div>Pret</div>
+				</th>
+				<td>
+					<div>7.5</div>
+				</td>
+				<td>
+					<div>32</div>
+				</td>
+				<td>
+					<div>41.22</div>
+				</td>
+				<td>
+					<div>150</div>
+				</td>
+			</tr>
+		</table>
+		<script src="script.js"></script>
+	</body>
+</html>

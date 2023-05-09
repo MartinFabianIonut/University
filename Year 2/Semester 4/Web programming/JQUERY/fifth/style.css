@@ -1,0 +1,18 @@
+#image-list li:not(:first-child) {
+    display: none;
+}
+
+ol {
+    list-style: none;
+}
+
+li a {
+    position: absolute;
+    top: 470px;
+    left: 130px;
+}
+
+img{
+    width: 1344px;
+    height: 756px;
+}
