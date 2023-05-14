@@ -1,0 +1,10 @@
+rootProject.name = 'gRPCProject'
+include 'Domain'
+include 'EmployeeFX'
+include 'Networking'
+include 'Persistance'
+include 'ServerRPC'
+include 'Services'
+include 'ProtobufNetworking'
+include 'ProtobuffNetworking'
+

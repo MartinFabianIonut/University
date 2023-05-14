@@ -1,0 +1,91 @@
+syntax="proto3";
+package gRPCProject.protocol;
+
+//option java_multiple_files = true;
+option java_package = "gRPCProject.networking.protobuffprotocol";
+option java_outer_classname = "Protobuffs";
+option objc_class_prefix = "PB";
+
+// The greeting service definition.
+service MartinService {
+  // Sends a greeting
+  rpc addTickets (Request) returns (Response) {}
+  rpc authenticateEmployee (Request) returns (Response) {}
+  rpc getAllShowsDTO (Request) returns (stream Response) {}
+  rpc getAllShowsDTO2 (Request) returns (Response) {}
+  rpc getAllArtists (Request) returns (stream Response) {}
+  rpc getAllArtists2 (Request) returns (Response) {}
+  rpc findArtist (Request) returns (Response) {}
+  rpc logout (Request) returns (Response) {}
+}
+
+
+message Artist{
+  int32 id = 1;
+  string firstName = 2;
+  string lastName = 3;
+}
+
+message Employee{
+  int32 id = 1;
+  string firstName = 2;
+  string lastName = 3;
+  string username = 4;
+  string password = 5;
+}
+
+message Show{
+  int32 id = 1;
+  string title = 2;
+  string date = 3;
+  string place = 4;
+  int32 idArtist = 5;
+}
+
+message ShowDTO{
+  int32 id = 1;
+  string title = 2;
+  string date = 3;
+  string place = 4;
+  int32 available = 5;
+  int32 unavailable = 6;
+  int32 idArtist = 7;
+}
+
+message Ticket{
+  int32 id = 1;
+  int32 idShow = 2;
+  string nameOfCostumer = 3;
+  int32 noOfSeats = 4;
+}
+
+message Request {
+  enum Type {Unknown=0; Login = 1; Logout = 2; BUY_TICKET = 3; GET_ALL_SHOWS = 4; GET_ALL_ARTISTS = 5; FIND_ARTIST = 6;}
+
+  // Identifies which request is filled in.
+   Type type = 1;
+
+  // One of the following will be filled in, depending on the type.
+   oneof payload{
+      Employee employee = 2;
+      Ticket ticket = 3;
+      int32 idArtist = 4;
+  }
+}
+
+message Response{
+   enum Type { Unknown=0; Ok = 1; Error = 2; TICKET_SOLD = 3; GET_ALL_SHOWS = 4; GET_ALL_ARTISTS = 5; FIND_ARTIST=6;  }
+
+     // Identifies which request is filled in.
+      Type type = 1;
+
+     // One of the following will be filled in, depending on the type.
+
+      repeated Artist artist = 2;
+       Employee employee = 3;
+       Show show = 4;
+      repeated  ShowDTO showDTO = 5;
+       Ticket ticket = 6;
+      string error = 7;
+
+}
