@@ -1,0 +1,9 @@
+rootProject.name = 'REST'
+include 'Domain'
+include 'EmployeeFX'
+include 'Networking'
+include 'Persistance'
+include 'ServerRPC'
+include 'Services'
+include 'RestServices'
+
