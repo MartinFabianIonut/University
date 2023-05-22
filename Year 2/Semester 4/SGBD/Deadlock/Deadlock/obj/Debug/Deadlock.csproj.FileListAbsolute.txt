@@ -1,0 +1,10 @@
+C:\GIT\University\Year 2\Semester 4\SGBD\Deadlock\Deadlock\bin\Debug\Deadlock.exe.config
+C:\GIT\University\Year 2\Semester 4\SGBD\Deadlock\Deadlock\bin\Debug\Deadlock.exe
+C:\GIT\University\Year 2\Semester 4\SGBD\Deadlock\Deadlock\bin\Debug\Deadlock.pdb
+C:\GIT\University\Year 2\Semester 4\SGBD\Deadlock\Deadlock\obj\Debug\Deadlock.csproj.AssemblyReference.cache
+C:\GIT\University\Year 2\Semester 4\SGBD\Deadlock\Deadlock\obj\Debug\Deadlock.csproj.SuggestedBindingRedirects.cache
+C:\GIT\University\Year 2\Semester 4\SGBD\Deadlock\Deadlock\obj\Debug\Deadlock.Properties.Resources.resources
+C:\GIT\University\Year 2\Semester 4\SGBD\Deadlock\Deadlock\obj\Debug\Deadlock.csproj.GenerateResource.cache
+C:\GIT\University\Year 2\Semester 4\SGBD\Deadlock\Deadlock\obj\Debug\Deadlock.csproj.CoreCompileInputs.cache
+C:\GIT\University\Year 2\Semester 4\SGBD\Deadlock\Deadlock\obj\Debug\Deadlock.exe
+C:\GIT\University\Year 2\Semester 4\SGBD\Deadlock\Deadlock\obj\Debug\Deadlock.pdb
