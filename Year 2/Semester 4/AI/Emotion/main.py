@@ -1,15 +1,18 @@
 import urllib.request
+
+import cv2
 import tensorflow as tf
 from keras.layers import Dense, Flatten
 from keras.models import Sequential
 from keras.preprocessing.text import Tokenizer
-from keras.utils import pad_sequences
+from keras.utils import pad_sequences, to_categorical
 import pandas as pd
 import numpy as np
 import json
 import os
 from methods.ploting import plotConfusionMatrix
 from sklearn.metrics import confusion_matrix
+from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
 
 
 # import numpy as np
@@ -25,7 +28,31 @@ def readFromFilePhoto(fileName):
     with open(fileName) as file:
         lines = file.readlines()
     lines = [line.replace('\n', '') for line in lines]
+    # add .png to each line
+    lines = [line + '.png' for line in lines]
+    # split fileName by /
+    fileName = fileName.split('/')
+    # get the first part of the fileName
+    fileName = fileName[0]
+    # add the fileName to each line at the beginning
+    lines = [fileName + '/' + line for line in lines]
     return lines
+
+
+def preprocess_image(image):
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    resized_image = cv2.resize(gray, (48, 48))
+    preprocessed_image = np.expand_dims(resized_image, axis=-1)
+    return preprocessed_image / 255.0
+
+def readPhotoWithCV2(fileName):
+    # read the image with cv2
+    imgs = []
+    for image in fileName:
+        img = cv2.imread(image)
+        img = preprocess_image(img)
+        imgs.append(img)
+    return imgs
 
 
 if __name__ == '__main__':
@@ -103,6 +130,10 @@ if __name__ == '__main__':
     happy_emoji += readFromFilePhoto("happy_emojis/happy.txt")
     happy_emoji += readFromFilePhoto("happy_emojis/happy.txt")
     sad_emoji += readFromFilePhoto("sad_emojis/sad.txt")
+
+    happy_emoji = readPhotoWithCV2(happy_emoji)
+    sad_emoji = readPhotoWithCV2(sad_emoji)
+
     # create training data
     np.random.seed(5)
     indexes = [i for i in range(len(happy_emoji))]
@@ -135,43 +166,69 @@ if __name__ == '__main__':
         train_data = train_data[:len(test_data) * 4]
         train_labels = train_labels[:len(test_data) * 4]
 
-    # create a tokenizer
-    tokenizer = Tokenizer()
-    tokenizer.fit_on_texts(train_data)
-    word_index = tokenizer.word_index
-    vocab_size = len(word_index) + 1
+    # # if reading texts
+    # # create a tokenizer
+    # tokenizer = Tokenizer()
+    # tokenizer.fit_on_texts(train_data)
+    # word_index = tokenizer.word_index
+    # vocab_size = len(word_index) + 1
+    #
+    # # create training sequences
+    # train_sequences = tokenizer.texts_to_sequences(train_data)
+    # train_padded = pad_sequences(train_sequences, maxlen=8, padding='post')
+    #
+    # # create test sequences
+    # test_sequences = tokenizer.texts_to_sequences(test_data)
+    # test_padded = pad_sequences(test_sequences, maxlen=8, padding='post')
+    #
+    # # create the model
+    # model = Sequential()
+    # model.add(Flatten(input_shape=(train_padded.shape[1],)))
+    # model.add(Dense(16, activation='relu'))
+    # model.add(Dense(1, activation='sigmoid'))
+    # model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
+    #
+    # # train the model
+    # # to array
+    # train_padded = np.asarray(train_padded)
+    # train_labels = np.asarray(train_labels)
+    # test_padded = np.asarray(test_padded)
+    # test_labels = np.asarray(test_labels)
+    # model.fit(train_padded, train_labels, epochs=45, verbose=2, validation_data=(test_padded, test_labels), batch_size=6)
 
-    # create training sequences
-    train_sequences = tokenizer.texts_to_sequences(train_data)
-    train_padded = pad_sequences(train_sequences, maxlen=8, padding='post')
 
-    # create test sequences
-    test_sequences = tokenizer.texts_to_sequences(test_data)
-    test_padded = pad_sequences(test_sequences, maxlen=8, padding='post')
-
+    # if reading images
     # create the model
     model = Sequential()
-    model.add(Flatten(input_shape=(train_padded.shape[1],)))
-    model.add(Dense(16, activation='relu'))
-    model.add(Dense(1, activation='sigmoid'))
+    model.add(Conv2D(32, (3, 3), activation='relu', input_shape=(48, 48, 1)))
+    model.add(MaxPooling2D((2, 2)))
+    model.add(Conv2D(64, (3, 3), activation='relu'))
+    model.add(Flatten())
+    model.add(Dense(64, activation='relu'))
+    model.add(Dense(2, activation='softmax'))
     model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
+
+    # reshape data
 
     # train the model
     # to array
-    train_padded = np.asarray(train_padded)
+    train_data = np.asarray(train_data)
     train_labels = np.asarray(train_labels)
-    test_padded = np.asarray(test_padded)
+    test_data = np.asarray(test_data)
     test_labels = np.asarray(test_labels)
-    model.fit(train_padded, train_labels, epochs=45, verbose=2, validation_data=(test_padded, test_labels), batch_size=6)
+
+    train_labels = to_categorical(train_labels)
+    test_labels = to_categorical(test_labels)
+
+    model.fit(train_data, train_labels, epochs=45, verbose=2, validation_data=(test_data, test_labels), batch_size=6)
 
     # evaluate the model
-
-    loss, accuracy = model.evaluate(test_padded, test_labels)
+    loss, accuracy = model.evaluate(test_data, test_labels, verbose=2)
     print('Accuracy: %f' % (accuracy * 100))
 
-    # predict
-    predictions = model.predict(test_padded)
+    # make a prediction
+    predictions = model.predict(test_data)
 
-    # plot the confusion matrix
-    plotConfusionMatrix(confusion_matrix(test_labels, predictions.round().flatten()), ['Sad', 'Happy'], '- Emoji '
-                                                                                                        'recognition')
+    # plot the results as a confusion matrix
+    cm = confusion_matrix(test_labels.argmax(axis=1), predictions.argmax(axis=1))
+    plotConfusionMatrix(cm, ['happy', 'sad'], 'Confusion Matrix for Happy and Sad Emojis')

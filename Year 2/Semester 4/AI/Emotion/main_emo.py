@@ -130,3 +130,19 @@ if __name__ == '__main__':
     plotConfusionMatrix(confusion_matrix(testLabels, predictedLabels),
                         ['Anger', 'Disgust', 'Fear', 'Happiness', 'Neutral', 'Sadness', 'Surprise'],
                         '- Emotion Confusion Matrix')
+
+    folder_path = 'facial_emotions/mine/*.jpg'
+    image_paths = glob.glob(folder_path)
+    predicted_emotion_for_my_images = []
+    for image_path in image_paths:
+        predicted_emotion = classify_emotion(image_path, model)
+        predicted_emotion_for_my_images.append(predicted_emotion)
+    test_labels_for_my_images = []
+    test_labels_for_my_images.extend([0, 0, 0, 3, 3, 4, 4, 5, 5, 5, 6, 6, 6, 2, 2])
+    accuracy = np.mean(np.equal(test_labels_for_my_images, predicted_emotion_for_my_images))
+    print('Accuracy for my images: ', accuracy)
+    plotConfusionMatrix(confusion_matrix(test_labels_for_my_images, predicted_emotion_for_my_images),
+                        ['Anger', 'Happiness', 'Neutral', 'Sadness', 'Surprise', 'Fear'],
+                        '- Emotion Confusion Matrix for my images')
+
+    # classify_emotion('facial_emotions/mine/*.jpg', model)

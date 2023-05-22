@@ -31,16 +31,6 @@ def getTestData(filePath, test_data, test_labels, label):
     return test_data, test_labels
 
 
-def getTestDataForMyself(filePath, test_data, test_labels):
-    image_paths = glob.glob(filePath)
-    for image_path in image_paths:
-        image = cv2.imread(image_path)
-        #image = cv2.resize(image, (48, 48))
-        test_data.append(image)
-    test_labels.extend([0,0,0,3,3,4,4,5,5,5,6,6,6,2,2])
-    return test_data, test_labels
-
-
 if __name__ == '__main__':
     train_data = []
     test_data = []
@@ -109,14 +99,3 @@ if __name__ == '__main__':
     plotConfusionMatrix(confusion_matrix(test_labels, predictions),
                         ['Anger', 'Happiness', 'Surprise'],
                         '- Emotion Confusion Matrix 3')
-
-    # classifier = ImageClassifier()
-    # test_data, test_labels = getTestDataForMyself('facial_emotions/mine/*.jpg', test_data, test_labels)
-    # predictions = classifier.predict(test_data)
-    # accuracy = accuracy_score(test_labels, predictions)
-    #
-    # print("Accuracy for ImageClassifierFacenet:", accuracy)
-    #
-    # plotConfusionMatrix(confusion_matrix(test_labels, predictions),
-    #                     ['Anger', 'Happiness', 'Neutral', 'Sadness', 'Surprise', 'Fear'],
-    #                     '- Emotion Confusion Matrix 4')
