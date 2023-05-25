@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import rest.domain.Artist;
 import rest.service.MyException;
 
-//@CrossOrigin
+@CrossOrigin
 @RestController
 @RequestMapping("/music/artists")
 public class ArtistController {
@@ -58,10 +58,11 @@ public class ArtistController {
             return artist;
         }
 
+        @CrossOrigin
         @RequestMapping(value = "/{id}", method = RequestMethod.PUT)
         public Artist update(@PathVariable("id") Integer id, @RequestBody Artist artist) {
              System.out.println("Updating artist to -> " + artist);
-             artist.setId(id);
+             //artist.setId(id);
              artistRepository.update(artist);
              return artist;
         }
