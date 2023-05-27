@@ -1,0 +1,50 @@
+GDP -> the learnt model: f(x) = 0.00021797684616904164 + 0.6651904927255885 * x
+error = 0.6391268826001701
+Function: (0.00043321333270268967, 0.6654097849235076, <SGD.batchGDRegression.BatchGDRegression object at 0x000001CC9AD89FA0>)
+GDP -> the learnt model: f(x) = 0.00043321333270268967 + 0.6654097849235076 * x
+error = 0.6392033713880161
+Function: learnModel
+GDP -> the learnt model: f(x) = 0.0008295112316355799 + 0.665686012760869 * x
+error = 0.6392999686294821
+Function: learnModel
+GDP -> the learnt model: f(x) = -0.0001857181226970082 + 0.665800871363729 * x
+error = 0.6393402166788585
+Function: learnModel
+GDP -> the learnt model: f(x) = -0.00020790174744534967 + 0.6655462731074003 * x
+error = 0.6392510667365262
+Function: toolLearning
+GDP -> the learnt model: f(x) = 0.0018259736229724118 + 0.7753494017821673 * x
+error = 0.34063851148406943
+Function: toolLearningAdapted
+GDP -> the learnt model: f(x) = -0.001902625161212947 + 0.7772622919236257 * x
+error = 0.3414728932953153
+Function: learnModel
+GDP -> the learnt model: f(x) = 2.2935428364455828e-05 + 0.7776200519405048* x
+error = 0.7013280058454409
+ Function: toolLearning
+GDP -> the learnt model: f(x) = 0.0018259736229724118 + 0.7753494017821673* x
+error = 0.34063851148406943
+ Function: toolLearningAdapted
+GDP -> the learnt model: f(x) = -0.001902625161212947 + 0.7772622919236257* x
+error = 0.3414728932953153
+ 
+Function: learnModel
+GDP -> the learnt model: f(x) = 0.00028726736249518113 + 0.7774337174148818* x
+error = 0.7011868104632198
+ Function: toolLearning
+GDP -> the learnt model: f(x) = 0.0018259736229724118 + 0.7753494017821673* x
+error = 0.34063851148406943
+ Function: toolLearningAdapted
+GDP -> the learnt model: f(x) = -0.001902625161212947 + 0.7772622919236257* x
+error = 0.3414728932953153
+ 
+Function: learnModel
+GDP -> the learnt model: f(x) = 0.00035220079150110754 + 0.7772285364400968* x
+error = 0.7010314805079766
+ Function: toolLearning
+GDP -> the learnt model: f(x) = 0.0018259736229724118 + 0.7753494017821673* x
+error = 0.34063851148406943
+ Function: toolLearningAdapted
+GDP -> the learnt model: f(x) = -0.001902625161212947 + 0.7772622919236257* x
+error = 0.3414728932953153
+ 
