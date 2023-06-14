@@ -1,0 +1,346 @@
+2023-04-04 00:15:06,218 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-04 00:15:06,364 [1] INFO ShowDBRepository - finding all shows
+2023-04-04 00:15:06,493 [1] INFO ShowDBRepository - {The show 'The Greatest Show' will take place on 24.03.2023, at Cluj-Napoca}
+2023-04-04 00:44:35,738 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-04 00:44:35,765 [1] INFO ShowDBRepository - finding all shows
+2023-04-04 00:44:35,825 [1] INFO ShowDBRepository - {The show 'The Greatest Show' will take place on 24.03.2023, at Cluj-Napoca}
+2023-04-04 01:42:07,992 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-04 01:42:08,000 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-04 01:42:08,001 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-04 01:42:08,002 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-04 01:42:12,902 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-04 01:42:45,522 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-04 01:42:45,529 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-04 01:42:45,531 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-04 01:42:45,531 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-04 01:42:50,142 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-04 01:42:50,200 [1] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-04 01:42:50,215 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 01:43:14,497 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-04 01:43:14,505 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-04 01:43:14,506 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-04 01:43:14,507 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-04 01:43:28,128 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-04 01:43:45,251 [1] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-04 01:44:06,557 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 01:47:52,293 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-04 01:47:52,301 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-04 01:47:52,302 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-04 01:47:52,302 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-04 01:47:56,834 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-04 01:47:56,891 [1] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-04 01:47:56,904 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 01:50:24,083 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-04 01:50:24,092 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-04 01:50:24,093 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-04 01:50:24,093 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-04 01:50:28,139 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-04 01:50:28,197 [1] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-04 01:50:28,208 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 01:51:21,833 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-04 01:51:21,840 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-04 01:51:21,842 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-04 01:51:21,843 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-04 01:51:25,697 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-04 01:51:25,780 [1] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-04 01:51:25,795 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 01:51:31,526 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 01:51:34,175 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 01:51:42,244 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 01:51:44,734 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 01:52:19,838 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-04 01:52:19,847 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-04 01:52:19,881 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-04 01:52:19,881 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-04 01:52:23,814 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-04 01:52:23,877 [1] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-04 01:52:23,888 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 01:55:12,012 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-04 01:55:12,053 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-04 01:55:12,053 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-04 01:55:12,054 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-04 01:55:16,040 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-04 01:55:16,099 [1] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-04 01:55:16,110 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 02:01:23,724 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-04 02:01:23,758 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-04 02:01:23,758 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-04 02:01:23,759 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-04 02:01:27,898 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-04 02:01:27,963 [1] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-04 02:01:27,974 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 02:01:33,394 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 02:01:35,232 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 02:01:39,317 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 02:20:19,567 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-04 02:20:19,610 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-04 02:20:19,611 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-04 02:20:19,611 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-04 02:22:29,607 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-04 02:22:29,641 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-04 02:22:29,641 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-04 02:22:29,642 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-04 02:22:33,965 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-04 02:22:34,027 [1] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-04 02:22:34,038 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 02:22:42,148 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 02:22:42,675 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 02:22:43,203 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 02:22:45,300 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 02:23:54,469 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-04 02:23:54,505 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-04 02:23:54,506 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-04 02:23:54,506 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-04 02:23:58,503 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-04 02:23:58,561 [1] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-04 02:24:02,947 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 02:25:30,093 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-04 02:25:30,136 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-04 02:25:30,137 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-04 02:25:30,137 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-04 02:25:35,296 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-04 02:25:35,354 [1] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-04 02:25:39,669 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 02:25:56,068 [1] INFO TicketDBRepository - adding ticket
+2023-04-04 02:25:56,073 [1] INFO TicketDBRepository - inserted successfully 1 
+2023-04-04 02:26:11,698 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-04 02:26:11,706 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-04 02:26:11,707 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-04 02:26:11,707 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-04 02:26:15,407 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-04 02:26:15,466 [1] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-04 02:26:15,478 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 12:10:57,701 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-04 12:10:57,754 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-04 12:10:57,755 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-04 12:10:57,755 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-04 12:11:04,861 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-04 12:11:05,043 [1] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-04 12:11:05,079 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 12:12:39,220 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-04 12:12:39,240 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-04 12:12:39,241 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-04 12:12:39,242 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-04 12:22:01,315 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-04 12:22:01,371 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-04 12:22:01,372 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-04 12:22:01,373 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-04 12:22:06,382 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-04 12:22:06,483 [1] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-04 12:22:06,513 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 12:22:23,373 [1] INFO TicketDBRepository - adding ticket
+2023-04-04 12:22:23,382 [1] INFO TicketDBRepository - inserted successfully 1 
+2023-04-04 12:22:23,384 [1] INFO TicketDBRepository - adding ticket
+2023-04-04 12:22:23,391 [1] INFO TicketDBRepository - inserted successfully 1 
+2023-04-04 12:22:27,615 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 12:22:29,927 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 12:22:44,714 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-04 12:22:44,732 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-04 12:22:44,737 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-04 12:22:44,737 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-04 12:22:49,257 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-04 12:22:49,361 [1] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-04 12:22:49,383 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 12:23:47,613 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-04 12:23:47,630 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-04 12:23:47,630 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-04 12:23:47,630 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-04 12:23:52,255 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-04 12:23:52,357 [1] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-04 12:23:52,404 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 12:24:42,861 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-04 12:24:42,871 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-04 12:24:42,876 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-04 12:24:42,876 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-04 12:24:46,933 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-04 12:24:47,040 [1] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-04 12:24:47,062 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 12:24:59,719 [1] INFO TicketDBRepository - adding ticket
+2023-04-04 12:24:59,728 [1] INFO TicketDBRepository - inserted successfully 1 
+2023-04-04 12:24:59,730 [1] INFO TicketDBRepository - adding ticket
+2023-04-04 12:24:59,738 [1] INFO TicketDBRepository - inserted successfully 1 
+2023-04-04 12:24:59,739 [1] INFO TicketDBRepository - adding ticket
+2023-04-04 12:24:59,744 [1] INFO TicketDBRepository - inserted successfully 1 
+2023-04-04 12:25:01,309 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 12:25:12,866 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 12:25:13,141 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 12:25:13,326 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 12:25:18,253 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 12:25:20,100 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 12:25:20,665 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 12:25:22,027 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 12:25:27,295 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 12:25:28,641 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 12:25:39,529 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-04 12:25:39,542 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-04 12:25:39,543 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-04 12:25:39,544 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-04 12:25:43,848 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-04 12:25:43,953 [1] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-04 12:25:43,972 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 12:32:34,329 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-04 12:32:34,343 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-04 12:32:34,344 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-04 12:32:34,344 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-04 12:32:39,878 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-04 12:32:39,976 [1] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-04 12:32:40,001 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 12:32:48,607 [1] INFO TicketDBRepository - adding ticket to available seat
+2023-04-04 12:32:48,616 [1] INFO TicketDBRepository - ticket bought successfully 1 
+2023-04-04 12:32:48,618 [1] INFO TicketDBRepository - adding ticket to available seat
+2023-04-04 12:32:48,619 [1] INFO TicketDBRepository - ticket bought successfully 1 
+2023-04-04 12:32:49,783 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 12:32:56,601 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 12:33:22,285 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-04 12:33:22,303 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-04 12:33:22,304 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-04 12:33:22,305 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-04 12:33:27,906 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-04 12:33:28,011 [1] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-04 12:33:28,032 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 12:34:17,819 [1] INFO TicketDBRepository - adding ticket to available seat
+2023-04-04 12:34:47,788 [1] INFO TicketDBRepository - ticket bought successfully 1 
+2023-04-04 12:35:45,755 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-04 12:35:45,808 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-04 12:35:45,809 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-04 12:35:45,810 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-04 12:35:50,081 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-04 12:35:50,181 [1] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-04 12:35:50,205 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 12:36:02,382 [1] INFO TicketDBRepository - adding ticket to available seat
+2023-04-04 12:36:02,392 [1] INFO TicketDBRepository - ticket bought successfully 1 
+2023-04-04 12:36:04,214 [1] INFO TicketDBRepository - adding ticket to available seat
+2023-04-04 12:36:04,222 [1] INFO TicketDBRepository - ticket bought successfully 1 
+2023-04-04 12:36:05,052 [1] INFO TicketDBRepository - adding ticket to available seat
+2023-04-04 12:36:05,059 [1] INFO TicketDBRepository - ticket bought successfully 1 
+2023-04-04 12:36:37,761 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 12:38:17,083 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-04 12:38:17,094 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-04 12:38:17,097 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-04 12:38:17,098 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-04 12:38:23,079 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-04 12:38:23,178 [1] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-04 12:38:23,204 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 12:38:43,202 [1] INFO TicketDBRepository - adding ticket to available seat
+2023-04-04 12:38:43,210 [1] INFO TicketDBRepository - ticket bought successfully 1 
+2023-04-04 12:38:43,216 [1] INFO TicketDBRepository - adding ticket to available seat
+2023-04-04 12:38:43,220 [1] INFO TicketDBRepository - ticket bought successfully 1 
+2023-04-04 12:38:45,562 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 12:38:56,404 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 12:38:58,839 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 23:15:39,312 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-04 23:15:39,322 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-04 23:15:39,323 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-04 23:15:39,323 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-04 23:15:44,671 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-04 23:15:44,796 [1] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-04 23:15:44,819 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 23:19:38,870 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-04 23:19:38,901 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-04 23:19:38,902 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-04 23:19:38,902 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-04 23:19:42,901 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-04 23:19:42,969 [1] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-04 23:19:42,985 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 23:21:42,416 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-04 23:21:42,452 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-04 23:21:42,452 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-04 23:21:42,453 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-04 23:21:48,026 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-04 23:21:48,093 [1] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-04 23:21:48,109 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 23:21:58,146 [1] INFO TicketDBRepository - adding ticket to available seat
+2023-04-04 23:21:58,155 [1] INFO TicketDBRepository - ticket bought successfully 1 
+2023-04-04 23:21:58,156 [1] INFO TicketDBRepository - adding ticket to available seat
+2023-04-04 23:21:58,161 [1] INFO TicketDBRepository - ticket bought successfully 1 
+2023-04-04 23:22:00,132 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 23:22:07,268 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 23:22:07,643 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 23:22:08,037 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 23:22:09,384 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 23:22:25,722 [1] INFO TicketDBRepository - adding ticket to available seat
+2023-04-04 23:22:25,729 [1] INFO TicketDBRepository - ticket bought successfully 1 
+2023-04-04 23:22:27,889 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 23:22:34,130 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 23:22:35,262 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 23:24:12,434 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-04 23:24:12,479 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-04 23:24:12,480 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-04 23:24:12,480 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-04 23:24:19,211 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-04 23:24:19,277 [1] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-04 23:24:19,293 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-04 23:27:33,919 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-04 23:27:33,927 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-04 23:27:33,928 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-04 23:27:33,929 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-17 13:30:51,780 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-17 13:30:51,788 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-17 13:30:51,789 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-17 13:30:51,790 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-17 13:30:56,575 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-17 13:30:56,673 [1] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-17 13:30:56,695 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-17 13:31:07,582 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-17 13:31:07,619 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-17 13:31:07,620 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-17 13:31:07,621 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-17 13:31:11,751 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-17 13:31:25,390 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-17 13:31:25,400 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-17 13:31:25,401 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-17 13:31:25,401 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-17 13:31:29,515 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-17 13:33:39,418 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-17 13:33:39,427 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-17 13:33:39,427 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-17 13:33:39,428 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-17 13:33:43,196 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-17 13:34:17,161 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-17 13:34:17,177 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-17 13:34:17,177 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-17 13:34:17,177 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-17 13:34:21,143 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-17 13:37:49,273 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-17 13:37:51,940 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-17 13:37:55,586 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-17 13:37:56,168 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-17 13:38:03,413 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-17 13:39:20,788 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-17 13:39:20,932 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-17 13:39:21,074 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-17 13:39:21,215 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-17 13:39:27,068 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-17 18:00:02,852 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-17 18:39:10,666 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-17 18:39:10,698 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-17 18:39:10,699 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-17 18:39:10,700 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-17 18:39:15,709 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-17 18:39:15,802 [1] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-17 18:39:15,815 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-18 13:32:01,694 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-18 13:32:01,704 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-18 13:32:01,704 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-18 13:32:01,704 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-18 13:32:08,600 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-18 13:32:08,666 [1] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-18 13:32:08,684 [1] INFO ShowDBRepository - finding all shows dto
+2023-04-18 13:32:38,445 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-18 13:32:38,456 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-18 13:32:38,456 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-18 13:32:38,456 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-18 13:33:16,977 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-18 13:33:34,018 [1] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-18 13:40:15,739 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-18 13:40:15,747 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-18 13:40:15,749 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-18 13:40:15,749 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-18 13:40:30,067 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 13:23:29,444 [1] INFO ArtistDBRepository - Creating ArtistDBRepository
+2023-04-24 13:23:29,453 [1] INFO EmployeeDBRepository - Creating EmployeeDBRepository
+2023-04-24 13:23:29,453 [1] INFO ShowDBRepository - Creating ShowDBRepository
+2023-04-24 13:23:29,454 [1] INFO TicketDBRepository - Creating TicketDBRepository
+2023-04-24 13:23:34,133 [1] INFO EmployeeDBRepository - find a employee by username and password
+2023-04-24 13:23:34,206 [1] INFO EmployeeDBRepository - Marcu Ioan
+2023-04-24 13:23:34,222 [1] INFO ShowDBRepository - finding all shows dto

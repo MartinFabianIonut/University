@@ -1,0 +1,65 @@
+package employee;
+
+import employee.controller.LoginController;
+import employee.controller.ServiceController;
+import gRPCProject.network.rpcprotocol.ServicesRpcProxy;
+import gRPCProject.networking.protobuffprotocol.ProtoProxy;
+import gRPCProject.service.IService;
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+import java.io.IOException;
+import java.util.Properties;
+
+public class HelloApplicationProtobuff extends Application {
+    private static int defaultChatPort = 55555;
+    private static String defaultServer = "localhost";
+
+    public void start(Stage primaryStage) throws Exception {
+        System.out.println("In start");
+        Properties clientProps = new Properties();
+        try {
+            clientProps.load(HelloApplicationProtobuff.class.getResourceAsStream("/employee.properties"));
+            System.out.println("Employee properties set. ");
+            clientProps.list(System.out);
+        } catch (IOException e) {
+            System.err.println("Cannot find employee.properties " + e);
+            return;
+        }
+        String serverIP = clientProps.getProperty("server.host", defaultServer);
+        int serverPort = defaultChatPort;
+
+        try {
+            serverPort = Integer.parseInt(clientProps.getProperty("server.port"));
+        } catch (NumberFormatException ex) {
+            System.err.println("Wrong port number " + ex.getMessage());
+            System.out.println("Using default port: " + defaultChatPort);
+        }
+        System.out.println("Using server IP " + serverIP);
+        System.out.println("Using server port " + serverPort);
+
+        IService service = new ProtoProxy(serverIP, serverPort);
+
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("login.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 1200, 800);
+        LoginController loginController = fxmlLoader.getController();
+        loginController.setService(service);
+
+        FXMLLoader cloader = new FXMLLoader(getClass().getResource("main_stage.fxml"));
+        Parent parent=cloader.load();
+        ServiceController serviceController = cloader.getController();
+        serviceController.setService(service);
+        loginController.setServiceController(serviceController);
+        loginController.setParent(parent);
+
+        primaryStage.setTitle("MPP server-client app");
+        primaryStage.setScene(scene);
+        primaryStage.show();
+    }
+    public static void main(String[] args) {
+        launch();
+    }
+}
