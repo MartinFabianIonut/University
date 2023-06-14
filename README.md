@@ -1,6 +1,6 @@
 # University 
 
-I have uploaded the solutions for the lab assignments and, also, the exercises for the preparation of the practical exams or even the written exams.
+This repository contains my solutions for various homework assignments throughout my academic journey. It includes lab assignments, exercises for practical exams, and preparation for written exams.
 
 Year 1
 - 📂 Semester 1
