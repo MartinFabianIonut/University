@@ -7,7 +7,7 @@
     <session-factory>
         <property name="dialect">dialect.SQLiteDialect</property>
         <property name="connection.driver_class">org.sqlite.JDBC</property>
-        <property name="connection.url">jdbc:sqlite:ServerRPC/martin.db</property>
+        <property name="connection.url">jdbc:sqlite:C:\GIT\University\Year 2\Semester 4\Programming and Projection Enironments\Exam preparation\Joc gropi\Martin - examen\ServerRPC\martin.db</property>
 
         <property name="hibernate.hbm2ddl.auto">update</property>
 

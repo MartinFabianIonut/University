@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="800.0" prefWidth="1175.0" spacing="20.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.controller.ServiceController">
+   <AnchorPane fx:id="anchorStart" prefHeight="51.0" prefWidth="1135.0">
+      <children>
+         <Button fx:id="startButton" layoutX="787.0" layoutY="13.0" mnemonicParsing="false" onAction="#start" text="Start game" />
+         <Label layoutX="328.0" layoutY="18.0" text="Propose a word" />
+         <TextField fx:id="propose" layoutX="431.0" layoutY="13.0" />
+      </children>
+   </AnchorPane>
+   <AnchorPane fx:id="anchorPlay" prefHeight="200.0" prefWidth="200.0">
+      <children>
+      
+         <TableView fx:id="allTableView" layoutX="170.0" layoutY="25.0" maxHeight="Infinity" maxWidth="Infinity" prefHeight="209.0" prefWidth="457.0">
+            <columns>
+               <TableColumn prefWidth="163.0" text="Player">
+                  <cellValueFactory>
+                     <PropertyValueFactory property="player" />
+                  </cellValueFactory>
+               </TableColumn>
+               <TableColumn prefWidth="213.0" text="Proposed word">
+                  <cellValueFactory>
+                     <PropertyValueFactory property="word" />
+                  </cellValueFactory>
+               </TableColumn>
+               <TableColumn prefWidth="74.0" text="Score">
+                  <cellValueFactory>
+                     <PropertyValueFactory property="score" />
+                  </cellValueFactory>
+               </TableColumn>
+            </columns>
+         </TableView>
+         <Button fx:id="generateButton" layoutX="997.0" layoutY="163.0" mnemonicParsing="false" onAction="#generate" text="Propose" />
+         <Button fx:id="logout" layoutX="1007.0" layoutY="337.0" mnemonicParsing="false" onAction="#logoutAction" text="Logout" />
+         <Label fx:id="control" layoutX="802.0" layoutY="25.0" text="Control: " />
+         <TextField fx:id="proposeLetter" layoutX="802.0" layoutY="163.0" />
+         <Label layoutX="802.0" layoutY="137.0" text="Propose a letter" />
+         <TableView fx:id="rankingTableView" layoutX="163.0" layoutY="251.0" maxHeight="Infinity" maxWidth="Infinity" prefHeight="111.0" prefWidth="240.0">
+            <columns>
+               <TableColumn prefWidth="163.0" text="Player">
+                  <cellValueFactory>
+                     <PropertyValueFactory property="player" />
+                  </cellValueFactory>
+               </TableColumn>
+               <TableColumn prefWidth="74.0" text="Score">
+                  <cellValueFactory>
+                     <PropertyValueFactory property="score" />
+                  </cellValueFactory>
+               </TableColumn>
+            </columns>
+         </TableView>
+      </children>
+   </AnchorPane>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</VBox>

@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'martin'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.2'
+    implementation 'org.hibernate:hibernate-core:5.2.10.Final'
+    implementation "jakarta.xml.bind:jakarta.xml.bind-api:2.3.2"
+    implementation "org.glassfish.jaxb:jaxb-runtime:2.3.2"
+}
+
+test {
+    useJUnitPlatform()
+}
