@@ -21,7 +21,6 @@ Un joc cu 3 jucători numit _Ghiceste cuvântul_. Fiecare jucător propune un cu
 
 3. Un serviciu REST care permite vizualizarea cuvintelor propuse de jucători la începutul jocului pentru un anumit joc.
 4. Un serviciu REST care pentru un anumit joc și un anumit jucător permite vizualizarea celor 3 propuneri și punctajul obținut la fiecare rundă.
-   Observație:
 
 ### Observație:
 
