@@ -1,0 +1,853 @@
+15 Jun 2023 22:29:09,056 INFO  music.rest.persistance.repository.jdbc.ArtistDBIRepository 26 <init> - Initializing ArtistDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:shows.db, jdbc.driver=org.sqlite.JDBC} 
+15 Jun 2023 22:29:09,060 INFO  jdbc.app.rest.persistance.repository.PlayerDBIRepository 22 <init> - Initializing EmployeeDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:shows.db, jdbc.driver=org.sqlite.JDBC}
+15 Jun 2023 22:29:09,073 DEBUG org.jboss.logging.LoggerProviders 158 logProvider - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+15 Jun 2023 22:29:09,084 DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl 46 addIntegrator - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+15 Jun 2023 22:29:09,086 DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl 46 addIntegrator - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+15 Jun 2023 22:29:09,089 DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl 46 addIntegrator - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+15 Jun 2023 22:29:09,098 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Cache71] -> [org.hibernate.dialect.Cache71Dialect]
+15 Jun 2023 22:29:09,098 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [CUBRID] -> [org.hibernate.dialect.CUBRIDDialect]
+15 Jun 2023 22:29:09,099 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DB2] -> [org.hibernate.dialect.DB2Dialect]
+15 Jun 2023 22:29:09,100 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DB2390] -> [org.hibernate.dialect.DB2390Dialect]
+15 Jun 2023 22:29:09,101 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DB2400] -> [org.hibernate.dialect.DB2400Dialect]
+15 Jun 2023 22:29:09,102 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DerbyTenFive] -> [org.hibernate.dialect.DerbyTenFiveDialect]
+15 Jun 2023 22:29:09,103 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DerbyTenSix] -> [org.hibernate.dialect.DerbyTenSixDialect]
+15 Jun 2023 22:29:09,103 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DerbyTenSeven] -> [org.hibernate.dialect.DerbyTenSevenDialect]
+15 Jun 2023 22:29:09,104 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Firebird] -> [org.hibernate.dialect.FirebirdDialect]
+15 Jun 2023 22:29:09,105 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [FrontBase] -> [org.hibernate.dialect.FrontBaseDialect]
+15 Jun 2023 22:29:09,105 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [H2] -> [org.hibernate.dialect.H2Dialect]
+15 Jun 2023 22:29:09,108 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [HSQL] -> [org.hibernate.dialect.HSQLDialect]
+15 Jun 2023 22:29:09,108 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Informix] -> [org.hibernate.dialect.InformixDialect]
+15 Jun 2023 22:29:09,109 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Ingres] -> [org.hibernate.dialect.IngresDialect]
+15 Jun 2023 22:29:09,109 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Ingres9] -> [org.hibernate.dialect.Ingres9Dialect]
+15 Jun 2023 22:29:09,110 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Ingres10] -> [org.hibernate.dialect.Ingres10Dialect]
+15 Jun 2023 22:29:09,110 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Interbase] -> [org.hibernate.dialect.InterbaseDialect]
+15 Jun 2023 22:29:09,110 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [JDataStore] -> [org.hibernate.dialect.JDataStoreDialect]
+15 Jun 2023 22:29:09,112 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Mckoi] -> [org.hibernate.dialect.MckoiDialect]
+15 Jun 2023 22:29:09,113 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MimerSQL] -> [org.hibernate.dialect.MimerSQLDialect]
+15 Jun 2023 22:29:09,116 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5] -> [org.hibernate.dialect.MySQL5Dialect]
+15 Jun 2023 22:29:09,116 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5InnoDB] -> [org.hibernate.dialect.MySQL5InnoDBDialect]
+15 Jun 2023 22:29:09,117 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL57InnoDB] -> [org.hibernate.dialect.MySQL57InnoDBDialect]
+15 Jun 2023 22:29:09,118 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL57] -> [org.hibernate.dialect.MySQL57Dialect]
+15 Jun 2023 22:29:09,123 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Oracle8i] -> [org.hibernate.dialect.Oracle8iDialect]
+15 Jun 2023 22:29:09,124 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Oracle9i] -> [org.hibernate.dialect.Oracle9iDialect]
+15 Jun 2023 22:29:09,125 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Oracle10g] -> [org.hibernate.dialect.Oracle10gDialect]
+15 Jun 2023 22:29:09,126 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Pointbase] -> [org.hibernate.dialect.PointbaseDialect]
+15 Jun 2023 22:29:09,129 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [PostgresPlus] -> [org.hibernate.dialect.PostgresPlusDialect]
+15 Jun 2023 22:29:09,129 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [PostgreSQL81] -> [org.hibernate.dialect.PostgreSQL81Dialect]
+15 Jun 2023 22:29:09,129 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [PostgreSQL82] -> [org.hibernate.dialect.PostgreSQL82Dialect]
+15 Jun 2023 22:29:09,130 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [PostgreSQL9] -> [org.hibernate.dialect.PostgreSQL9Dialect]
+15 Jun 2023 22:29:09,130 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Progress] -> [org.hibernate.dialect.ProgressDialect]
+15 Jun 2023 22:29:09,131 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SAPDB] -> [org.hibernate.dialect.SAPDBDialect]
+15 Jun 2023 22:29:09,133 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SQLServer] -> [org.hibernate.dialect.SQLServerDialect]
+15 Jun 2023 22:29:09,133 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SQLServer2005] -> [org.hibernate.dialect.SQLServer2005Dialect]
+15 Jun 2023 22:29:09,133 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SQLServer2008] -> [org.hibernate.dialect.SQLServer2008Dialect]
+15 Jun 2023 22:29:09,135 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Sybase11] -> [org.hibernate.dialect.Sybase11Dialect]
+15 Jun 2023 22:29:09,135 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SybaseAnywhere] -> [org.hibernate.dialect.SybaseAnywhereDialect]
+15 Jun 2023 22:29:09,136 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SybaseASE15] -> [org.hibernate.dialect.SybaseASE15Dialect]
+15 Jun 2023 22:29:09,136 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SybaseASE157] -> [org.hibernate.dialect.SybaseASE157Dialect]
+15 Jun 2023 22:29:09,137 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Teradata] -> [org.hibernate.dialect.TeradataDialect]
+15 Jun 2023 22:29:09,138 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.dialect.Dialect] : [TimesTen] -> [org.hibernate.dialect.TimesTenDialect]
+15 Jun 2023 22:29:09,139 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Borland] -> [org.hibernate.engine.transaction.jta.platform.internal.BorlandEnterpriseServerJtaPlatform]
+15 Jun 2023 22:29:09,139 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.BorlandEnterpriseServerJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.BorlandEnterpriseServerJtaPlatform]
+15 Jun 2023 22:29:09,140 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Bitronix] -> [org.hibernate.engine.transaction.jta.platform.internal.BitronixJtaPlatform]
+15 Jun 2023 22:29:09,140 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.BitronixJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.BitronixJtaPlatform]
+15 Jun 2023 22:29:09,141 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JBossAS] -> [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+15 Jun 2023 22:29:09,141 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JBossAppServerJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+15 Jun 2023 22:29:09,141 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JBossTS] -> [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+15 Jun 2023 22:29:09,142 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JBossStandAloneJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+15 Jun 2023 22:29:09,142 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JOnAS] -> [org.hibernate.engine.transaction.jta.platform.internal.JOnASJtaPlatform]
+15 Jun 2023 22:29:09,142 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JOnASJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JOnASJtaPlatform]
+15 Jun 2023 22:29:09,143 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JOTM] -> [org.hibernate.engine.transaction.jta.platform.internal.JOTMJtaPlatform]
+15 Jun 2023 22:29:09,144 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JOTMJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JOTMJtaPlatform]
+15 Jun 2023 22:29:09,144 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JRun4] -> [org.hibernate.engine.transaction.jta.platform.internal.JRun4JtaPlatform]
+15 Jun 2023 22:29:09,144 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JRun4JtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JRun4JtaPlatform]
+15 Jun 2023 22:29:09,146 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [OC4J] -> [org.hibernate.engine.transaction.jta.platform.internal.OC4JJtaPlatform]
+15 Jun 2023 22:29:09,146 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.OC4JJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.OC4JJtaPlatform]
+15 Jun 2023 22:29:09,148 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Orion] -> [org.hibernate.engine.transaction.jta.platform.internal.OrionJtaPlatform]
+15 Jun 2023 22:29:09,148 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.OrionJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.OrionJtaPlatform]
+15 Jun 2023 22:29:09,148 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Resin] -> [org.hibernate.engine.transaction.jta.platform.internal.ResinJtaPlatform]
+15 Jun 2023 22:29:09,148 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.ResinJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.ResinJtaPlatform]
+15 Jun 2023 22:29:09,149 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [SunOne] -> [org.hibernate.engine.transaction.jta.platform.internal.SunOneJtaPlatform]
+15 Jun 2023 22:29:09,149 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.SunOneJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.SunOneJtaPlatform]
+15 Jun 2023 22:29:09,149 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Weblogic] -> [org.hibernate.engine.transaction.jta.platform.internal.WeblogicJtaPlatform]
+15 Jun 2023 22:29:09,149 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.WeblogicJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.WeblogicJtaPlatform]
+15 Jun 2023 22:29:09,150 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [WebSphere] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereJtaPlatform]
+15 Jun 2023 22:29:09,150 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.WebSphereJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereJtaPlatform]
+15 Jun 2023 22:29:09,150 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [WebSphereExtended] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereExtendedJtaPlatform]
+15 Jun 2023 22:29:09,150 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.WebSphereExtendedJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereExtendedJtaPlatform]
+15 Jun 2023 22:29:09,151 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [jdbc] -> [org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl]
+15 Jun 2023 22:29:09,152 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [jta] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+15 Jun 2023 22:29:09,152 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [org.hibernate.transaction.JDBCTransactionFactory] -> [org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl]
+15 Jun 2023 22:29:09,152 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [org.hibernate.transaction.JTATransactionFactory] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+15 Jun 2023 22:29:09,152 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [org.hibernate.transaction.CMTTransactionFactory] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+15 Jun 2023 22:29:09,155 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.hql.spi.id.MultiTableBulkIdStrategy] : [persistent] -> [org.hibernate.hql.spi.id.persistent.PersistentTableBulkIdStrategy]
+15 Jun 2023 22:29:09,155 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.hql.spi.id.MultiTableBulkIdStrategy] : [global_temporary] -> [org.hibernate.hql.spi.id.global.GlobalTemporaryTableBulkIdStrategy]
+15 Jun 2023 22:29:09,156 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.hql.spi.id.MultiTableBulkIdStrategy] : [local_temporary] -> [org.hibernate.hql.spi.id.local.LocalTemporaryTableBulkIdStrategy]
+15 Jun 2023 22:29:09,157 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.event.spi.EntityCopyObserver] : [disallow] -> [org.hibernate.event.internal.EntityCopyNotAllowedObserver]
+15 Jun 2023 22:29:09,157 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.event.spi.EntityCopyObserver] : [allow] -> [org.hibernate.event.internal.EntityCopyAllowedObserver]
+15 Jun 2023 22:29:09,158 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.event.spi.EntityCopyObserver] : [log] -> [org.hibernate.event.internal.EntityCopyAllowedLoggedObserver]
+15 Jun 2023 22:29:09,159 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [default] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl]
+15 Jun 2023 22:29:09,159 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [jpa] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl]
+15 Jun 2023 22:29:09,159 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [legacy-jpa] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl]
+15 Jun 2023 22:29:09,160 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [legacy-hbm] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyHbmImpl]
+15 Jun 2023 22:29:09,160 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [component-path] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyComponentPathImpl]
+15 Jun 2023 22:29:09,161 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.cache.spi.CacheKeysFactory] : [default] -> [org.hibernate.cache.internal.DefaultCacheKeysFactory]
+15 Jun 2023 22:29:09,161 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 66 registerStrategyImplementor - Registering named strategy selector [org.hibernate.cache.spi.CacheKeysFactory] : [simple] -> [org.hibernate.cache.internal.SimpleCacheKeysFactory]
+15 Jun 2023 22:29:09,184 INFO  org.hibernate.Version 45 logVersion - HHH000412: Hibernate Core {5.2.10.Final}
+15 Jun 2023 22:29:09,185 INFO  org.hibernate.cfg.Environment 213 <clinit> - HHH000206: hibernate.properties not found
+15 Jun 2023 22:29:09,191 TRACE org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl 393 locateResourceStream - trying via [new URL("hibernate.cfg.xml")]
+15 Jun 2023 22:29:09,191 TRACE org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl 400 locateResourceStream - trying via [ClassLoader.getResourceAsStream("hibernate.cfg.xml")]
+15 Jun 2023 22:29:09,209 TRACE org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver 35 resolveEntity - In resolveEntity(-//Hibernate/Hibernate Configuration DTD 3.0//EN, http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd, null, null)
+15 Jun 2023 22:29:09,209 DEBUG org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver 57 resolveEntity - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD 3.0//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+15 Jun 2023 22:29:09,209 DEBUG org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver 85 resolveEntity - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+15 Jun 2023 22:29:09,214 DEBUG org.hibernate.boot.cfgxml.internal.JaxbCfgProcessor 116 unmarshal - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+15 Jun 2023 22:29:09,537 DEBUG org.hibernate.service.spi.ServiceBinding 68 setService - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+15 Jun 2023 22:29:09,548 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 229 initializeService - Initializing service [role=org.hibernate.engine.config.spi.ConfigurationService]
+15 Jun 2023 22:29:09,554 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 229 initializeService - Initializing service [role=org.hibernate.cache.spi.RegionFactory]
+15 Jun 2023 22:29:09,556 DEBUG org.hibernate.cache.internal.RegionFactoryInitiator 75 initiateService - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+15 Jun 2023 22:29:09,564 INFO  org.hibernate.annotations.common.reflection.java.JavaReflectionManager 66 <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+15 Jun 2023 22:29:09,568 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 229 initializeService - Initializing service [role=org.hibernate.boot.cfgxml.spi.CfgXmlAccessService]
+15 Jun 2023 22:29:09,580 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration boolean -> org.hibernate.type.BooleanType@7db82169
+15 Jun 2023 22:29:09,580 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration boolean -> org.hibernate.type.BooleanType@7db82169
+15 Jun 2023 22:29:09,580 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@7db82169
+15 Jun 2023 22:29:09,581 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@21d8bcbe
+15 Jun 2023 22:29:09,582 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration true_false -> org.hibernate.type.TrueFalseType@4ae33a11
+15 Jun 2023 22:29:09,582 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration yes_no -> org.hibernate.type.YesNoType@5049d8b2
+15 Jun 2023 22:29:09,583 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration byte -> org.hibernate.type.ByteType@4052274f
+15 Jun 2023 22:29:09,583 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration byte -> org.hibernate.type.ByteType@4052274f
+15 Jun 2023 22:29:09,583 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@4052274f
+15 Jun 2023 22:29:09,584 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration character -> org.hibernate.type.CharacterType@28276e50
+15 Jun 2023 22:29:09,584 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration char -> org.hibernate.type.CharacterType@28276e50
+15 Jun 2023 22:29:09,584 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@28276e50
+15 Jun 2023 22:29:09,585 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration short -> org.hibernate.type.ShortType@3185fa6b
+15 Jun 2023 22:29:09,586 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration short -> org.hibernate.type.ShortType@3185fa6b
+15 Jun 2023 22:29:09,586 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@3185fa6b
+15 Jun 2023 22:29:09,588 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration integer -> org.hibernate.type.IntegerType@bcec031
+15 Jun 2023 22:29:09,588 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration int -> org.hibernate.type.IntegerType@bcec031
+15 Jun 2023 22:29:09,588 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@bcec031
+15 Jun 2023 22:29:09,594 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration long -> org.hibernate.type.LongType@274872f8
+15 Jun 2023 22:29:09,594 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration long -> org.hibernate.type.LongType@274872f8
+15 Jun 2023 22:29:09,594 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.lang.Long -> org.hibernate.type.LongType@274872f8
+15 Jun 2023 22:29:09,597 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration float -> org.hibernate.type.FloatType@305f031
+15 Jun 2023 22:29:09,597 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration float -> org.hibernate.type.FloatType@305f031
+15 Jun 2023 22:29:09,597 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@305f031
+15 Jun 2023 22:29:09,598 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration double -> org.hibernate.type.DoubleType@6256ac4f
+15 Jun 2023 22:29:09,598 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration double -> org.hibernate.type.DoubleType@6256ac4f
+15 Jun 2023 22:29:09,598 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@6256ac4f
+15 Jun 2023 22:29:09,600 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@4eed46ee
+15 Jun 2023 22:29:09,600 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@4eed46ee
+15 Jun 2023 22:29:09,600 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@77192705
+15 Jun 2023 22:29:09,601 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@77192705
+15 Jun 2023 22:29:09,601 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration string -> org.hibernate.type.StringType@5dbe30be
+15 Jun 2023 22:29:09,602 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.lang.String -> org.hibernate.type.StringType@5dbe30be
+15 Jun 2023 22:29:09,602 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@7fd4acee
+15 Jun 2023 22:29:09,603 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@76c7beb3
+15 Jun 2023 22:29:09,604 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration url -> org.hibernate.type.UrlType@5f2f577
+15 Jun 2023 22:29:09,605 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.net.URL -> org.hibernate.type.UrlType@5f2f577
+15 Jun 2023 22:29:09,606 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration Duration -> org.hibernate.type.DurationType@117e0fe5
+15 Jun 2023 22:29:09,606 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@117e0fe5
+15 Jun 2023 22:29:09,612 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration Instant -> org.hibernate.type.InstantType@35beb15e
+15 Jun 2023 22:29:09,612 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@35beb15e
+15 Jun 2023 22:29:09,613 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@53ab0286
+15 Jun 2023 22:29:09,613 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@53ab0286
+15 Jun 2023 22:29:09,614 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@fd46303
+15 Jun 2023 22:29:09,614 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@fd46303
+15 Jun 2023 22:29:09,615 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@69c79f09
+15 Jun 2023 22:29:09,615 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@69c79f09
+15 Jun 2023 22:29:09,616 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@62679465
+15 Jun 2023 22:29:09,616 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@62679465
+15 Jun 2023 22:29:09,617 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@2552f2cb
+15 Jun 2023 22:29:09,617 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@2552f2cb
+15 Jun 2023 22:29:09,618 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@94f6bfb
+15 Jun 2023 22:29:09,619 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@94f6bfb
+15 Jun 2023 22:29:09,620 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration date -> org.hibernate.type.DateType@46e8a539
+15 Jun 2023 22:29:09,620 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.sql.Date -> org.hibernate.type.DateType@46e8a539
+15 Jun 2023 22:29:09,620 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration time -> org.hibernate.type.TimeType@1e5f4170
+15 Jun 2023 22:29:09,621 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@1e5f4170
+15 Jun 2023 22:29:09,621 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration timestamp -> org.hibernate.type.TimestampType@f9879ac
+15 Jun 2023 22:29:09,621 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@f9879ac
+15 Jun 2023 22:29:09,621 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@f9879ac
+15 Jun 2023 22:29:09,623 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@224b4d61
+15 Jun 2023 22:29:09,623 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration calendar -> org.hibernate.type.CalendarType@674c583e
+15 Jun 2023 22:29:09,623 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@674c583e
+15 Jun 2023 22:29:09,623 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@674c583e
+15 Jun 2023 22:29:09,624 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@439a8f59
+15 Jun 2023 22:29:09,625 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration locale -> org.hibernate.type.LocaleType@3a4e343
+15 Jun 2023 22:29:09,625 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@3a4e343
+15 Jun 2023 22:29:09,625 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration currency -> org.hibernate.type.CurrencyType@3954d008
+15 Jun 2023 22:29:09,626 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@3954d008
+15 Jun 2023 22:29:09,626 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration timezone -> org.hibernate.type.TimeZoneType@5d25e6bb
+15 Jun 2023 22:29:09,626 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@5d25e6bb
+15 Jun 2023 22:29:09,627 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration class -> org.hibernate.type.ClassType@61078690
+15 Jun 2023 22:29:09,627 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@61078690
+15 Jun 2023 22:29:09,628 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@664a9613
+15 Jun 2023 22:29:09,628 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@664a9613
+15 Jun 2023 22:29:09,628 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@4a3e3e8b
+15 Jun 2023 22:29:09,629 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration binary -> org.hibernate.type.BinaryType@54361a9
+15 Jun 2023 22:29:09,629 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration byte[] -> org.hibernate.type.BinaryType@54361a9
+15 Jun 2023 22:29:09,629 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration [B -> org.hibernate.type.BinaryType@54361a9
+15 Jun 2023 22:29:09,631 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@6e9319f
+15 Jun 2023 22:29:09,631 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@6e9319f
+15 Jun 2023 22:29:09,632 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@6e9319f
+15 Jun 2023 22:29:09,633 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration row_version -> org.hibernate.type.RowVersionType@47874b25
+15 Jun 2023 22:29:09,635 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration image -> org.hibernate.type.ImageType@74cec793
+15 Jun 2023 22:29:09,640 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration characters -> org.hibernate.type.CharArrayType@6b5176f2
+15 Jun 2023 22:29:09,640 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration char[] -> org.hibernate.type.CharArrayType@6b5176f2
+15 Jun 2023 22:29:09,640 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration [C -> org.hibernate.type.CharArrayType@6b5176f2
+15 Jun 2023 22:29:09,641 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@21c64522
+15 Jun 2023 22:29:09,641 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@21c64522
+15 Jun 2023 22:29:09,641 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@21c64522
+15 Jun 2023 22:29:09,642 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration text -> org.hibernate.type.TextType@4a8ab068
+15 Jun 2023 22:29:09,643 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration ntext -> org.hibernate.type.NTextType@611f8234
+15 Jun 2023 22:29:09,645 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration blob -> org.hibernate.type.BlobType@5471388b
+15 Jun 2023 22:29:09,646 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@5471388b
+15 Jun 2023 22:29:09,646 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@66971f6b
+15 Jun 2023 22:29:09,649 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration clob -> org.hibernate.type.ClobType@782a4fff
+15 Jun 2023 22:29:09,649 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@782a4fff
+15 Jun 2023 22:29:09,653 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration nclob -> org.hibernate.type.NClobType@363f6148
+15 Jun 2023 22:29:09,653 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@363f6148
+15 Jun 2023 22:29:09,655 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@5e77f0f4
+15 Jun 2023 22:29:09,655 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@4816c290
+15 Jun 2023 22:29:09,658 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration serializable -> org.hibernate.type.SerializableType@459f7aa3
+15 Jun 2023 22:29:09,661 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration object -> org.hibernate.type.ObjectType@4de025bf
+15 Jun 2023 22:29:09,661 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@4de025bf
+15 Jun 2023 22:29:09,662 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@5db99216
+15 Jun 2023 22:29:09,662 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@3ec11999
+15 Jun 2023 22:29:09,662 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@5c1bd44c
+15 Jun 2023 22:29:09,662 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@9f46d94
+15 Jun 2023 22:29:09,662 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@18cc679e
+15 Jun 2023 22:29:09,662 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@2e77b8cf
+15 Jun 2023 22:29:09,663 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@2c4ca0f9
+15 Jun 2023 22:29:09,663 DEBUG org.hibernate.type.BasicTypeRegistry 145 register - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@67ef029
+15 Jun 2023 22:29:09,663 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 229 initializeService - Initializing service [role=org.hibernate.engine.jdbc.spi.JdbcServices]
+15 Jun 2023 22:29:09,665 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 229 initializeService - Initializing service [role=org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+15 Jun 2023 22:29:09,665 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 229 initializeService - Initializing service [role=org.hibernate.engine.jdbc.dialect.spi.DialectFactory]
+15 Jun 2023 22:29:09,665 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 229 initializeService - Initializing service [role=org.hibernate.engine.jdbc.dialect.spi.DialectResolver]
+15 Jun 2023 22:29:09,669 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 229 initializeService - Initializing service [role=org.hibernate.engine.jdbc.connections.spi.ConnectionProvider]
+15 Jun 2023 22:29:09,670 WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 70 configure - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+15 Jun 2023 22:29:09,672 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 126 buildCreator - HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:martin.db]
+15 Jun 2023 22:29:09,672 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 132 buildCreator - HHH10001001: Connection properties: {}
+15 Jun 2023 22:29:09,672 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 140 buildCreator - HHH10001003: Autocommit mode: false
+15 Jun 2023 22:29:09,678 DEBUG org.jboss.logging.DelegatingBasicLogger 384 debugf - Initializing Connection pool with 1 Connections
+15 Jun 2023 22:29:09,678 INFO  org.hibernate.engine.jdbc.connections.internal.PooledConnections 41 <init> - HHH000115: Hibernate connection pool size: 20 (min=1)
+15 Jun 2023 22:29:09,832 DEBUG org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator 72 initiateService - Database ->
+       name : SQLite
+    version : 3.16.1
+      major : 3
+      minor : 0
+15 Jun 2023 22:29:09,832 DEBUG org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator 83 initiateService - Driver ->
+       name : SQLiteJDBC
+    version : native
+      major : 1
+      minor : 1
+15 Jun 2023 22:29:09,832 DEBUG org.jboss.logging.DelegatingBasicLogger 389 debugf - JDBC version : 2.1
+15 Jun 2023 22:29:09,841 INFO  org.hibernate.dialect.Dialect 157 <init> - HHH000400: Using dialect: dialect.SQLiteDialect
+15 Jun 2023 22:29:09,862 DEBUG org.hibernate.engine.jdbc.env.spi.IdentifierHelperBuilder 112 applyIdentifierCasing - JDBC driver metadata reported database stores quoted identifiers in neither upper, lower nor mixed case
+15 Jun 2023 22:29:09,864 DEBUG org.hibernate.engine.jdbc.env.spi.IdentifierHelperBuilder 191 build - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
+15 Jun 2023 22:29:09,866 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 61 normalizeQuoting - Normalizing identifier quoting [null]
+15 Jun 2023 22:29:09,866 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 61 normalizeQuoting - Normalizing identifier quoting [null]
+15 Jun 2023 22:29:09,868 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl 98 useContextualLobCreation - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+15 Jun 2023 22:29:09,893 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 229 initializeService - Initializing service [role=org.hibernate.id.factory.spi.MutableIdentifierGeneratorFactory]
+15 Jun 2023 22:29:09,896 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory 81 register - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+15 Jun 2023 22:29:09,897 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory 81 register - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+15 Jun 2023 22:29:09,899 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory 81 register - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+15 Jun 2023 22:29:09,900 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory 81 register - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+15 Jun 2023 22:29:09,901 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory 81 register - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+15 Jun 2023 22:29:09,903 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory 81 register - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+15 Jun 2023 22:29:09,904 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory 81 register - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+15 Jun 2023 22:29:09,906 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory 81 register - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+15 Jun 2023 22:29:09,910 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory 81 register - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+15 Jun 2023 22:29:09,912 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory 81 register - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+15 Jun 2023 22:29:09,913 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory 81 register - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+15 Jun 2023 22:29:09,914 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory 81 register - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+15 Jun 2023 22:29:09,915 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory 81 register - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+15 Jun 2023 22:29:09,919 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory 81 register - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+15 Jun 2023 22:29:09,955 DEBUG org.hibernate.boot.model.relational.Namespace 47 <init> - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+15 Jun 2023 22:29:09,984 DEBUG org.hibernate.cfg.AnnotationBinder 511 bindClass - Binding entity from annotated class: domain.Game
+15 Jun 2023 22:29:09,999 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 61 normalizeQuoting - Normalizing identifier quoting [DTYPE]
+15 Jun 2023 22:29:09,999 DEBUG org.hibernate.cfg.Ejb3Column 213 bind - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+15 Jun 2023 22:29:10,003 DEBUG org.hibernate.cfg.annotations.EntityBinder 419 bindEntity - Import with entity name Game
+15 Jun 2023 22:29:10,003 TRACE org.hibernate.boot.internal.InFlightMetadataCollectorImpl 673 addImport - Import: Game -> domain.Game
+15 Jun 2023 22:29:10,003 TRACE org.hibernate.boot.internal.InFlightMetadataCollectorImpl 673 addImport - Import: domain.Game -> domain.Game
+15 Jun 2023 22:29:10,004 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 61 normalizeQuoting - Normalizing identifier quoting [game]
+15 Jun 2023 22:29:10,004 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 61 normalizeQuoting - Normalizing identifier quoting [game]
+15 Jun 2023 22:29:10,005 DEBUG org.hibernate.cfg.annotations.EntityBinder 695 bindTable - Bind entity domain.Game on table game
+15 Jun 2023 22:29:10,021 TRACE org.hibernate.cfg.AnnotationBinder 1643 processElementAnnotations - Processing annotations of domain.Game.id
+15 Jun 2023 22:29:10,023 DEBUG org.hibernate.cfg.Ejb3Column 520 buildColumnFromAnnotation - Column(s) overridden for property id
+15 Jun 2023 22:29:10,023 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 61 normalizeQuoting - Normalizing identifier quoting [game_id]
+15 Jun 2023 22:29:10,024 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 61 normalizeQuoting - Normalizing identifier quoting [game_id]
+15 Jun 2023 22:29:10,024 DEBUG org.hibernate.cfg.Ejb3Column 213 bind - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(game), mappingColumn=game_id, insertable=true, updatable=true, unique=false}
+15 Jun 2023 22:29:10,028 DEBUG org.hibernate.cfg.annotations.PropertyBinder 174 makePropertyAndValue - MetadataSourceProcessor property id with lazy=false
+15 Jun 2023 22:29:10,032 DEBUG org.hibernate.cfg.AbstractPropertyHolder 92 resolveAttributeConverterDescriptor - Attempting to locate auto-apply AttributeConverter for property [domain.Game:id]
+15 Jun 2023 22:29:10,033 DEBUG org.hibernate.cfg.annotations.SimpleValueBinder 411 make - building SimpleValue for id
+15 Jun 2023 22:29:10,034 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 61 normalizeQuoting - Normalizing identifier quoting [game_id]
+15 Jun 2023 22:29:10,034 DEBUG org.hibernate.cfg.annotations.PropertyBinder 265 makeProperty - Building property id
+15 Jun 2023 22:29:10,035 TRACE org.hibernate.cfg.annotations.PropertyBinder 323 makeProperty - Cascading id with null
+15 Jun 2023 22:29:10,036 TRACE org.hibernate.cfg.AnnotationBinder 2395 processId - Bind @Id on id
+15 Jun 2023 22:29:10,036 TRACE org.hibernate.cfg.AnnotationBinder 1643 processElementAnnotations - Processing annotations of domain.Game.val1
+15 Jun 2023 22:29:10,036 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 61 normalizeQuoting - Normalizing identifier quoting [val1]
+15 Jun 2023 22:29:10,037 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 61 normalizeQuoting - Normalizing identifier quoting [val1]
+15 Jun 2023 22:29:10,037 DEBUG org.hibernate.cfg.Ejb3Column 213 bind - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(game), mappingColumn=val1, insertable=true, updatable=true, unique=false}
+15 Jun 2023 22:29:10,037 DEBUG org.hibernate.cfg.annotations.PropertyBinder 174 makePropertyAndValue - MetadataSourceProcessor property val1 with lazy=false
+15 Jun 2023 22:29:10,037 DEBUG org.hibernate.cfg.AbstractPropertyHolder 92 resolveAttributeConverterDescriptor - Attempting to locate auto-apply AttributeConverter for property [domain.Game:val1]
+15 Jun 2023 22:29:10,037 DEBUG org.hibernate.cfg.annotations.SimpleValueBinder 411 make - building SimpleValue for val1
+15 Jun 2023 22:29:10,037 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 61 normalizeQuoting - Normalizing identifier quoting [val1]
+15 Jun 2023 22:29:10,037 DEBUG org.hibernate.cfg.annotations.PropertyBinder 265 makeProperty - Building property val1
+15 Jun 2023 22:29:10,037 TRACE org.hibernate.cfg.annotations.PropertyBinder 323 makeProperty - Cascading val1 with null
+15 Jun 2023 22:29:10,037 TRACE org.hibernate.cfg.AnnotationBinder 1643 processElementAnnotations - Processing annotations of domain.Game.val2
+15 Jun 2023 22:29:10,037 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 61 normalizeQuoting - Normalizing identifier quoting [val2]
+15 Jun 2023 22:29:10,037 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 61 normalizeQuoting - Normalizing identifier quoting [val2]
+15 Jun 2023 22:29:10,037 DEBUG org.hibernate.cfg.Ejb3Column 213 bind - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(game), mappingColumn=val2, insertable=true, updatable=true, unique=false}
+15 Jun 2023 22:29:10,037 DEBUG org.hibernate.cfg.annotations.PropertyBinder 174 makePropertyAndValue - MetadataSourceProcessor property val2 with lazy=false
+15 Jun 2023 22:29:10,037 DEBUG org.hibernate.cfg.AbstractPropertyHolder 92 resolveAttributeConverterDescriptor - Attempting to locate auto-apply AttributeConverter for property [domain.Game:val2]
+15 Jun 2023 22:29:10,038 DEBUG org.hibernate.cfg.annotations.SimpleValueBinder 411 make - building SimpleValue for val2
+15 Jun 2023 22:29:10,038 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 61 normalizeQuoting - Normalizing identifier quoting [val2]
+15 Jun 2023 22:29:10,038 DEBUG org.hibernate.cfg.annotations.PropertyBinder 265 makeProperty - Building property val2
+15 Jun 2023 22:29:10,038 TRACE org.hibernate.cfg.annotations.PropertyBinder 323 makeProperty - Cascading val2 with null
+15 Jun 2023 22:29:10,038 TRACE org.hibernate.cfg.AnnotationBinder 1643 processElementAnnotations - Processing annotations of domain.Game.val3
+15 Jun 2023 22:29:10,038 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 61 normalizeQuoting - Normalizing identifier quoting [val3]
+15 Jun 2023 22:29:10,038 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 61 normalizeQuoting - Normalizing identifier quoting [val3]
+15 Jun 2023 22:29:10,038 DEBUG org.hibernate.cfg.Ejb3Column 213 bind - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(game), mappingColumn=val3, insertable=true, updatable=true, unique=false}
+15 Jun 2023 22:29:10,038 DEBUG org.hibernate.cfg.annotations.PropertyBinder 174 makePropertyAndValue - MetadataSourceProcessor property val3 with lazy=false
+15 Jun 2023 22:29:10,038 DEBUG org.hibernate.cfg.AbstractPropertyHolder 92 resolveAttributeConverterDescriptor - Attempting to locate auto-apply AttributeConverter for property [domain.Game:val3]
+15 Jun 2023 22:29:10,038 DEBUG org.hibernate.cfg.annotations.SimpleValueBinder 411 make - building SimpleValue for val3
+15 Jun 2023 22:29:10,039 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 61 normalizeQuoting - Normalizing identifier quoting [val3]
+15 Jun 2023 22:29:10,039 DEBUG org.hibernate.cfg.annotations.PropertyBinder 265 makeProperty - Building property val3
+15 Jun 2023 22:29:10,039 TRACE org.hibernate.cfg.annotations.PropertyBinder 323 makeProperty - Cascading val3 with null
+15 Jun 2023 22:29:10,039 TRACE org.hibernate.cfg.AnnotationBinder 1643 processElementAnnotations - Processing annotations of domain.Game.val4
+15 Jun 2023 22:29:10,039 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 61 normalizeQuoting - Normalizing identifier quoting [val4]
+15 Jun 2023 22:29:10,039 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 61 normalizeQuoting - Normalizing identifier quoting [val4]
+15 Jun 2023 22:29:10,039 DEBUG org.hibernate.cfg.Ejb3Column 213 bind - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(game), mappingColumn=val4, insertable=true, updatable=true, unique=false}
+15 Jun 2023 22:29:10,039 DEBUG org.hibernate.cfg.annotations.PropertyBinder 174 makePropertyAndValue - MetadataSourceProcessor property val4 with lazy=false
+15 Jun 2023 22:29:10,039 DEBUG org.hibernate.cfg.AbstractPropertyHolder 92 resolveAttributeConverterDescriptor - Attempting to locate auto-apply AttributeConverter for property [domain.Game:val4]
+15 Jun 2023 22:29:10,039 DEBUG org.hibernate.cfg.annotations.SimpleValueBinder 411 make - building SimpleValue for val4
+15 Jun 2023 22:29:10,039 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 61 normalizeQuoting - Normalizing identifier quoting [val4]
+15 Jun 2023 22:29:10,039 DEBUG org.hibernate.cfg.annotations.PropertyBinder 265 makeProperty - Building property val4
+15 Jun 2023 22:29:10,039 TRACE org.hibernate.cfg.annotations.PropertyBinder 323 makeProperty - Cascading val4 with null
+15 Jun 2023 22:29:10,039 TRACE org.hibernate.cfg.AnnotationBinder 1643 processElementAnnotations - Processing annotations of domain.Game.val5
+15 Jun 2023 22:29:10,039 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 61 normalizeQuoting - Normalizing identifier quoting [val5]
+15 Jun 2023 22:29:10,040 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 61 normalizeQuoting - Normalizing identifier quoting [val5]
+15 Jun 2023 22:29:10,040 DEBUG org.hibernate.cfg.Ejb3Column 213 bind - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(game), mappingColumn=val5, insertable=true, updatable=true, unique=false}
+15 Jun 2023 22:29:10,040 DEBUG org.hibernate.cfg.annotations.PropertyBinder 174 makePropertyAndValue - MetadataSourceProcessor property val5 with lazy=false
+15 Jun 2023 22:29:10,040 DEBUG org.hibernate.cfg.AbstractPropertyHolder 92 resolveAttributeConverterDescriptor - Attempting to locate auto-apply AttributeConverter for property [domain.Game:val5]
+15 Jun 2023 22:29:10,040 DEBUG org.hibernate.cfg.annotations.SimpleValueBinder 411 make - building SimpleValue for val5
+15 Jun 2023 22:29:10,040 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 61 normalizeQuoting - Normalizing identifier quoting [val5]
+15 Jun 2023 22:29:10,040 DEBUG org.hibernate.cfg.annotations.PropertyBinder 265 makeProperty - Building property val5
+15 Jun 2023 22:29:10,040 TRACE org.hibernate.cfg.annotations.PropertyBinder 323 makeProperty - Cascading val5 with null
+15 Jun 2023 22:29:10,042 DEBUG org.hibernate.cfg.annotations.SimpleValueBinder 456 fillSimpleValue - Starting fillSimpleValue for id
+15 Jun 2023 22:29:10,042 DEBUG org.hibernate.cfg.annotations.SimpleValueBinder 456 fillSimpleValue - Starting fillSimpleValue for val1
+15 Jun 2023 22:29:10,042 DEBUG org.hibernate.cfg.annotations.SimpleValueBinder 456 fillSimpleValue - Starting fillSimpleValue for val2
+15 Jun 2023 22:29:10,042 DEBUG org.hibernate.cfg.annotations.SimpleValueBinder 456 fillSimpleValue - Starting fillSimpleValue for val3
+15 Jun 2023 22:29:10,042 DEBUG org.hibernate.cfg.annotations.SimpleValueBinder 456 fillSimpleValue - Starting fillSimpleValue for val4
+15 Jun 2023 22:29:10,042 DEBUG org.hibernate.cfg.annotations.SimpleValueBinder 456 fillSimpleValue - Starting fillSimpleValue for val5
+15 Jun 2023 22:29:10,043 DEBUG org.hibernate.mapping.PrimaryKey 35 addColumn - Forcing column [game_id] to be non-null as it is part of the primary key for table [game]
+15 Jun 2023 22:29:10,056 TRACE org.hibernate.loader.BatchFetchStyle 51 interpret - Interpreting BatchFetchStyle from setting : null
+15 Jun 2023 22:29:10,058 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 229 initializeService - Initializing service [role=org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder]
+15 Jun 2023 22:29:10,071 DEBUG org.hibernate.internal.SessionFactoryImpl 199 <init> - Building session factory
+15 Jun 2023 22:29:10,075 DEBUG org.hibernate.cfg.Settings 69 <init> - SessionFactory name : null
+15 Jun 2023 22:29:10,075 DEBUG org.hibernate.cfg.Settings 70 <init> - Automatic flush during beforeCompletion(): enabled
+15 Jun 2023 22:29:10,075 DEBUG org.hibernate.cfg.Settings 71 <init> - Automatic session close at end of transaction: disabled
+15 Jun 2023 22:29:10,075 DEBUG org.hibernate.cfg.Settings 73 <init> - Statistics: disabled
+15 Jun 2023 22:29:10,075 DEBUG org.hibernate.cfg.Settings 75 <init> - Deleted entity synthetic identifier rollback: disabled
+15 Jun 2023 22:29:10,075 DEBUG org.hibernate.cfg.Settings 76 <init> - Default entity-mode: pojo
+15 Jun 2023 22:29:10,075 DEBUG org.hibernate.cfg.Settings 77 <init> - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+15 Jun 2023 22:29:10,075 DEBUG org.hibernate.cfg.Settings 78 <init> - Allow initialization of lazy state outside session : disabled
+15 Jun 2023 22:29:10,075 DEBUG org.hibernate.cfg.Settings 80 <init> - Using BatchFetchStyle : LEGACY
+15 Jun 2023 22:29:10,075 DEBUG org.hibernate.cfg.Settings 81 <init> - Default batch fetch size: -1
+15 Jun 2023 22:29:10,075 DEBUG org.hibernate.cfg.Settings 82 <init> - Maximum outer join fetch depth: null
+15 Jun 2023 22:29:10,075 DEBUG org.hibernate.cfg.Settings 83 <init> - Default null ordering: NONE
+15 Jun 2023 22:29:10,075 DEBUG org.hibernate.cfg.Settings 84 <init> - Order SQL updates by primary key: disabled
+15 Jun 2023 22:29:10,075 DEBUG org.hibernate.cfg.Settings 85 <init> - Order SQL inserts for batching: disabled
+15 Jun 2023 22:29:10,075 DEBUG org.hibernate.cfg.Settings 87 <init> - multi-tenancy strategy : NONE
+15 Jun 2023 22:29:10,076 DEBUG org.hibernate.cfg.Settings 89 <init> - JTA Track by Thread: enabled
+15 Jun 2023 22:29:10,076 DEBUG org.hibernate.cfg.Settings 91 <init> - Query language substitutions: {}
+15 Jun 2023 22:29:10,076 DEBUG org.hibernate.cfg.Settings 92 <init> - JPA query language strict compliance: disabled
+15 Jun 2023 22:29:10,076 DEBUG org.hibernate.cfg.Settings 93 <init> - Named query checking : enabled
+15 Jun 2023 22:29:10,076 DEBUG org.hibernate.cfg.Settings 95 <init> - Second-level cache: enabled
+15 Jun 2023 22:29:10,076 DEBUG org.hibernate.cfg.Settings 96 <init> - Second-level query cache: disabled
+15 Jun 2023 22:29:10,076 DEBUG org.hibernate.cfg.Settings 97 <init> - Second-level query cache factory: org.hibernate.cache.internal.StandardQueryCacheFactory@63ec445c
+15 Jun 2023 22:29:10,076 DEBUG org.hibernate.cfg.Settings 98 <init> - Second-level cache region prefix: null
+15 Jun 2023 22:29:10,076 DEBUG org.hibernate.cfg.Settings 99 <init> - Optimize second-level cache for minimal puts: disabled
+15 Jun 2023 22:29:10,076 DEBUG org.hibernate.cfg.Settings 100 <init> - Structured second-level cache entries: disabled
+15 Jun 2023 22:29:10,076 DEBUG org.hibernate.cfg.Settings 101 <init> - Second-level cache direct-reference entries: disabled
+15 Jun 2023 22:29:10,076 DEBUG org.hibernate.cfg.Settings 102 <init> - Automatic eviction of collection cache: disabled
+15 Jun 2023 22:29:10,076 DEBUG org.hibernate.cfg.Settings 104 <init> - JDBC batch size: 0
+15 Jun 2023 22:29:10,076 DEBUG org.hibernate.cfg.Settings 105 <init> - JDBC batch updates for versioned data: enabled
+15 Jun 2023 22:29:10,076 DEBUG org.hibernate.cfg.Settings 106 <init> - Scrollable result sets: disabled
+15 Jun 2023 22:29:10,076 DEBUG org.hibernate.cfg.Settings 107 <init> - Wrap result sets: disabled
+15 Jun 2023 22:29:10,076 DEBUG org.hibernate.cfg.Settings 108 <init> - JDBC3 getGeneratedKeys(): enabled
+15 Jun 2023 22:29:10,076 DEBUG org.hibernate.cfg.Settings 109 <init> - JDBC result set fetch size: null
+15 Jun 2023 22:29:10,076 DEBUG org.hibernate.cfg.Settings 110 <init> - Connection release mode: AFTER_TRANSACTION
+15 Jun 2023 22:29:10,076 DEBUG org.hibernate.cfg.Settings 111 <init> - Generate SQL with comments: disabled
+15 Jun 2023 22:29:10,077 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 229 initializeService - Initializing service [role=org.hibernate.service.spi.SessionFactoryServiceRegistryFactory]
+15 Jun 2023 22:29:10,086 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 229 initializeService - Initializing service [role=org.hibernate.event.service.spi.EventListenerRegistry]
+15 Jun 2023 22:29:10,125 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 229 initializeService - Initializing service [role=org.hibernate.engine.spi.CacheImplementor]
+15 Jun 2023 22:29:10,134 TRACE org.hibernate.type.TypeFactory$TypeScopeImpl 58 injectSessionFactory - Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@62b969c4
+15 Jun 2023 22:29:10,135 DEBUG org.hibernate.internal.SessionFactoryImpl 254 <init> - Session factory constructed with filter configurations : {}
+15 Jun 2023 22:29:10,135 DEBUG org.hibernate.internal.SessionFactoryImpl 255 <init> - Instantiating session factory with properties: {hibernate.format_sql=true, dialect=dialect.SQLiteDialect, java.specification.version=17, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1250, hibernate.dialect=dialect.SQLiteDialect, java.class.path=C:\Users\marti\Downloads\MPP\Martin\ServerRPC\build\classes\java\main;C:\Users\marti\Downloads\MPP\Martin\ServerRPC\build\resources\main;C:\Users\marti\Downloads\MPP\Martin\Networking\build\libs\Networking-1.0-SNAPSHOT.jar;C:\Users\marti\Downloads\MPP\Martin\Services\build\libs\Services-1.0-SNAPSHOT.jar;C:\Users\marti\Downloads\MPP\Martin\Persistence\build\libs\Persistence-1.0-SNAPSHOT.jar;C:\Users\marti\Downloads\MPP\Martin\Domain\build\libs\Domain-1.0-SNAPSHOT.jar;C:\Users\marti\.gradle\caches\modules-2\files-2.1\org.hibernate\hibernate-core\5.2.10.Final\b46a4ba34b52d335cc45c0f33d029f782f7db887\hibernate-core-5.2.10.Final.jar;C:\Users\marti\.gradle\caches\modules-2\files-2.1\org.glassfish.jaxb\jaxb-runtime\2.3.2\5528bc882ea499a09d720b42af11785c4fc6be2a\jaxb-runtime-2.3.2.jar;C:\Users\marti\.gradle\caches\modules-2\files-2.1\org.jvnet.staxex\stax-ex\1.8.1\78011e483a21102fb4858f3e8f269a677e50aa23\stax-ex-1.8.1.jar;C:\Users\marti\.gradle\caches\modules-2\files-2.1\jakarta.xml.bind\jakarta.xml.bind-api\2.3.2\8d49996a4338670764d7ca4b85a1c4ccf7fe665d\jakarta.xml.bind-api-2.3.2.jar;C:\Users\marti\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.17.1\779f60f3844dadc3ef597976fcb1e5127b1f343d\log4j-core-2.17.1.jar;C:\Users\marti\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.17.1\d771af8e336e372fb5399c99edabe0919aeaf5b2\log4j-api-2.17.1.jar;C:\Users\marti\.gradle\caches\modules-2\files-2.1\org.javassist\javassist\3.29.2-GA\6c32028609e5dd4a1b78e10fbcd122b09b3928b1\javassist-3.29.2-GA.jar;C:\Users\marti\.gradle\caches\modules-2\files-2.1\org.springframework\spring-context\4.3.8.RELEASE\944073ac58ab78b78a7694d2c53d4ae9f634c815\spring-context-4.3.8.RELEASE.jar;C:\Users\marti\.gradle\caches\modules-2\files-2.1\org.xerial\sqlite-jdbc\3.16.1\72540738ecee65b58ef5a6dbc125e83223716b17\sqlite-jdbc-3.16.1.jar;C:\Users\marti\.gradle\caches\modules-2\files-2.1\org.hibernate.common\hibernate-commons-annotations\5.0.1.Final\71e1cff3fcb20d3b3af4f3363c3ddb24d33c6879\hibernate-commons-annotations-5.0.1.Final.jar;C:\Users\marti\.gradle\caches\modules-2\files-2.1\org.jboss.logging\jboss-logging\3.3.0.Final\3616bb87707910296e2c195dc016287080bba5af\jboss-logging-3.3.0.Final.jar;C:\Users\marti\.gradle\caches\modules-2\files-2.1\org.hibernate.javax.persistence\hibernate-jpa-2.1-api\1.0.0.Final\5e731d961297e5a07290bfaf3db1fbc8bbbf405a\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Users\marti\.gradle\caches\modules-2\files-2.1\antlr\antlr\2.7.7\83cd2cd674a217ade95a4bb83a8a14f351f48bd0\antlr-2.7.7.jar;C:\Users\marti\.gradle\caches\modules-2\files-2.1\org.jboss.spec.javax.transaction\jboss-transaction-api_1.2_spec\1.0.1.Final\4441f144a2a1f46ed48fcc6b476a4b6295e6d524\jboss-transaction-api_1.2_spec-1.0.1.Final.jar;C:\Users\marti\.gradle\caches\modules-2\files-2.1\org.jboss\jandex\2.0.3.Final\bfc4d6257dbff7a33a357f0de116be6ff951d849\jandex-2.0.3.Final.jar;C:\Users\marti\.gradle\caches\modules-2\files-2.1\com.fasterxml\classmate\1.3.0\183407ff982e9375f1a1c4a51ed0a9307c598fc7\classmate-1.3.0.jar;C:\Users\marti\.gradle\caches\modules-2\files-2.1\dom4j\dom4j\1.6.1\5d3ccc056b6f056dbf0dddfdf43894b9065a8f94\dom4j-1.6.1.jar;C:\Users\marti\.gradle\caches\modules-2\files-2.1\com.sun.istack\istack-commons-runtime\3.0.8\d6a97364045aa6b99bf2d3c566a3f98599c2d296\istack-commons-runtime-3.0.8.jar;C:\Users\marti\.gradle\caches\modules-2\files-2.1\jakarta.activation\jakarta.activation-api\1.2.1\562a587face36ec7eff2db7f2fc95425c6602bc1\jakarta.activation-api-1.2.1.jar;C:\Users\marti\.gradle\caches\modules-2\files-2.1\org.glassfish.jaxb\txw2\2.3.2\ce5be7da2e442c25ec14c766cb60cb802741727b\txw2-2.3.2.jar;C:\Users\marti\.gradle\caches\modules-2\files-2.1\com.sun.xml.fastinfoset\FastInfoset\1.2.16\4eb6a0adad553bf759ffe86927df6f3b848c8bea\FastInfoset-1.2.16.jar;C:\Users\marti\.gradle\caches\modules-2\files-2.1\org.springframework\spring-aop\4.3.8.RELEASE\2ee7e60f8838bff13c5def48fab571ab10553e5d\spring-aop-4.3.8.RELEASE.jar;C:\Users\marti\.gradle\caches\modules-2\files-2.1\org.springframework\spring-beans\4.3.8.RELEASE\9d39133bb80e13d643bfefd731fe86cab3aa2bd7\spring-beans-4.3.8.RELEASE.jar;C:\Users\marti\.gradle\caches\modules-2\files-2.1\org.springframework\spring-expression\4.3.8.RELEASE\204f7e241f42f46b16baa3d190752703efd7797\spring-expression-4.3.8.RELEASE.jar;C:\Users\marti\.gradle\caches\modules-2\files-2.1\org.springframework\spring-core\4.3.8.RELEASE\cce6c251249e48f0a86aa578c2a0e262efa5a1e0\spring-core-4.3.8.RELEASE.jar;C:\Users\marti\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.2\4bfc12adfe4842bf07b657f0369c4cb522955686\commons-logging-1.2.jar, java.vm.vendor=Azul Systems, Inc., sun.arch.data.model=64, user.variant=, java.vendor.url=http://www.azul.com/, user.timezone=Europe/Bucharest, java.vm.specification.version=17, os.name=Windows 11, user.country=US, sun.java.launcher=SUN_STANDARD, sun.boot.library.path=C:\Users\marti\.jdks\azul-17.0.5\bin, sun.java.command=StartRpcServer, jdk.debug=release, sun.cpu.endian=little, user.home=C:\Users\marti, user.language=en, java.specification.vendor=Oracle Corporation, java.version.date=2022-10-18, java.home=C:\Users\marti\.jdks\azul-17.0.5, file.separator=\, java.vm.compressedOopsMode=Zero based, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, hibernate.hbm2ddl.auto=update, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=17.0.5+8-LTS, user.name=marti, path.separator=;, os.version=10.0, java.runtime.name=OpenJDK Runtime Environment, hibernate.connection.url=jdbc:sqlite:martin.db, file.encoding=windows-1250, format_sql=true, java.vm.name=OpenJDK 64-Bit Server VM, hibernate.show_sql=true, java.vendor.version=Zulu17.38+21-CA, show_sql=true, hibernate.connection.driver_class=org.sqlite.JDBC, java.vendor.url.bug=http://www.azul.com/support/, java.io.tmpdir=C:\Users\marti\AppData\Local\Temp\, java.version=17.0.5, user.dir=C:\Users\marti\Downloads\MPP\Martin, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, sun.os.patch.level=, connection.driver_class=org.sqlite.JDBC, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@f3fcd59, native.encoding=Cp1250, java.library.path=C:\Users\marti\.jdks\azul-17.0.5\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\libnvvp;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\libnvvp;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\NVIDIA Corporation\NGCCLI\x86\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\protoc-22.3-win64\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.3.0\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\marti\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Users\marti\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\bin;C:\Users\marti\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\marti\.dotnet\tools;C:\Users\marti\AppData\Roaming\npm;C:\msys64\mingw64\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\libnvvp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\extras\CUPTI\lib64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\extras\CUPTI\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\lib\x64;;., java.vendor=Azul Systems, Inc., java.vm.info=mixed mode, sharing, java.vm.version=17.0.5+8-LTS, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, connection.url=jdbc:sqlite:martin.db, java.class.version=61.0}
+15 Jun 2023 22:29:10,140 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 229 initializeService - Initializing service [role=org.hibernate.engine.query.spi.NativeQueryInterpreter]
+15 Jun 2023 22:29:10,142 DEBUG org.hibernate.secure.spi.JaccIntegrator 80 doIntegration - Skipping JACC integration as it was not enabled
+15 Jun 2023 22:29:10,143 DEBUG org.hibernate.internal.SessionFactoryImpl 294 <init> - Instantiated session factory
+15 Jun 2023 22:29:10,156 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 229 initializeService - Initializing service [role=org.hibernate.persister.spi.PersisterFactory]
+15 Jun 2023 22:29:10,159 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 229 initializeService - Initializing service [role=org.hibernate.persister.spi.PersisterClassResolver]
+15 Jun 2023 22:29:10,183 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 229 initializeService - Initializing service [role=org.hibernate.property.access.spi.PropertyAccessStrategyResolver]
+15 Jun 2023 22:29:10,187 DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl 55 classForName - Not known whether passed class name [domain.Game] is safe
+15 Jun 2023 22:29:10,187 DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl 57 classForName - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : domain.Game
+15 Jun 2023 22:29:10,203 DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl 55 classForName - Not known whether passed class name [domain.Game] is safe
+15 Jun 2023 22:29:10,203 DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl 57 classForName - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : domain.Game
+15 Jun 2023 22:29:10,255 TRACE org.hibernate.persister.entity.AbstractPropertyMapping 122 addPropertyPath - Skipping duplicate registration of path [val1], existing type = [org.hibernate.type.IntegerType@bcec031], incoming type = [org.hibernate.type.IntegerType@bcec031]
+15 Jun 2023 22:29:10,255 TRACE org.hibernate.persister.entity.AbstractPropertyMapping 122 addPropertyPath - Skipping duplicate registration of path [val2], existing type = [org.hibernate.type.IntegerType@bcec031], incoming type = [org.hibernate.type.IntegerType@bcec031]
+15 Jun 2023 22:29:10,255 TRACE org.hibernate.persister.entity.AbstractPropertyMapping 122 addPropertyPath - Skipping duplicate registration of path [val3], existing type = [org.hibernate.type.IntegerType@bcec031], incoming type = [org.hibernate.type.IntegerType@bcec031]
+15 Jun 2023 22:29:10,255 TRACE org.hibernate.persister.entity.AbstractPropertyMapping 122 addPropertyPath - Skipping duplicate registration of path [val4], existing type = [org.hibernate.type.IntegerType@bcec031], incoming type = [org.hibernate.type.IntegerType@bcec031]
+15 Jun 2023 22:29:10,255 TRACE org.hibernate.persister.entity.AbstractPropertyMapping 122 addPropertyPath - Skipping duplicate registration of path [val5], existing type = [org.hibernate.type.IntegerType@bcec031], incoming type = [org.hibernate.type.IntegerType@bcec031]
+15 Jun 2023 22:29:10,255 TRACE org.hibernate.persister.entity.AbstractPropertyMapping 122 addPropertyPath - Skipping duplicate registration of path [id], existing type = [org.hibernate.type.IntegerType@bcec031], incoming type = [org.hibernate.type.IntegerType@bcec031]
+15 Jun 2023 22:29:10,260 DEBUG org.hibernate.persister.entity.AbstractEntityPersister 3598 logStaticSQL - Static SQL for entity: domain.Game
+15 Jun 2023 22:29:10,260 DEBUG org.hibernate.persister.entity.AbstractEntityPersister 3603 logStaticSQL -  Version select: select game_id from game where game_id =?
+15 Jun 2023 22:29:10,260 DEBUG org.hibernate.persister.entity.AbstractEntityPersister 3606 logStaticSQL -  Snapshot select: select game_.game_id, game_.val1 as val2_0_, game_.val2 as val3_0_, game_.val3 as val4_0_, game_.val4 as val5_0_, game_.val5 as val6_0_ from game game_ where game_.game_id=?
+15 Jun 2023 22:29:10,260 DEBUG org.jboss.logging.DelegatingBasicLogger 394 debugf -  Insert 0: insert into game (val1, val2, val3, val4, val5, game_id) values (?, ?, ?, ?, ?, ?)
+15 Jun 2023 22:29:10,260 DEBUG org.jboss.logging.DelegatingBasicLogger 394 debugf -  Update 0: update game set val1=?, val2=?, val3=?, val4=?, val5=? where game_id=?
+15 Jun 2023 22:29:10,260 DEBUG org.jboss.logging.DelegatingBasicLogger 394 debugf -  Delete 0: delete from game where game_id=?
+15 Jun 2023 22:29:10,260 DEBUG org.hibernate.persister.entity.AbstractEntityPersister 3614 logStaticSQL -  Identity insert: insert into game (val1, val2, val3, val4, val5) values (?, ?, ?, ?, ?)
+15 Jun 2023 22:29:10,272 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 172 startingEntity -  Starting root entity : domain.Game
+15 Jun 2023 22:29:10,276 DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl 174 registerQuerySpace - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@154bd49b]
+15 Jun 2023 22:29:10,276 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 113 pushToStack - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@56f521c6
+15 Jun 2023 22:29:10,277 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 648 associationKeyRegistered - .. Registering AssociationKey : AssociationKey(table=game, columns={game_id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@56f521c6
+15 Jun 2023 22:29:10,277 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 239 startingEntityIdentifier - >> Starting entity identifier : domain.Game
+15 Jun 2023 22:29:10,277 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val1
+15 Jun 2023 22:29:10,277 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val1, type=integer [non-identifier])
+15 Jun 2023 22:29:10,278 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val1, type=integer [non-identifier])
+15 Jun 2023 22:29:10,278 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val2
+15 Jun 2023 22:29:10,278 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val2, type=integer [non-identifier])
+15 Jun 2023 22:29:10,278 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val2, type=integer [non-identifier])
+15 Jun 2023 22:29:10,278 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val3
+15 Jun 2023 22:29:10,278 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val3, type=integer [non-identifier])
+15 Jun 2023 22:29:10,278 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val3, type=integer [non-identifier])
+15 Jun 2023 22:29:10,278 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val4
+15 Jun 2023 22:29:10,278 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val4, type=integer [non-identifier])
+15 Jun 2023 22:29:10,278 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val4, type=integer [non-identifier])
+15 Jun 2023 22:29:10,278 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val5
+15 Jun 2023 22:29:10,278 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val5, type=integer [non-identifier])
+15 Jun 2023 22:29:10,278 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val5, type=integer [non-identifier])
+15 Jun 2023 22:29:10,278 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 120 popFromStack - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@56f521c6
+15 Jun 2023 22:29:10,278 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 208 finishingEntity -  Finished root entity : domain.Game
+15 Jun 2023 22:29:10,278 DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy 150 buildLoadPlan - Building LoadPlan...
+15 Jun 2023 22:29:10,288 DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor 101 processQuerySpaceJoins - processing queryspace <gen:0>
+15 Jun 2023 22:29:10,291 DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter 55 logTree - LoadPlan(entity=domain.Game)
+    - Returns
+       - EntityReturnImpl(entity=domain.Game, querySpaceUid=<gen:0>, path=domain.Game)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=domain.Game)
+          - SQL table alias mapping - game0_
+          - alias suffix - 0_
+          - suffixed key columns - {game_id1_0_0_}
+
+15 Jun 2023 22:29:10,292 DEBUG org.hibernate.loader.entity.plan.EntityLoader 115 <init> - Static select for entity domain.Game [NONE]: select game0_.game_id as game_id1_0_0_, game0_.val1 as val2_0_0_, game0_.val2 as val3_0_0_, game0_.val3 as val4_0_0_, game0_.val4 as val5_0_0_, game0_.val5 as val6_0_0_ from game game0_ where game0_.game_id=?
+15 Jun 2023 22:29:10,292 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 172 startingEntity -  Starting root entity : domain.Game
+15 Jun 2023 22:29:10,292 DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl 174 registerQuerySpace - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@68e7c8c3]
+15 Jun 2023 22:29:10,293 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 113 pushToStack - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@319c3a25
+15 Jun 2023 22:29:10,293 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 648 associationKeyRegistered - .. Registering AssociationKey : AssociationKey(table=game, columns={game_id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@319c3a25
+15 Jun 2023 22:29:10,293 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 239 startingEntityIdentifier - >> Starting entity identifier : domain.Game
+15 Jun 2023 22:29:10,293 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val1
+15 Jun 2023 22:29:10,293 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val1, type=integer [non-identifier])
+15 Jun 2023 22:29:10,293 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val1, type=integer [non-identifier])
+15 Jun 2023 22:29:10,293 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val2
+15 Jun 2023 22:29:10,293 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val2, type=integer [non-identifier])
+15 Jun 2023 22:29:10,293 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val2, type=integer [non-identifier])
+15 Jun 2023 22:29:10,293 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val3
+15 Jun 2023 22:29:10,293 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val3, type=integer [non-identifier])
+15 Jun 2023 22:29:10,293 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val3, type=integer [non-identifier])
+15 Jun 2023 22:29:10,293 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val4
+15 Jun 2023 22:29:10,294 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val4, type=integer [non-identifier])
+15 Jun 2023 22:29:10,294 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val4, type=integer [non-identifier])
+15 Jun 2023 22:29:10,294 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val5
+15 Jun 2023 22:29:10,294 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val5, type=integer [non-identifier])
+15 Jun 2023 22:29:10,294 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val5, type=integer [non-identifier])
+15 Jun 2023 22:29:10,294 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 120 popFromStack - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@319c3a25
+15 Jun 2023 22:29:10,294 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 208 finishingEntity -  Finished root entity : domain.Game
+15 Jun 2023 22:29:10,294 DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy 150 buildLoadPlan - Building LoadPlan...
+15 Jun 2023 22:29:10,294 DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor 101 processQuerySpaceJoins - processing queryspace <gen:0>
+15 Jun 2023 22:29:10,294 DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter 55 logTree - LoadPlan(entity=domain.Game)
+    - Returns
+       - EntityReturnImpl(entity=domain.Game, querySpaceUid=<gen:0>, path=domain.Game)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=domain.Game)
+          - SQL table alias mapping - game0_
+          - alias suffix - 0_
+          - suffixed key columns - {game_id1_0_0_}
+
+15 Jun 2023 22:29:10,294 DEBUG org.hibernate.loader.entity.plan.EntityLoader 115 <init> - Static select for entity domain.Game [READ]: select game0_.game_id as game_id1_0_0_, game0_.val1 as val2_0_0_, game0_.val2 as val3_0_0_, game0_.val3 as val4_0_0_, game0_.val4 as val5_0_0_, game0_.val5 as val6_0_0_ from game game0_ where game0_.game_id=?
+15 Jun 2023 22:29:10,294 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 172 startingEntity -  Starting root entity : domain.Game
+15 Jun 2023 22:29:10,294 DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl 174 registerQuerySpace - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@238bfd6c]
+15 Jun 2023 22:29:10,294 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 113 pushToStack - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@ef1695a
+15 Jun 2023 22:29:10,294 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 648 associationKeyRegistered - .. Registering AssociationKey : AssociationKey(table=game, columns={game_id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@ef1695a
+15 Jun 2023 22:29:10,295 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 239 startingEntityIdentifier - >> Starting entity identifier : domain.Game
+15 Jun 2023 22:29:10,295 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val1
+15 Jun 2023 22:29:10,295 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val1, type=integer [non-identifier])
+15 Jun 2023 22:29:10,295 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val1, type=integer [non-identifier])
+15 Jun 2023 22:29:10,295 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val2
+15 Jun 2023 22:29:10,295 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val2, type=integer [non-identifier])
+15 Jun 2023 22:29:10,295 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val2, type=integer [non-identifier])
+15 Jun 2023 22:29:10,295 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val3
+15 Jun 2023 22:29:10,295 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val3, type=integer [non-identifier])
+15 Jun 2023 22:29:10,295 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val3, type=integer [non-identifier])
+15 Jun 2023 22:29:10,295 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val4
+15 Jun 2023 22:29:10,295 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val4, type=integer [non-identifier])
+15 Jun 2023 22:29:10,295 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val4, type=integer [non-identifier])
+15 Jun 2023 22:29:10,295 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val5
+15 Jun 2023 22:29:10,295 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val5, type=integer [non-identifier])
+15 Jun 2023 22:29:10,295 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val5, type=integer [non-identifier])
+15 Jun 2023 22:29:10,295 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 120 popFromStack - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@ef1695a
+15 Jun 2023 22:29:10,295 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 208 finishingEntity -  Finished root entity : domain.Game
+15 Jun 2023 22:29:10,295 DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy 150 buildLoadPlan - Building LoadPlan...
+15 Jun 2023 22:29:10,295 DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor 101 processQuerySpaceJoins - processing queryspace <gen:0>
+15 Jun 2023 22:29:10,295 DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter 55 logTree - LoadPlan(entity=domain.Game)
+    - Returns
+       - EntityReturnImpl(entity=domain.Game, querySpaceUid=<gen:0>, path=domain.Game)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=domain.Game)
+          - SQL table alias mapping - game0_
+          - alias suffix - 0_
+          - suffixed key columns - {game_id1_0_0_}
+
+15 Jun 2023 22:29:10,295 DEBUG org.hibernate.loader.entity.plan.EntityLoader 115 <init> - Static select for entity domain.Game [UPGRADE]: select game0_.game_id as game_id1_0_0_, game0_.val1 as val2_0_0_, game0_.val2 as val3_0_0_, game0_.val3 as val4_0_0_, game0_.val4 as val5_0_0_, game0_.val5 as val6_0_0_ from game game0_ where game0_.game_id=?
+15 Jun 2023 22:29:10,296 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 172 startingEntity -  Starting root entity : domain.Game
+15 Jun 2023 22:29:10,296 DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl 174 registerQuerySpace - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@58860997]
+15 Jun 2023 22:29:10,296 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 113 pushToStack - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@81b5db0
+15 Jun 2023 22:29:10,296 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 648 associationKeyRegistered - .. Registering AssociationKey : AssociationKey(table=game, columns={game_id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@81b5db0
+15 Jun 2023 22:29:10,296 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 239 startingEntityIdentifier - >> Starting entity identifier : domain.Game
+15 Jun 2023 22:29:10,296 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val1
+15 Jun 2023 22:29:10,296 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val1, type=integer [non-identifier])
+15 Jun 2023 22:29:10,296 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val1, type=integer [non-identifier])
+15 Jun 2023 22:29:10,296 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val2
+15 Jun 2023 22:29:10,296 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val2, type=integer [non-identifier])
+15 Jun 2023 22:29:10,296 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val2, type=integer [non-identifier])
+15 Jun 2023 22:29:10,296 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val3
+15 Jun 2023 22:29:10,296 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val3, type=integer [non-identifier])
+15 Jun 2023 22:29:10,296 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val3, type=integer [non-identifier])
+15 Jun 2023 22:29:10,296 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val4
+15 Jun 2023 22:29:10,296 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val4, type=integer [non-identifier])
+15 Jun 2023 22:29:10,296 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val4, type=integer [non-identifier])
+15 Jun 2023 22:29:10,296 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val5
+15 Jun 2023 22:29:10,296 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val5, type=integer [non-identifier])
+15 Jun 2023 22:29:10,296 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val5, type=integer [non-identifier])
+15 Jun 2023 22:29:10,296 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 120 popFromStack - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@81b5db0
+15 Jun 2023 22:29:10,296 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 208 finishingEntity -  Finished root entity : domain.Game
+15 Jun 2023 22:29:10,296 DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy 150 buildLoadPlan - Building LoadPlan...
+15 Jun 2023 22:29:10,297 DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor 101 processQuerySpaceJoins - processing queryspace <gen:0>
+15 Jun 2023 22:29:10,297 DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter 55 logTree - LoadPlan(entity=domain.Game)
+    - Returns
+       - EntityReturnImpl(entity=domain.Game, querySpaceUid=<gen:0>, path=domain.Game)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=domain.Game)
+          - SQL table alias mapping - game0_
+          - alias suffix - 0_
+          - suffixed key columns - {game_id1_0_0_}
+
+15 Jun 2023 22:29:10,297 DEBUG org.hibernate.loader.entity.plan.EntityLoader 115 <init> - Static select for entity domain.Game [UPGRADE_NOWAIT]: select game0_.game_id as game_id1_0_0_, game0_.val1 as val2_0_0_, game0_.val2 as val3_0_0_, game0_.val3 as val4_0_0_, game0_.val4 as val5_0_0_, game0_.val5 as val6_0_0_ from game game0_ where game0_.game_id=?
+15 Jun 2023 22:29:10,297 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 172 startingEntity -  Starting root entity : domain.Game
+15 Jun 2023 22:29:10,297 DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl 174 registerQuerySpace - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7487b142]
+15 Jun 2023 22:29:10,297 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 113 pushToStack - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@7139bd31
+15 Jun 2023 22:29:10,297 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 648 associationKeyRegistered - .. Registering AssociationKey : AssociationKey(table=game, columns={game_id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@7139bd31
+15 Jun 2023 22:29:10,297 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 239 startingEntityIdentifier - >> Starting entity identifier : domain.Game
+15 Jun 2023 22:29:10,297 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val1
+15 Jun 2023 22:29:10,297 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val1, type=integer [non-identifier])
+15 Jun 2023 22:29:10,297 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val1, type=integer [non-identifier])
+15 Jun 2023 22:29:10,297 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val2
+15 Jun 2023 22:29:10,297 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val2, type=integer [non-identifier])
+15 Jun 2023 22:29:10,297 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val2, type=integer [non-identifier])
+15 Jun 2023 22:29:10,297 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val3
+15 Jun 2023 22:29:10,297 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val3, type=integer [non-identifier])
+15 Jun 2023 22:29:10,297 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val3, type=integer [non-identifier])
+15 Jun 2023 22:29:10,297 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val4
+15 Jun 2023 22:29:10,297 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val4, type=integer [non-identifier])
+15 Jun 2023 22:29:10,297 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val4, type=integer [non-identifier])
+15 Jun 2023 22:29:10,297 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val5
+15 Jun 2023 22:29:10,297 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val5, type=integer [non-identifier])
+15 Jun 2023 22:29:10,297 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val5, type=integer [non-identifier])
+15 Jun 2023 22:29:10,297 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 120 popFromStack - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@7139bd31
+15 Jun 2023 22:29:10,297 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 208 finishingEntity -  Finished root entity : domain.Game
+15 Jun 2023 22:29:10,298 DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy 150 buildLoadPlan - Building LoadPlan...
+15 Jun 2023 22:29:10,298 DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor 101 processQuerySpaceJoins - processing queryspace <gen:0>
+15 Jun 2023 22:29:10,298 DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter 55 logTree - LoadPlan(entity=domain.Game)
+    - Returns
+       - EntityReturnImpl(entity=domain.Game, querySpaceUid=<gen:0>, path=domain.Game)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=domain.Game)
+          - SQL table alias mapping - game0_
+          - alias suffix - 0_
+          - suffixed key columns - {game_id1_0_0_}
+
+15 Jun 2023 22:29:10,298 DEBUG org.hibernate.loader.entity.plan.EntityLoader 115 <init> - Static select for entity domain.Game [UPGRADE_SKIPLOCKED]: select game0_.game_id as game_id1_0_0_, game0_.val1 as val2_0_0_, game0_.val2 as val3_0_0_, game0_.val3 as val4_0_0_, game0_.val4 as val5_0_0_, game0_.val5 as val6_0_0_ from game game0_ where game0_.game_id=?
+15 Jun 2023 22:29:10,298 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 172 startingEntity -  Starting root entity : domain.Game
+15 Jun 2023 22:29:10,298 DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl 174 registerQuerySpace - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@199bc830]
+15 Jun 2023 22:29:10,298 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 113 pushToStack - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@4b3fe06e
+15 Jun 2023 22:29:10,298 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 648 associationKeyRegistered - .. Registering AssociationKey : AssociationKey(table=game, columns={game_id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@4b3fe06e
+15 Jun 2023 22:29:10,298 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 239 startingEntityIdentifier - >> Starting entity identifier : domain.Game
+15 Jun 2023 22:29:10,298 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val1
+15 Jun 2023 22:29:10,298 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val1, type=integer [non-identifier])
+15 Jun 2023 22:29:10,298 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val1, type=integer [non-identifier])
+15 Jun 2023 22:29:10,298 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val2
+15 Jun 2023 22:29:10,298 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val2, type=integer [non-identifier])
+15 Jun 2023 22:29:10,298 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val2, type=integer [non-identifier])
+15 Jun 2023 22:29:10,298 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val3
+15 Jun 2023 22:29:10,298 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val3, type=integer [non-identifier])
+15 Jun 2023 22:29:10,299 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val3, type=integer [non-identifier])
+15 Jun 2023 22:29:10,299 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val4
+15 Jun 2023 22:29:10,299 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val4, type=integer [non-identifier])
+15 Jun 2023 22:29:10,299 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val4, type=integer [non-identifier])
+15 Jun 2023 22:29:10,299 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val5
+15 Jun 2023 22:29:10,299 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val5, type=integer [non-identifier])
+15 Jun 2023 22:29:10,299 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val5, type=integer [non-identifier])
+15 Jun 2023 22:29:10,299 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 120 popFromStack - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@4b3fe06e
+15 Jun 2023 22:29:10,299 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 208 finishingEntity -  Finished root entity : domain.Game
+15 Jun 2023 22:29:10,299 DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy 150 buildLoadPlan - Building LoadPlan...
+15 Jun 2023 22:29:10,299 DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor 101 processQuerySpaceJoins - processing queryspace <gen:0>
+15 Jun 2023 22:29:10,299 DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter 55 logTree - LoadPlan(entity=domain.Game)
+    - Returns
+       - EntityReturnImpl(entity=domain.Game, querySpaceUid=<gen:0>, path=domain.Game)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=domain.Game)
+          - SQL table alias mapping - game0_
+          - alias suffix - 0_
+          - suffixed key columns - {game_id1_0_0_}
+
+15 Jun 2023 22:29:10,299 DEBUG org.hibernate.loader.entity.plan.EntityLoader 115 <init> - Static select for entity domain.Game [FORCE]: select game0_.game_id as game_id1_0_0_, game0_.val1 as val2_0_0_, game0_.val2 as val3_0_0_, game0_.val3 as val4_0_0_, game0_.val4 as val5_0_0_, game0_.val5 as val6_0_0_ from game game0_ where game0_.game_id=?
+15 Jun 2023 22:29:10,299 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 172 startingEntity -  Starting root entity : domain.Game
+15 Jun 2023 22:29:10,299 DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl 174 registerQuerySpace - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@27b45ea]
+15 Jun 2023 22:29:10,299 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 113 pushToStack - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@3e17a0a1
+15 Jun 2023 22:29:10,299 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 648 associationKeyRegistered - .. Registering AssociationKey : AssociationKey(table=game, columns={game_id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@3e17a0a1
+15 Jun 2023 22:29:10,299 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 239 startingEntityIdentifier - >> Starting entity identifier : domain.Game
+15 Jun 2023 22:29:10,299 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val1
+15 Jun 2023 22:29:10,299 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val1, type=integer [non-identifier])
+15 Jun 2023 22:29:10,299 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val1, type=integer [non-identifier])
+15 Jun 2023 22:29:10,300 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val2
+15 Jun 2023 22:29:10,300 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val2, type=integer [non-identifier])
+15 Jun 2023 22:29:10,300 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val2, type=integer [non-identifier])
+15 Jun 2023 22:29:10,300 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val3
+15 Jun 2023 22:29:10,300 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val3, type=integer [non-identifier])
+15 Jun 2023 22:29:10,300 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val3, type=integer [non-identifier])
+15 Jun 2023 22:29:10,300 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val4
+15 Jun 2023 22:29:10,300 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val4, type=integer [non-identifier])
+15 Jun 2023 22:29:10,300 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val4, type=integer [non-identifier])
+15 Jun 2023 22:29:10,300 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val5
+15 Jun 2023 22:29:10,300 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val5, type=integer [non-identifier])
+15 Jun 2023 22:29:10,300 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val5, type=integer [non-identifier])
+15 Jun 2023 22:29:10,300 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 120 popFromStack - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@3e17a0a1
+15 Jun 2023 22:29:10,300 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 208 finishingEntity -  Finished root entity : domain.Game
+15 Jun 2023 22:29:10,300 DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy 150 buildLoadPlan - Building LoadPlan...
+15 Jun 2023 22:29:10,300 DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor 101 processQuerySpaceJoins - processing queryspace <gen:0>
+15 Jun 2023 22:29:10,300 DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter 55 logTree - LoadPlan(entity=domain.Game)
+    - Returns
+       - EntityReturnImpl(entity=domain.Game, querySpaceUid=<gen:0>, path=domain.Game)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=domain.Game)
+          - SQL table alias mapping - game0_
+          - alias suffix - 0_
+          - suffixed key columns - {game_id1_0_0_}
+
+15 Jun 2023 22:29:10,300 DEBUG org.hibernate.loader.entity.plan.EntityLoader 115 <init> - Static select for entity domain.Game [PESSIMISTIC_READ]: select game0_.game_id as game_id1_0_0_, game0_.val1 as val2_0_0_, game0_.val2 as val3_0_0_, game0_.val3 as val4_0_0_, game0_.val4 as val5_0_0_, game0_.val5 as val6_0_0_ from game game0_ where game0_.game_id=?
+15 Jun 2023 22:29:10,300 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 172 startingEntity -  Starting root entity : domain.Game
+15 Jun 2023 22:29:10,300 DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl 174 registerQuerySpace - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@790a251b]
+15 Jun 2023 22:29:10,300 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 113 pushToStack - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@4d8286c4
+15 Jun 2023 22:29:10,301 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 648 associationKeyRegistered - .. Registering AssociationKey : AssociationKey(table=game, columns={game_id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@4d8286c4
+15 Jun 2023 22:29:10,301 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 239 startingEntityIdentifier - >> Starting entity identifier : domain.Game
+15 Jun 2023 22:29:10,301 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val1
+15 Jun 2023 22:29:10,301 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val1, type=integer [non-identifier])
+15 Jun 2023 22:29:10,301 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val1, type=integer [non-identifier])
+15 Jun 2023 22:29:10,301 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val2
+15 Jun 2023 22:29:10,301 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val2, type=integer [non-identifier])
+15 Jun 2023 22:29:10,301 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val2, type=integer [non-identifier])
+15 Jun 2023 22:29:10,301 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val3
+15 Jun 2023 22:29:10,301 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val3, type=integer [non-identifier])
+15 Jun 2023 22:29:10,301 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val3, type=integer [non-identifier])
+15 Jun 2023 22:29:10,301 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val4
+15 Jun 2023 22:29:10,301 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val4, type=integer [non-identifier])
+15 Jun 2023 22:29:10,301 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val4, type=integer [non-identifier])
+15 Jun 2023 22:29:10,301 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val5
+15 Jun 2023 22:29:10,301 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val5, type=integer [non-identifier])
+15 Jun 2023 22:29:10,301 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val5, type=integer [non-identifier])
+15 Jun 2023 22:29:10,301 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 120 popFromStack - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@4d8286c4
+15 Jun 2023 22:29:10,301 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 208 finishingEntity -  Finished root entity : domain.Game
+15 Jun 2023 22:29:10,301 DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy 150 buildLoadPlan - Building LoadPlan...
+15 Jun 2023 22:29:10,301 DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor 101 processQuerySpaceJoins - processing queryspace <gen:0>
+15 Jun 2023 22:29:10,302 DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter 55 logTree - LoadPlan(entity=domain.Game)
+    - Returns
+       - EntityReturnImpl(entity=domain.Game, querySpaceUid=<gen:0>, path=domain.Game)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=domain.Game)
+          - SQL table alias mapping - game0_
+          - alias suffix - 0_
+          - suffixed key columns - {game_id1_0_0_}
+
+15 Jun 2023 22:29:10,302 DEBUG org.hibernate.loader.entity.plan.EntityLoader 115 <init> - Static select for entity domain.Game [PESSIMISTIC_WRITE]: select game0_.game_id as game_id1_0_0_, game0_.val1 as val2_0_0_, game0_.val2 as val3_0_0_, game0_.val3 as val4_0_0_, game0_.val4 as val5_0_0_, game0_.val5 as val6_0_0_ from game game0_ where game0_.game_id=?
+15 Jun 2023 22:29:10,302 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 172 startingEntity -  Starting root entity : domain.Game
+15 Jun 2023 22:29:10,302 DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl 174 registerQuerySpace - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@150ede8b]
+15 Jun 2023 22:29:10,302 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 113 pushToStack - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@161f6623
+15 Jun 2023 22:29:10,302 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 648 associationKeyRegistered - .. Registering AssociationKey : AssociationKey(table=game, columns={game_id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@161f6623
+15 Jun 2023 22:29:10,302 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 239 startingEntityIdentifier - >> Starting entity identifier : domain.Game
+15 Jun 2023 22:29:10,302 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val1
+15 Jun 2023 22:29:10,302 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val1, type=integer [non-identifier])
+15 Jun 2023 22:29:10,302 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val1, type=integer [non-identifier])
+15 Jun 2023 22:29:10,302 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val2
+15 Jun 2023 22:29:10,302 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val2, type=integer [non-identifier])
+15 Jun 2023 22:29:10,302 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val2, type=integer [non-identifier])
+15 Jun 2023 22:29:10,302 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val3
+15 Jun 2023 22:29:10,302 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val3, type=integer [non-identifier])
+15 Jun 2023 22:29:10,302 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val3, type=integer [non-identifier])
+15 Jun 2023 22:29:10,302 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val4
+15 Jun 2023 22:29:10,302 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val4, type=integer [non-identifier])
+15 Jun 2023 22:29:10,302 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val4, type=integer [non-identifier])
+15 Jun 2023 22:29:10,302 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val5
+15 Jun 2023 22:29:10,302 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val5, type=integer [non-identifier])
+15 Jun 2023 22:29:10,302 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val5, type=integer [non-identifier])
+15 Jun 2023 22:29:10,302 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 120 popFromStack - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@161f6623
+15 Jun 2023 22:29:10,302 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 208 finishingEntity -  Finished root entity : domain.Game
+15 Jun 2023 22:29:10,302 DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy 150 buildLoadPlan - Building LoadPlan...
+15 Jun 2023 22:29:10,303 DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor 101 processQuerySpaceJoins - processing queryspace <gen:0>
+15 Jun 2023 22:29:10,303 DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter 55 logTree - LoadPlan(entity=domain.Game)
+    - Returns
+       - EntityReturnImpl(entity=domain.Game, querySpaceUid=<gen:0>, path=domain.Game)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=domain.Game)
+          - SQL table alias mapping - game0_
+          - alias suffix - 0_
+          - suffixed key columns - {game_id1_0_0_}
+
+15 Jun 2023 22:29:10,303 DEBUG org.hibernate.loader.entity.plan.EntityLoader 115 <init> - Static select for entity domain.Game [PESSIMISTIC_FORCE_INCREMENT]: select game0_.game_id as game_id1_0_0_, game0_.val1 as val2_0_0_, game0_.val2 as val3_0_0_, game0_.val3 as val4_0_0_, game0_.val4 as val5_0_0_, game0_.val5 as val6_0_0_ from game game0_ where game0_.game_id=?
+15 Jun 2023 22:29:10,303 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 172 startingEntity -  Starting root entity : domain.Game
+15 Jun 2023 22:29:10,303 DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl 174 registerQuerySpace - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3e15bb06]
+15 Jun 2023 22:29:10,303 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 113 pushToStack - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@6778aea6
+15 Jun 2023 22:29:10,303 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 648 associationKeyRegistered - .. Registering AssociationKey : AssociationKey(table=game, columns={game_id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@6778aea6
+15 Jun 2023 22:29:10,303 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 239 startingEntityIdentifier - >> Starting entity identifier : domain.Game
+15 Jun 2023 22:29:10,303 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val1
+15 Jun 2023 22:29:10,303 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val1, type=integer [non-identifier])
+15 Jun 2023 22:29:10,303 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val1, type=integer [non-identifier])
+15 Jun 2023 22:29:10,303 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val2
+15 Jun 2023 22:29:10,303 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val2, type=integer [non-identifier])
+15 Jun 2023 22:29:10,303 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val2, type=integer [non-identifier])
+15 Jun 2023 22:29:10,303 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val3
+15 Jun 2023 22:29:10,303 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val3, type=integer [non-identifier])
+15 Jun 2023 22:29:10,303 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val3, type=integer [non-identifier])
+15 Jun 2023 22:29:10,303 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val4
+15 Jun 2023 22:29:10,303 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val4, type=integer [non-identifier])
+15 Jun 2023 22:29:10,303 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val4, type=integer [non-identifier])
+15 Jun 2023 22:29:10,303 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val5
+15 Jun 2023 22:29:10,304 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val5, type=integer [non-identifier])
+15 Jun 2023 22:29:10,304 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val5, type=integer [non-identifier])
+15 Jun 2023 22:29:10,304 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 120 popFromStack - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@6778aea6
+15 Jun 2023 22:29:10,304 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 208 finishingEntity -  Finished root entity : domain.Game
+15 Jun 2023 22:29:10,304 DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy 150 buildLoadPlan - Building LoadPlan...
+15 Jun 2023 22:29:10,304 DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor 101 processQuerySpaceJoins - processing queryspace <gen:0>
+15 Jun 2023 22:29:10,304 DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter 55 logTree - LoadPlan(entity=domain.Game)
+    - Returns
+       - EntityReturnImpl(entity=domain.Game, querySpaceUid=<gen:0>, path=domain.Game)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=domain.Game)
+          - SQL table alias mapping - game0_
+          - alias suffix - 0_
+          - suffixed key columns - {game_id1_0_0_}
+
+15 Jun 2023 22:29:10,304 DEBUG org.hibernate.loader.entity.plan.EntityLoader 115 <init> - Static select for entity domain.Game [OPTIMISTIC]: select game0_.game_id as game_id1_0_0_, game0_.val1 as val2_0_0_, game0_.val2 as val3_0_0_, game0_.val3 as val4_0_0_, game0_.val4 as val5_0_0_, game0_.val5 as val6_0_0_ from game game0_ where game0_.game_id=?
+15 Jun 2023 22:29:10,304 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 172 startingEntity -  Starting root entity : domain.Game
+15 Jun 2023 22:29:10,304 DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl 174 registerQuerySpace - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4e1ce44]
+15 Jun 2023 22:29:10,304 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 113 pushToStack - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@69228e85
+15 Jun 2023 22:29:10,304 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 648 associationKeyRegistered - .. Registering AssociationKey : AssociationKey(table=game, columns={game_id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@69228e85
+15 Jun 2023 22:29:10,304 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 239 startingEntityIdentifier - >> Starting entity identifier : domain.Game
+15 Jun 2023 22:29:10,304 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val1
+15 Jun 2023 22:29:10,304 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val1, type=integer [non-identifier])
+15 Jun 2023 22:29:10,304 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val1, type=integer [non-identifier])
+15 Jun 2023 22:29:10,304 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val2
+15 Jun 2023 22:29:10,304 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val2, type=integer [non-identifier])
+15 Jun 2023 22:29:10,304 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val2, type=integer [non-identifier])
+15 Jun 2023 22:29:10,304 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val3
+15 Jun 2023 22:29:10,304 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val3, type=integer [non-identifier])
+15 Jun 2023 22:29:10,305 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val3, type=integer [non-identifier])
+15 Jun 2023 22:29:10,305 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val4
+15 Jun 2023 22:29:10,305 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val4, type=integer [non-identifier])
+15 Jun 2023 22:29:10,305 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val4, type=integer [non-identifier])
+15 Jun 2023 22:29:10,305 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 137 visitAttributeDefinition - Visiting attribute path : val5
+15 Jun 2023 22:29:10,305 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=val5, type=integer [non-identifier])
+15 Jun 2023 22:29:10,305 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=val5, type=integer [non-identifier])
+15 Jun 2023 22:29:10,305 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 120 popFromStack - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@69228e85
+15 Jun 2023 22:29:10,305 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 208 finishingEntity -  Finished root entity : domain.Game
+15 Jun 2023 22:29:10,305 DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy 150 buildLoadPlan - Building LoadPlan...
+15 Jun 2023 22:29:10,305 DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor 101 processQuerySpaceJoins - processing queryspace <gen:0>
+15 Jun 2023 22:29:10,305 DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter 55 logTree - LoadPlan(entity=domain.Game)
+    - Returns
+       - EntityReturnImpl(entity=domain.Game, querySpaceUid=<gen:0>, path=domain.Game)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=domain.Game)
+          - SQL table alias mapping - game0_
+          - alias suffix - 0_
+          - suffixed key columns - {game_id1_0_0_}
+
+15 Jun 2023 22:29:10,305 DEBUG org.hibernate.loader.entity.plan.EntityLoader 115 <init> - Static select for entity domain.Game [OPTIMISTIC_FORCE_INCREMENT]: select game0_.game_id as game_id1_0_0_, game0_.val1 as val2_0_0_, game0_.val2 as val3_0_0_, game0_.val3 as val4_0_0_, game0_.val4 as val5_0_0_, game0_.val5 as val6_0_0_ from game game0_ where game0_.game_id=?
+15 Jun 2023 22:29:10,318 DEBUG org.hibernate.loader.entity.CascadeEntityLoader 38 <init> - Static select for action ACTION_MERGE on entity domain.Game: select game0_.game_id as game_id1_0_0_, game0_.val1 as val2_0_0_, game0_.val2 as val3_0_0_, game0_.val3 as val4_0_0_, game0_.val4 as val5_0_0_, game0_.val5 as val6_0_0_ from game game0_ where game0_.game_id=?
+15 Jun 2023 22:29:10,319 DEBUG org.hibernate.loader.entity.CascadeEntityLoader 38 <init> - Static select for action ACTION_REFRESH on entity domain.Game: select game0_.game_id as game_id1_0_0_, game0_.val1 as val2_0_0_, game0_.val2 as val3_0_0_, game0_.val3 as val4_0_0_, game0_.val4 as val5_0_0_, game0_.val5 as val6_0_0_ from game game0_ where game0_.game_id=?
+15 Jun 2023 22:29:10,325 TRACE org.hibernate.metamodel.internal.MetadataContext 182 wrapUp - Wrapping up metadata context...
+15 Jun 2023 22:29:10,326 TRACE org.hibernate.metamodel.internal.MetadataContext 233 wrapUp - Starting mapped superclass [domain.Entity]
+15 Jun 2023 22:29:10,326 TRACE org.hibernate.metamodel.internal.AttributeFactory 125 buildIdAttribute - Building identifier attribute [domain.Entity.id]
+15 Jun 2023 22:29:10,326 TRACE org.hibernate.metamodel.internal.AttributeFactory 454 determineAttributeMetadata - Starting attribute metadata determination [id]
+15 Jun 2023 22:29:10,327 TRACE org.hibernate.metamodel.internal.AttributeFactory 459 determineAttributeMetadata -     Determined member [private java.io.Serializable domain.Entity.id]
+15 Jun 2023 22:29:10,327 TRACE org.hibernate.metamodel.internal.AttributeFactory 463 determineAttributeMetadata -     Determined type [name=integer, class=org.hibernate.type.IntegerType]
+15 Jun 2023 22:29:10,329 TRACE org.hibernate.metamodel.internal.MetadataContext 260 wrapUp - Completed mapped superclass [domain.Entity]
+15 Jun 2023 22:29:10,329 TRACE org.hibernate.metamodel.internal.MetadataContext 194 wrapUp - Starting entity [domain.Game]
+15 Jun 2023 22:29:10,329 TRACE org.hibernate.metamodel.internal.AttributeFactory 74 buildAttribute - Building attribute [domain.Game.val1]
+15 Jun 2023 22:29:10,329 TRACE org.hibernate.metamodel.internal.AttributeFactory 454 determineAttributeMetadata - Starting attribute metadata determination [val1]
+15 Jun 2023 22:29:10,329 TRACE org.hibernate.metamodel.internal.AttributeFactory 459 determineAttributeMetadata -     Determined member [private java.lang.Integer domain.Game.val1]
+15 Jun 2023 22:29:10,330 TRACE org.hibernate.metamodel.internal.AttributeFactory 463 determineAttributeMetadata -     Determined type [name=integer, class=org.hibernate.type.IntegerType]
+15 Jun 2023 22:29:10,330 TRACE org.hibernate.metamodel.internal.AttributeFactory 74 buildAttribute - Building attribute [domain.Game.val2]
+15 Jun 2023 22:29:10,330 TRACE org.hibernate.metamodel.internal.AttributeFactory 454 determineAttributeMetadata - Starting attribute metadata determination [val2]
+15 Jun 2023 22:29:10,330 TRACE org.hibernate.metamodel.internal.AttributeFactory 459 determineAttributeMetadata -     Determined member [private java.lang.Integer domain.Game.val2]
+15 Jun 2023 22:29:10,330 TRACE org.hibernate.metamodel.internal.AttributeFactory 463 determineAttributeMetadata -     Determined type [name=integer, class=org.hibernate.type.IntegerType]
+15 Jun 2023 22:29:10,330 TRACE org.hibernate.metamodel.internal.AttributeFactory 74 buildAttribute - Building attribute [domain.Game.val3]
+15 Jun 2023 22:29:10,330 TRACE org.hibernate.metamodel.internal.AttributeFactory 454 determineAttributeMetadata - Starting attribute metadata determination [val3]
+15 Jun 2023 22:29:10,330 TRACE org.hibernate.metamodel.internal.AttributeFactory 459 determineAttributeMetadata -     Determined member [private java.lang.Integer domain.Game.val3]
+15 Jun 2023 22:29:10,330 TRACE org.hibernate.metamodel.internal.AttributeFactory 463 determineAttributeMetadata -     Determined type [name=integer, class=org.hibernate.type.IntegerType]
+15 Jun 2023 22:29:10,330 TRACE org.hibernate.metamodel.internal.AttributeFactory 74 buildAttribute - Building attribute [domain.Game.val4]
+15 Jun 2023 22:29:10,330 TRACE org.hibernate.metamodel.internal.AttributeFactory 454 determineAttributeMetadata - Starting attribute metadata determination [val4]
+15 Jun 2023 22:29:10,330 TRACE org.hibernate.metamodel.internal.AttributeFactory 459 determineAttributeMetadata -     Determined member [private java.lang.Integer domain.Game.val4]
+15 Jun 2023 22:29:10,330 TRACE org.hibernate.metamodel.internal.AttributeFactory 463 determineAttributeMetadata -     Determined type [name=integer, class=org.hibernate.type.IntegerType]
+15 Jun 2023 22:29:10,330 TRACE org.hibernate.metamodel.internal.AttributeFactory 74 buildAttribute - Building attribute [domain.Game.val5]
+15 Jun 2023 22:29:10,330 TRACE org.hibernate.metamodel.internal.AttributeFactory 454 determineAttributeMetadata - Starting attribute metadata determination [val5]
+15 Jun 2023 22:29:10,330 TRACE org.hibernate.metamodel.internal.AttributeFactory 459 determineAttributeMetadata -     Determined member [private java.lang.Integer domain.Game.val5]
+15 Jun 2023 22:29:10,330 TRACE org.hibernate.metamodel.internal.AttributeFactory 463 determineAttributeMetadata -     Determined type [name=integer, class=org.hibernate.type.IntegerType]
+15 Jun 2023 22:29:10,331 TRACE org.hibernate.metamodel.internal.MetadataContext 225 wrapUp - Completed entity [domain.Game]
+15 Jun 2023 22:29:10,332 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 61 normalizeQuoting - Normalizing identifier quoting [null]
+15 Jun 2023 22:29:10,332 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 61 normalizeQuoting - Normalizing identifier quoting [null]
+15 Jun 2023 22:29:10,335 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 229 initializeService - Initializing service [role=org.hibernate.tool.schema.spi.SchemaManagementTool]
+15 Jun 2023 22:29:10,351 INFO  org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl 47 getIsolatedConnection - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@317e9c3c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+15 Jun 2023 22:29:10,352 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 191 toMetaDataObjectName - Normalizing identifier quoting for object name [game]
+15 Jun 2023 22:29:10,353 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 153 toMetaDataText - Rendering unquoted identifier [game] in mixed case for use in DatabaseMetaData
+15 Jun 2023 22:29:10,353 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger 92 logStatement - 
+    
+    create table game (
+       game_id  integer,
+        val1 integer,
+        val2 integer,
+        val3 integer,
+        val4 integer,
+        val5 integer,
+        primary key (game_id)
+    )
+15 Jun 2023 22:29:10,358 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 191 toMetaDataObjectName - Normalizing identifier quoting for object name [game]
+15 Jun 2023 22:29:10,358 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 153 toMetaDataText - Rendering unquoted identifier [game] in mixed case for use in DatabaseMetaData
+15 Jun 2023 22:29:10,359 TRACE org.hibernate.tool.hbm2ddl.UniqueConstraintSchemaUpdateStrategy 50 interpret - Interpreting UniqueConstraintSchemaUpdateStrategy from setting : null
+15 Jun 2023 22:29:10,359 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 191 toMetaDataObjectName - Normalizing identifier quoting for object name [game]
+15 Jun 2023 22:29:10,359 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 153 toMetaDataText - Rendering unquoted identifier [game] in mixed case for use in DatabaseMetaData
+15 Jun 2023 22:29:10,359 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 229 initializeService - Initializing service [role=org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform]
+15 Jun 2023 22:29:10,359 DEBUG org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 42 initiateService - No JtaPlatform was specified, checking resolver
+15 Jun 2023 22:29:10,359 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 229 initializeService - Initializing service [role=org.hibernate.engine.transaction.jta.platform.spi.JtaPlatformResolver]
+15 Jun 2023 22:29:10,360 DEBUG org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformResolverInitiator 33 initiateService - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+15 Jun 2023 22:29:10,364 DEBUG org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver 102 resolveJtaPlatform - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15 Jun 2023 22:29:10,365 DEBUG org.hibernate.query.spi.NamedQueryRepository 151 checkNamedQueries - Checking 0 named HQL queries
+15 Jun 2023 22:29:10,365 DEBUG org.hibernate.query.spi.NamedQueryRepository 167 checkNamedQueries - Checking 0 named SQL queries
+15 Jun 2023 22:29:10,367 DEBUG org.hibernate.internal.SessionFactoryRegistry 52 <init> - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@6917bb4
+15 Jun 2023 22:29:10,367 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 229 initializeService - Initializing service [role=org.hibernate.engine.jndi.spi.JndiService]
+15 Jun 2023 22:29:10,369 DEBUG org.hibernate.internal.SessionFactoryRegistry 74 addSessionFactory - Registering SessionFactory: 3274eb3c-a1c8-4ecf-9292-6df29cd33082 (<unnamed>)
+15 Jun 2023 22:29:10,369 DEBUG org.hibernate.internal.SessionFactoryRegistry 81 addSessionFactory - Not binding SessionFactory to JNDI, no JNDI name configured
+15 Jun 2023 22:29:10,370 INFO  music.rest.persistance.repository.jdbc.ShowDBIRepository 24 <init> - Initializing ShowDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:shows.db, jdbc.driver=org.sqlite.JDBC} 
+15 Jun 2023 22:29:10,371 INFO  jdbc.app.rest.persistance.repository.MoveDBIRepository 22 <init> - Initializing TicketDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:shows.db, jdbc.driver=org.sqlite.JDBC}
+15 Jun 2023 22:29:10,373 INFO  martin.network.utils.RpcConcurrentServer 17 <init> - RpcConcurrentServer created
+15 Jun 2023 22:29:10,378 INFO  martin.network.utils.AbstractServer 23 start - Waiting for clients ...

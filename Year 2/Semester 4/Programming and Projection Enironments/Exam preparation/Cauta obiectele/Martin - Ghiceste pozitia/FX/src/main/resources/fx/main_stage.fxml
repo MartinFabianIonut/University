@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="767.0" prefWidth="1175.0" spacing="20.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.controller.ServiceController">
+   <AnchorPane fx:id="anchorStart" prefHeight="51.0" prefWidth="1135.0">
+      <children>
+         <Button fx:id="startButton" layoutX="787.0" layoutY="13.0" mnemonicParsing="false" onAction="#start" text="Start joc" />
+         <Label layoutX="328.0" layoutY="18.0" text="Propune 3 pozitii" />
+         <TextField fx:id="firstProp" layoutX="431.0" layoutY="13.0" prefHeight="25.0" prefWidth="60.0" />
+         <TextField fx:id="secondProp" layoutX="508.0" layoutY="14.0" prefHeight="25.0" prefWidth="60.0" />
+         <TextField fx:id="thirdProp" layoutX="578.0" layoutY="14.0" prefHeight="25.0" prefWidth="60.0" />
+      </children>
+   </AnchorPane>
+   <AnchorPane fx:id="anchorPlay" prefHeight="502.0" prefWidth="1135.0">
+      <children>
+      
+         <TableView fx:id="allTableView" layoutX="170.0" layoutY="25.0" maxHeight="Infinity" maxWidth="Infinity" prefHeight="209.0" prefWidth="378.0">
+            <columns>
+               <TableColumn prefWidth="163.0" text="Jucator">
+                  <cellValueFactory>
+                     <PropertyValueFactory property="player" />
+                  </cellValueFactory>
+               </TableColumn>
+               <TableColumn prefWidth="213.0" text="Cuvant propus">
+                  <cellValueFactory>
+                     <PropertyValueFactory property="word" />
+                  </cellValueFactory>
+               </TableColumn>
+            </columns>
+         </TableView>
+         <Button fx:id="generateButton" layoutX="997.0" layoutY="163.0" mnemonicParsing="false" onAction="#generate" text="Propune" />
+         <Button fx:id="logout" layoutX="1007.0" layoutY="337.0" mnemonicParsing="false" onAction="#logoutAction" text="Logout" />
+         <TextField fx:id="proposePosition" layoutX="802.0" layoutY="163.0" />
+         <Label layoutX="802.0" layoutY="137.0" text="Propune pozitie" />
+         <TableView fx:id="rankingTableView" layoutX="163.0" layoutY="251.0" maxHeight="Infinity" maxWidth="Infinity" prefHeight="111.0" prefWidth="240.0">
+            <columns>
+               <TableColumn prefWidth="163.0" text="Jucator">
+                  <cellValueFactory>
+                     <PropertyValueFactory property="player" />
+                  </cellValueFactory>
+               </TableColumn>
+               <TableColumn prefWidth="74.0" text="Punctaj">
+                  <cellValueFactory>
+                     <PropertyValueFactory property="score" />
+                  </cellValueFactory>
+               </TableColumn>
+            </columns>
+         </TableView>
+      </children>
+   </AnchorPane>
+   <Label fx:id="control" text="Control: " />
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</VBox>
