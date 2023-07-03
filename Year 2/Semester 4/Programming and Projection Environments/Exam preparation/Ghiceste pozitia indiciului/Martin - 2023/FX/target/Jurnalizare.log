@@ -1,0 +1,85 @@
+03 Jul 2023 13:17:11,419 INFO  martin.network.rpcprotocol.ServicesRpcProxy 35 <init> - Creating proxy
+03 Jul 2023 13:17:16,822 INFO  martin.network.rpcprotocol.ServicesRpcProxy 99 initializeConnection - Connection initialized
+03 Jul 2023 13:17:16,830 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGIN', data='ana'}
+03 Jul 2023 13:17:17,015 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 205 run - response received Response{type='OK', data='ana'}
+03 Jul 2023 13:17:17,015 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='ana'}
+03 Jul 2023 13:17:17,016 INFO  martin.network.rpcprotocol.ServicesRpcProxy 141 login - Logged in
+03 Jul 2023 13:17:17,170 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+03 Jul 2023 13:17:18,118 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 205 run - response received Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+03 Jul 2023 13:17:18,118 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+03 Jul 2023 13:17:18,118 INFO  martin.network.rpcprotocol.ServicesRpcProxy 164 getRanking - Got ranking
+03 Jul 2023 13:17:22,029 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+03 Jul 2023 13:17:22,043 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 205 run - response received Response{type='OK', data='3'}
+03 Jul 2023 13:17:22,043 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='3'}
+03 Jul 2023 13:17:22,043 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 guess - Guessed
+03 Jul 2023 13:17:23,523 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+03 Jul 2023 13:17:23,534 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 205 run - response received Response{type='OK', data='2'}
+03 Jul 2023 13:17:23,535 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='2'}
+03 Jul 2023 13:17:23,535 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 guess - Guessed
+03 Jul 2023 13:17:24,951 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+03 Jul 2023 13:17:24,961 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 205 run - response received Response{type='OK', data='2'}
+03 Jul 2023 13:17:24,962 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='2'}
+03 Jul 2023 13:17:24,962 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 guess - Guessed
+03 Jul 2023 13:17:26,034 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+03 Jul 2023 13:17:26,044 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 205 run - response received Response{type='OK', data='1'}
+03 Jul 2023 13:17:26,044 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='1'}
+03 Jul 2023 13:17:26,044 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 guess - Guessed
+03 Jul 2023 13:17:29,059 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+03 Jul 2023 13:17:29,136 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 205 run - response received Response{type='RANKING', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+03 Jul 2023 13:17:29,144 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 205 run - response received Response{type='CONTROL', data='domain.GamePlayer@1f'}
+03 Jul 2023 13:17:29,144 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 205 run - response received Response{type='OK', data='You won!'}
+03 Jul 2023 13:17:29,145 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='You won!'}
+03 Jul 2023 13:17:29,145 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 guess - Guessed
+03 Jul 2023 13:17:29,150 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+03 Jul 2023 13:17:30,224 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 205 run - response received Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+03 Jul 2023 13:17:30,224 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+03 Jul 2023 13:17:30,225 INFO  martin.network.rpcprotocol.ServicesRpcProxy 164 getRanking - Got ranking
+03 Jul 2023 13:17:30,226 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='SET_CONTROL_GAME_OVER', data='domain.GamePlayer@1f'}
+03 Jul 2023 13:17:31,305 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 205 run - response received Response{type='OK', data='Clue position: (3,0), Number of attempts: 5, Ranking: 7 out of 9 games finished.'}
+03 Jul 2023 13:17:31,306 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Clue position: (3,0), Number of attempts: 5, Ranking: 7 out of 9 games finished.'}
+03 Jul 2023 13:17:31,306 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 setControlGameOver - Set control game over
+03 Jul 2023 13:18:02,018 INFO  martin.network.rpcprotocol.ServicesRpcProxy 35 <init> - Creating proxy
+03 Jul 2023 13:18:04,554 INFO  martin.network.rpcprotocol.ServicesRpcProxy 99 initializeConnection - Connection initialized
+03 Jul 2023 13:18:04,563 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGIN', data='sara'}
+03 Jul 2023 13:18:04,575 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 205 run - response received Response{type='OK', data='sara'}
+03 Jul 2023 13:18:04,576 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='sara'}
+03 Jul 2023 13:18:04,576 INFO  martin.network.rpcprotocol.ServicesRpcProxy 141 login - Logged in
+03 Jul 2023 13:18:04,742 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+03 Jul 2023 13:18:05,633 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 205 run - response received Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+03 Jul 2023 13:18:05,633 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+03 Jul 2023 13:18:05,633 INFO  martin.network.rpcprotocol.ServicesRpcProxy 164 getRanking - Got ranking
+03 Jul 2023 13:18:06,712 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+03 Jul 2023 13:18:06,721 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 205 run - response received Response{type='OK', data='3'}
+03 Jul 2023 13:18:06,722 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='3'}
+03 Jul 2023 13:18:06,722 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 guess - Guessed
+03 Jul 2023 13:18:07,509 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+03 Jul 2023 13:18:07,740 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 205 run - response received Response{type='OK', data='2'}
+03 Jul 2023 13:18:07,741 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='2'}
+03 Jul 2023 13:18:07,741 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 guess - Guessed
+03 Jul 2023 13:18:08,328 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+03 Jul 2023 13:18:08,756 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 205 run - response received Response{type='OK', data='3'}
+03 Jul 2023 13:18:08,756 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='3'}
+03 Jul 2023 13:18:08,756 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 guess - Guessed
+03 Jul 2023 13:18:09,475 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+03 Jul 2023 13:18:09,772 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 205 run - response received Response{type='OK', data='4'}
+03 Jul 2023 13:18:09,773 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='4'}
+03 Jul 2023 13:18:09,773 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 guess - Guessed
+03 Jul 2023 13:18:11,973 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+03 Jul 2023 13:18:12,026 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 205 run - response received Response{type='RANKING', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+03 Jul 2023 13:18:12,065 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 205 run - response received Response{type='RANKING', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+03 Jul 2023 13:18:12,066 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+03 Jul 2023 13:18:12,068 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 205 run - response received Response{type='CONTROL', data='domain.GamePlayer@1f'}
+03 Jul 2023 13:18:12,069 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 205 run - response received Response{type='OK', data='You lost!'}
+03 Jul 2023 13:18:12,069 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='You lost!'}
+03 Jul 2023 13:18:12,069 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 guess - Guessed
+03 Jul 2023 13:18:12,073 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+03 Jul 2023 13:18:12,109 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 205 run - response received Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+03 Jul 2023 13:18:12,109 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+03 Jul 2023 13:18:12,110 INFO  martin.network.rpcprotocol.ServicesRpcProxy 164 getRanking - Got ranking
+03 Jul 2023 13:18:13,115 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 205 run - response received Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+03 Jul 2023 13:18:13,116 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+03 Jul 2023 13:18:13,116 INFO  martin.network.rpcprotocol.ServicesRpcProxy 164 getRanking - Got ranking
+03 Jul 2023 13:18:13,118 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='SET_CONTROL_GAME_OVER', data='domain.GamePlayer@1f'}
+03 Jul 2023 13:18:14,169 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 205 run - response received Response{type='OK', data='Clue position: (3,0), Number of attempts: 10, Ranking: 10 out of 10 games finished.'}
+03 Jul 2023 13:18:14,170 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Clue position: (3,0), Number of attempts: 10, Ranking: 10 out of 10 games finished.'}
+03 Jul 2023 13:18:14,170 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 setControlGameOver - Set control game over

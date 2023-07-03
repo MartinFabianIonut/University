@@ -3,17 +3,10 @@ package domain;
 import java.io.Serializable;
 import java.time.LocalTime;
 
-public class DTORest extends Entity<Integer>implements Serializable {
+public class DTORest implements Serializable {
     private Integer attempts;
     private String positions;
     private String clue;
-
-    public DTORest(Integer id, Integer attempts, String positions, String clue) {
-        super(id);
-        this.attempts = attempts;
-        this.positions = positions;
-        this.clue = clue;
-    }
 
     public DTORest(Integer attempts, String positions, String clue) {
         this.attempts = attempts;
