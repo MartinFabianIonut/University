@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="800.0" prefWidth="1175.0" spacing="20.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.controller.ServiceController">
+   <AnchorPane fx:id="anchorStart" prefHeight="630.0" prefWidth="1135.0">
+      <children>
+         <GridPane fx:id="gridPane" gridLinesVisible="true" layoutX="205.0" layoutY="61.0" maxHeight="400.0" maxWidth="400.0" prefHeight="37.0" prefWidth="323.0">
+           <columnConstraints>
+             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+           </columnConstraints>
+           <rowConstraints>
+               <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+           </rowConstraints>
+         </GridPane>
+         <TableView fx:id="rankingTableView" layoutX="589.0" layoutY="265.0" maxHeight="Infinity" maxWidth="Infinity" prefHeight="281.0" prefWidth="494.0">
+            <columns>
+               <TableColumn prefWidth="105.0" text="Jucator">
+                  <cellValueFactory>
+                     <PropertyValueFactory property="player" />
+                  </cellValueFactory>
+               </TableColumn>
+               <TableColumn prefWidth="298.0" text="Start">
+                  <cellValueFactory>
+                     <PropertyValueFactory property="time" />
+                  </cellValueFactory>
+               </TableColumn>
+               <TableColumn prefWidth="88.0" text="Puncte">
+                  <cellValueFactory>
+                     <PropertyValueFactory property="totalSum" />
+                  </cellValueFactory>
+               </TableColumn>
+            </columns>
+         </TableView>
+         <Label layoutX="808.0" layoutY="235.0" text="Clasament" />
+         <Label fx:id="control" layoutX="207.0" layoutY="316.0" text="Control: " />
+         <Label layoutX="205.0" layoutY="31.0" text="Pozitii si valori" />
+         <Label layoutX="205.0" layoutY="131.0" text="Pozitia ta" />
+         <GridPane fx:id="gridPanePlayer" gridLinesVisible="true" layoutX="205.0" layoutY="157.0" maxHeight="400.0" maxWidth="400.0" prefHeight="37.0" prefWidth="323.0">
+            <columnConstraints>
+               <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+               <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+         </GridPane>
+         <Button fx:id="genereaza" layoutX="204.0" layoutY="252.0" mnemonicParsing="false" onAction="#genereazaAction" text="Inainteaza" />
+      </children>
+   </AnchorPane>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</VBox>

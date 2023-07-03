@@ -1,0 +1,9 @@
+rootProject.name = 'Martin'
+include 'Domain'
+include 'FX'
+include 'Networking'
+include 'Services'
+include 'ServerRPC'
+include 'Persistence'
+include 'RestServices'
+
