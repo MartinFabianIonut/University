@@ -2,11 +2,11 @@
 
 Proiectați și implementați o aplicație client-server pentru următoarea problemă.
 
-Un joc cu 3 jucători numit Cauta obiectele. Trei utilizatori autentificați pot juca acest joc. Fiecare jucător propune 3 poziții (din 9 posibile) pentru obiectele sale și fiecare jucător încearcă să ghiceasca pozițiile obiectelor celorlalți jucători. Jucătorul/Jucătorii care obține/obțin cele mai multe puncte după 3 runde, câștigă jocul.
+Un joc cu 3 jucători numit Cauta obiectele. Trei utilizatori autentificați pot juca acest joc. Fiecare jucător propune 3 poziții (din 9 posibile) pentru obiectele sale și fiecare jucător încearcă să ghicească pozițiile obiectelor celorlalți jucători. Jucătorul/Jucătorii care obține/obțin cele mai multe puncte după 3 runde, câștigă jocul.
 
 Fiecare jucător poate să facă următoarele:
 
-1. _Începere joc_. Pentru a porni un jnoc, jucătorul își introduce aliasul asociat. După verificarea că aliasul corespunde unui jucător înregistrat în aplicație, începe jocul și jucătorulva vedea cele 5 poziții și valoarea fiecărei poziții.
+1. _Începere joc_. Pentru a porni un jnoc, jucătorul își introduce aliasul asociat. După verificarea că aliasul corespunde unui jucător înregistrat în aplicație, începe jocul și jucătorul va vedea cele 5 poziții și valoarea fiecărei poziții.
 
 2. _Generare număr_. Fiecare jucător generează aleator un număr _n_ între 1 si 3 (1, 2 sau 3), prin apăsarea unui buton. După ce numărul este generat, acesta este trimis la server și jucătorul va înainta cu n poziții în lista pozițiilor afișate (e posibil să treacă iarași pe la start). Dacă noua poziție nu a fost deja ocupată, jucătorul va plăti serverului valoarea poziției respective și va deveni ocupantul acelei poziții. Dacă noua poziție depăseste cele 5 poziții și jucătorul trece din nou pe la start, acesta va primi 5 lei de la server. Dacă noua poziție a mai fost vizitată de jucător, acesta rămâne cu aceeași sumă de bani. Cerința 2 se repetă de încă 2 ori.
 

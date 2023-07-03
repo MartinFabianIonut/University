@@ -15,6 +15,7 @@ import java.util.*;
 import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 
 public class ServicesImpl implements IService {
@@ -35,16 +36,14 @@ public class ServicesImpl implements IService {
 
     @Override
     public Iterable<DTO> getRanking() {
-        List<DTO> list = new ArrayList<>();
         List<Score> scores = (List<Score>) scoreRepository.getAll();
-        for (Score score : scores) {
-            if (score.getGameOver() == 1) {
-                DTO dto = new DTO(score.getPlayer(), score.getTime(), score.getTotalSum());
-                list.add(dto);
-            }
-        }
-        list.sort(Comparator.comparing(DTO::getTotalSum).thenComparing(DTO::getTime).reversed());
-        return list;
+        scores = scores.stream()
+                .filter(score -> score.getGameOver() == 1)
+                .collect(Collectors.toList());
+        return scores.stream()
+                .map(score -> new DTO(score.getPlayer(), score.getTime(), score.getTotalSum()))
+                .sorted(Comparator.comparing(DTO::getTotalSum).thenComparing(DTO::getTime).reversed())
+                .collect(Collectors.toList());
     }
 
     private void update(Player player) throws MyException {
@@ -63,17 +62,13 @@ public class ServicesImpl implements IService {
         Score oldScore = scoreRepository.getLatestScoreForPlayer(player.getId());
         List<DTO> list = (List<DTO>) getRanking();
         // find in list the player by time from oldScore
-        int index = 0;
-        for (int i = 0; i < list.size(); i++) {
-            if (list.get(i).getTime().equals(oldScore.getTime())) {
-                index = i + 1;
-                break;
-            }
-        }
-        String control = "";
-        control += "GAME OVER!\nTotal sum = " + oldScore.getTotalSum() +
+        int index = IntStream.range(0, list.size())
+                .filter(i -> list.get(i).getTime().equals(oldScore.getTime()))
+                .map(i -> i + 1)
+                .findFirst()
+                .orElse(0);
+        return "GAME OVER!\nTotal sum = " + oldScore.getTotalSum() +
                 ", Ranking: " + index + " out of " + list.size() + " games finished.";
-        return control;
     }
 
     @Override
@@ -92,11 +87,7 @@ public class ServicesImpl implements IService {
                         && score.getGame().getId().equals(gamePlayerMap.get(player).getId())
                         && score.getTime().equals(oldScore.getTime()))
                 .collect(Collectors.toList());
-        int gameOver = 0;
-        if (scores.size() == 3) {
-            // add final score
-            gameOver = 1;
-        }
+        int gameOver = scores.size() == 3 ? 1 : 0;
 
         int oldPosition = oldScore.getPosition();
         int newPosition, sum = 0;
@@ -107,13 +98,7 @@ public class ServicesImpl implements IService {
             newPosition = oldPosition + random;
         }
         Game game = gamePlayerMap.get(player);
-        boolean alreadyVisited = false;
-        for (Score score : scores) {
-            if (score.getPosition() == newPosition) {
-                alreadyVisited = true;
-                break;
-            }
-        }
+        boolean alreadyVisited = scores.stream().anyMatch(score -> score.getPosition() == newPosition);
         if (!alreadyVisited) {
             String method = "getValue" + newPosition;
             Method myMethod = game.getClass().getMethod(method);
@@ -122,7 +107,7 @@ public class ServicesImpl implements IService {
             sum -= value;
         }
         Score score = new Score(0, game, player,
-                newPosition, sum, oldScore.getTotalSum()+sum, gameOver, oldScore.getTime());
+                newPosition, sum, oldScore.getTotalSum() + sum, gameOver, oldScore.getTime());
         scoreRepository.add(score);
         if (gameOver == 1) {
             gamePlayerMap.remove(player);
