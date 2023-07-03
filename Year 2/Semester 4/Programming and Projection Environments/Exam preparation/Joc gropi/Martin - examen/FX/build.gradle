@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+    id 'org.openjfx.javafxplugin' version '0.0.13'
+    id 'application'
+}
+
+group 'martin'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+javafx {
+    modules = [ 'javafx.controls', 'javafx.fxml'  ]
+}
+
+dependencies {
+    implementation project (':Domain')
+    implementation project (':Services')
+    implementation project (':Networking')
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.2'
+    runtimeOnly('org.openjfx:javafx-fxml:19.0.2.1')
+}
+
+test {
+    useJUnitPlatform()
+}
+
+application{
+    mainClass='fx.HelloApplication'
+}
