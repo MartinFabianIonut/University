@@ -23,7 +23,7 @@ Year 2
   - 🎲 [Probability and Statistics](https://github.com/MartinFabianIonut/University/tree/main/Year%202/Semester%203/Probability%20and%20Statistics)<br/>
 - 📂 Semester 4
   - ⁉️ [Artificial Intelligence](https://github.com/MartinFabianIonut/University/tree/main/Year%202/Semester%204/Artificial%20Intelligence)<br/>
-  - 🏛️ [Programming and Projection Environments](https://github.com/MartinFabianIonut/University/tree/main/Year%202/Semester%204/Programming%20and%20Projection%20Enironments)<br/>
+  - 🏛️ [Programming and Projection Environments](https://github.com/MartinFabianIonut/University/tree/main/Year%202/Semester%204/Programming%20and%20Projection%20Environments)<br/>
   - 📃 [Database Management Systems](https://github.com/MartinFabianIonut/University/tree/main/Year%202/Semester%204/Database%20Management%20Systems)<br/>
   - 🌎 [Web Programming](https://github.com/MartinFabianIonut/University/tree/main/Year%202/Semester%204/Web%20programming)<br/>
   - 🏗️ [Software Systems Engineering](https://github.com/MartinFabianIonut/ISS)<br/>
