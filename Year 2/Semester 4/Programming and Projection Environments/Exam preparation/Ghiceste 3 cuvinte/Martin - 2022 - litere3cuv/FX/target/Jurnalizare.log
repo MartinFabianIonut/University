@@ -1,0 +1,706 @@
+19 Jun 2023 12:52:08,336 INFO  martin.network.rpcprotocol.ServicesRpcProxy 35 <init> - Creating proxy
+19 Jun 2023 12:52:15,347 INFO  martin.network.rpcprotocol.ServicesRpcProxy 114 initializeConnection - Connection initialized
+19 Jun 2023 12:52:15,355 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGIN', data='ana'}
+19 Jun 2023 12:52:15,564 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='ana'}
+19 Jun 2023 12:52:15,565 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='ana'}
+19 Jun 2023 12:52:15,565 INFO  martin.network.rpcprotocol.ServicesRpcProxy 156 login - Logged in
+19 Jun 2023 12:52:15,678 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+19 Jun 2023 12:52:16,592 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[]'}
+19 Jun 2023 12:52:16,592 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[]'}
+19 Jun 2023 12:52:16,593 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+19 Jun 2023 12:52:16,593 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_GAME', data='ana'}
+19 Jun 2023 12:52:17,604 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='domain.Game@24'}
+19 Jun 2023 12:52:17,604 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='domain.Game@24'}
+19 Jun 2023 12:52:17,604 INFO  martin.network.rpcprotocol.ServicesRpcProxy 101 getGame - Got game
+19 Jun 2023 12:52:21,343 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 13:01:25,461 INFO  martin.network.rpcprotocol.ServicesRpcProxy 35 <init> - Creating proxy
+19 Jun 2023 13:01:27,446 INFO  martin.network.rpcprotocol.ServicesRpcProxy 114 initializeConnection - Connection initialized
+19 Jun 2023 13:01:27,454 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGIN', data='ana'}
+19 Jun 2023 13:01:27,653 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='ana'}
+19 Jun 2023 13:01:27,653 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='ana'}
+19 Jun 2023 13:01:27,654 INFO  martin.network.rpcprotocol.ServicesRpcProxy 156 login - Logged in
+19 Jun 2023 13:01:27,783 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+19 Jun 2023 13:01:28,684 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[]'}
+19 Jun 2023 13:01:28,685 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[]'}
+19 Jun 2023 13:01:28,685 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+19 Jun 2023 13:01:28,685 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_GAME', data='ana'}
+19 Jun 2023 13:01:29,689 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='domain.Game@22'}
+19 Jun 2023 13:01:29,689 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='domain.Game@22'}
+19 Jun 2023 13:01:29,689 INFO  martin.network.rpcprotocol.ServicesRpcProxy 101 getGame - Got game
+19 Jun 2023 13:01:37,998 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 13:04:11,330 INFO  martin.network.rpcprotocol.ServicesRpcProxy 35 <init> - Creating proxy
+19 Jun 2023 13:04:13,439 INFO  martin.network.rpcprotocol.ServicesRpcProxy 114 initializeConnection - Connection initialized
+19 Jun 2023 13:04:13,448 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGIN', data='ana'}
+19 Jun 2023 13:04:13,653 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='ana'}
+19 Jun 2023 13:04:13,654 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='ana'}
+19 Jun 2023 13:04:13,654 INFO  martin.network.rpcprotocol.ServicesRpcProxy 156 login - Logged in
+19 Jun 2023 13:04:13,758 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+19 Jun 2023 13:04:14,691 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[]'}
+19 Jun 2023 13:04:14,691 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[]'}
+19 Jun 2023 13:04:14,691 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+19 Jun 2023 13:04:14,692 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_GAME', data='ana'}
+19 Jun 2023 13:04:15,699 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='domain.Game@22'}
+19 Jun 2023 13:04:15,699 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='domain.Game@22'}
+19 Jun 2023 13:04:15,699 INFO  martin.network.rpcprotocol.ServicesRpcProxy 101 getGame - Got game
+19 Jun 2023 13:04:16,441 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 13:14:35,025 INFO  martin.network.rpcprotocol.ServicesRpcProxy 35 <init> - Creating proxy
+19 Jun 2023 13:14:37,159 INFO  martin.network.rpcprotocol.ServicesRpcProxy 114 initializeConnection - Connection initialized
+19 Jun 2023 13:14:37,167 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGIN', data='sara'}
+19 Jun 2023 13:14:37,364 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='sara'}
+19 Jun 2023 13:14:37,364 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='sara'}
+19 Jun 2023 13:14:37,365 INFO  martin.network.rpcprotocol.ServicesRpcProxy 156 login - Logged in
+19 Jun 2023 13:14:37,484 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+19 Jun 2023 13:14:38,407 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[]'}
+19 Jun 2023 13:14:38,407 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[]'}
+19 Jun 2023 13:14:38,408 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+19 Jun 2023 13:14:38,408 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_GAME', data='sara'}
+19 Jun 2023 13:14:39,420 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='domain.Game@21'}
+19 Jun 2023 13:14:39,420 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='domain.Game@21'}
+19 Jun 2023 13:14:39,421 INFO  martin.network.rpcprotocol.ServicesRpcProxy 101 getGame - Got game
+19 Jun 2023 13:14:43,447 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 13:50:15,580 INFO  martin.network.rpcprotocol.ServicesRpcProxy 35 <init> - Creating proxy
+19 Jun 2023 13:50:18,185 INFO  martin.network.rpcprotocol.ServicesRpcProxy 114 initializeConnection - Connection initialized
+19 Jun 2023 13:50:18,194 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGIN', data='ana'}
+19 Jun 2023 13:50:18,371 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='ana'}
+19 Jun 2023 13:50:18,371 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='ana'}
+19 Jun 2023 13:50:18,371 INFO  martin.network.rpcprotocol.ServicesRpcProxy 156 login - Logged in
+19 Jun 2023 13:50:18,474 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+19 Jun 2023 13:50:19,417 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[]'}
+19 Jun 2023 13:50:19,418 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[]'}
+19 Jun 2023 13:50:19,418 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+19 Jun 2023 13:50:19,418 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_GAME', data='ana'}
+19 Jun 2023 13:50:20,433 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='domain.Game@24'}
+19 Jun 2023 13:50:20,434 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='domain.Game@24'}
+19 Jun 2023 13:50:20,434 INFO  martin.network.rpcprotocol.ServicesRpcProxy 101 getGame - Got game
+19 Jun 2023 13:50:21,565 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 13:50:21,579 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='You guessed R and the server guessed L.
+You have 3 points in this round and 22 points in total.'}
+19 Jun 2023 13:50:21,579 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='You guessed R and the server guessed L.
+You have 3 points in this round and 22 points in total.'}
+19 Jun 2023 13:50:21,579 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+19 Jun 2023 13:50:35,775 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 13:50:35,785 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='You guessed N and the server guessed L.
+You have 8 points in this round and 30 points in total.'}
+19 Jun 2023 13:50:35,785 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='You guessed N and the server guessed L.
+You have 8 points in this round and 30 points in total.'}
+19 Jun 2023 13:50:35,786 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+19 Jun 2023 13:50:37,499 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 13:50:37,509 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='You guessed P and the server guessed L.
+You have 10 points in this round and 40 points in total.'}
+19 Jun 2023 13:50:37,509 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='You guessed P and the server guessed L.
+You have 10 points in this round and 40 points in total.'}
+19 Jun 2023 13:50:37,510 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+19 Jun 2023 13:50:38,047 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 13:50:38,575 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='RANKING', data='[domain.DTO@1f]'}
+19 Jun 2023 13:50:38,575 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='CONTROL', data='ana'}
+19 Jun 2023 13:50:38,576 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='You guessed L and the server guessed N.
+You have -1 points in this round and 39 points in total.'}
+19 Jun 2023 13:50:38,576 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='You guessed L and the server guessed N.
+You have -1 points in this round and 39 points in total.'}
+19 Jun 2023 13:50:38,576 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+19 Jun 2023 13:50:38,580 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+19 Jun 2023 13:50:39,621 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[domain.DTO@1f]'}
+19 Jun 2023 13:50:39,621 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[domain.DTO@1f]'}
+19 Jun 2023 13:50:39,621 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+19 Jun 2023 13:50:39,622 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='SET_CONTROL_GAME_OVER', data='ana'}
+19 Jun 2023 13:50:40,690 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='Total points: 39
+Ranking: 1
+'}
+19 Jun 2023 13:50:40,691 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Total points: 39
+Ranking: 1
+'}
+19 Jun 2023 13:50:40,691 INFO  martin.network.rpcprotocol.ServicesRpcProxy 209 setControlGameOver - Set control game over
+19 Jun 2023 13:51:53,008 INFO  martin.network.rpcprotocol.ServicesRpcProxy 35 <init> - Creating proxy
+19 Jun 2023 13:51:55,669 INFO  martin.network.rpcprotocol.ServicesRpcProxy 114 initializeConnection - Connection initialized
+19 Jun 2023 13:51:55,678 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGIN', data='sara'}
+19 Jun 2023 13:51:55,860 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='sara'}
+19 Jun 2023 13:51:55,860 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='sara'}
+19 Jun 2023 13:51:55,860 INFO  martin.network.rpcprotocol.ServicesRpcProxy 156 login - Logged in
+19 Jun 2023 13:51:55,980 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+19 Jun 2023 13:51:56,946 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[domain.DTO@1f]'}
+19 Jun 2023 13:51:56,946 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[domain.DTO@1f]'}
+19 Jun 2023 13:51:56,946 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+19 Jun 2023 13:51:56,947 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_GAME', data='sara'}
+19 Jun 2023 13:51:57,948 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='domain.Game@24'}
+19 Jun 2023 13:51:57,949 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='domain.Game@24'}
+19 Jun 2023 13:51:57,949 INFO  martin.network.rpcprotocol.ServicesRpcProxy 101 getGame - Got game
+19 Jun 2023 13:52:11,343 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 13:52:11,359 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='You guessed N and the server guessed N.
+You have 0 points in this round and 19 points in total.'}
+19 Jun 2023 13:52:11,359 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='You guessed N and the server guessed N.
+You have 0 points in this round and 19 points in total.'}
+19 Jun 2023 13:52:11,360 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+19 Jun 2023 13:52:18,844 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 13:52:18,855 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='You guessed P and the server guessed P.
+You have 0 points in this round and 19 points in total.'}
+19 Jun 2023 13:52:18,855 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='You guessed P and the server guessed P.
+You have 0 points in this round and 19 points in total.'}
+19 Jun 2023 13:52:18,855 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+19 Jun 2023 13:52:20,842 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 13:52:20,852 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='You guessed L and the server guessed R.
+You have -1 points in this round and 18 points in total.'}
+19 Jun 2023 13:52:20,852 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='You guessed L and the server guessed R.
+You have -1 points in this round and 18 points in total.'}
+19 Jun 2023 13:52:20,853 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+19 Jun 2023 13:52:23,467 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 13:52:23,547 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='RANKING', data='[domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 13:52:23,548 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='CONTROL', data='sara'}
+19 Jun 2023 13:52:23,548 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='You guessed R and the server guessed N.
+You have -2 points in this round and 16 points in total.'}
+19 Jun 2023 13:52:23,549 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='You guessed R and the server guessed N.
+You have -2 points in this round and 16 points in total.'}
+19 Jun 2023 13:52:23,549 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+19 Jun 2023 13:52:23,554 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+19 Jun 2023 13:52:24,619 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 13:52:24,619 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 13:52:24,620 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+19 Jun 2023 13:52:24,621 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='SET_CONTROL_GAME_OVER', data='sara'}
+19 Jun 2023 13:52:25,699 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='Total points: 16
+Ranking: 1
+'}
+19 Jun 2023 13:52:25,700 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Total points: 16
+Ranking: 1
+'}
+19 Jun 2023 13:52:25,700 INFO  martin.network.rpcprotocol.ServicesRpcProxy 209 setControlGameOver - Set control game over
+19 Jun 2023 13:52:46,073 INFO  martin.network.rpcprotocol.ServicesRpcProxy 35 <init> - Creating proxy
+19 Jun 2023 13:52:52,628 INFO  martin.network.rpcprotocol.ServicesRpcProxy 114 initializeConnection - Connection initialized
+19 Jun 2023 13:52:52,636 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGIN', data='sara'}
+19 Jun 2023 13:52:52,640 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='ERROR', data='User already logged in.'}
+19 Jun 2023 13:52:52,640 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='ERROR', data='User already logged in.'}
+19 Jun 2023 13:52:52,641 ERROR martin.network.rpcprotocol.ServicesRpcProxy 160 login - Error logging inUser already logged in.
+19 Jun 2023 13:52:52,641 INFO  martin.network.rpcprotocol.ServicesRpcProxy 62 closeConnection - Closed connection
+19 Jun 2023 13:52:54,694 INFO  martin.network.rpcprotocol.ServicesRpcProxy 114 initializeConnection - Connection initialized
+19 Jun 2023 13:52:54,695 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGIN', data='ana'}
+19 Jun 2023 13:52:54,707 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='ana'}
+19 Jun 2023 13:52:54,708 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='ana'}
+19 Jun 2023 13:52:54,708 INFO  martin.network.rpcprotocol.ServicesRpcProxy 156 login - Logged in
+19 Jun 2023 13:52:54,837 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+19 Jun 2023 13:52:55,775 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 13:52:55,776 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 13:52:55,776 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+19 Jun 2023 13:52:55,777 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_GAME', data='ana'}
+19 Jun 2023 13:52:56,788 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='domain.Game@22'}
+19 Jun 2023 13:52:56,788 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='domain.Game@22'}
+19 Jun 2023 13:52:56,788 INFO  martin.network.rpcprotocol.ServicesRpcProxy 101 getGame - Got game
+19 Jun 2023 13:52:58,409 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 13:52:58,418 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='You guessed Y and the server guessed U.
+You have -1 points in this round and 14 points in total.'}
+19 Jun 2023 13:52:58,419 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='You guessed Y and the server guessed U.
+You have -1 points in this round and 14 points in total.'}
+19 Jun 2023 13:52:58,419 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+19 Jun 2023 13:53:05,217 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 13:53:05,225 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='You guessed U and the server guessed U.
+You have 0 points in this round and 14 points in total.'}
+19 Jun 2023 13:53:05,225 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='You guessed U and the server guessed U.
+You have 0 points in this round and 14 points in total.'}
+19 Jun 2023 13:53:05,225 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+19 Jun 2023 13:53:07,937 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 13:53:07,944 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='You guessed A and the server guessed U.
+You have 10 points in this round and 24 points in total.'}
+19 Jun 2023 13:53:07,944 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='You guessed A and the server guessed U.
+You have 10 points in this round and 24 points in total.'}
+19 Jun 2023 13:53:07,945 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+19 Jun 2023 13:53:12,376 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 13:53:12,445 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='RANKING', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 13:53:12,516 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='RANKING', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 13:53:12,516 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='CONTROL', data='ana'}
+19 Jun 2023 13:53:12,517 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+19 Jun 2023 13:53:12,517 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='You guessed W and the server guessed A.
+You have -4 points in this round and 20 points in total.'}
+19 Jun 2023 13:53:12,517 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='You guessed W and the server guessed A.
+You have -4 points in this round and 20 points in total.'}
+19 Jun 2023 13:53:12,517 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+19 Jun 2023 13:53:12,524 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+19 Jun 2023 13:53:12,609 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 13:53:12,610 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 13:53:12,610 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+19 Jun 2023 13:53:13,569 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 13:53:13,569 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 13:53:13,569 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+19 Jun 2023 13:53:13,570 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='SET_CONTROL_GAME_OVER', data='ana'}
+19 Jun 2023 13:53:14,617 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='Total points: 20
+Ranking: 1
+'}
+19 Jun 2023 13:53:14,617 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Total points: 20
+Ranking: 1
+'}
+19 Jun 2023 13:53:14,618 INFO  martin.network.rpcprotocol.ServicesRpcProxy 209 setControlGameOver - Set control game over
+19 Jun 2023 17:45:25,558 INFO  martin.network.rpcprotocol.ServicesRpcProxy 35 <init> - Creating proxy
+19 Jun 2023 17:45:27,417 INFO  martin.network.rpcprotocol.ServicesRpcProxy 114 initializeConnection - Connection initialized
+19 Jun 2023 17:45:27,425 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGIN', data='ana'}
+19 Jun 2023 17:45:27,599 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='ana'}
+19 Jun 2023 17:45:27,600 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='ana'}
+19 Jun 2023 17:45:27,600 INFO  martin.network.rpcprotocol.ServicesRpcProxy 156 login - Logged in
+19 Jun 2023 17:45:27,721 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+19 Jun 2023 17:45:28,635 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[]'}
+19 Jun 2023 17:45:28,635 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[]'}
+19 Jun 2023 17:45:28,635 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+19 Jun 2023 17:45:28,636 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_GAME', data='ana'}
+19 Jun 2023 17:45:29,637 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='domain.Game@23'}
+19 Jun 2023 17:45:29,637 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='domain.Game@23'}
+19 Jun 2023 17:45:29,638 INFO  martin.network.rpcprotocol.ServicesRpcProxy 101 getGame - Got game
+19 Jun 2023 17:45:37,350 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 17:45:37,357 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='ERROR', data='domain.Game.getWord0()'}
+19 Jun 2023 17:45:37,357 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='ERROR', data='domain.Game.getWord0()'}
+19 Jun 2023 17:45:37,358 ERROR martin.network.rpcprotocol.ServicesRpcProxy 190 guess - Error guessingdomain.Game.getWord0()
+19 Jun 2023 17:48:03,893 INFO  martin.network.rpcprotocol.ServicesRpcProxy 35 <init> - Creating proxy
+19 Jun 2023 17:48:06,295 INFO  martin.network.rpcprotocol.ServicesRpcProxy 114 initializeConnection - Connection initialized
+19 Jun 2023 17:48:06,303 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGIN', data='ana'}
+19 Jun 2023 17:48:06,478 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='ana'}
+19 Jun 2023 17:48:06,479 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='ana'}
+19 Jun 2023 17:48:06,479 INFO  martin.network.rpcprotocol.ServicesRpcProxy 156 login - Logged in
+19 Jun 2023 17:48:06,587 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+19 Jun 2023 17:48:07,521 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[]'}
+19 Jun 2023 17:48:07,521 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[]'}
+19 Jun 2023 17:48:07,521 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+19 Jun 2023 17:48:07,522 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_GAME', data='ana'}
+19 Jun 2023 17:48:08,533 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='domain.Game@23'}
+19 Jun 2023 17:48:08,533 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='domain.Game@23'}
+19 Jun 2023 17:48:08,533 INFO  martin.network.rpcprotocol.ServicesRpcProxy 101 getGame - Got game
+19 Jun 2023 17:48:21,454 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGOUT', data='ana'}
+19 Jun 2023 17:48:21,455 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='null'}
+19 Jun 2023 17:48:21,455 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='null'}
+19 Jun 2023 17:48:21,456 INFO  martin.network.rpcprotocol.ServicesRpcProxy 62 closeConnection - Closed connection
+19 Jun 2023 17:48:21,456 INFO  martin.network.rpcprotocol.ServicesRpcProxy 51 logout - Logged out
+19 Jun 2023 17:49:15,230 INFO  martin.network.rpcprotocol.ServicesRpcProxy 35 <init> - Creating proxy
+19 Jun 2023 17:49:17,351 INFO  martin.network.rpcprotocol.ServicesRpcProxy 114 initializeConnection - Connection initialized
+19 Jun 2023 17:49:17,359 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGIN', data='ana'}
+19 Jun 2023 17:49:17,372 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='ana'}
+19 Jun 2023 17:49:17,373 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='ana'}
+19 Jun 2023 17:49:17,373 INFO  martin.network.rpcprotocol.ServicesRpcProxy 156 login - Logged in
+19 Jun 2023 17:49:17,475 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+19 Jun 2023 17:49:18,392 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[]'}
+19 Jun 2023 17:49:18,392 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[]'}
+19 Jun 2023 17:49:18,393 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+19 Jun 2023 17:49:18,393 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_GAME', data='ana'}
+19 Jun 2023 17:49:19,403 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='domain.Game@23'}
+19 Jun 2023 17:49:19,404 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='domain.Game@23'}
+19 Jun 2023 17:49:19,404 INFO  martin.network.rpcprotocol.ServicesRpcProxy 101 getGame - Got game
+19 Jun 2023 17:49:24,603 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 17:49:24,630 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='Cuvantul nu a fost ghicit, dar ai primit 4 puncte!'}
+19 Jun 2023 17:49:24,630 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Cuvantul nu a fost ghicit, dar ai primit 4 puncte!'}
+19 Jun 2023 17:49:24,630 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+19 Jun 2023 17:51:38,011 INFO  martin.network.rpcprotocol.ServicesRpcProxy 35 <init> - Creating proxy
+19 Jun 2023 17:51:43,859 INFO  martin.network.rpcprotocol.ServicesRpcProxy 114 initializeConnection - Connection initialized
+19 Jun 2023 17:51:43,867 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGIN', data='sara'}
+19 Jun 2023 17:51:44,039 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='sara'}
+19 Jun 2023 17:51:44,040 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='sara'}
+19 Jun 2023 17:51:44,040 INFO  martin.network.rpcprotocol.ServicesRpcProxy 156 login - Logged in
+19 Jun 2023 17:51:44,144 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+19 Jun 2023 17:51:45,093 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[]'}
+19 Jun 2023 17:51:45,094 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[]'}
+19 Jun 2023 17:51:45,094 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+19 Jun 2023 17:51:45,095 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_GAME', data='sara'}
+19 Jun 2023 17:51:46,107 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='domain.Game@23'}
+19 Jun 2023 17:51:46,107 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='domain.Game@23'}
+19 Jun 2023 17:51:46,108 INFO  martin.network.rpcprotocol.ServicesRpcProxy 101 getGame - Got game
+19 Jun 2023 17:51:47,736 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 17:51:47,771 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='Cuvant ghicit, ai primit3 puncte!'}
+19 Jun 2023 17:51:47,771 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Cuvant ghicit, ai primit3 puncte!'}
+19 Jun 2023 17:51:47,772 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+19 Jun 2023 17:53:53,477 INFO  martin.network.rpcprotocol.ServicesRpcProxy 35 <init> - Creating proxy
+19 Jun 2023 17:53:55,567 INFO  martin.network.rpcprotocol.ServicesRpcProxy 114 initializeConnection - Connection initialized
+19 Jun 2023 17:53:55,574 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGIN', data='sara'}
+19 Jun 2023 17:53:55,762 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='sara'}
+19 Jun 2023 17:53:55,763 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='sara'}
+19 Jun 2023 17:53:55,763 INFO  martin.network.rpcprotocol.ServicesRpcProxy 156 login - Logged in
+19 Jun 2023 17:53:55,871 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+19 Jun 2023 17:53:56,796 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[]'}
+19 Jun 2023 17:53:56,797 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[]'}
+19 Jun 2023 17:53:56,797 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+19 Jun 2023 17:53:56,798 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_GAME', data='sara'}
+19 Jun 2023 17:53:57,799 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='domain.Game@23'}
+19 Jun 2023 17:53:57,799 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='domain.Game@23'}
+19 Jun 2023 17:53:57,799 INFO  martin.network.rpcprotocol.ServicesRpcProxy 101 getGame - Got game
+19 Jun 2023 17:53:59,708 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 17:53:59,725 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='Cuvant ghicit, ai primit4 puncte!'}
+19 Jun 2023 17:53:59,726 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Cuvant ghicit, ai primit4 puncte!'}
+19 Jun 2023 17:53:59,726 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+19 Jun 2023 17:54:02,917 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 17:54:02,932 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='You already guessed this word!'}
+19 Jun 2023 17:54:02,932 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='You already guessed this word!'}
+19 Jun 2023 17:54:02,932 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+19 Jun 2023 17:54:05,517 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 17:54:05,532 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='You already guessed this word!'}
+19 Jun 2023 17:54:05,533 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='You already guessed this word!'}
+19 Jun 2023 17:54:05,533 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+19 Jun 2023 17:54:06,264 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 17:54:06,554 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='You already guessed this word!'}
+19 Jun 2023 17:54:06,555 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='You already guessed this word!'}
+19 Jun 2023 17:54:06,555 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+19 Jun 2023 17:54:07,610 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 17:54:07,625 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='You already guessed this word!'}
+19 Jun 2023 17:54:07,625 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='You already guessed this word!'}
+19 Jun 2023 17:54:07,626 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+19 Jun 2023 17:54:17,017 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 17:54:17,038 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='Cuvantul nu a fost ghicit, dar ai primit 2 puncte!'}
+19 Jun 2023 17:54:17,039 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Cuvantul nu a fost ghicit, dar ai primit 2 puncte!'}
+19 Jun 2023 17:54:17,039 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+19 Jun 2023 17:54:23,704 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 17:54:23,750 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='RANKING', data='[]'}
+19 Jun 2023 17:54:23,751 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='CONTROL', data='sara'}
+19 Jun 2023 17:54:23,751 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='Cuvantul nu a fost ghicit, dar ai primit 3 puncte!'}
+19 Jun 2023 17:54:23,751 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Cuvantul nu a fost ghicit, dar ai primit 3 puncte!'}
+19 Jun 2023 17:54:23,752 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+19 Jun 2023 17:54:23,753 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+19 Jun 2023 17:54:24,769 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[]'}
+19 Jun 2023 17:54:24,769 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[]'}
+19 Jun 2023 17:54:24,769 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+19 Jun 2023 17:54:24,770 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='SET_CONTROL_GAME_OVER', data='sara'}
+19 Jun 2023 17:54:25,806 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='Words: tara, arta, tare
+You are on position 1 with 5 points.'}
+19 Jun 2023 17:54:25,807 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Words: tara, arta, tare
+You are on position 1 with 5 points.'}
+19 Jun 2023 17:54:25,807 INFO  martin.network.rpcprotocol.ServicesRpcProxy 209 setControlGameOver - Set control game over
+19 Jun 2023 17:58:35,798 INFO  martin.network.rpcprotocol.ServicesRpcProxy 35 <init> - Creating proxy
+19 Jun 2023 17:58:36,017 INFO  martin.network.rpcprotocol.ServicesRpcProxy 35 <init> - Creating proxy
+19 Jun 2023 17:58:38,607 INFO  martin.network.rpcprotocol.ServicesRpcProxy 114 initializeConnection - Connection initialized
+19 Jun 2023 17:58:38,615 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGIN', data='ana'}
+19 Jun 2023 17:58:38,799 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='ana'}
+19 Jun 2023 17:58:38,800 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='ana'}
+19 Jun 2023 17:58:38,800 INFO  martin.network.rpcprotocol.ServicesRpcProxy 156 login - Logged in
+19 Jun 2023 17:58:38,925 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+19 Jun 2023 17:58:39,858 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[domain.DTO@1f]'}
+19 Jun 2023 17:58:39,859 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[domain.DTO@1f]'}
+19 Jun 2023 17:58:39,859 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+19 Jun 2023 17:58:39,859 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_GAME', data='ana'}
+19 Jun 2023 17:58:40,862 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='domain.Game@23'}
+19 Jun 2023 17:58:40,863 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='domain.Game@23'}
+19 Jun 2023 17:58:40,863 INFO  martin.network.rpcprotocol.ServicesRpcProxy 101 getGame - Got game
+19 Jun 2023 17:58:43,491 INFO  martin.network.rpcprotocol.ServicesRpcProxy 114 initializeConnection - Connection initialized
+19 Jun 2023 17:58:43,499 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGIN', data='dan'}
+19 Jun 2023 17:58:43,514 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='dan'}
+19 Jun 2023 17:58:43,514 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='dan'}
+19 Jun 2023 17:58:43,514 INFO  martin.network.rpcprotocol.ServicesRpcProxy 156 login - Logged in
+19 Jun 2023 17:58:43,629 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+19 Jun 2023 17:58:44,548 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[domain.DTO@1f]'}
+19 Jun 2023 17:58:44,548 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[domain.DTO@1f]'}
+19 Jun 2023 17:58:44,549 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+19 Jun 2023 17:58:44,549 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_GAME', data='dan'}
+19 Jun 2023 17:58:45,557 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='domain.Game@21'}
+19 Jun 2023 17:58:45,557 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='domain.Game@21'}
+19 Jun 2023 17:58:45,558 INFO  martin.network.rpcprotocol.ServicesRpcProxy 101 getGame - Got game
+19 Jun 2023 17:58:59,694 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 17:58:59,736 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='Cuvant ghicit, ai primit4 puncte!'}
+19 Jun 2023 17:58:59,736 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Cuvant ghicit, ai primit4 puncte!'}
+19 Jun 2023 17:58:59,737 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+19 Jun 2023 17:59:06,300 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 17:59:06,348 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='Cuvantul nu a fost ghicit, dar ai primit 3 puncte!'}
+19 Jun 2023 17:59:06,348 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Cuvantul nu a fost ghicit, dar ai primit 3 puncte!'}
+19 Jun 2023 17:59:06,348 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+19 Jun 2023 17:59:11,217 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 17:59:11,260 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='Cuvant ghicit, ai primit6 puncte!'}
+19 Jun 2023 17:59:11,260 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Cuvant ghicit, ai primit6 puncte!'}
+19 Jun 2023 17:59:11,260 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+19 Jun 2023 17:59:19,649 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 17:59:19,691 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='Cuvantul nu a fost ghicit, dar ai primit 4 puncte!'}
+19 Jun 2023 17:59:19,691 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Cuvantul nu a fost ghicit, dar ai primit 4 puncte!'}
+19 Jun 2023 17:59:19,691 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+19 Jun 2023 17:59:23,613 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 17:59:23,704 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='RANKING', data='[domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 17:59:23,705 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+19 Jun 2023 17:59:23,749 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='RANKING', data='[domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 17:59:23,750 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='CONTROL', data='dan'}
+19 Jun 2023 17:59:23,751 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='Cuvantul nu a fost ghicit, dar ai primit 3 puncte!'}
+19 Jun 2023 17:59:23,751 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Cuvantul nu a fost ghicit, dar ai primit 3 puncte!'}
+19 Jun 2023 17:59:23,751 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+19 Jun 2023 17:59:23,753 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+19 Jun 2023 17:59:23,768 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 17:59:23,768 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 17:59:23,768 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+19 Jun 2023 17:59:24,786 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 17:59:24,787 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 17:59:24,787 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+19 Jun 2023 17:59:24,788 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='SET_CONTROL_GAME_OVER', data='dan'}
+19 Jun 2023 17:59:25,834 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='Words: banana, ana, ban
+You are on position 1 with 9 points.'}
+19 Jun 2023 17:59:25,834 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Words: banana, ana, ban
+You are on position 1 with 9 points.'}
+19 Jun 2023 17:59:25,834 INFO  martin.network.rpcprotocol.ServicesRpcProxy 209 setControlGameOver - Set control game over
+19 Jun 2023 17:59:47,603 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 17:59:47,671 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='RANKING', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 17:59:47,702 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='RANKING', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 17:59:47,703 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='CONTROL', data='ana'}
+19 Jun 2023 17:59:47,703 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+19 Jun 2023 17:59:47,703 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='Cuvantul nu a fost ghicit, dar ai primit 4 puncte!'}
+19 Jun 2023 17:59:47,703 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Cuvantul nu a fost ghicit, dar ai primit 4 puncte!'}
+19 Jun 2023 17:59:47,704 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+19 Jun 2023 17:59:47,705 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+19 Jun 2023 17:59:47,734 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 17:59:47,734 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 17:59:47,734 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+19 Jun 2023 17:59:48,740 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 17:59:48,740 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 17:59:48,740 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+19 Jun 2023 17:59:48,741 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='SET_CONTROL_GAME_OVER', data='ana'}
+19 Jun 2023 17:59:49,781 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='Words: tara, arta, tare
+You are on position 2 with 8 points.'}
+19 Jun 2023 17:59:49,782 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Words: tara, arta, tare
+You are on position 2 with 8 points.'}
+19 Jun 2023 17:59:49,782 INFO  martin.network.rpcprotocol.ServicesRpcProxy 209 setControlGameOver - Set control game over
+19 Jun 2023 18:01:17,960 INFO  martin.network.rpcprotocol.ServicesRpcProxy 35 <init> - Creating proxy
+19 Jun 2023 18:01:20,361 INFO  martin.network.rpcprotocol.ServicesRpcProxy 114 initializeConnection - Connection initialized
+19 Jun 2023 18:01:20,369 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGIN', data='dan'}
+19 Jun 2023 18:01:20,542 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='dan'}
+19 Jun 2023 18:01:20,543 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='dan'}
+19 Jun 2023 18:01:20,543 INFO  martin.network.rpcprotocol.ServicesRpcProxy 156 login - Logged in
+19 Jun 2023 18:01:20,654 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+19 Jun 2023 18:01:21,649 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 18:01:21,649 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 18:01:21,650 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+19 Jun 2023 18:01:21,650 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_GAME', data='dan'}
+19 Jun 2023 18:01:22,652 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='domain.Game@21'}
+19 Jun 2023 18:01:22,652 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='domain.Game@21'}
+19 Jun 2023 18:01:22,652 INFO  martin.network.rpcprotocol.ServicesRpcProxy 101 getGame - Got game
+19 Jun 2023 18:01:25,548 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 18:01:25,614 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='Cuvantul nu a fost ghicit, dar ai primit 1 puncte!'}
+19 Jun 2023 18:01:25,614 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Cuvantul nu a fost ghicit, dar ai primit 1 puncte!'}
+19 Jun 2023 18:01:25,614 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+19 Jun 2023 18:01:32,132 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 18:01:32,193 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='Cuvantul nu a fost ghicit, ai primit 0 puncte!'}
+19 Jun 2023 18:01:32,194 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Cuvantul nu a fost ghicit, ai primit 0 puncte!'}
+19 Jun 2023 18:01:32,194 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+19 Jun 2023 18:01:36,346 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 18:01:36,501 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='RANKING', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 18:01:36,502 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='CONTROL', data='dan'}
+19 Jun 2023 18:01:36,503 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='Cuvant ghicit, ai primit 6 puncte!'}
+19 Jun 2023 18:01:36,503 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Cuvant ghicit, ai primit 6 puncte!'}
+19 Jun 2023 18:01:36,504 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+19 Jun 2023 18:01:36,505 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+19 Jun 2023 18:01:37,555 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 18:01:37,555 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 18:01:37,555 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+19 Jun 2023 18:01:37,556 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='SET_CONTROL_GAME_OVER', data='dan'}
+19 Jun 2023 18:01:38,616 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='Words: banana, ana, ban
+You are on position 3 with 6 points.'}
+19 Jun 2023 18:01:38,617 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Words: banana, ana, ban
+You are on position 3 with 6 points.'}
+19 Jun 2023 18:01:38,617 INFO  martin.network.rpcprotocol.ServicesRpcProxy 209 setControlGameOver - Set control game over
+19 Jun 2023 18:01:48,218 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGOUT', data='dan'}
+19 Jun 2023 18:01:48,219 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='null'}
+19 Jun 2023 18:01:48,219 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='null'}
+19 Jun 2023 18:01:48,220 INFO  martin.network.rpcprotocol.ServicesRpcProxy 62 closeConnection - Closed connection
+19 Jun 2023 18:01:48,220 INFO  martin.network.rpcprotocol.ServicesRpcProxy 51 logout - Logged out
+19 Jun 2023 18:01:52,006 INFO  martin.network.rpcprotocol.ServicesRpcProxy 114 initializeConnection - Connection initialized
+19 Jun 2023 18:01:52,006 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGIN', data='sara'}
+19 Jun 2023 18:01:52,016 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='sara'}
+19 Jun 2023 18:01:52,017 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='sara'}
+19 Jun 2023 18:01:52,017 INFO  martin.network.rpcprotocol.ServicesRpcProxy 156 login - Logged in
+19 Jun 2023 18:01:52,046 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+19 Jun 2023 18:01:53,066 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 18:01:53,066 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 18:01:53,066 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+19 Jun 2023 18:01:53,067 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_GAME', data='sara'}
+19 Jun 2023 18:01:54,069 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='domain.Game@20'}
+19 Jun 2023 18:01:54,069 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='domain.Game@20'}
+19 Jun 2023 18:01:54,069 INFO  martin.network.rpcprotocol.ServicesRpcProxy 101 getGame - Got game
+19 Jun 2023 18:03:51,016 INFO  martin.network.rpcprotocol.ServicesRpcProxy 35 <init> - Creating proxy
+19 Jun 2023 18:03:54,029 INFO  martin.network.rpcprotocol.ServicesRpcProxy 114 initializeConnection - Connection initialized
+19 Jun 2023 18:03:54,037 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGIN', data='sara'}
+19 Jun 2023 18:03:54,215 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='sara'}
+19 Jun 2023 18:03:54,216 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='sara'}
+19 Jun 2023 18:03:54,217 INFO  martin.network.rpcprotocol.ServicesRpcProxy 156 login - Logged in
+19 Jun 2023 18:03:54,339 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+19 Jun 2023 18:03:55,343 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 18:03:55,343 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 18:03:55,343 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+19 Jun 2023 18:03:55,344 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_GAME', data='sara'}
+19 Jun 2023 18:03:56,362 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='domain.Game@23'}
+19 Jun 2023 18:03:56,362 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='domain.Game@23'}
+19 Jun 2023 18:03:56,362 INFO  martin.network.rpcprotocol.ServicesRpcProxy 101 getGame - Got game
+19 Jun 2023 18:04:00,420 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 18:04:00,518 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='Cuvant ghicit, ai primit 4 puncte!'}
+19 Jun 2023 18:04:00,518 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Cuvant ghicit, ai primit 4 puncte!'}
+19 Jun 2023 18:04:00,518 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+19 Jun 2023 18:04:04,406 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 18:04:04,500 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='Cuvant ghicit, ai primit 4 puncte!'}
+19 Jun 2023 18:04:04,500 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Cuvant ghicit, ai primit 4 puncte!'}
+19 Jun 2023 18:04:04,501 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+19 Jun 2023 18:04:10,773 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+19 Jun 2023 18:04:10,947 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='RANKING', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 18:04:10,948 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='CONTROL', data='sara'}
+19 Jun 2023 18:04:10,949 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='Cuvantul nu a fost ghicit, dar ai primit 2 puncte!'}
+19 Jun 2023 18:04:10,949 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Cuvantul nu a fost ghicit, dar ai primit 2 puncte!'}
+19 Jun 2023 18:04:10,949 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+19 Jun 2023 18:04:10,951 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+19 Jun 2023 18:04:12,018 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 18:04:12,019 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 18:04:12,019 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+19 Jun 2023 18:04:12,019 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='SET_CONTROL_GAME_OVER', data='sara'}
+19 Jun 2023 18:04:13,094 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='Words: tara, arta, tare
+You are on position 3 with 6 points.'}
+19 Jun 2023 18:04:13,095 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Words: tara, arta, tare
+You are on position 3 with 6 points.'}
+19 Jun 2023 18:04:13,095 INFO  martin.network.rpcprotocol.ServicesRpcProxy 209 setControlGameOver - Set control game over
+19 Jun 2023 18:06:50,596 INFO  martin.network.rpcprotocol.ServicesRpcProxy 35 <init> - Creating proxy
+19 Jun 2023 18:06:52,291 INFO  martin.network.rpcprotocol.ServicesRpcProxy 114 initializeConnection - Connection initialized
+19 Jun 2023 18:06:52,299 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGIN', data='ana'}
+19 Jun 2023 18:06:52,480 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='ana'}
+19 Jun 2023 18:06:52,480 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='ana'}
+19 Jun 2023 18:06:52,480 INFO  martin.network.rpcprotocol.ServicesRpcProxy 156 login - Logged in
+19 Jun 2023 18:06:52,602 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+19 Jun 2023 18:06:53,626 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 18:06:53,626 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 18:06:53,627 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+19 Jun 2023 18:06:53,627 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_GAME', data='ana'}
+19 Jun 2023 18:06:54,637 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='domain.Game@23'}
+19 Jun 2023 18:06:54,638 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='domain.Game@23'}
+19 Jun 2023 18:06:54,638 INFO  martin.network.rpcprotocol.ServicesRpcProxy 101 getGame - Got game
+19 Jun 2023 18:06:57,648 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGOUT', data='ana'}
+19 Jun 2023 18:06:57,649 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='null'}
+19 Jun 2023 18:06:57,649 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='null'}
+19 Jun 2023 18:06:57,650 INFO  martin.network.rpcprotocol.ServicesRpcProxy 62 closeConnection - Closed connection
+19 Jun 2023 18:06:57,650 INFO  martin.network.rpcprotocol.ServicesRpcProxy 51 logout - Logged out
+19 Jun 2023 18:06:59,578 INFO  martin.network.rpcprotocol.ServicesRpcProxy 114 initializeConnection - Connection initialized
+19 Jun 2023 18:06:59,578 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGIN', data='sara'}
+19 Jun 2023 18:06:59,591 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='sara'}
+19 Jun 2023 18:06:59,592 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='sara'}
+19 Jun 2023 18:06:59,592 INFO  martin.network.rpcprotocol.ServicesRpcProxy 156 login - Logged in
+19 Jun 2023 18:08:08,967 INFO  martin.network.rpcprotocol.ServicesRpcProxy 35 <init> - Creating proxy
+19 Jun 2023 18:08:12,035 INFO  martin.network.rpcprotocol.ServicesRpcProxy 114 initializeConnection - Connection initialized
+19 Jun 2023 18:08:12,044 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGIN', data='ana'}
+19 Jun 2023 18:08:12,220 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='ana'}
+19 Jun 2023 18:08:12,220 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='ana'}
+19 Jun 2023 18:08:12,221 INFO  martin.network.rpcprotocol.ServicesRpcProxy 156 login - Logged in
+19 Jun 2023 18:08:32,694 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+19 Jun 2023 18:08:32,856 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 18:08:32,857 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 18:08:32,857 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+19 Jun 2023 18:08:32,858 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_GAME', data='ana'}
+19 Jun 2023 18:08:33,866 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='domain.Game@21'}
+19 Jun 2023 18:08:33,867 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='domain.Game@21'}
+19 Jun 2023 18:08:33,867 INFO  martin.network.rpcprotocol.ServicesRpcProxy 101 getGame - Got game
+19 Jun 2023 18:09:01,266 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGOUT', data='ana'}
+19 Jun 2023 18:09:01,268 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='null'}
+19 Jun 2023 18:09:01,268 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='null'}
+19 Jun 2023 18:09:01,271 INFO  martin.network.rpcprotocol.ServicesRpcProxy 62 closeConnection - Closed connection
+19 Jun 2023 18:09:01,271 INFO  martin.network.rpcprotocol.ServicesRpcProxy 51 logout - Logged out
+19 Jun 2023 18:09:03,719 INFO  martin.network.rpcprotocol.ServicesRpcProxy 114 initializeConnection - Connection initialized
+19 Jun 2023 18:09:03,721 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGIN', data='sara'}
+19 Jun 2023 18:09:03,732 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='sara'}
+19 Jun 2023 18:09:03,733 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='sara'}
+19 Jun 2023 18:09:03,734 INFO  martin.network.rpcprotocol.ServicesRpcProxy 156 login - Logged in
+19 Jun 2023 18:10:52,447 INFO  martin.network.rpcprotocol.ServicesRpcProxy 35 <init> - Creating proxy
+19 Jun 2023 18:10:55,118 INFO  martin.network.rpcprotocol.ServicesRpcProxy 114 initializeConnection - Connection initialized
+19 Jun 2023 18:10:55,126 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGIN', data='ana'}
+19 Jun 2023 18:10:55,300 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='ana'}
+19 Jun 2023 18:10:55,300 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='ana'}
+19 Jun 2023 18:10:55,301 INFO  martin.network.rpcprotocol.ServicesRpcProxy 156 login - Logged in
+19 Jun 2023 18:10:55,411 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+19 Jun 2023 18:10:56,465 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 18:10:56,466 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 18:10:56,466 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+19 Jun 2023 18:10:56,467 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_GAME', data='ana'}
+19 Jun 2023 18:10:57,468 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='domain.Game@22'}
+19 Jun 2023 18:10:57,469 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='domain.Game@22'}
+19 Jun 2023 18:10:57,469 INFO  martin.network.rpcprotocol.ServicesRpcProxy 101 getGame - Got game
+19 Jun 2023 18:10:58,293 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGOUT', data='ana'}
+19 Jun 2023 18:10:58,478 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='null'}
+19 Jun 2023 18:10:58,479 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='null'}
+19 Jun 2023 18:10:58,480 INFO  martin.network.rpcprotocol.ServicesRpcProxy 62 closeConnection - Closed connection
+19 Jun 2023 18:10:58,480 INFO  martin.network.rpcprotocol.ServicesRpcProxy 51 logout - Logged out
+19 Jun 2023 18:11:01,738 INFO  martin.network.rpcprotocol.ServicesRpcProxy 114 initializeConnection - Connection initialized
+19 Jun 2023 18:11:01,739 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGIN', data='sara'}
+19 Jun 2023 18:11:01,754 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='sara'}
+19 Jun 2023 18:11:01,755 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='sara'}
+19 Jun 2023 18:11:01,755 INFO  martin.network.rpcprotocol.ServicesRpcProxy 156 login - Logged in
+19 Jun 2023 18:14:22,251 INFO  martin.network.rpcprotocol.ServicesRpcProxy 35 <init> - Creating proxy
+19 Jun 2023 18:14:25,375 INFO  martin.network.rpcprotocol.ServicesRpcProxy 114 initializeConnection - Connection initialized
+19 Jun 2023 18:14:25,384 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGIN', data='ana'}
+19 Jun 2023 18:14:25,564 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='ana'}
+19 Jun 2023 18:14:25,565 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='ana'}
+19 Jun 2023 18:14:25,565 INFO  martin.network.rpcprotocol.ServicesRpcProxy 156 login - Logged in
+19 Jun 2023 18:15:42,862 INFO  martin.network.rpcprotocol.ServicesRpcProxy 35 <init> - Creating proxy
+19 Jun 2023 18:15:44,659 INFO  martin.network.rpcprotocol.ServicesRpcProxy 114 initializeConnection - Connection initialized
+19 Jun 2023 18:15:44,667 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGIN', data='ana'}
+19 Jun 2023 18:15:44,844 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='ana'}
+19 Jun 2023 18:15:44,844 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='ana'}
+19 Jun 2023 18:15:44,845 INFO  martin.network.rpcprotocol.ServicesRpcProxy 156 login - Logged in
+19 Jun 2023 18:15:44,986 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+19 Jun 2023 18:15:46,050 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 18:15:46,051 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+19 Jun 2023 18:15:46,051 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+19 Jun 2023 18:15:46,051 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_GAME', data='ana'}
+19 Jun 2023 18:15:47,059 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='domain.Game@23'}
+19 Jun 2023 18:15:47,059 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='domain.Game@23'}
+19 Jun 2023 18:15:47,060 INFO  martin.network.rpcprotocol.ServicesRpcProxy 101 getGame - Got game
+05 Jul 2023 19:35:58,126 INFO  martin.network.rpcprotocol.ServicesRpcProxy 35 <init> - Creating proxy
+05 Jul 2023 19:36:01,045 INFO  martin.network.rpcprotocol.ServicesRpcProxy 114 initializeConnection - Connection initialized
+05 Jul 2023 19:36:01,052 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGIN', data='ana'}
+05 Jul 2023 19:36:01,218 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='ana'}
+05 Jul 2023 19:36:01,218 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='ana'}
+05 Jul 2023 19:36:01,218 INFO  martin.network.rpcprotocol.ServicesRpcProxy 156 login - Logged in
+05 Jul 2023 19:36:01,299 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+05 Jul 2023 19:36:02,389 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+05 Jul 2023 19:36:02,389 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+05 Jul 2023 19:36:02,389 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+05 Jul 2023 19:36:02,390 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_GAME', data='ana'}
+05 Jul 2023 19:36:03,400 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='domain.Game@22'}
+05 Jul 2023 19:36:03,400 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='domain.Game@22'}
+05 Jul 2023 19:36:03,400 INFO  martin.network.rpcprotocol.ServicesRpcProxy 101 getGame - Got game
+05 Jul 2023 19:36:08,762 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+05 Jul 2023 19:36:08,903 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='Cuvant ghicit, ai primit 3 puncte!'}
+05 Jul 2023 19:36:08,903 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Cuvant ghicit, ai primit 3 puncte!'}
+05 Jul 2023 19:36:08,904 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+05 Jul 2023 19:36:18,799 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+05 Jul 2023 19:36:18,914 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='Cuvantul nu a fost ghicit, ai primit 0 puncte!'}
+05 Jul 2023 19:36:18,914 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Cuvantul nu a fost ghicit, ai primit 0 puncte!'}
+05 Jul 2023 19:36:18,914 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+05 Jul 2023 19:36:28,607 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+05 Jul 2023 19:36:28,763 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='RANKING', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+05 Jul 2023 19:36:28,764 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='CONTROL', data='ana'}
+05 Jul 2023 19:36:28,764 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='Cuvant ghicit, ai primit 3 puncte!'}
+05 Jul 2023 19:36:28,765 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Cuvant ghicit, ai primit 3 puncte!'}
+05 Jul 2023 19:36:28,765 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+05 Jul 2023 19:36:28,766 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+05 Jul 2023 19:36:29,844 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+05 Jul 2023 19:36:29,844 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+05 Jul 2023 19:36:29,844 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+05 Jul 2023 19:36:29,845 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='SET_CONTROL_GAME_OVER', data='ana'}
+05 Jul 2023 19:36:30,945 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='Words: bal, alb, laba
+You are on position 6 with 6 points.'}
+05 Jul 2023 19:36:30,945 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Words: bal, alb, laba
+You are on position 6 with 6 points.'}
+05 Jul 2023 19:36:30,945 INFO  martin.network.rpcprotocol.ServicesRpcProxy 209 setControlGameOver - Set control game over
+05 Jul 2023 19:50:16,591 INFO  martin.network.rpcprotocol.ServicesRpcProxy 35 <init> - Creating proxy
+05 Jul 2023 19:50:18,453 INFO  martin.network.rpcprotocol.ServicesRpcProxy 114 initializeConnection - Connection initialized
+05 Jul 2023 19:50:18,459 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='LOGIN', data='dan'}
+05 Jul 2023 19:50:18,609 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='dan'}
+05 Jul 2023 19:50:18,610 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='dan'}
+05 Jul 2023 19:50:18,610 INFO  martin.network.rpcprotocol.ServicesRpcProxy 156 login - Logged in
+05 Jul 2023 19:50:18,688 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+05 Jul 2023 19:50:19,754 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+05 Jul 2023 19:50:19,755 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+05 Jul 2023 19:50:19,755 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+05 Jul 2023 19:50:19,755 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_GAME', data='dan'}
+05 Jul 2023 19:50:20,764 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='domain.Game@20'}
+05 Jul 2023 19:50:20,764 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='domain.Game@20'}
+05 Jul 2023 19:50:20,764 INFO  martin.network.rpcprotocol.ServicesRpcProxy 101 getGame - Got game
+05 Jul 2023 19:50:24,157 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+05 Jul 2023 19:50:24,294 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='Cuvantul nu a fost ghicit, dar ai primit 1 puncte!'}
+05 Jul 2023 19:50:24,295 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Cuvantul nu a fost ghicit, dar ai primit 1 puncte!'}
+05 Jul 2023 19:50:24,295 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+05 Jul 2023 19:50:35,245 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+05 Jul 2023 19:50:35,335 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='Cuvant ghicit, ai primit 3 puncte!'}
+05 Jul 2023 19:50:35,335 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Cuvant ghicit, ai primit 3 puncte!'}
+05 Jul 2023 19:50:35,335 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+05 Jul 2023 19:50:37,009 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+05 Jul 2023 19:50:37,075 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='You already guessed this word!'}
+05 Jul 2023 19:50:37,076 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='You already guessed this word!'}
+05 Jul 2023 19:50:37,076 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+05 Jul 2023 19:50:44,925 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GUESS', data='domain.Pair@1f'}
+05 Jul 2023 19:50:45,060 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='RANKING', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+05 Jul 2023 19:50:45,062 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='CONTROL', data='dan'}
+05 Jul 2023 19:50:45,062 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='Cuvant ghicit, ai primit 2 puncte!'}
+05 Jul 2023 19:50:45,063 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Cuvant ghicit, ai primit 2 puncte!'}
+05 Jul 2023 19:50:45,063 INFO  martin.network.rpcprotocol.ServicesRpcProxy 194 guess - Guessed
+05 Jul 2023 19:50:45,064 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='GET_RANKING', data='null'}
+05 Jul 2023 19:50:46,128 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+05 Jul 2023 19:50:46,128 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='[domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f, domain.DTO@1f]'}
+05 Jul 2023 19:50:46,128 INFO  martin.network.rpcprotocol.ServicesRpcProxy 179 getRanking - Got ranking
+05 Jul 2023 19:50:46,129 INFO  martin.network.rpcprotocol.ServicesRpcProxy 72 sendRequest - Request sent: Request{type='SET_CONTROL_GAME_OVER', data='dan'}
+05 Jul 2023 19:50:47,204 INFO  martin.network.rpcprotocol.ServicesRpcProxy$ReaderThread 220 run - response received Response{type='OK', data='Words: ar, are, rea
+You are on position 6 with 6 points.'}
+05 Jul 2023 19:50:47,204 INFO  martin.network.rpcprotocol.ServicesRpcProxy 83 readResponse - Response received: Response{type='OK', data='Words: ar, are, rea
+You are on position 6 with 6 points.'}
+05 Jul 2023 19:50:47,205 INFO  martin.network.rpcprotocol.ServicesRpcProxy 209 setControlGameOver - Set control game over
