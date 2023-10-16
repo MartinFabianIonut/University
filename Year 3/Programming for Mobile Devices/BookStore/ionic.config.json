@@ -1,0 +1,7 @@
+{
+  "name": "BookStore",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
