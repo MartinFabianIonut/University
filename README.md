@@ -28,3 +28,9 @@ Year 2
   - 🌎 [Web Programming](https://github.com/MartinFabianIonut/University/tree/main/Year%202/Semester%204/Web%20programming)<br/>
   - 🏗️ [Software Systems Engineering](https://github.com/MartinFabianIonut/ISS)<br/>
 
+Year 3
+- 📂 Semester 5
+    - ⚙️ [Parallel and Distributed Programming](https://github.com/MartinFabianIonut/University/tree/main/Year%203/Parallel%20and%20Distributed%20Programming)
+    - 📱 [Programming for Mobile Devices](https://github.com/MartinFabianIonut/University/tree/main/Year%203/Programming%20for%20Mobile%20Devices)
+    - 🤖 [Robotic Process Automation](https://github.com/MartinFabianIonut/University/tree/main/Year%203/Robotic%20Process%20Automation)
+
