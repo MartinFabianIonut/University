@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1072,3480" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1072,5729" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="37">
       <x:String>System.Activities</x:String>
@@ -67,31 +67,19 @@
       <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
       <AssemblyReference>System.ValueTuple</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
       <AssemblyReference>UiPath.CV</AssemblyReference>
       <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
       <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="649,5572" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="783,4634" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="table" />
-      <Variable x:TypeArguments="scg:List(x:String)" Name="list_of_names">
-        <Variable.Default>
-          <mva:VisualBasicValue x:TypeArguments="scg:List(x:String)" ExpressionText="new List(Of String)" />
-        </Variable.Default>
-      </Variable>
-      <Variable x:TypeArguments="scg:List(x:String)" Name="list_of_departments">
-        <Variable.Default>
-          <mva:VisualBasicValue x:TypeArguments="scg:List(x:String)" ExpressionText="new List(Of String)" />
-        </Variable.Default>
-      </Variable>
-      <Variable x:TypeArguments="scg:List(x:Double)" Name="list_of_salaries">
-        <Variable.Default>
-          <mva:VisualBasicValue x:TypeArguments="scg:List(x:Double)" ExpressionText="new List(Of Double)" />
-        </Variable.Default>
-      </Variable>
+      <Variable x:TypeArguments="scg:List(x:String)" Default="[new List(Of String)]" Name="list_of_names" />
+      <Variable x:TypeArguments="scg:List(x:String)" Default="[new List(Of String)]" Name="list_of_departments" />
+      <Variable x:TypeArguments="scg:List(x:Double)" Default="[new List(Of Double)]" Name="list_of_salaries" />
       <Variable x:TypeArguments="x:String" Name="new_employee" />
       <Variable x:TypeArguments="sd:DataTable" Name="new_table" />
       <Variable x:TypeArguments="x:Int32" Name="index" />
@@ -102,8 +90,8 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:ReadCsvFile Encoding="{x:Null}" DataTable="[table]" Delimitator="Comma" DisplayName="Read CSV" FilePath="my_table.csv" sap:VirtualizedContainerService.HintSize="607,152" sap2010:WorkflowViewState.IdRef="ReadCsvFile_1" />
-    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[table]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="607,823" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+    <ui:ReadCsvFile Encoding="{x:Null}" DataTable="[table]" Delimitator="Comma" DisplayName="Read CSV" FilePath="my_table.csv" sap:VirtualizedContainerService.HintSize="741,152" sap2010:WorkflowViewState.IdRef="ReadCsvFile_1" />
+    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[table]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="741,823" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
       <ui:ForEachRow.Body>
         <ActivityAction x:TypeArguments="sd:DataRow">
           <ActivityAction.Argument>
@@ -136,9 +124,9 @@
                 <OutArgument x:TypeArguments="x:Double" x:Key="net_salary">
                   <mva:VisualBasicReference x:TypeArguments="x:Double" ExpressionText="net_salary" />
                 </OutArgument>
-                <InOutArgument x:TypeArguments="x:Double" x:Key="gross_salary">
-                  <mva:VisualBasicReference x:TypeArguments="x:Double" ExpressionText="gross_salary" />
-                </InOutArgument>
+                <InArgument x:TypeArguments="x:Double" x:Key="gross_salary">
+                  <mva:VisualBasicValue x:TypeArguments="x:Double" ExpressionText="gross_salary" />
+                </InArgument>
               </ui:InvokeWorkflowFile.Arguments>
             </ui:InvokeWorkflowFile>
             <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="[row(&quot;Name&quot;).ToString + &quot; are salariul brut de &quot; + gross_salary.ToString + &quot; lei pe luna, respectiv salariul net de &quot; + net_salary.ToString + &quot;.&quot;]" />
@@ -146,51 +134,56 @@
               <InvokeMethod.TargetObject>
                 <InArgument x:TypeArguments="scg:List(x:Double)">[list_of_salaries]</InArgument>
               </InvokeMethod.TargetObject>
-              <InArgument x:TypeArguments="x:Double">
-                <mva:VisualBasicValue x:TypeArguments="x:Double" ExpressionText="net_salary" />
-              </InArgument>
+              <InArgument x:TypeArguments="x:Double">[net_salary]</InArgument>
             </InvokeMethod>
           </Sequence>
         </ActivityAction>
       </ui:ForEachRow.Body>
     </ui:ForEachRow>
-    <ui:InputDialog Options="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="607,291" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Whould you like to add new employee?" OptionsString="Yes;No" Title="New employee">
+    <ui:InputDialog Options="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="741,291" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Whould you like to add new employee?" OptionsString="Yes;No" Title="New employee">
       <ui:InputDialog.Result>
         <OutArgument x:TypeArguments="x:String">[new_employee]</OutArgument>
       </ui:InputDialog.Result>
     </ui:InputDialog>
-    <ui:InterruptibleWhile DisplayName="While" sap:VirtualizedContainerService.HintSize="607,2880" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
+    <ui:InterruptibleWhile Condition="[new_employee=&quot;Yes&quot;]" DisplayName="While" sap:VirtualizedContainerService.HintSize="741,3004" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
       <ui:InterruptibleWhile.Body>
-        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="571,2715" sap2010:WorkflowViewState.IdRef="Sequence_3">
+        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="705,2839" sap2010:WorkflowViewState.IdRef="Sequence_3">
           <Sequence.Variables>
             <Variable x:TypeArguments="x:String" Name="name" />
             <Variable x:TypeArguments="x:String" Name="department" />
             <Variable x:TypeArguments="x:Double" Name="salary" />
-            <Variable x:TypeArguments="x:Boolean" Name="is_error">
-              <Variable.Default>
-                <Literal x:TypeArguments="x:Boolean" />
-              </Variable.Default>
-            </Variable>
+            <Variable x:TypeArguments="x:Boolean" Default="False" Name="is_error" />
           </Sequence.Variables>
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="529,238" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="Enter the name:" Title="Name">
+          <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="663,238" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="Enter the name:" Title="Name">
             <ui:InputDialog.Result>
               <OutArgument x:TypeArguments="x:String">[name]</OutArgument>
             </ui:InputDialog.Result>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
           </ui:InputDialog>
-          <If Condition="[name.Length &lt; 3]" sap:VirtualizedContainerService.HintSize="529,271" sap2010:WorkflowViewState.IdRef="If_1">
+          <If Condition="[name.Length &lt; 3]" sap:VirtualizedContainerService.HintSize="663,395" sap2010:WorkflowViewState.IdRef="If_1">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
             <If.Then>
-              <Sequence sap:VirtualizedContainerService.HintSize="242,114" sap2010:WorkflowViewState.IdRef="Sequence_4">
+              <Sequence sap:VirtualizedContainerService.HintSize="376,238" sap2010:WorkflowViewState.IdRef="Sequence_4">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <ui:Break sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="Break_1" />
+                <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,84" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;This is not a valid name!&quot;]" />
+                <ui:Continue sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="Continue_1" />
               </Sequence>
             </If.Then>
             <If.Else>
@@ -204,13 +197,13 @@
               </Sequence>
             </If.Else>
           </If>
-          <ui:InputDialog Options="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="529,291" sap2010:WorkflowViewState.IdRef="InputDialog_3" IsPassword="False" Label="Choose the department" OptionsString="[String.Join(&quot;;&quot;, list_of_departments.Distinct)]" Title="Department">
+          <ui:InputDialog Options="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="663,291" sap2010:WorkflowViewState.IdRef="InputDialog_3" IsPassword="False" Label="Choose the department" OptionsString="[String.Join(&quot;;&quot;, list_of_departments.Distinct)]" Title="Department">
             <ui:InputDialog.Result>
               <OutArgument x:TypeArguments="x:String">[department]</OutArgument>
             </ui:InputDialog.Result>
           </ui:InputDialog>
-          <AddToCollection x:TypeArguments="x:String" Collection="[list_of_departments]" DisplayName="Add To Collection" sap:VirtualizedContainerService.HintSize="529,22" sap2010:WorkflowViewState.IdRef="AddToCollection`1_4" Item="[department]" />
-          <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="529,995" sap2010:WorkflowViewState.IdRef="RetryScope_2">
+          <AddToCollection x:TypeArguments="x:String" Collection="[list_of_departments]" DisplayName="Add To Collection" sap:VirtualizedContainerService.HintSize="663,22" sap2010:WorkflowViewState.IdRef="AddToCollection`1_4" Item="[department]" />
+          <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="663,995" sap2010:WorkflowViewState.IdRef="RetryScope_2">
             <ui:RetryScope.ActivityBody>
               <ActivityAction>
                 <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="480,749" sap2010:WorkflowViewState.IdRef="Sequence_7">
@@ -275,69 +268,34 @@
               </ActivityFunc>
             </ui:RetryScope.Condition>
           </ui:RetryScope>
-          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Flowchart workflow" sap:VirtualizedContainerService.HintSize="529,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Flowchart.xaml">
+          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Flowchart workflow" sap:VirtualizedContainerService.HintSize="663,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Flowchart.xaml">
             <ui:InvokeWorkflowFile.Arguments>
-              <OutArgument x:TypeArguments="x:Double" x:Key="net_salary">
-                <mva:VisualBasicReference x:TypeArguments="x:Double" ExpressionText="salary" />
-              </OutArgument>
-              <InArgument x:TypeArguments="x:Double" x:Key="gross_salary">
-                <mva:VisualBasicValue x:TypeArguments="x:Double" ExpressionText="salary" />
-              </InArgument>
+              <OutArgument x:TypeArguments="x:Double" x:Key="net_salary">[salary]</OutArgument>
+              <InArgument x:TypeArguments="x:Double" x:Key="gross_salary">[salary]</InArgument>
             </ui:InvokeWorkflowFile.Arguments>
           </ui:InvokeWorkflowFile>
-          <AddToCollection x:TypeArguments="x:Double" Collection="[list_of_salaries]" DisplayName="Add To Collection" sap:VirtualizedContainerService.HintSize="529,22" sap2010:WorkflowViewState.IdRef="AddToCollection`1_5" Item="[salary]" />
-          <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="529,61" sap2010:WorkflowViewState.IdRef="WriteLine_3" Text="[&quot;Un nou angajat, &quot; + name + &quot;, are salariul net de &quot; + salary.ToString + &quot;.&quot;]" />
-          <ui:InputDialog Options="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="529,291" sap2010:WorkflowViewState.IdRef="InputDialog_5" IsPassword="False" Label="Whould you like to add new employee?" OptionsString="Yes;No" Title="New employee">
+          <AddToCollection x:TypeArguments="x:Double" Collection="[list_of_salaries]" DisplayName="Add To Collection" sap:VirtualizedContainerService.HintSize="663,22" sap2010:WorkflowViewState.IdRef="AddToCollection`1_5" Item="[salary]" />
+          <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="663,61" sap2010:WorkflowViewState.IdRef="WriteLine_3" Text="[&quot;Un nou angajat, &quot; + name + &quot;, are salariul net de &quot; + salary.ToString + &quot;.&quot;]" />
+          <ui:InputDialog Options="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="663,291" sap2010:WorkflowViewState.IdRef="InputDialog_5" IsPassword="False" Label="Whould you like to add new employee?" OptionsString="Yes;No" Title="New employee">
             <ui:InputDialog.Result>
               <OutArgument x:TypeArguments="x:String">[new_employee]</OutArgument>
             </ui:InputDialog.Result>
           </ui:InputDialog>
         </Sequence>
       </ui:InterruptibleWhile.Body>
-      <ui:InterruptibleWhile.Condition>
-        <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="new_employee=&quot;Yes&quot;" />
-      </ui:InterruptibleWhile.Condition>
     </ui:InterruptibleWhile>
-    <ui:GenerateDataTable ColumnSeparators="{x:Null}" ColumnSizes="{x:Null}" NewLineSeparator="{x:Null}" Positions="{x:Null}" AutoDetectTypes="False" CSVParsing="True" DataTable="[new_table]" DisplayName="Generate Data Table" sap:VirtualizedContainerService.HintSize="607,200" sap2010:WorkflowViewState.IdRef="GenerateDataTable_1" Input="[String.Join(&quot;,&quot;,&quot;Name&quot;,&quot;Department&quot;,&quot;Salary&quot;)]" UseColumnHeader="True" />
-    <Assign sap:VirtualizedContainerService.HintSize="607,60" sap2010:WorkflowViewState.IdRef="Assign_11">
-      <Assign.To>
-        <OutArgument x:TypeArguments="x:Int32">[index]</OutArgument>
-      </Assign.To>
-      <Assign.Value>
-        <InArgument x:TypeArguments="x:Int32">0</InArgument>
-      </Assign.Value>
-    </Assign>
-    <ui:InterruptibleWhile DisplayName="While" sap:VirtualizedContainerService.HintSize="607,642" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_2">
-      <ui:InterruptibleWhile.Body>
-        <Sequence sap:VirtualizedContainerService.HintSize="376,477" sap2010:WorkflowViewState.IdRef="Sequence_10">
-          <sap:WorkflowViewStateService.ViewState>
-            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-            </scg:Dictionary>
-          </sap:WorkflowViewStateService.ViewState>
-          <Assign sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_12">
-            <Assign.To>
-              <OutArgument x:TypeArguments="s:String[]">[new_row]</OutArgument>
-            </Assign.To>
-            <Assign.Value>
-              <InArgument x:TypeArguments="s:String[]">[new string(2){list_of_names(index),list_of_departments(index),list_of_salaries(index).ToString}]</InArgument>
-            </Assign.Value>
-          </Assign>
-          <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[new_row]" DataTable="[new_table]" sap:VirtualizedContainerService.HintSize="334,185" sap2010:WorkflowViewState.IdRef="AddDataRow_2" />
-          <Assign sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_13">
-            <Assign.To>
-              <OutArgument x:TypeArguments="x:Int32">[index]</OutArgument>
-            </Assign.To>
-            <Assign.Value>
-              <InArgument x:TypeArguments="x:Int32">[index + 1]</InArgument>
-            </Assign.Value>
-          </Assign>
-        </Sequence>
-      </ui:InterruptibleWhile.Body>
-      <ui:InterruptibleWhile.Condition>
-        <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="index &lt; list_of_names.Count" />
-      </ui:InterruptibleWhile.Condition>
-    </ui:InterruptibleWhile>
-    <ui:WriteCsvFile Encoding="{x:Null}" AddHeaders="True" DataTable="[new_table]" Delimitator="Comma" DisplayName="Write CSV" FilePath="new_table.csv" sap:VirtualizedContainerService.HintSize="607,152" sap2010:WorkflowViewState.IdRef="WriteCsvFile_1" />
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke WriteToCsv workflow" sap:VirtualizedContainerService.HintSize="741,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="WriteToCsv.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InArgument x:TypeArguments="scg:List(x:String)" x:Key="list_of_names">
+          <mva:VisualBasicValue x:TypeArguments="scg:List(x:String)" ExpressionText="list_of_names" />
+        </InArgument>
+        <InArgument x:TypeArguments="scg:List(x:String)" x:Key="list_of_departments">
+          <mva:VisualBasicValue x:TypeArguments="scg:List(x:String)" ExpressionText="list_of_departments" />
+        </InArgument>
+        <InArgument x:TypeArguments="scg:List(x:Double)" x:Key="list_of_salaries">
+          <mva:VisualBasicValue x:TypeArguments="scg:List(x:Double)" ExpressionText="list_of_salaries" />
+        </InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
   </Sequence>
 </Activity>
