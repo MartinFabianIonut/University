@@ -11,18 +11,48 @@ import {
     IonToolbar,
     IonLabel,
     IonCheckbox,
-    IonDatetime
+    IonDatetimeButton
 } from '@ionic/react';
 import { getLogger } from '../core';
 import { BookContext } from './BookProvider';
 import { RouteComponentProps } from 'react-router';
 import { BookProps } from './BookProps';
 import { format } from 'date-fns';
+import moment from 'moment';
 const log = getLogger('BookEdit');
 
 interface BookEditProps extends RouteComponentProps<{
     id?: string;
 }> { }
+
+const styles = {
+    page: {
+        backgroundColor: '#f8f8f8',
+    },
+    header: {
+        backgroundColor: '#333',
+        color: '#fff',
+    },
+    content: {
+        padding: '20px',
+    },
+    input: {
+        color: '#be1',
+        borderRadius: '5px',
+        marginBottom: '10px',
+    },
+    checkbox: {
+        marginTop: '10px',
+    },
+    button: {
+        backgroundColor: '#4caf50',
+        color: '#fff',
+    },
+    errorMessage: {
+        color: '#ff0000',
+        marginTop: '10px',
+    },
+};
 
 const BookEdit: React.FC<BookEditProps> = ({ history, match }) => {
     const { books, saving, savingError, saveBook: saveBook } = useContext(BookContext);
@@ -64,7 +94,7 @@ const BookEdit: React.FC<BookEditProps> = ({ history, match }) => {
     log('render');
     return (
         <IonPage>
-            <IonHeader>
+            <IonHeader class='header'>
                 <IonToolbar>
                     <IonTitle>Edit</IonTitle>
                     <IonButtons slot="end">
@@ -73,32 +103,28 @@ const BookEdit: React.FC<BookEditProps> = ({ history, match }) => {
                 </IonToolbar>
             </IonHeader>
             <IonContent>
-                <IonLabel>Title:</IonLabel>
-                <IonInput value={title} onIonChange={e => setTitle(e.detail.value || '')} />
+                <div style={{ display: 'flex', alignItems: "center" }}>
+                    <IonLabel style={{ marginRight: '10px' }}>Title:</IonLabel>
+                    <IonInput style={styles.input} value={title} onIonChange={e => setTitle(e.detail.value || '')} />
+                </div>
 
                 <IonLabel>Author:</IonLabel>
-                <IonInput value={author} onIonChange={e => setAuthor(e.detail.value || '')} />
+                <IonInput style={styles.input} value={author} onIonChange={e => setAuthor(e.detail.value || '')} />
 
                 <IonLabel>Publication Date:</IonLabel>
-                <IonDatetime
-                    locale="ro-RO"
-                    value={publicationDate ? format(new Date(publicationDate), 'YYYY-MM-DD') : ''}
-                    onIonChange={(e) => {
-                        const value = e.detail.value;
-                        if (typeof value === 'string' || typeof value === 'number') {
-                            setPublicationDate(new Date(value));
-                        }
+                <IonInput class="input"
+                    value={publicationDate ? format(new Date(publicationDate), 'dd/MM/yyyy') : ''}
+                    onIonChange={e => {
+                        const inputDate = moment(e.detail.value, 'dd/MM/yyyy').toDate();
+                        setPublicationDate(inputDate || '');
                     }}
                 />
 
-
                 <IonLabel>Available:</IonLabel>
-                <IonCheckbox checked={isAvailable} onIonChange={e => setIsAvailable(e.detail.checked)} />
-
+                <IonCheckbox class="checkbox" checked={isAvailable} onIonChange={e => setIsAvailable(e.detail.checked)} />
+                <br />
                 <IonLabel>Price:</IonLabel>
-                <IonInput value={price.toString()} onIonChange={(e) => setPrice(parseInt(e.detail.value || '0'))} />
-
-
+                <IonInput class="input" value={price.toString()} onIonChange={(e) => setPrice(parseInt(e.detail.value || '0'))} />
 
                 <IonLoading isOpen={saving} />
                 {savingError && (

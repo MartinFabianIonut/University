@@ -12,10 +12,10 @@ interface BookPropsExt extends BookProps {
 
 const Book: React.FC<BookPropsExt> = ({ id, title, author, publicationDate, isAvailable, price, onEdit }) => {
     // Format the date using date-fns
-    const formattedDate = publicationDate ? format(new Date(publicationDate), 'dd / MM / yyyy') : '';
+    const formattedDate = publicationDate ? format(new Date(publicationDate), 'dd/MM/yyyy') : '';
 
     return (
-        <IonItem onClick={onEdit}>
+        <IonItem className="book-item" onClick={onEdit}>
             <IonLabel>
                 <h2>{title}</h2>
                 <p>{`Author: ${author}`}</p>

@@ -1,6 +1,61 @@
 /* Ionic Variables and Theming. For more info, please see:
 http://ionicframework.com/docs/theming/ */
 
+.page {
+  background-color: '#f8f8f8'
+}
+.header {
+  background-color: '#333';
+  color: '#fff'
+}
+.content {
+  padding: '20px'
+}
+.input {
+  background-color: '#fff';
+  border-radius: '5px';
+  margin-bottom: '10px'
+}
+.checkbox {
+  margin-top: '10px'
+}
+.button {
+  background-color: '#4caf50';
+  color: '#fff'
+}
+.errorMessage {
+  color: '#ff0000';
+  margin-top: '10px'
+}
+
+/* Book.css */
+
+.book-item {
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  background-color: #b14848;
+  box-shadow: 0 4px 8px rgba(22, 14, 143, 0.507);
+}
+
+.book-item h2 {
+  color: var(--ion-color-secondary-shade);
+  margin-bottom: 5px; /* Add some margin at the bottom of the title */
+}
+
+.book-item p {
+  color: var(--ion-color-tertiary-tint);
+  margin: 5px 0; /* Add margin to all paragraphs */
+}
+
+.book-item p.available {
+  color: #28a745; /* Set a specific color for the "Available" paragraph */
+}
+
+.book-item p.not-available {
+  color: #dc3545; /* Set a specific color for the "Not Available" paragraph */
+}
+
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
@@ -189,7 +244,6 @@ http://ionicframework.com/docs/theming/ */
     --ion-toolbar-background: var(--ion-color-step-150);
     --ion-toolbar-border-color: var(--ion-color-step-250);
   }
-
 
   /*
    * Material Design Dark Theme
