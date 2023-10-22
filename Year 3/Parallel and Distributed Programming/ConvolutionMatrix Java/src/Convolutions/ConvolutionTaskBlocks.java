@@ -22,7 +22,6 @@ public class ConvolutionTaskBlocks extends Thread {
     public void run() {
         int N = inputMatrix.length;
         int M = inputMatrix[0].length;
-        int K = convolutionMatrix.length;
         for (int idx = startIdx; idx < endIdx && idx < N * M; idx++) {
             int i = idx / M;
             int j = idx % M;

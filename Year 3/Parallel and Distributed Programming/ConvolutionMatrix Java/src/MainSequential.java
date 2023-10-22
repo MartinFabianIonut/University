@@ -16,7 +16,6 @@ public class MainSequential {
         int[][] inputMatrix = ioHandler.readMatrixFromFile(whatMatrix);
         int N = inputMatrix.length;
         int M = inputMatrix[0].length;
-        int K = convolutionMatrix.length;
 
         long startTime = System.nanoTime();
         int[][] resultMatrix = new int[N][M];
