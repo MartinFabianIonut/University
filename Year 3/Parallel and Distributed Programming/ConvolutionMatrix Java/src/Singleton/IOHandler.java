@@ -13,9 +13,19 @@ public class IOHandler {
         }
         return instance;
     }
+
+    private String getAbsolutePath(String fileName) {
+        File resourceFile = new File(fileName);
+        String path = resourceFile.getAbsolutePath();
+        if (path.contains("out\\production\\ConvolutionMatrix Java")) {
+            path = path.replace("src\\", "");
+        }
+        return path;
+    }
+
     public int [][] readMatrixFromFile(String fileName) throws IOException{
         int[][] matrix;
-        try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
+        try (BufferedReader br = new BufferedReader(new FileReader(getAbsolutePath(fileName)))) {
             String line = br.readLine();
             String[] dimensions = line.split(" ");
             int N = Integer.parseInt(dimensions[0]);
@@ -36,7 +46,7 @@ public class IOHandler {
     }
 
     public void writeMatrixToFile(int[][] matrix, String fileName) throws IOException {
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileName))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(getAbsolutePath(fileName)))) {
             for (int[] ints : matrix) {
                 writer.write(Arrays.toString(ints).replaceAll("[\\[\\],]", ""));
                 writer.newLine();

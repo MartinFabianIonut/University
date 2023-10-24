@@ -1,10 +1,11 @@
-import Convolutions.*;
-import Paths.*;
+import Convolutions.ConvolutionTaskBlocks;
+import Paths.CONVOLUTION_PATHS;
+import Paths.INPUT_PATHS;
 import Singleton.IOHandler;
 
 import java.io.IOException;
 
-public class MainParallel {
+public class MainParallelBlocks {
     private static final String OUTPUT_PATH = "C:\\GIT\\University\\Year 3\\Parallel and Distributed Programming\\ConvolutionMatrix Java\\out\\production\\ConvolutionMatrix Java\\Outputs\\parallel.txt";
     private static final IOHandler ioHandler = IOHandler.getInstance();
     public static void main(String[] args) throws IOException {
@@ -22,12 +23,20 @@ public class MainParallel {
         int quotient = N / P;
         int remainder = N % P;
 
+        int totalElements = N * M;
+        int elementsPerThread = totalElements / P;
+
         long startTime = System.nanoTime();
 
-        Convolutions.ConvolutionTask[] threads = new Convolutions.ConvolutionTask[P];
+        ConvolutionTaskBlocks[] threads = new ConvolutionTaskBlocks[P];
         for (int i = 0; i < P; i++) {
-            end = start + quotient + (i < remainder ? 1 : 0);
-            threads[i] = new Convolutions.ConvolutionTask(inputMatrix, convolutionMatrix, resultMatrix, start, end);
+            end = start + quotient;
+            if(remainder > 0) {
+                end++;
+                remainder--;
+            }
+            end = start + elementsPerThread + (i < remainder ? 1 : 0);
+            threads[i] = new ConvolutionTaskBlocks(inputMatrix, convolutionMatrix, resultMatrix, start, end);
             threads[i].start();
             start = end;
         }
