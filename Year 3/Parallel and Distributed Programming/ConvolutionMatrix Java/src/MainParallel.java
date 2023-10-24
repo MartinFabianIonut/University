@@ -28,8 +28,8 @@ public class MainParallel {
 
         long startTime = System.nanoTime();
 
-        //Convolutions.ConvolutionTask[] threads = new Convolutions.ConvolutionTask[P];
-        ConvolutionTaskCols[] threads = new ConvolutionTaskCols[P];
+        Convolutions.ConvolutionTask[] threads = new Convolutions.ConvolutionTask[P];
+        //ConvolutionTaskCols[] threads = new ConvolutionTaskCols[P];
         // ConvolutionTaskBlocks[] threads = new ConvolutionTaskBlocks[P];
         for (int i = 0; i < P; i++) {
             end = start + quotient;
@@ -37,8 +37,8 @@ public class MainParallel {
                 end++;
                 remainder--;
             }
-//            threads[i] = new Convolutions.ConvolutionTask(inputMatrix, convolutionMatrix, resultMatrix, start, end);
-            threads[i] = new ConvolutionTaskCols(inputMatrix, convolutionMatrix, resultMatrix, start, end);
+            threads[i] = new Convolutions.ConvolutionTask(inputMatrix, convolutionMatrix, resultMatrix, start, end);
+            //threads[i] = new ConvolutionTaskCols(inputMatrix, convolutionMatrix, resultMatrix, start, end);
 
 //            int elementsForThread = elementsPerThread + (i < remainder ? 1 : 0);
 //            end = start + elementsForThread;
