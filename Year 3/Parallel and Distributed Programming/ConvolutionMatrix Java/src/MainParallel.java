@@ -1,4 +1,3 @@
-import Convolutions.*;
 import Paths.*;
 import Singleton.IOHandler;
 

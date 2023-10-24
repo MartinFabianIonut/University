@@ -1,8 +1,6 @@
-
 import Paths.*;
 import Singleton.*;
 
-import java.io.File;
 import java.io.IOException;
 
 public class MainSequential {

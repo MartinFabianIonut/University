@@ -30,11 +30,6 @@ public class MainParallelBlocks {
 
         ConvolutionTaskBlocks[] threads = new ConvolutionTaskBlocks[P];
         for (int i = 0; i < P; i++) {
-            end = start + quotient;
-            if(remainder > 0) {
-                end++;
-                remainder--;
-            }
             end = start + elementsPerThread + (i < remainder ? 1 : 0);
             threads[i] = new ConvolutionTaskBlocks(inputMatrix, convolutionMatrix, resultMatrix, start, end);
             threads[i].start();
