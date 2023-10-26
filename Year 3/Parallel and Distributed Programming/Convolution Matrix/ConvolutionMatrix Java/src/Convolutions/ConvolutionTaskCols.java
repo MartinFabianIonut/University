@@ -22,7 +22,7 @@ public class ConvolutionTaskCols extends Thread {
     public void run() {
         int N = inputMatrix.length;
         int M = inputMatrix[0].length;
-        for (int j = startCol; j < endCol && j < M; j++) {
+        for (int j = startCol; j < endCol; j++) {
             for (int i = 0; i < N; i++) {
                 resultMatrix[i][j] = convolution.applyConvolution(inputMatrix, convolutionMatrix, i, j);
             }

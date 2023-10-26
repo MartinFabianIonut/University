@@ -20,8 +20,7 @@ public class MainParallelBlocks {
         int[][] resultMatrix = new int[N][M];
 
         int start = 0, end;
-        int quotient = N / P;
-        int remainder = N % P;
+        int remainder = (N * M) % P;
 
         int totalElements = N * M;
         int elementsPerThread = totalElements / P;

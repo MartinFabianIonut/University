@@ -20,9 +20,8 @@ public class ConvolutionTaskBlocks extends Thread {
 
     @Override
     public void run() {
-        int N = inputMatrix.length;
         int M = inputMatrix[0].length;
-        for (int idx = startIdx; idx < endIdx && idx < N * M; idx++) {
+        for (int idx = startIdx; idx < endIdx; idx++) {
             int i = idx / M;
             int j = idx % M;
             resultMatrix[i][j] = convolution.applyConvolution(inputMatrix, convolutionMatrix, i, j);
