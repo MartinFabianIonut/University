@@ -4,11 +4,15 @@
 #include <vector>
 #include <chrono>
 #include <string>
+#include <filesystem>
+
+namespace fs = std::filesystem;
 using namespace std;
 
 const string OUTPUT_PATH = "..\\..\\Outputs\\parallel.txt";
 const string INPUT_PATH = "..\\..\\Inputs\\data10x10.txt";
 const string CONVOLUTION_PATH = "..\\..\\Inputs\\convolution3x3.txt";
+
 const int MAX_N = 10;
 const int MAX_M = 10;
 const int K = 3;
@@ -19,14 +23,18 @@ int resultMatrix[MAX_N][MAX_M];
 
 void readMatrixFromFile()
 {
-    ifstream fin(CONVOLUTION_PATH);
+    fs::path currentPath = fs::current_path();
+    fs::path inputFilePath = currentPath / INPUT_PATH;
+    fs::path convolutionFilePath = currentPath / CONVOLUTION_PATH;
+
+    ifstream fin(convolutionFilePath);
     int n, m;
     fin >> n >> m;
     for (int i = 0; i < n; i++)
         for (int j = 0; j < m; j++)
             fin >> convolutionMatrix[i][j];
     fin.close();
-    ifstream fin2(INPUT_PATH);
+    ifstream fin2(inputFilePath);
     fin2 >> n >> m;
     for (int i = 0; i < n; i++)
         for (int j = 0; j < m; j++)
@@ -38,8 +46,11 @@ void writeMatrixToFile()
 {
     ofstream fout(OUTPUT_PATH);
     for (int i = 0; i < MAX_N; i++)
+    {
         for (int j = 0; j < MAX_M; j++)
             fout << resultMatrix[i][j] << " ";
+        fout << "\n";
+    }
     fout.close();
 }
 

@@ -4,6 +4,9 @@
 #include <vector>
 #include <chrono>
 #include <string>
+#include <filesystem>
+
+namespace fs = std::filesystem;
 using namespace std;
 
 const string OUTPUT_PATH = "..\\..\\Outputs\\parallel.txt";
@@ -19,14 +22,18 @@ int resultMatrix[MAX_N][MAX_M];
 
 void readMatrixFromFile()
 {
-    ifstream fin(CONVOLUTION_PATH);
+    fs::path currentPath = fs::current_path();
+    fs::path inputFilePath = currentPath / INPUT_PATH;
+    fs::path convolutionFilePath = currentPath / CONVOLUTION_PATH;
+
+    ifstream fin(convolutionFilePath);
     int n, m;
     fin >> n >> m;
     for (int i = 0; i < n; i++)
         for (int j = 0; j < m; j++)
             fin >> convolutionMatrix[i][j];
     fin.close();
-    ifstream fin2(INPUT_PATH);
+    ifstream fin2(inputFilePath);
     fin2 >> n >> m;
     for (int i = 0; i < n; i++)
         for (int j = 0; j < m; j++)
@@ -38,8 +45,11 @@ void writeMatrixToFile()
 {
     ofstream fout(OUTPUT_PATH);
     for (int i = 0; i < MAX_N; i++)
+    {
         for (int j = 0; j < MAX_M; j++)
             fout << resultMatrix[i][j] << " ";
+        fout << "\n";
+    }
     fout.close();
 }
 
@@ -47,7 +57,7 @@ void applyConvolution(int startIdx, int endIdx)
 {
     int result;
 
-    for (int idx = startIdx; idx < endIdx && idx < MAX_N * MAX_M; idx++)
+    for (int idx = startIdx; idx < endIdx; idx++)
     {
         int i = idx / MAX_M;
         int j = idx % MAX_M;
@@ -67,11 +77,10 @@ void applyConvolution(int startIdx, int endIdx)
 
 void startThreads(int P)
 {
-    int start = 0, end;
-    int quotient = MAX_N / P;
-    int remainder = MAX_N % P;
     vector<thread> threads(P);
+    int start = 0, end;
     int totalElements = MAX_N * MAX_M;
+    int remainder = totalElements % P;
     int elementsPerThread = totalElements / P;
     for (int i = 0; i < P; ++i)
     {

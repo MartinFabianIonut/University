@@ -1,0 +1,1331 @@
+Tip Matrice,Tip alocare,Nr threads,Timp executie
+N=M=10 si n=m=3,Static,Sequential,0.01708
+N=M=10 si n=m=3,Static,Sequential,0.01746
+N=M=10 si n=m=3,Static,Sequential,0.01664
+N=M=10 si n=m=3,Static,Sequential,0.01644
+N=M=10 si n=m=3,Static,Sequential,0.01614
+N=M=10 si n=m=3,Static,4,0.21114
+N=M=10 si n=m=3,Static,4,0.21867
+N=M=10 si n=m=3,Static,4,0.20989
+N=M=10 si n=m=3,Static,4,0.23648
+N=M=10 si n=m=3,Static,4,0.23104
+N=M=10 si n=m=3,Static,4,0.22108
+N=M=10 si n=m=3,Static,4,0.22493
+N=M=10 si n=m=3,Static,4,0.22396
+N=M=10 si n=m=3,Static,4,0.21184
+N=M=10 si n=m=3,Static,4,0.23203
+N=M=10 si n=m=3,Static,4,0.22958
+N=M=10 si n=m=3,Static,4,0.22619
+N=M=10 si n=m=3,Static,4,0.22094
+N=M=10 si n=m=3,Static,4,0.23944
+N=M=10 si n=m=3,Static,4,0.24958
+N=M=10 si n=m=3,Dynamic,Sequential,0.00989
+N=M=10 si n=m=3,Dynamic,Sequential,0.02095
+N=M=10 si n=m=3,Dynamic,Sequential,0.0107
+N=M=10 si n=m=3,Dynamic,Sequential,0.00936
+N=M=10 si n=m=3,Dynamic,Sequential,0.00956
+N=M=10 si n=m=3,Dynamic,4,0.22288
+N=M=10 si n=m=3,Dynamic,4,0.21888
+N=M=10 si n=m=3,Dynamic,4,0.21688
+N=M=10 si n=m=3,Dynamic,4,0.2157
+N=M=10 si n=m=3,Dynamic,4,0.22957
+N=M=10 si n=m=3,Dynamic,4,0.21755
+N=M=10 si n=m=3,Dynamic,4,0.23218
+N=M=10 si n=m=3,Dynamic,4,0.27027
+N=M=10 si n=m=3,Dynamic,4,0.20844
+N=M=10 si n=m=3,Dynamic,4,0.25069
+N=M=10 si n=m=3,Dynamic,4,0.24177
+N=M=10 si n=m=3,Dynamic,4,0.24582
+N=M=10 si n=m=3,Dynamic,4,0.22992
+N=M=10 si n=m=3,Dynamic,4,0.22361
+N=M=10 si n=m=3,Dynamic,4,0.23981
+N=M=1000 si n=m=5,Static,Sequential,186.27166
+N=M=1000 si n=m=5,Static,Sequential,188.73124
+N=M=1000 si n=m=5,Static,Sequential,188.71817
+N=M=1000 si n=m=5,Static,Sequential,184.67851
+N=M=1000 si n=m=5,Static,Sequential,183.89606
+N=M=1000 si n=m=5,Static,2,102.54314
+N=M=1000 si n=m=5,Static,2,103.16583
+N=M=1000 si n=m=5,Static,2,102.29635
+N=M=1000 si n=m=5,Static,2,104.33856
+N=M=1000 si n=m=5,Static,2,102.26251
+N=M=1000 si n=m=5,Static,2,104.84036
+N=M=1000 si n=m=5,Static,2,102.4256
+N=M=1000 si n=m=5,Static,2,101.43733
+N=M=1000 si n=m=5,Static,2,106.10564
+N=M=1000 si n=m=5,Static,2,102.1045
+N=M=1000 si n=m=5,Static,2,102.08373
+N=M=1000 si n=m=5,Static,2,103.10183
+N=M=1000 si n=m=5,Static,2,103.06016
+N=M=1000 si n=m=5,Static,2,101.85314
+N=M=1000 si n=m=5,Static,2,103.72305
+N=M=1000 si n=m=5,Static,4,52.83553
+N=M=1000 si n=m=5,Static,4,54.16499
+N=M=1000 si n=m=5,Static,4,54.91109
+N=M=1000 si n=m=5,Static,4,53.33331
+N=M=1000 si n=m=5,Static,4,55.69004
+N=M=1000 si n=m=5,Static,4,51.78752
+N=M=1000 si n=m=5,Static,4,54.42469
+N=M=1000 si n=m=5,Static,4,57.41388
+N=M=1000 si n=m=5,Static,4,52.8757
+N=M=1000 si n=m=5,Static,4,54.27707
+N=M=1000 si n=m=5,Static,4,53.97621
+N=M=1000 si n=m=5,Static,4,54.41989
+N=M=1000 si n=m=5,Static,4,52.41365
+N=M=1000 si n=m=5,Static,4,58.42546
+N=M=1000 si n=m=5,Static,4,54.24136
+N=M=1000 si n=m=5,Static,8,34.42845
+N=M=1000 si n=m=5,Static,8,33.02577
+N=M=1000 si n=m=5,Static,8,35.72844
+N=M=1000 si n=m=5,Static,8,37.02019
+N=M=1000 si n=m=5,Static,8,34.33304
+N=M=1000 si n=m=5,Static,8,32.01454
+N=M=1000 si n=m=5,Static,8,35.17071
+N=M=1000 si n=m=5,Static,8,33.08867
+N=M=1000 si n=m=5,Static,8,35.0211
+N=M=1000 si n=m=5,Static,8,36.69268
+N=M=1000 si n=m=5,Static,8,38.26151
+N=M=1000 si n=m=5,Static,8,31.16381
+N=M=1000 si n=m=5,Static,8,36.9158
+N=M=1000 si n=m=5,Static,8,32.67185
+N=M=1000 si n=m=5,Static,8,30.83024
+N=M=1000 si n=m=5,Static,16,27.82088
+N=M=1000 si n=m=5,Static,16,28.38043
+N=M=1000 si n=m=5,Static,16,28.47371
+N=M=1000 si n=m=5,Static,16,32.78102
+N=M=1000 si n=m=5,Static,16,28.30494
+N=M=1000 si n=m=5,Static,16,29.83701
+N=M=1000 si n=m=5,Static,16,28.59622
+N=M=1000 si n=m=5,Static,16,30.4717
+N=M=1000 si n=m=5,Static,16,30.30837
+N=M=1000 si n=m=5,Static,16,35.67201
+N=M=1000 si n=m=5,Static,16,28.27802
+N=M=1000 si n=m=5,Static,16,29.66519
+N=M=1000 si n=m=5,Static,16,29.02933
+N=M=1000 si n=m=5,Static,16,30.15716
+N=M=1000 si n=m=5,Static,16,28.15829
+N=M=1000 si n=m=5,Dynamic,Sequential,218.74127
+N=M=1000 si n=m=5,Dynamic,Sequential,216.96861
+N=M=1000 si n=m=5,Dynamic,Sequential,216.14424
+N=M=1000 si n=m=5,Dynamic,Sequential,219.93894
+N=M=1000 si n=m=5,Dynamic,Sequential,216.01093
+N=M=1000 si n=m=5,Dynamic,2,110.31836
+N=M=1000 si n=m=5,Dynamic,2,113.04478
+N=M=1000 si n=m=5,Dynamic,2,108.76821
+N=M=1000 si n=m=5,Dynamic,2,111.0511
+N=M=1000 si n=m=5,Dynamic,2,107.87138
+N=M=1000 si n=m=5,Dynamic,2,106.02481
+N=M=1000 si n=m=5,Dynamic,2,108.63147
+N=M=1000 si n=m=5,Dynamic,2,107.55056
+N=M=1000 si n=m=5,Dynamic,2,107.07424
+N=M=1000 si n=m=5,Dynamic,2,108.26924
+N=M=1000 si n=m=5,Dynamic,2,105.67103
+N=M=1000 si n=m=5,Dynamic,2,107.49403
+N=M=1000 si n=m=5,Dynamic,2,107.79463
+N=M=1000 si n=m=5,Dynamic,2,106.85665
+N=M=1000 si n=m=5,Dynamic,2,106.01984
+N=M=1000 si n=m=5,Dynamic,4,54.98648
+N=M=1000 si n=m=5,Dynamic,4,55.15814
+N=M=1000 si n=m=5,Dynamic,4,55.2403
+N=M=1000 si n=m=5,Dynamic,4,54.18805
+N=M=1000 si n=m=5,Dynamic,4,54.89169
+N=M=1000 si n=m=5,Dynamic,4,54.75214
+N=M=1000 si n=m=5,Dynamic,4,55.83484
+N=M=1000 si n=m=5,Dynamic,4,55.03829
+N=M=1000 si n=m=5,Dynamic,4,56.05625
+N=M=1000 si n=m=5,Dynamic,4,54.62176
+N=M=1000 si n=m=5,Dynamic,4,54.82581
+N=M=1000 si n=m=5,Dynamic,4,54.72398
+N=M=1000 si n=m=5,Dynamic,4,57.06888
+N=M=1000 si n=m=5,Dynamic,4,55.38753
+N=M=1000 si n=m=5,Dynamic,4,55.33955
+N=M=1000 si n=m=5,Dynamic,8,34.40244
+N=M=1000 si n=m=5,Dynamic,8,37.57203
+N=M=1000 si n=m=5,Dynamic,8,35.75039
+N=M=1000 si n=m=5,Dynamic,8,36.83446
+N=M=1000 si n=m=5,Dynamic,8,35.32686
+N=M=1000 si n=m=5,Dynamic,8,37.03838
+N=M=1000 si n=m=5,Dynamic,8,33.98172
+N=M=1000 si n=m=5,Dynamic,8,34.29818
+N=M=1000 si n=m=5,Dynamic,8,33.14743
+N=M=1000 si n=m=5,Dynamic,8,35.2626
+N=M=1000 si n=m=5,Dynamic,8,41.52101
+N=M=1000 si n=m=5,Dynamic,8,34.14959
+N=M=1000 si n=m=5,Dynamic,8,32.72678
+N=M=1000 si n=m=5,Dynamic,8,34.01706
+N=M=1000 si n=m=5,Dynamic,8,33.64856
+N=M=1000 si n=m=5,Dynamic,16,31.15409
+N=M=1000 si n=m=5,Dynamic,16,28.54931
+N=M=1000 si n=m=5,Dynamic,16,29.64995
+N=M=1000 si n=m=5,Dynamic,16,27.9708
+N=M=1000 si n=m=5,Dynamic,16,28.86324
+N=M=1000 si n=m=5,Dynamic,16,28.00594
+N=M=1000 si n=m=5,Dynamic,16,28.23801
+N=M=1000 si n=m=5,Dynamic,16,28.44331
+N=M=1000 si n=m=5,Dynamic,16,27.62269
+N=M=1000 si n=m=5,Dynamic,16,28.27509
+N=M=1000 si n=m=5,Dynamic,16,27.80649
+N=M=1000 si n=m=5,Dynamic,16,28.31226
+N=M=1000 si n=m=5,Dynamic,16,28.07489
+N=M=1000 si n=m=5,Dynamic,16,28.05309
+N=M=1000 si n=m=5,Dynamic,16,28.48775
+N=10 M=10000 si n=m=5,Static,Sequential,19.94089
+N=10 M=10000 si n=m=5,Static,Sequential,18.75828
+N=10 M=10000 si n=m=5,Static,Sequential,18.86502
+N=10 M=10000 si n=m=5,Static,Sequential,18.82248
+N=10 M=10000 si n=m=5,Static,Sequential,18.98132
+N=10 M=10000 si n=m=5,Static,2,23.99045
+N=10 M=10000 si n=m=5,Static,2,23.95686
+N=10 M=10000 si n=m=5,Static,2,23.91652
+N=10 M=10000 si n=m=5,Static,2,23.93163
+N=10 M=10000 si n=m=5,Static,2,23.49935
+N=10 M=10000 si n=m=5,Static,2,23.88092
+N=10 M=10000 si n=m=5,Static,2,23.95589
+N=10 M=10000 si n=m=5,Static,2,23.30458
+N=10 M=10000 si n=m=5,Static,2,23.66792
+N=10 M=10000 si n=m=5,Static,2,23.31972
+N=10 M=10000 si n=m=5,Static,2,23.87169
+N=10 M=10000 si n=m=5,Static,2,23.58114
+N=10 M=10000 si n=m=5,Static,2,23.8766
+N=10 M=10000 si n=m=5,Static,2,23.9849
+N=10 M=10000 si n=m=5,Static,2,23.8719
+N=10 M=10000 si n=m=5,Static,4,14.34924
+N=10 M=10000 si n=m=5,Static,4,14.37689
+N=10 M=10000 si n=m=5,Static,4,14.48821
+N=10 M=10000 si n=m=5,Static,4,13.99315
+N=10 M=10000 si n=m=5,Static,4,14.37406
+N=10 M=10000 si n=m=5,Static,4,14.06897
+N=10 M=10000 si n=m=5,Static,4,14.42779
+N=10 M=10000 si n=m=5,Static,4,14.21254
+N=10 M=10000 si n=m=5,Static,4,14.35287
+N=10 M=10000 si n=m=5,Static,4,14.49024
+N=10 M=10000 si n=m=5,Static,4,14.41044
+N=10 M=10000 si n=m=5,Static,4,14.32124
+N=10 M=10000 si n=m=5,Static,4,14.44461
+N=10 M=10000 si n=m=5,Static,4,14.41297
+N=10 M=10000 si n=m=5,Static,4,14.49841
+N=10 M=10000 si n=m=5,Static,8,9.67698
+N=10 M=10000 si n=m=5,Static,8,9.38902
+N=10 M=10000 si n=m=5,Static,8,9.67119
+N=10 M=10000 si n=m=5,Static,8,9.55893
+N=10 M=10000 si n=m=5,Static,8,9.55098
+N=10 M=10000 si n=m=5,Static,8,9.48568
+N=10 M=10000 si n=m=5,Static,8,9.70454
+N=10 M=10000 si n=m=5,Static,8,9.49687
+N=10 M=10000 si n=m=5,Static,8,9.7148
+N=10 M=10000 si n=m=5,Static,8,9.70895
+N=10 M=10000 si n=m=5,Static,8,9.57166
+N=10 M=10000 si n=m=5,Static,8,9.66158
+N=10 M=10000 si n=m=5,Static,8,9.73083
+N=10 M=10000 si n=m=5,Static,8,9.48148
+N=10 M=10000 si n=m=5,Static,8,9.74627
+N=10 M=10000 si n=m=5,Static,16,5.39971
+N=10 M=10000 si n=m=5,Static,16,5.3315
+N=10 M=10000 si n=m=5,Static,16,5.27867
+N=10 M=10000 si n=m=5,Static,16,5.26386
+N=10 M=10000 si n=m=5,Static,16,5.22872
+N=10 M=10000 si n=m=5,Static,16,5.21972
+N=10 M=10000 si n=m=5,Static,16,5.33512
+N=10 M=10000 si n=m=5,Static,16,5.22469
+N=10 M=10000 si n=m=5,Static,16,5.33013
+N=10 M=10000 si n=m=5,Static,16,5.26045
+N=10 M=10000 si n=m=5,Static,16,5.25864
+N=10 M=10000 si n=m=5,Static,16,5.2404
+N=10 M=10000 si n=m=5,Static,16,5.30748
+N=10 M=10000 si n=m=5,Static,16,5.24057
+N=10 M=10000 si n=m=5,Static,16,5.3334
+N=10 M=10000 si n=m=5,Dynamic,Sequential,22.75955
+N=10 M=10000 si n=m=5,Dynamic,Sequential,22.60506
+N=10 M=10000 si n=m=5,Dynamic,Sequential,22.69564
+N=10 M=10000 si n=m=5,Dynamic,Sequential,22.68542
+N=10 M=10000 si n=m=5,Dynamic,Sequential,22.73835
+N=10 M=10000 si n=m=5,Dynamic,2,12.48802
+N=10 M=10000 si n=m=5,Dynamic,2,10.80268
+N=10 M=10000 si n=m=5,Dynamic,2,10.75951
+N=10 M=10000 si n=m=5,Dynamic,2,10.75234
+N=10 M=10000 si n=m=5,Dynamic,2,10.7746
+N=10 M=10000 si n=m=5,Dynamic,2,10.78394
+N=10 M=10000 si n=m=5,Dynamic,2,11.87773
+N=10 M=10000 si n=m=5,Dynamic,2,10.80988
+N=10 M=10000 si n=m=5,Dynamic,2,11.43316
+N=10 M=10000 si n=m=5,Dynamic,2,10.97445
+N=10 M=10000 si n=m=5,Dynamic,2,11.22837
+N=10 M=10000 si n=m=5,Dynamic,2,11.19116
+N=10 M=10000 si n=m=5,Dynamic,2,11.47997
+N=10 M=10000 si n=m=5,Dynamic,2,10.75561
+N=10 M=10000 si n=m=5,Dynamic,2,10.79777
+N=10 M=10000 si n=m=5,Dynamic,4,6.94871
+N=10 M=10000 si n=m=5,Dynamic,4,7.00583
+N=10 M=10000 si n=m=5,Dynamic,4,6.7431
+N=10 M=10000 si n=m=5,Dynamic,4,6.79991
+N=10 M=10000 si n=m=5,Dynamic,4,7.23952
+N=10 M=10000 si n=m=5,Dynamic,4,6.71244
+N=10 M=10000 si n=m=5,Dynamic,4,6.65371
+N=10 M=10000 si n=m=5,Dynamic,4,7.41231
+N=10 M=10000 si n=m=5,Dynamic,4,7.26326
+N=10 M=10000 si n=m=5,Dynamic,4,6.76663
+N=10 M=10000 si n=m=5,Dynamic,4,6.6643
+N=10 M=10000 si n=m=5,Dynamic,4,6.60613
+N=10 M=10000 si n=m=5,Dynamic,4,6.70244
+N=10 M=10000 si n=m=5,Dynamic,4,6.7555
+N=10 M=10000 si n=m=5,Dynamic,4,6.99012
+N=10 M=10000 si n=m=5,Dynamic,8,5.16832
+N=10 M=10000 si n=m=5,Dynamic,8,4.82556
+N=10 M=10000 si n=m=5,Dynamic,8,4.83679
+N=10 M=10000 si n=m=5,Dynamic,8,4.87204
+N=10 M=10000 si n=m=5,Dynamic,8,4.71886
+N=10 M=10000 si n=m=5,Dynamic,8,5.45834
+N=10 M=10000 si n=m=5,Dynamic,8,4.69384
+N=10 M=10000 si n=m=5,Dynamic,8,4.92614
+N=10 M=10000 si n=m=5,Dynamic,8,5.43656
+N=10 M=10000 si n=m=5,Dynamic,8,4.72983
+N=10 M=10000 si n=m=5,Dynamic,8,4.9888
+N=10 M=10000 si n=m=5,Dynamic,8,4.96145
+N=10 M=10000 si n=m=5,Dynamic,8,4.60602
+N=10 M=10000 si n=m=5,Dynamic,8,4.82336
+N=10 M=10000 si n=m=5,Dynamic,8,4.71626
+N=10 M=10000 si n=m=5,Dynamic,16,4.50994
+N=10 M=10000 si n=m=5,Dynamic,16,4.45805
+N=10 M=10000 si n=m=5,Dynamic,16,4.48444
+N=10 M=10000 si n=m=5,Dynamic,16,4.42814
+N=10 M=10000 si n=m=5,Dynamic,16,4.44192
+N=10 M=10000 si n=m=5,Dynamic,16,4.38962
+N=10 M=10000 si n=m=5,Dynamic,16,4.45095
+N=10 M=10000 si n=m=5,Dynamic,16,4.42692
+N=10 M=10000 si n=m=5,Dynamic,16,4.41972
+N=10 M=10000 si n=m=5,Dynamic,16,4.42316
+N=10 M=10000 si n=m=5,Dynamic,16,4.43332
+N=10 M=10000 si n=m=5,Dynamic,16,4.33126
+N=10 M=10000 si n=m=5,Dynamic,16,4.42014
+N=10 M=10000 si n=m=5,Dynamic,16,4.5192
+N=10 M=10000 si n=m=5,Dynamic,16,4.42622
+N=10000 M=10 si n=m=5,Static,Sequential,46.07578
+N=10000 M=10 si n=m=5,Static,Sequential,46.0682
+N=10000 M=10 si n=m=5,Static,Sequential,46.02217
+N=10000 M=10 si n=m=5,Static,Sequential,46.00976
+N=10000 M=10 si n=m=5,Static,Sequential,45.90262
+N=10000 M=10 si n=m=5,Static,2,22.93186
+N=10000 M=10 si n=m=5,Static,2,23.46077
+N=10000 M=10 si n=m=5,Static,2,23.45536
+N=10000 M=10 si n=m=5,Static,2,23.30187
+N=10000 M=10 si n=m=5,Static,2,23.3887
+N=10000 M=10 si n=m=5,Static,2,23.37791
+N=10000 M=10 si n=m=5,Static,2,23.4262
+N=10000 M=10 si n=m=5,Static,2,23.52249
+N=10000 M=10 si n=m=5,Static,2,23.41429
+N=10000 M=10 si n=m=5,Static,2,23.47055
+N=10000 M=10 si n=m=5,Static,2,23.3846
+N=10000 M=10 si n=m=5,Static,2,23.44336
+N=10000 M=10 si n=m=5,Static,2,23.38114
+N=10000 M=10 si n=m=5,Static,2,23.43659
+N=10000 M=10 si n=m=5,Static,2,23.4734
+N=10000 M=10 si n=m=5,Static,4,11.94205
+N=10000 M=10 si n=m=5,Static,4,11.90629
+N=10000 M=10 si n=m=5,Static,4,11.92726
+N=10000 M=10 si n=m=5,Static,4,11.92531
+N=10000 M=10 si n=m=5,Static,4,11.92381
+N=10000 M=10 si n=m=5,Static,4,12.00222
+N=10000 M=10 si n=m=5,Static,4,11.98905
+N=10000 M=10 si n=m=5,Static,4,11.92919
+N=10000 M=10 si n=m=5,Static,4,11.8666
+N=10000 M=10 si n=m=5,Static,4,11.89447
+N=10000 M=10 si n=m=5,Static,4,11.9138
+N=10000 M=10 si n=m=5,Static,4,11.90225
+N=10000 M=10 si n=m=5,Static,4,11.92782
+N=10000 M=10 si n=m=5,Static,4,11.94433
+N=10000 M=10 si n=m=5,Static,4,11.90109
+N=10000 M=10 si n=m=5,Static,8,6.41672
+N=10000 M=10 si n=m=5,Static,8,6.40027
+N=10000 M=10 si n=m=5,Static,8,6.44924
+N=10000 M=10 si n=m=5,Static,8,6.4104
+N=10000 M=10 si n=m=5,Static,8,6.38307
+N=10000 M=10 si n=m=5,Static,8,6.38586
+N=10000 M=10 si n=m=5,Static,8,6.39012
+N=10000 M=10 si n=m=5,Static,8,6.40253
+N=10000 M=10 si n=m=5,Static,8,6.41144
+N=10000 M=10 si n=m=5,Static,8,6.38365
+N=10000 M=10 si n=m=5,Static,8,6.37671
+N=10000 M=10 si n=m=5,Static,8,6.41813
+N=10000 M=10 si n=m=5,Static,8,6.39247
+N=10000 M=10 si n=m=5,Static,8,6.43381
+N=10000 M=10 si n=m=5,Static,8,6.42464
+N=10000 M=10 si n=m=5,Static,16,4.17784
+N=10000 M=10 si n=m=5,Static,16,3.67866
+N=10000 M=10 si n=m=5,Static,16,3.43825
+N=10000 M=10 si n=m=5,Static,16,3.23422
+N=10000 M=10 si n=m=5,Static,16,3.55064
+N=10000 M=10 si n=m=5,Static,16,3.29964
+N=10000 M=10 si n=m=5,Static,16,3.72541
+N=10000 M=10 si n=m=5,Static,16,3.43783
+N=10000 M=10 si n=m=5,Static,16,4.22728
+N=10000 M=10 si n=m=5,Static,16,3.49166
+N=10000 M=10 si n=m=5,Static,16,3.38298
+N=10000 M=10 si n=m=5,Static,16,3.27614
+N=10000 M=10 si n=m=5,Static,16,3.71767
+N=10000 M=10 si n=m=5,Static,16,3.41354
+N=10000 M=10 si n=m=5,Static,16,3.2185
+N=10000 M=10 si n=m=5,Dynamic,Sequential,21.82091
+N=10000 M=10 si n=m=5,Dynamic,Sequential,21.63763
+N=10000 M=10 si n=m=5,Dynamic,Sequential,21.67135
+N=10000 M=10 si n=m=5,Dynamic,Sequential,21.72587
+N=10000 M=10 si n=m=5,Dynamic,Sequential,21.69057
+N=10000 M=10 si n=m=5,Dynamic,2,10.87766
+N=10000 M=10 si n=m=5,Dynamic,2,10.8178
+N=10000 M=10 si n=m=5,Dynamic,2,11.58433
+N=10000 M=10 si n=m=5,Dynamic,2,10.94844
+N=10000 M=10 si n=m=5,Dynamic,2,11.53651
+N=10000 M=10 si n=m=5,Dynamic,2,10.80017
+N=10000 M=10 si n=m=5,Dynamic,2,10.83498
+N=10000 M=10 si n=m=5,Dynamic,2,11.54763
+N=10000 M=10 si n=m=5,Dynamic,2,10.8976
+N=10000 M=10 si n=m=5,Dynamic,2,10.81074
+N=10000 M=10 si n=m=5,Dynamic,2,10.7958
+N=10000 M=10 si n=m=5,Dynamic,2,10.7829
+N=10000 M=10 si n=m=5,Dynamic,2,10.88943
+N=10000 M=10 si n=m=5,Dynamic,2,10.82565
+N=10000 M=10 si n=m=5,Dynamic,2,11.04832
+N=10000 M=10 si n=m=5,Dynamic,4,5.61741
+N=10000 M=10 si n=m=5,Dynamic,4,5.61313
+N=10000 M=10 si n=m=5,Dynamic,4,5.76815
+N=10000 M=10 si n=m=5,Dynamic,4,5.6753
+N=10000 M=10 si n=m=5,Dynamic,4,5.62691
+N=10000 M=10 si n=m=5,Dynamic,4,5.60671
+N=10000 M=10 si n=m=5,Dynamic,4,5.65007
+N=10000 M=10 si n=m=5,Dynamic,4,5.66427
+N=10000 M=10 si n=m=5,Dynamic,4,5.64784
+N=10000 M=10 si n=m=5,Dynamic,4,5.89648
+N=10000 M=10 si n=m=5,Dynamic,4,6.07319
+N=10000 M=10 si n=m=5,Dynamic,4,6.06813
+N=10000 M=10 si n=m=5,Dynamic,4,5.65032
+N=10000 M=10 si n=m=5,Dynamic,4,6.07267
+N=10000 M=10 si n=m=5,Dynamic,4,5.79286
+N=10000 M=10 si n=m=5,Dynamic,8,4.1172
+N=10000 M=10 si n=m=5,Dynamic,8,3.60919
+N=10000 M=10 si n=m=5,Dynamic,8,3.26401
+N=10000 M=10 si n=m=5,Dynamic,8,3.69324
+N=10000 M=10 si n=m=5,Dynamic,8,3.4045
+N=10000 M=10 si n=m=5,Dynamic,8,3.44781
+N=10000 M=10 si n=m=5,Dynamic,8,3.85156
+N=10000 M=10 si n=m=5,Dynamic,8,3.56519
+N=10000 M=10 si n=m=5,Dynamic,8,4.14764
+N=10000 M=10 si n=m=5,Dynamic,8,3.45158
+N=10000 M=10 si n=m=5,Dynamic,8,3.7216
+N=10000 M=10 si n=m=5,Dynamic,8,3.45921
+N=10000 M=10 si n=m=5,Dynamic,8,3.44306
+N=10000 M=10 si n=m=5,Dynamic,8,3.5512
+N=10000 M=10 si n=m=5,Dynamic,8,4.21985
+N=10000 M=10 si n=m=5,Dynamic,16,3.76774
+N=10000 M=10 si n=m=5,Dynamic,16,3.41292
+N=10000 M=10 si n=m=5,Dynamic,16,3.36607
+N=10000 M=10 si n=m=5,Dynamic,16,3.32525
+N=10000 M=10 si n=m=5,Dynamic,16,3.40059
+N=10000 M=10 si n=m=5,Dynamic,16,3.4477
+N=10000 M=10 si n=m=5,Dynamic,16,3.33583
+N=10000 M=10 si n=m=5,Dynamic,16,3.58396
+N=10000 M=10 si n=m=5,Dynamic,16,3.42666
+N=10000 M=10 si n=m=5,Dynamic,16,3.44092
+N=10000 M=10 si n=m=5,Dynamic,16,3.39639
+N=10000 M=10 si n=m=5,Dynamic,16,3.3341
+N=10000 M=10 si n=m=5,Dynamic,16,3.30515
+N=10000 M=10 si n=m=5,Dynamic,16,3.34885
+N=10000 M=10 si n=m=5,Dynamic,16,3.33178
+N=M=10 si n=m=3,Static,Sequential,0.01714
+N=M=10 si n=m=3,Static,Sequential,0.02116
+N=M=10 si n=m=3,Static,Sequential,0.01745
+N=M=10 si n=m=3,Static,Sequential,0.01705
+N=M=10 si n=m=3,Static,Sequential,0.01678
+N=M=10 si n=m=3,Static,4,0.22623
+N=M=10 si n=m=3,Static,4,0.21917
+N=M=10 si n=m=3,Static,4,0.21854
+N=M=10 si n=m=3,Static,4,0.21732
+N=M=10 si n=m=3,Static,4,0.2153
+N=M=10 si n=m=3,Static,4,0.21639
+N=M=10 si n=m=3,Static,4,0.23353
+N=M=10 si n=m=3,Static,4,0.21373
+N=M=10 si n=m=3,Static,4,0.21971
+N=M=10 si n=m=3,Static,4,0.2166
+N=M=10 si n=m=3,Static,4,0.21358
+N=M=10 si n=m=3,Static,4,0.22816
+N=M=10 si n=m=3,Static,4,0.22733
+N=M=10 si n=m=3,Static,4,0.22139
+N=M=10 si n=m=3,Static,4,0.21272
+N=M=10 si n=m=3,Dynamic,Sequential,0.00907
+N=M=10 si n=m=3,Dynamic,Sequential,0.00902
+N=M=10 si n=m=3,Dynamic,Sequential,0.01085
+N=M=10 si n=m=3,Dynamic,Sequential,0.00949
+N=M=10 si n=m=3,Dynamic,Sequential,0.01004
+N=M=10 si n=m=3,Dynamic,4,0.21604
+N=M=10 si n=m=3,Dynamic,4,0.2187
+N=M=10 si n=m=3,Dynamic,4,0.22116
+N=M=10 si n=m=3,Dynamic,4,0.21954
+N=M=10 si n=m=3,Dynamic,4,0.22298
+N=M=10 si n=m=3,Dynamic,4,0.21663
+N=M=10 si n=m=3,Dynamic,4,0.23179
+N=M=10 si n=m=3,Dynamic,4,0.22574
+N=M=10 si n=m=3,Dynamic,4,0.2251
+N=M=10 si n=m=3,Dynamic,4,0.24373
+N=M=10 si n=m=3,Dynamic,4,0.22144
+N=M=10 si n=m=3,Dynamic,4,0.23529
+N=M=10 si n=m=3,Dynamic,4,0.22855
+N=M=10 si n=m=3,Dynamic,4,0.21485
+N=M=10 si n=m=3,Dynamic,4,0.22067
+N=M=1000 si n=m=5,Static,Sequential,184.16113
+N=M=1000 si n=m=5,Static,Sequential,183.07456
+N=M=1000 si n=m=5,Static,Sequential,183.55325
+N=M=1000 si n=m=5,Static,Sequential,184.78266
+N=M=1000 si n=m=5,Static,Sequential,184.24329
+N=M=1000 si n=m=5,Static,2,239.86862
+N=M=1000 si n=m=5,Static,2,239.83633
+N=M=1000 si n=m=5,Static,2,240.72135
+N=M=1000 si n=m=5,Static,2,240.14195
+N=M=1000 si n=m=5,Static,2,240.32224
+N=M=1000 si n=m=5,Static,2,239.11021
+N=M=1000 si n=m=5,Static,2,239.98942
+N=M=1000 si n=m=5,Static,2,238.5853
+N=M=1000 si n=m=5,Static,2,238.34414
+N=M=1000 si n=m=5,Static,2,240.45221
+N=M=1000 si n=m=5,Static,2,241.96424
+N=M=1000 si n=m=5,Static,2,241.70512
+N=M=1000 si n=m=5,Static,2,239.25823
+N=M=1000 si n=m=5,Static,2,240.63442
+N=M=1000 si n=m=5,Static,2,237.3419
+N=M=1000 si n=m=5,Static,4,122.85924
+N=M=1000 si n=m=5,Static,4,122.83308
+N=M=1000 si n=m=5,Static,4,122.14102
+N=M=1000 si n=m=5,Static,4,122.86678
+N=M=1000 si n=m=5,Static,4,122.76519
+N=M=1000 si n=m=5,Static,4,122.58292
+N=M=1000 si n=m=5,Static,4,122.82843
+N=M=1000 si n=m=5,Static,4,122.48349
+N=M=1000 si n=m=5,Static,4,122.44649
+N=M=1000 si n=m=5,Static,4,122.69267
+N=M=1000 si n=m=5,Static,4,122.99734
+N=M=1000 si n=m=5,Static,4,122.09482
+N=M=1000 si n=m=5,Static,4,123.27191
+N=M=1000 si n=m=5,Static,4,123.14415
+N=M=1000 si n=m=5,Static,4,122.59456
+N=M=1000 si n=m=5,Static,8,64.88852
+N=M=1000 si n=m=5,Static,8,64.4919
+N=M=1000 si n=m=5,Static,8,64.67028
+N=M=1000 si n=m=5,Static,8,63.95251
+N=M=1000 si n=m=5,Static,8,65.31861
+N=M=1000 si n=m=5,Static,8,65.54637
+N=M=1000 si n=m=5,Static,8,64.47886
+N=M=1000 si n=m=5,Static,8,64.57601
+N=M=1000 si n=m=5,Static,8,65.39022
+N=M=1000 si n=m=5,Static,8,64.78772
+N=M=1000 si n=m=5,Static,8,65.19418
+N=M=1000 si n=m=5,Static,8,65.72244
+N=M=1000 si n=m=5,Static,8,65.44329
+N=M=1000 si n=m=5,Static,8,65.48292
+N=M=1000 si n=m=5,Static,8,65.13768
+N=M=1000 si n=m=5,Static,16,29.04881
+N=M=1000 si n=m=5,Static,16,29.54839
+N=M=1000 si n=m=5,Static,16,32.57006
+N=M=1000 si n=m=5,Static,16,31.35422
+N=M=1000 si n=m=5,Static,16,31.46621
+N=M=1000 si n=m=5,Static,16,28.43543
+N=M=1000 si n=m=5,Static,16,29.22486
+N=M=1000 si n=m=5,Static,16,29.90428
+N=M=1000 si n=m=5,Static,16,30.71826
+N=M=1000 si n=m=5,Static,16,29.56942
+N=M=1000 si n=m=5,Static,16,30.20256
+N=M=1000 si n=m=5,Static,16,31.17606
+N=M=1000 si n=m=5,Static,16,29.63508
+N=M=1000 si n=m=5,Static,16,29.81182
+N=M=1000 si n=m=5,Static,16,29.53001
+N=M=1000 si n=m=5,Dynamic,Sequential,217.25032
+N=M=1000 si n=m=5,Dynamic,Sequential,218.05057
+N=M=1000 si n=m=5,Dynamic,Sequential,216.26204
+N=M=1000 si n=m=5,Dynamic,Sequential,218.228
+N=M=1000 si n=m=5,Dynamic,Sequential,217.13417
+N=M=1000 si n=m=5,Dynamic,2,112.82764
+N=M=1000 si n=m=5,Dynamic,2,113.27755
+N=M=1000 si n=m=5,Dynamic,2,114.28455
+N=M=1000 si n=m=5,Dynamic,2,113.2003
+N=M=1000 si n=m=5,Dynamic,2,114.19445
+N=M=1000 si n=m=5,Dynamic,2,112.11671
+N=M=1000 si n=m=5,Dynamic,2,114.89665
+N=M=1000 si n=m=5,Dynamic,2,114.50419
+N=M=1000 si n=m=5,Dynamic,2,112.68857
+N=M=1000 si n=m=5,Dynamic,2,112.98214
+N=M=1000 si n=m=5,Dynamic,2,113.27561
+N=M=1000 si n=m=5,Dynamic,2,111.82687
+N=M=1000 si n=m=5,Dynamic,2,114.21943
+N=M=1000 si n=m=5,Dynamic,2,113.26044
+N=M=1000 si n=m=5,Dynamic,2,112.98829
+N=M=1000 si n=m=5,Dynamic,4,57.71832
+N=M=1000 si n=m=5,Dynamic,4,61.28446
+N=M=1000 si n=m=5,Dynamic,4,57.81846
+N=M=1000 si n=m=5,Dynamic,4,59.44925
+N=M=1000 si n=m=5,Dynamic,4,58.06737
+N=M=1000 si n=m=5,Dynamic,4,58.30637
+N=M=1000 si n=m=5,Dynamic,4,59.05124
+N=M=1000 si n=m=5,Dynamic,4,59.89235
+N=M=1000 si n=m=5,Dynamic,4,60.4431
+N=M=1000 si n=m=5,Dynamic,4,58.38242
+N=M=1000 si n=m=5,Dynamic,4,58.25984
+N=M=1000 si n=m=5,Dynamic,4,58.86547
+N=M=1000 si n=m=5,Dynamic,4,58.97156
+N=M=1000 si n=m=5,Dynamic,4,59.42239
+N=M=1000 si n=m=5,Dynamic,4,61.19523
+N=M=1000 si n=m=5,Dynamic,8,34.9351
+N=M=1000 si n=m=5,Dynamic,8,37.66484
+N=M=1000 si n=m=5,Dynamic,8,36.36139
+N=M=1000 si n=m=5,Dynamic,8,40.01175
+N=M=1000 si n=m=5,Dynamic,8,37.21096
+N=M=1000 si n=m=5,Dynamic,8,41.71442
+N=M=1000 si n=m=5,Dynamic,8,43.64198
+N=M=1000 si n=m=5,Dynamic,8,41.03534
+N=M=1000 si n=m=5,Dynamic,8,38.91573
+N=M=1000 si n=m=5,Dynamic,8,35.74605
+N=M=1000 si n=m=5,Dynamic,8,36.5923
+N=M=1000 si n=m=5,Dynamic,8,39.03235
+N=M=1000 si n=m=5,Dynamic,8,31.50383
+N=M=1000 si n=m=5,Dynamic,8,38.09982
+N=M=1000 si n=m=5,Dynamic,8,36.29604
+N=M=1000 si n=m=5,Dynamic,16,30.08254
+N=M=1000 si n=m=5,Dynamic,16,29.39666
+N=M=1000 si n=m=5,Dynamic,16,30.51095
+N=M=1000 si n=m=5,Dynamic,16,29.61493
+N=M=1000 si n=m=5,Dynamic,16,28.88736
+N=M=1000 si n=m=5,Dynamic,16,30.86614
+N=M=1000 si n=m=5,Dynamic,16,29.0986
+N=M=1000 si n=m=5,Dynamic,16,29.7134
+N=M=1000 si n=m=5,Dynamic,16,29.09183
+N=M=1000 si n=m=5,Dynamic,16,29.89196
+N=M=1000 si n=m=5,Dynamic,16,29.48401
+N=M=1000 si n=m=5,Dynamic,16,29.80834
+N=M=1000 si n=m=5,Dynamic,16,29.60251
+N=M=1000 si n=m=5,Dynamic,16,29.26443
+N=M=1000 si n=m=5,Dynamic,16,29.57294
+N=10 M=10000 si n=m=5,Static,Sequential,18.8766
+N=10 M=10000 si n=m=5,Static,Sequential,18.95436
+N=10 M=10000 si n=m=5,Static,Sequential,19.09867
+N=10 M=10000 si n=m=5,Static,Sequential,18.82847
+N=10 M=10000 si n=m=5,Static,Sequential,18.81287
+N=10 M=10000 si n=m=5,Static,2,23.38988
+N=10 M=10000 si n=m=5,Static,2,23.47264
+N=10 M=10000 si n=m=5,Static,2,23.43945
+N=10 M=10000 si n=m=5,Static,2,23.44108
+N=10 M=10000 si n=m=5,Static,2,23.41379
+N=10 M=10000 si n=m=5,Static,2,23.40524
+N=10 M=10000 si n=m=5,Static,2,23.42308
+N=10 M=10000 si n=m=5,Static,2,23.344
+N=10 M=10000 si n=m=5,Static,2,23.36738
+N=10 M=10000 si n=m=5,Static,2,23.31235
+N=10 M=10000 si n=m=5,Static,2,23.2049
+N=10 M=10000 si n=m=5,Static,2,23.39074
+N=10 M=10000 si n=m=5,Static,2,23.37119
+N=10 M=10000 si n=m=5,Static,2,23.33408
+N=10 M=10000 si n=m=5,Static,2,23.42738
+N=10 M=10000 si n=m=5,Static,4,11.95011
+N=10 M=10000 si n=m=5,Static,4,11.90749
+N=10 M=10000 si n=m=5,Static,4,11.90253
+N=10 M=10000 si n=m=5,Static,4,11.93623
+N=10 M=10000 si n=m=5,Static,4,11.86226
+N=10 M=10000 si n=m=5,Static,4,11.88793
+N=10 M=10000 si n=m=5,Static,4,11.88005
+N=10 M=10000 si n=m=5,Static,4,11.91636
+N=10 M=10000 si n=m=5,Static,4,11.93066
+N=10 M=10000 si n=m=5,Static,4,11.93478
+N=10 M=10000 si n=m=5,Static,4,11.91645
+N=10 M=10000 si n=m=5,Static,4,11.89164
+N=10 M=10000 si n=m=5,Static,4,11.92942
+N=10 M=10000 si n=m=5,Static,4,11.94018
+N=10 M=10000 si n=m=5,Static,4,11.94653
+N=10 M=10000 si n=m=5,Static,8,6.39969
+N=10 M=10000 si n=m=5,Static,8,6.4336
+N=10 M=10000 si n=m=5,Static,8,6.35538
+N=10 M=10000 si n=m=5,Static,8,6.45414
+N=10 M=10000 si n=m=5,Static,8,6.38281
+N=10 M=10000 si n=m=5,Static,8,6.35925
+N=10 M=10000 si n=m=5,Static,8,6.34881
+N=10 M=10000 si n=m=5,Static,8,6.39745
+N=10 M=10000 si n=m=5,Static,8,6.43934
+N=10 M=10000 si n=m=5,Static,8,6.38553
+N=10 M=10000 si n=m=5,Static,8,6.37721
+N=10 M=10000 si n=m=5,Static,8,6.34985
+N=10 M=10000 si n=m=5,Static,8,6.37617
+N=10 M=10000 si n=m=5,Static,8,6.35351
+N=10 M=10000 si n=m=5,Static,8,6.38359
+N=10 M=10000 si n=m=5,Static,16,3.34412
+N=10 M=10000 si n=m=5,Static,16,3.44896
+N=10 M=10000 si n=m=5,Static,16,3.5224
+N=10 M=10000 si n=m=5,Static,16,4.17148
+N=10 M=10000 si n=m=5,Static,16,3.86976
+N=10 M=10000 si n=m=5,Static,16,3.56454
+N=10 M=10000 si n=m=5,Static,16,3.36146
+N=10 M=10000 si n=m=5,Static,16,3.26149
+N=10 M=10000 si n=m=5,Static,16,3.35147
+N=10 M=10000 si n=m=5,Static,16,3.35195
+N=10 M=10000 si n=m=5,Static,16,3.62741
+N=10 M=10000 si n=m=5,Static,16,3.60276
+N=10 M=10000 si n=m=5,Static,16,3.96813
+N=10 M=10000 si n=m=5,Static,16,3.41973
+N=10 M=10000 si n=m=5,Static,16,3.44372
+N=10 M=10000 si n=m=5,Dynamic,Sequential,22.85915
+N=10 M=10000 si n=m=5,Dynamic,Sequential,22.7756
+N=10 M=10000 si n=m=5,Dynamic,Sequential,22.61878
+N=10 M=10000 si n=m=5,Dynamic,Sequential,22.82055
+N=10 M=10000 si n=m=5,Dynamic,Sequential,22.55354
+N=10 M=10000 si n=m=5,Dynamic,2,11.13389
+N=10 M=10000 si n=m=5,Dynamic,2,10.98939
+N=10 M=10000 si n=m=5,Dynamic,2,10.93304
+N=10 M=10000 si n=m=5,Dynamic,2,11.00404
+N=10 M=10000 si n=m=5,Dynamic,2,10.95621
+N=10 M=10000 si n=m=5,Dynamic,2,11.76718
+N=10 M=10000 si n=m=5,Dynamic,2,10.95933
+N=10 M=10000 si n=m=5,Dynamic,2,10.9979
+N=10 M=10000 si n=m=5,Dynamic,2,11.06786
+N=10 M=10000 si n=m=5,Dynamic,2,10.98087
+N=10 M=10000 si n=m=5,Dynamic,2,11.4061
+N=10 M=10000 si n=m=5,Dynamic,2,11.98988
+N=10 M=10000 si n=m=5,Dynamic,2,11.00713
+N=10 M=10000 si n=m=5,Dynamic,2,10.97289
+N=10 M=10000 si n=m=5,Dynamic,2,10.98827
+N=10 M=10000 si n=m=5,Dynamic,4,5.74169
+N=10 M=10000 si n=m=5,Dynamic,4,5.71366
+N=10 M=10000 si n=m=5,Dynamic,4,5.954
+N=10 M=10000 si n=m=5,Dynamic,4,5.70434
+N=10 M=10000 si n=m=5,Dynamic,4,6.20171
+N=10 M=10000 si n=m=5,Dynamic,4,5.74134
+N=10 M=10000 si n=m=5,Dynamic,4,5.69187
+N=10 M=10000 si n=m=5,Dynamic,4,5.77947
+N=10 M=10000 si n=m=5,Dynamic,4,5.72773
+N=10 M=10000 si n=m=5,Dynamic,4,5.71341
+N=10 M=10000 si n=m=5,Dynamic,4,5.68232
+N=10 M=10000 si n=m=5,Dynamic,4,5.73111
+N=10 M=10000 si n=m=5,Dynamic,4,5.68781
+N=10 M=10000 si n=m=5,Dynamic,4,5.66632
+N=10 M=10000 si n=m=5,Dynamic,4,5.70551
+N=10 M=10000 si n=m=5,Dynamic,8,3.6372
+N=10 M=10000 si n=m=5,Dynamic,8,3.50078
+N=10 M=10000 si n=m=5,Dynamic,8,3.88013
+N=10 M=10000 si n=m=5,Dynamic,8,3.71913
+N=10 M=10000 si n=m=5,Dynamic,8,3.72734
+N=10 M=10000 si n=m=5,Dynamic,8,3.90198
+N=10 M=10000 si n=m=5,Dynamic,8,3.6616
+N=10 M=10000 si n=m=5,Dynamic,8,4.48191
+N=10 M=10000 si n=m=5,Dynamic,8,4.1289
+N=10 M=10000 si n=m=5,Dynamic,8,4.04543
+N=10 M=10000 si n=m=5,Dynamic,8,3.77495
+N=10 M=10000 si n=m=5,Dynamic,8,3.85453
+N=10 M=10000 si n=m=5,Dynamic,8,3.49989
+N=10 M=10000 si n=m=5,Dynamic,8,3.29678
+N=10 M=10000 si n=m=5,Dynamic,8,3.68678
+N=10 M=10000 si n=m=5,Dynamic,16,3.38922
+N=10 M=10000 si n=m=5,Dynamic,16,3.63326
+N=10 M=10000 si n=m=5,Dynamic,16,3.37351
+N=10 M=10000 si n=m=5,Dynamic,16,3.57673
+N=10 M=10000 si n=m=5,Dynamic,16,3.41356
+N=10 M=10000 si n=m=5,Dynamic,16,3.28583
+N=10 M=10000 si n=m=5,Dynamic,16,3.38918
+N=10 M=10000 si n=m=5,Dynamic,16,3.36882
+N=10 M=10000 si n=m=5,Dynamic,16,3.51405
+N=10 M=10000 si n=m=5,Dynamic,16,3.65397
+N=10 M=10000 si n=m=5,Dynamic,16,3.5575
+N=10 M=10000 si n=m=5,Dynamic,16,3.46944
+N=10 M=10000 si n=m=5,Dynamic,16,3.47351
+N=10 M=10000 si n=m=5,Dynamic,16,3.4807
+N=10 M=10000 si n=m=5,Dynamic,16,3.36583
+N=10000 M=10 si n=m=5,Static,Sequential,46.21628
+N=10000 M=10 si n=m=5,Static,Sequential,45.92274
+N=10000 M=10 si n=m=5,Static,Sequential,46.07667
+N=10000 M=10 si n=m=5,Static,Sequential,46.07676
+N=10000 M=10 si n=m=5,Static,Sequential,45.72536
+N=10000 M=10 si n=m=5,Static,2,23.43976
+N=10000 M=10 si n=m=5,Static,2,23.46776
+N=10000 M=10 si n=m=5,Static,2,23.4279
+N=10000 M=10 si n=m=5,Static,2,23.45864
+N=10000 M=10 si n=m=5,Static,2,23.56933
+N=10000 M=10 si n=m=5,Static,2,23.49116
+N=10000 M=10 si n=m=5,Static,2,23.13526
+N=10000 M=10 si n=m=5,Static,2,23.19747
+N=10000 M=10 si n=m=5,Static,2,23.56941
+N=10000 M=10 si n=m=5,Static,2,23.56317
+N=10000 M=10 si n=m=5,Static,2,23.52075
+N=10000 M=10 si n=m=5,Static,2,23.54386
+N=10000 M=10 si n=m=5,Static,2,23.53478
+N=10000 M=10 si n=m=5,Static,2,23.47884
+N=10000 M=10 si n=m=5,Static,2,23.56205
+N=10000 M=10 si n=m=5,Static,4,14.34041
+N=10000 M=10 si n=m=5,Static,4,14.27229
+N=10000 M=10 si n=m=5,Static,4,14.21044
+N=10000 M=10 si n=m=5,Static,4,14.09458
+N=10000 M=10 si n=m=5,Static,4,14.28198
+N=10000 M=10 si n=m=5,Static,4,14.34096
+N=10000 M=10 si n=m=5,Static,4,13.90089
+N=10000 M=10 si n=m=5,Static,4,14.31975
+N=10000 M=10 si n=m=5,Static,4,14.25042
+N=10000 M=10 si n=m=5,Static,4,14.20932
+N=10000 M=10 si n=m=5,Static,4,14.22315
+N=10000 M=10 si n=m=5,Static,4,14.14814
+N=10000 M=10 si n=m=5,Static,4,13.7308
+N=10000 M=10 si n=m=5,Static,4,14.26976
+N=10000 M=10 si n=m=5,Static,4,14.20885
+N=10000 M=10 si n=m=5,Static,8,9.43404
+N=10000 M=10 si n=m=5,Static,8,9.53416
+N=10000 M=10 si n=m=5,Static,8,9.28358
+N=10000 M=10 si n=m=5,Static,8,9.49836
+N=10000 M=10 si n=m=5,Static,8,9.55651
+N=10000 M=10 si n=m=5,Static,8,9.50271
+N=10000 M=10 si n=m=5,Static,8,9.54007
+N=10000 M=10 si n=m=5,Static,8,9.5358
+N=10000 M=10 si n=m=5,Static,8,9.49566
+N=10000 M=10 si n=m=5,Static,8,9.50791
+N=10000 M=10 si n=m=5,Static,8,9.5412
+N=10000 M=10 si n=m=5,Static,8,9.54194
+N=10000 M=10 si n=m=5,Static,8,9.38041
+N=10000 M=10 si n=m=5,Static,8,9.54594
+N=10000 M=10 si n=m=5,Static,8,9.54378
+N=10000 M=10 si n=m=5,Static,16,5.27158
+N=10000 M=10 si n=m=5,Static,16,5.18842
+N=10000 M=10 si n=m=5,Static,16,5.19616
+N=10000 M=10 si n=m=5,Static,16,5.26747
+N=10000 M=10 si n=m=5,Static,16,5.24835
+N=10000 M=10 si n=m=5,Static,16,5.23534
+N=10000 M=10 si n=m=5,Static,16,5.31348
+N=10000 M=10 si n=m=5,Static,16,5.23426
+N=10000 M=10 si n=m=5,Static,16,5.22931
+N=10000 M=10 si n=m=5,Static,16,5.26126
+N=10000 M=10 si n=m=5,Static,16,5.1667
+N=10000 M=10 si n=m=5,Static,16,5.26158
+N=10000 M=10 si n=m=5,Static,16,5.17223
+N=10000 M=10 si n=m=5,Static,16,5.29422
+N=10000 M=10 si n=m=5,Static,16,5.19277
+N=10000 M=10 si n=m=5,Dynamic,Sequential,21.78667
+N=10000 M=10 si n=m=5,Dynamic,Sequential,22.05445
+N=10000 M=10 si n=m=5,Dynamic,Sequential,21.87391
+N=10000 M=10 si n=m=5,Dynamic,Sequential,21.71681
+N=10000 M=10 si n=m=5,Dynamic,Sequential,21.68289
+N=10000 M=10 si n=m=5,Dynamic,2,11.34958
+N=10000 M=10 si n=m=5,Dynamic,2,10.82195
+N=10000 M=10 si n=m=5,Dynamic,2,10.85387
+N=10000 M=10 si n=m=5,Dynamic,2,10.85778
+N=10000 M=10 si n=m=5,Dynamic,2,11.08461
+N=10000 M=10 si n=m=5,Dynamic,2,10.91608
+N=10000 M=10 si n=m=5,Dynamic,2,10.83925
+N=10000 M=10 si n=m=5,Dynamic,2,10.82426
+N=10000 M=10 si n=m=5,Dynamic,2,10.84649
+N=10000 M=10 si n=m=5,Dynamic,2,11.59746
+N=10000 M=10 si n=m=5,Dynamic,2,10.87605
+N=10000 M=10 si n=m=5,Dynamic,2,10.873
+N=10000 M=10 si n=m=5,Dynamic,2,10.88631
+N=10000 M=10 si n=m=5,Dynamic,2,10.88066
+N=10000 M=10 si n=m=5,Dynamic,2,11.35056
+N=10000 M=10 si n=m=5,Dynamic,4,6.83592
+N=10000 M=10 si n=m=5,Dynamic,4,6.91027
+N=10000 M=10 si n=m=5,Dynamic,4,7.83862
+N=10000 M=10 si n=m=5,Dynamic,4,6.62631
+N=10000 M=10 si n=m=5,Dynamic,4,6.71662
+N=10000 M=10 si n=m=5,Dynamic,4,7.0183
+N=10000 M=10 si n=m=5,Dynamic,4,6.71178
+N=10000 M=10 si n=m=5,Dynamic,4,6.65232
+N=10000 M=10 si n=m=5,Dynamic,4,6.72769
+N=10000 M=10 si n=m=5,Dynamic,4,6.64675
+N=10000 M=10 si n=m=5,Dynamic,4,7.02348
+N=10000 M=10 si n=m=5,Dynamic,4,7.17208
+N=10000 M=10 si n=m=5,Dynamic,4,6.82426
+N=10000 M=10 si n=m=5,Dynamic,4,6.66043
+N=10000 M=10 si n=m=5,Dynamic,4,6.73952
+N=10000 M=10 si n=m=5,Dynamic,8,4.82052
+N=10000 M=10 si n=m=5,Dynamic,8,4.82433
+N=10000 M=10 si n=m=5,Dynamic,8,5.42155
+N=10000 M=10 si n=m=5,Dynamic,8,4.72288
+N=10000 M=10 si n=m=5,Dynamic,8,4.90754
+N=10000 M=10 si n=m=5,Dynamic,8,4.90286
+N=10000 M=10 si n=m=5,Dynamic,8,4.85738
+N=10000 M=10 si n=m=5,Dynamic,8,4.87427
+N=10000 M=10 si n=m=5,Dynamic,8,4.93685
+N=10000 M=10 si n=m=5,Dynamic,8,5.32595
+N=10000 M=10 si n=m=5,Dynamic,8,4.87759
+N=10000 M=10 si n=m=5,Dynamic,8,4.91161
+N=10000 M=10 si n=m=5,Dynamic,8,5.06928
+N=10000 M=10 si n=m=5,Dynamic,8,5.35059
+N=10000 M=10 si n=m=5,Dynamic,8,5.12241
+N=10000 M=10 si n=m=5,Dynamic,16,4.48705
+N=10000 M=10 si n=m=5,Dynamic,16,4.45913
+N=10000 M=10 si n=m=5,Dynamic,16,4.50359
+N=10000 M=10 si n=m=5,Dynamic,16,4.50386
+N=10000 M=10 si n=m=5,Dynamic,16,4.50895
+N=10000 M=10 si n=m=5,Dynamic,16,4.47345
+N=10000 M=10 si n=m=5,Dynamic,16,4.4913
+N=10000 M=10 si n=m=5,Dynamic,16,4.4447
+N=10000 M=10 si n=m=5,Dynamic,16,4.50047
+N=10000 M=10 si n=m=5,Dynamic,16,4.48976
+N=10000 M=10 si n=m=5,Dynamic,16,4.53123
+N=10000 M=10 si n=m=5,Dynamic,16,4.55422
+N=10000 M=10 si n=m=5,Dynamic,16,4.52283
+N=10000 M=10 si n=m=5,Dynamic,16,4.50776
+N=10000 M=10 si n=m=5,Dynamic,16,4.60093
+N=M=10 si n=m=3,Static,Sequential,0.01723
+N=M=10 si n=m=3,Static,Sequential,0.01672
+N=M=10 si n=m=3,Static,Sequential,0.01661
+N=M=10 si n=m=3,Static,Sequential,0.01631
+N=M=10 si n=m=3,Static,Sequential,0.01668
+N=M=10 si n=m=3,Static,4,0.22428
+N=M=10 si n=m=3,Static,4,0.37905
+N=M=10 si n=m=3,Static,4,0.24769
+N=M=10 si n=m=3,Static,4,0.23157
+N=M=10 si n=m=3,Static,4,0.22694
+N=M=10 si n=m=3,Static,4,0.23853
+N=M=10 si n=m=3,Static,4,0.22075
+N=M=10 si n=m=3,Static,4,0.24034
+N=M=10 si n=m=3,Static,4,0.22994
+N=M=10 si n=m=3,Static,4,0.23434
+N=M=10 si n=m=3,Static,4,0.22239
+N=M=10 si n=m=3,Static,4,0.23187
+N=M=10 si n=m=3,Static,4,0.23234
+N=M=10 si n=m=3,Static,4,0.23869
+N=M=10 si n=m=3,Static,4,0.25044
+N=M=10 si n=m=3,Dynamic,Sequential,0.00908
+N=M=10 si n=m=3,Dynamic,Sequential,0.00978
+N=M=10 si n=m=3,Dynamic,Sequential,0.00981
+N=M=10 si n=m=3,Dynamic,Sequential,0.00909
+N=M=10 si n=m=3,Dynamic,Sequential,0.01042
+N=M=10 si n=m=3,Dynamic,4,0.22736
+N=M=10 si n=m=3,Dynamic,4,0.21661
+N=M=10 si n=m=3,Dynamic,4,0.22655
+N=M=10 si n=m=3,Dynamic,4,0.21521
+N=M=10 si n=m=3,Dynamic,4,0.22876
+N=M=10 si n=m=3,Dynamic,4,0.22688
+N=M=10 si n=m=3,Dynamic,4,0.22292
+N=M=10 si n=m=3,Dynamic,4,0.23102
+N=M=10 si n=m=3,Dynamic,4,0.32302
+N=M=10 si n=m=3,Dynamic,4,0.21874
+N=M=10 si n=m=3,Dynamic,4,0.2222
+N=M=10 si n=m=3,Dynamic,4,0.21759
+N=M=10 si n=m=3,Dynamic,4,0.22494
+N=M=10 si n=m=3,Dynamic,4,0.21878
+N=M=10 si n=m=3,Dynamic,4,0.22312
+N=M=1000 si n=m=5,Static,Sequential,182.66463
+N=M=1000 si n=m=5,Static,Sequential,183.63444
+N=M=1000 si n=m=5,Static,Sequential,182.89064
+N=M=1000 si n=m=5,Static,Sequential,183.58968
+N=M=1000 si n=m=5,Static,Sequential,183.52894
+N=M=1000 si n=m=5,Static,2,238.23397
+N=M=1000 si n=m=5,Static,2,237.47885
+N=M=1000 si n=m=5,Static,2,238.90654
+N=M=1000 si n=m=5,Static,2,236.6707
+N=M=1000 si n=m=5,Static,2,237.45771
+N=M=1000 si n=m=5,Static,2,238.12454
+N=M=1000 si n=m=5,Static,2,238.88789
+N=M=1000 si n=m=5,Static,2,236.64621
+N=M=1000 si n=m=5,Static,2,237.97926
+N=M=1000 si n=m=5,Static,2,236.3769
+N=M=1000 si n=m=5,Static,2,237.14253
+N=M=1000 si n=m=5,Static,2,236.89852
+N=M=1000 si n=m=5,Static,2,235.76288
+N=M=1000 si n=m=5,Static,2,237.9894
+N=M=1000 si n=m=5,Static,2,237.84611
+N=M=1000 si n=m=5,Static,4,120.5003
+N=M=1000 si n=m=5,Static,4,120.92353
+N=M=1000 si n=m=5,Static,4,120.79293
+N=M=1000 si n=m=5,Static,4,120.33651
+N=M=1000 si n=m=5,Static,4,119.50223
+N=M=1000 si n=m=5,Static,4,119.63352
+N=M=1000 si n=m=5,Static,4,120.77547
+N=M=1000 si n=m=5,Static,4,121.27706
+N=M=1000 si n=m=5,Static,4,121.01134
+N=M=1000 si n=m=5,Static,4,118.5021
+N=M=1000 si n=m=5,Static,4,118.54731
+N=M=1000 si n=m=5,Static,4,118.46385
+N=M=1000 si n=m=5,Static,4,121.05476
+N=M=1000 si n=m=5,Static,4,120.82226
+N=M=1000 si n=m=5,Static,4,121.08751
+N=M=1000 si n=m=5,Static,8,62.86833
+N=M=1000 si n=m=5,Static,8,60.07517
+N=M=1000 si n=m=5,Static,8,61.31979
+N=M=1000 si n=m=5,Static,8,63.08575
+N=M=1000 si n=m=5,Static,8,62.99035
+N=M=1000 si n=m=5,Static,8,63.38041
+N=M=1000 si n=m=5,Static,8,63.33165
+N=M=1000 si n=m=5,Static,8,63.82625
+N=M=1000 si n=m=5,Static,8,63.44689
+N=M=1000 si n=m=5,Static,8,63.51074
+N=M=1000 si n=m=5,Static,8,63.61593
+N=M=1000 si n=m=5,Static,8,63.43586
+N=M=1000 si n=m=5,Static,8,63.15853
+N=M=1000 si n=m=5,Static,8,63.19882
+N=M=1000 si n=m=5,Static,8,63.59623
+N=M=1000 si n=m=5,Static,16,25.62128
+N=M=1000 si n=m=5,Static,16,29.72513
+N=M=1000 si n=m=5,Static,16,25.50101
+N=M=1000 si n=m=5,Static,16,27.6664
+N=M=1000 si n=m=5,Static,16,26.10063
+N=M=1000 si n=m=5,Static,16,25.83585
+N=M=1000 si n=m=5,Static,16,26.9897
+N=M=1000 si n=m=5,Static,16,27.56979
+N=M=1000 si n=m=5,Static,16,26.07555
+N=M=1000 si n=m=5,Static,16,25.06079
+N=M=1000 si n=m=5,Static,16,29.41522
+N=M=1000 si n=m=5,Static,16,26.92397
+N=M=1000 si n=m=5,Static,16,28.61881
+N=M=1000 si n=m=5,Static,16,25.39005
+N=M=1000 si n=m=5,Static,16,29.91095
+N=M=1000 si n=m=5,Dynamic,Sequential,217.61789
+N=M=1000 si n=m=5,Dynamic,Sequential,215.88971
+N=M=1000 si n=m=5,Dynamic,Sequential,216.6184
+N=M=1000 si n=m=5,Dynamic,Sequential,214.92691
+N=M=1000 si n=m=5,Dynamic,Sequential,217.42791
+N=M=1000 si n=m=5,Dynamic,2,110.65378
+N=M=1000 si n=m=5,Dynamic,2,107.98902
+N=M=1000 si n=m=5,Dynamic,2,107.56476
+N=M=1000 si n=m=5,Dynamic,2,108.48215
+N=M=1000 si n=m=5,Dynamic,2,114.00243
+N=M=1000 si n=m=5,Dynamic,2,111.02318
+N=M=1000 si n=m=5,Dynamic,2,111.53085
+N=M=1000 si n=m=5,Dynamic,2,109.66122
+N=M=1000 si n=m=5,Dynamic,2,110.05497
+N=M=1000 si n=m=5,Dynamic,2,107.97796
+N=M=1000 si n=m=5,Dynamic,2,109.09123
+N=M=1000 si n=m=5,Dynamic,2,108.39656
+N=M=1000 si n=m=5,Dynamic,2,109.46272
+N=M=1000 si n=m=5,Dynamic,2,109.31311
+N=M=1000 si n=m=5,Dynamic,2,107.76064
+N=M=1000 si n=m=5,Dynamic,4,56.59783
+N=M=1000 si n=m=5,Dynamic,4,55.0912
+N=M=1000 si n=m=5,Dynamic,4,54.46676
+N=M=1000 si n=m=5,Dynamic,4,56.75502
+N=M=1000 si n=m=5,Dynamic,4,55.70174
+N=M=1000 si n=m=5,Dynamic,4,56.72991
+N=M=1000 si n=m=5,Dynamic,4,58.30199
+N=M=1000 si n=m=5,Dynamic,4,56.66803
+N=M=1000 si n=m=5,Dynamic,4,55.92671
+N=M=1000 si n=m=5,Dynamic,4,56.85267
+N=M=1000 si n=m=5,Dynamic,4,55.86638
+N=M=1000 si n=m=5,Dynamic,4,58.14005
+N=M=1000 si n=m=5,Dynamic,4,54.71135
+N=M=1000 si n=m=5,Dynamic,4,55.60641
+N=M=1000 si n=m=5,Dynamic,4,55.67673
+N=M=1000 si n=m=5,Dynamic,8,35.75773
+N=M=1000 si n=m=5,Dynamic,8,30.81601
+N=M=1000 si n=m=5,Dynamic,8,35.7771
+N=M=1000 si n=m=5,Dynamic,8,35.76382
+N=M=1000 si n=m=5,Dynamic,8,32.48421
+N=M=1000 si n=m=5,Dynamic,8,37.2485
+N=M=1000 si n=m=5,Dynamic,8,31.69886
+N=M=1000 si n=m=5,Dynamic,8,35.55817
+N=M=1000 si n=m=5,Dynamic,8,35.23124
+N=M=1000 si n=m=5,Dynamic,8,33.55371
+N=M=1000 si n=m=5,Dynamic,8,37.93265
+N=M=1000 si n=m=5,Dynamic,8,38.48802
+N=M=1000 si n=m=5,Dynamic,8,33.75166
+N=M=1000 si n=m=5,Dynamic,8,36.11374
+N=M=1000 si n=m=5,Dynamic,8,33.26634
+N=M=1000 si n=m=5,Dynamic,16,29.57758
+N=M=1000 si n=m=5,Dynamic,16,28.64336
+N=M=1000 si n=m=5,Dynamic,16,28.98901
+N=M=1000 si n=m=5,Dynamic,16,28.25473
+N=M=1000 si n=m=5,Dynamic,16,28.96044
+N=M=1000 si n=m=5,Dynamic,16,28.5529
+N=M=1000 si n=m=5,Dynamic,16,28.45488
+N=M=1000 si n=m=5,Dynamic,16,28.74781
+N=M=1000 si n=m=5,Dynamic,16,28.42396
+N=M=1000 si n=m=5,Dynamic,16,28.76498
+N=M=1000 si n=m=5,Dynamic,16,29.32066
+N=M=1000 si n=m=5,Dynamic,16,28.45733
+N=M=1000 si n=m=5,Dynamic,16,28.1089
+N=M=1000 si n=m=5,Dynamic,16,29.65735
+N=M=1000 si n=m=5,Dynamic,16,28.10684
+N=10 M=10000 si n=m=5,Static,Sequential,18.77653
+N=10 M=10000 si n=m=5,Static,Sequential,18.78441
+N=10 M=10000 si n=m=5,Static,Sequential,18.82157
+N=10 M=10000 si n=m=5,Static,Sequential,18.78929
+N=10 M=10000 si n=m=5,Static,Sequential,19.60961
+N=10 M=10000 si n=m=5,Static,2,24.0529
+N=10 M=10000 si n=m=5,Static,2,23.95494
+N=10 M=10000 si n=m=5,Static,2,24.04762
+N=10 M=10000 si n=m=5,Static,2,24.14366
+N=10 M=10000 si n=m=5,Static,2,24.02571
+N=10 M=10000 si n=m=5,Static,2,23.83308
+N=10 M=10000 si n=m=5,Static,2,24.03933
+N=10 M=10000 si n=m=5,Static,2,24.01384
+N=10 M=10000 si n=m=5,Static,2,23.89335
+N=10 M=10000 si n=m=5,Static,2,24.09104
+N=10 M=10000 si n=m=5,Static,2,24.08586
+N=10 M=10000 si n=m=5,Static,2,23.90704
+N=10 M=10000 si n=m=5,Static,2,24.1505
+N=10 M=10000 si n=m=5,Static,2,23.948
+N=10 M=10000 si n=m=5,Static,2,23.97884
+N=10 M=10000 si n=m=5,Static,4,12.18698
+N=10 M=10000 si n=m=5,Static,4,12.255
+N=10 M=10000 si n=m=5,Static,4,12.2203
+N=10 M=10000 si n=m=5,Static,4,12.2798
+N=10 M=10000 si n=m=5,Static,4,12.23392
+N=10 M=10000 si n=m=5,Static,4,12.22696
+N=10 M=10000 si n=m=5,Static,4,12.226
+N=10 M=10000 si n=m=5,Static,4,12.25387
+N=10 M=10000 si n=m=5,Static,4,12.1981
+N=10 M=10000 si n=m=5,Static,4,12.24322
+N=10 M=10000 si n=m=5,Static,4,12.21051
+N=10 M=10000 si n=m=5,Static,4,12.24752
+N=10 M=10000 si n=m=5,Static,4,12.23169
+N=10 M=10000 si n=m=5,Static,4,12.23044
+N=10 M=10000 si n=m=5,Static,4,12.21756
+N=10 M=10000 si n=m=5,Static,8,6.54787
+N=10 M=10000 si n=m=5,Static,8,6.51459
+N=10 M=10000 si n=m=5,Static,8,6.58458
+N=10 M=10000 si n=m=5,Static,8,6.52377
+N=10 M=10000 si n=m=5,Static,8,6.54694
+N=10 M=10000 si n=m=5,Static,8,6.54336
+N=10 M=10000 si n=m=5,Static,8,6.52029
+N=10 M=10000 si n=m=5,Static,8,6.54922
+N=10 M=10000 si n=m=5,Static,8,6.562
+N=10 M=10000 si n=m=5,Static,8,6.52339
+N=10 M=10000 si n=m=5,Static,8,6.55613
+N=10 M=10000 si n=m=5,Static,8,6.51644
+N=10 M=10000 si n=m=5,Static,8,6.55739
+N=10 M=10000 si n=m=5,Static,8,6.5129
+N=10 M=10000 si n=m=5,Static,8,6.53838
+N=10 M=10000 si n=m=5,Static,16,3.42196
+N=10 M=10000 si n=m=5,Static,16,3.29277
+N=10 M=10000 si n=m=5,Static,16,3.76428
+N=10 M=10000 si n=m=5,Static,16,3.53501
+N=10 M=10000 si n=m=5,Static,16,4.13027
+N=10 M=10000 si n=m=5,Static,16,3.35091
+N=10 M=10000 si n=m=5,Static,16,3.31163
+N=10 M=10000 si n=m=5,Static,16,3.43632
+N=10 M=10000 si n=m=5,Static,16,3.31391
+N=10 M=10000 si n=m=5,Static,16,3.57448
+N=10 M=10000 si n=m=5,Static,16,3.58513
+N=10 M=10000 si n=m=5,Static,16,3.39658
+N=10 M=10000 si n=m=5,Static,16,3.73003
+N=10 M=10000 si n=m=5,Static,16,3.96189
+N=10 M=10000 si n=m=5,Static,16,3.77318
+N=10 M=10000 si n=m=5,Dynamic,Sequential,23.04191
+N=10 M=10000 si n=m=5,Dynamic,Sequential,22.59087
+N=10 M=10000 si n=m=5,Dynamic,Sequential,23.65445
+N=10 M=10000 si n=m=5,Dynamic,Sequential,22.69439
+N=10 M=10000 si n=m=5,Dynamic,Sequential,22.70385
+N=10 M=10000 si n=m=5,Dynamic,2,10.87134
+N=10 M=10000 si n=m=5,Dynamic,2,10.87487
+N=10 M=10000 si n=m=5,Dynamic,2,10.86412
+N=10 M=10000 si n=m=5,Dynamic,2,10.82114
+N=10 M=10000 si n=m=5,Dynamic,2,10.86443
+N=10 M=10000 si n=m=5,Dynamic,2,10.91647
+N=10 M=10000 si n=m=5,Dynamic,2,10.82031
+N=10 M=10000 si n=m=5,Dynamic,2,10.97678
+N=10 M=10000 si n=m=5,Dynamic,2,10.90781
+N=10 M=10000 si n=m=5,Dynamic,2,10.89989
+N=10 M=10000 si n=m=5,Dynamic,2,10.9371
+N=10 M=10000 si n=m=5,Dynamic,2,11.13451
+N=10 M=10000 si n=m=5,Dynamic,2,10.93806
+N=10 M=10000 si n=m=5,Dynamic,2,11.391
+N=10 M=10000 si n=m=5,Dynamic,2,10.85767
+N=10 M=10000 si n=m=5,Dynamic,4,5.74884
+N=10 M=10000 si n=m=5,Dynamic,4,5.70814
+N=10 M=10000 si n=m=5,Dynamic,4,5.73713
+N=10 M=10000 si n=m=5,Dynamic,4,5.68504
+N=10 M=10000 si n=m=5,Dynamic,4,5.70546
+N=10 M=10000 si n=m=5,Dynamic,4,5.68341
+N=10 M=10000 si n=m=5,Dynamic,4,5.62795
+N=10 M=10000 si n=m=5,Dynamic,4,5.87095
+N=10 M=10000 si n=m=5,Dynamic,4,5.6894
+N=10 M=10000 si n=m=5,Dynamic,4,5.95743
+N=10 M=10000 si n=m=5,Dynamic,4,5.74166
+N=10 M=10000 si n=m=5,Dynamic,4,5.85868
+N=10 M=10000 si n=m=5,Dynamic,4,5.70156
+N=10 M=10000 si n=m=5,Dynamic,4,5.66591
+N=10 M=10000 si n=m=5,Dynamic,4,6.37856
+N=10 M=10000 si n=m=5,Dynamic,8,4.04325
+N=10 M=10000 si n=m=5,Dynamic,8,3.27129
+N=10 M=10000 si n=m=5,Dynamic,8,3.81068
+N=10 M=10000 si n=m=5,Dynamic,8,3.8558
+N=10 M=10000 si n=m=5,Dynamic,8,3.68504
+N=10 M=10000 si n=m=5,Dynamic,8,3.71386
+N=10 M=10000 si n=m=5,Dynamic,8,3.84372
+N=10 M=10000 si n=m=5,Dynamic,8,3.87436
+N=10 M=10000 si n=m=5,Dynamic,8,4.17351
+N=10 M=10000 si n=m=5,Dynamic,8,3.4591
+N=10 M=10000 si n=m=5,Dynamic,8,4.27378
+N=10 M=10000 si n=m=5,Dynamic,8,3.67522
+N=10 M=10000 si n=m=5,Dynamic,8,4.00409
+N=10 M=10000 si n=m=5,Dynamic,8,3.78826
+N=10 M=10000 si n=m=5,Dynamic,8,3.86382
+N=10 M=10000 si n=m=5,Dynamic,16,3.45476
+N=10 M=10000 si n=m=5,Dynamic,16,3.69216
+N=10 M=10000 si n=m=5,Dynamic,16,3.60943
+N=10 M=10000 si n=m=5,Dynamic,16,4.18314
+N=10 M=10000 si n=m=5,Dynamic,16,3.33676
+N=10 M=10000 si n=m=5,Dynamic,16,3.37144
+N=10 M=10000 si n=m=5,Dynamic,16,4.01716
+N=10 M=10000 si n=m=5,Dynamic,16,3.59059
+N=10 M=10000 si n=m=5,Dynamic,16,3.44732
+N=10 M=10000 si n=m=5,Dynamic,16,3.8868
+N=10 M=10000 si n=m=5,Dynamic,16,3.62097
+N=10 M=10000 si n=m=5,Dynamic,16,4.32383
+N=10 M=10000 si n=m=5,Dynamic,16,3.357
+N=10 M=10000 si n=m=5,Dynamic,16,3.44348
+N=10 M=10000 si n=m=5,Dynamic,16,3.49972
+N=10000 M=10 si n=m=5,Static,Sequential,46.11566
+N=10000 M=10 si n=m=5,Static,Sequential,46.05647
+N=10000 M=10 si n=m=5,Static,Sequential,45.98266
+N=10000 M=10 si n=m=5,Static,Sequential,46.05776
+N=10000 M=10 si n=m=5,Static,Sequential,45.08606
+N=10000 M=10 si n=m=5,Static,2,23.42168
+N=10000 M=10 si n=m=5,Static,2,23.46187
+N=10000 M=10 si n=m=5,Static,2,23.49147
+N=10000 M=10 si n=m=5,Static,2,23.49453
+N=10000 M=10 si n=m=5,Static,2,23.4448
+N=10000 M=10 si n=m=5,Static,2,23.47546
+N=10000 M=10 si n=m=5,Static,2,23.44678
+N=10000 M=10 si n=m=5,Static,2,23.50417
+N=10000 M=10 si n=m=5,Static,2,23.47047
+N=10000 M=10 si n=m=5,Static,2,23.11324
+N=10000 M=10 si n=m=5,Static,2,23.48621
+N=10000 M=10 si n=m=5,Static,2,23.46728
+N=10000 M=10 si n=m=5,Static,2,23.46327
+N=10000 M=10 si n=m=5,Static,2,23.5595
+N=10000 M=10 si n=m=5,Static,2,23.4909
+N=10000 M=10 si n=m=5,Static,4,11.91888
+N=10000 M=10 si n=m=5,Static,4,11.90633
+N=10000 M=10 si n=m=5,Static,4,11.97197
+N=10000 M=10 si n=m=5,Static,4,11.88378
+N=10000 M=10 si n=m=5,Static,4,11.93805
+N=10000 M=10 si n=m=5,Static,4,12.01907
+N=10000 M=10 si n=m=5,Static,4,11.9343
+N=10000 M=10 si n=m=5,Static,4,11.89865
+N=10000 M=10 si n=m=5,Static,4,11.95831
+N=10000 M=10 si n=m=5,Static,4,11.91234
+N=10000 M=10 si n=m=5,Static,4,11.97152
+N=10000 M=10 si n=m=5,Static,4,11.92527
+N=10000 M=10 si n=m=5,Static,4,12.04179
+N=10000 M=10 si n=m=5,Static,4,11.95876
+N=10000 M=10 si n=m=5,Static,4,11.91905
+N=10000 M=10 si n=m=5,Static,8,6.38145
+N=10000 M=10 si n=m=5,Static,8,6.39394
+N=10000 M=10 si n=m=5,Static,8,6.40822
+N=10000 M=10 si n=m=5,Static,8,6.44571
+N=10000 M=10 si n=m=5,Static,8,6.36475
+N=10000 M=10 si n=m=5,Static,8,6.40614
+N=10000 M=10 si n=m=5,Static,8,6.42672
+N=10000 M=10 si n=m=5,Static,8,6.38011
+N=10000 M=10 si n=m=5,Static,8,6.42017
+N=10000 M=10 si n=m=5,Static,8,6.40698
+N=10000 M=10 si n=m=5,Static,8,6.36986
+N=10000 M=10 si n=m=5,Static,8,6.40182
+N=10000 M=10 si n=m=5,Static,8,6.32922
+N=10000 M=10 si n=m=5,Static,8,6.38875
+N=10000 M=10 si n=m=5,Static,8,6.36237
+N=10000 M=10 si n=m=5,Static,16,3.3047
+N=10000 M=10 si n=m=5,Static,16,3.37776
+N=10000 M=10 si n=m=5,Static,16,3.51965
+N=10000 M=10 si n=m=5,Static,16,3.4475
+N=10000 M=10 si n=m=5,Static,16,4.13106
+N=10000 M=10 si n=m=5,Static,16,3.42197
+N=10000 M=10 si n=m=5,Static,16,4.1315
+N=10000 M=10 si n=m=5,Static,16,3.48649
+N=10000 M=10 si n=m=5,Static,16,3.28093
+N=10000 M=10 si n=m=5,Static,16,3.3827
+N=10000 M=10 si n=m=5,Static,16,3.4635
+N=10000 M=10 si n=m=5,Static,16,3.60407
+N=10000 M=10 si n=m=5,Static,16,3.49437
+N=10000 M=10 si n=m=5,Static,16,4.02021
+N=10000 M=10 si n=m=5,Static,16,3.31172
+N=10000 M=10 si n=m=5,Dynamic,Sequential,21.95977
+N=10000 M=10 si n=m=5,Dynamic,Sequential,21.69488
+N=10000 M=10 si n=m=5,Dynamic,Sequential,22.80967
+N=10000 M=10 si n=m=5,Dynamic,Sequential,22.16973
+N=10000 M=10 si n=m=5,Dynamic,Sequential,21.56384
+N=10000 M=10 si n=m=5,Dynamic,2,11.40222
+N=10000 M=10 si n=m=5,Dynamic,2,10.91252
+N=10000 M=10 si n=m=5,Dynamic,2,10.90458
+N=10000 M=10 si n=m=5,Dynamic,2,10.87375
+N=10000 M=10 si n=m=5,Dynamic,2,10.86757
+N=10000 M=10 si n=m=5,Dynamic,2,10.8907
+N=10000 M=10 si n=m=5,Dynamic,2,11.67807
+N=10000 M=10 si n=m=5,Dynamic,2,10.8712
+N=10000 M=10 si n=m=5,Dynamic,2,11.13353
+N=10000 M=10 si n=m=5,Dynamic,2,11.34757
+N=10000 M=10 si n=m=5,Dynamic,2,10.88605
+N=10000 M=10 si n=m=5,Dynamic,2,10.92038
+N=10000 M=10 si n=m=5,Dynamic,2,10.85898
+N=10000 M=10 si n=m=5,Dynamic,2,10.89054
+N=10000 M=10 si n=m=5,Dynamic,2,10.97399
+N=10000 M=10 si n=m=5,Dynamic,4,6.41102
+N=10000 M=10 si n=m=5,Dynamic,4,5.66733
+N=10000 M=10 si n=m=5,Dynamic,4,5.73447
+N=10000 M=10 si n=m=5,Dynamic,4,5.77258
+N=10000 M=10 si n=m=5,Dynamic,4,5.7195
+N=10000 M=10 si n=m=5,Dynamic,4,5.66742
+N=10000 M=10 si n=m=5,Dynamic,4,5.92705
+N=10000 M=10 si n=m=5,Dynamic,4,5.62855
+N=10000 M=10 si n=m=5,Dynamic,4,5.64003
+N=10000 M=10 si n=m=5,Dynamic,4,5.76849
+N=10000 M=10 si n=m=5,Dynamic,4,5.97277
+N=10000 M=10 si n=m=5,Dynamic,4,5.80978
+N=10000 M=10 si n=m=5,Dynamic,4,5.91526
+N=10000 M=10 si n=m=5,Dynamic,4,5.9397
+N=10000 M=10 si n=m=5,Dynamic,4,5.75418
+N=10000 M=10 si n=m=5,Dynamic,8,3.8677
+N=10000 M=10 si n=m=5,Dynamic,8,3.44321
+N=10000 M=10 si n=m=5,Dynamic,8,3.81224
+N=10000 M=10 si n=m=5,Dynamic,8,3.68284
+N=10000 M=10 si n=m=5,Dynamic,8,4.1414
+N=10000 M=10 si n=m=5,Dynamic,8,4.09256
+N=10000 M=10 si n=m=5,Dynamic,8,4.21888
+N=10000 M=10 si n=m=5,Dynamic,8,3.49862
+N=10000 M=10 si n=m=5,Dynamic,8,4.03386
+N=10000 M=10 si n=m=5,Dynamic,8,3.72549
+N=10000 M=10 si n=m=5,Dynamic,8,3.31869
+N=10000 M=10 si n=m=5,Dynamic,8,4.11162
+N=10000 M=10 si n=m=5,Dynamic,8,4.14409
+N=10000 M=10 si n=m=5,Dynamic,8,3.45457
+N=10000 M=10 si n=m=5,Dynamic,8,3.45655
+N=10000 M=10 si n=m=5,Dynamic,16,3.33228
+N=10000 M=10 si n=m=5,Dynamic,16,3.28578
+N=10000 M=10 si n=m=5,Dynamic,16,3.4476
+N=10000 M=10 si n=m=5,Dynamic,16,3.53606
+N=10000 M=10 si n=m=5,Dynamic,16,3.64226
+N=10000 M=10 si n=m=5,Dynamic,16,3.42476
+N=10000 M=10 si n=m=5,Dynamic,16,3.33786
+N=10000 M=10 si n=m=5,Dynamic,16,3.46907
+N=10000 M=10 si n=m=5,Dynamic,16,3.41505
+N=10000 M=10 si n=m=5,Dynamic,16,3.46515
+N=10000 M=10 si n=m=5,Dynamic,16,3.43651
+N=10000 M=10 si n=m=5,Dynamic,16,3.40203
+N=10000 M=10 si n=m=5,Dynamic,16,3.60032
+N=10000 M=10 si n=m=5,Dynamic,16,3.35607
+N=10000 M=10 si n=m=5,Dynamic,16,3.35851
+N=M=10 si n=m=3,Dynamic,Sequential,0.00907
+N=M=10 si n=m=3,Dynamic,Sequential,0.00902
+N=M=10 si n=m=3,Dynamic,Sequential,0.01085
+N=M=10 si n=m=3,Dynamic,Sequential,0.00949
+N=M=10 si n=m=3,Dynamic,Sequential,0.01004
+N=M=10 si n=m=3,Dynamic,4,0.21604
+N=M=10 si n=m=3,Dynamic,4,0.2187
+N=M=10 si n=m=3,Dynamic,4,0.22116
+N=M=10 si n=m=3,Dynamic,4,0.21954
+N=M=10 si n=m=3,Dynamic,4,0.22298
+N=M=10 si n=m=3,Dynamic,4,0.21663
+N=M=10 si n=m=3,Dynamic,4,0.23179
+N=M=10 si n=m=3,Dynamic,4,0.22574
+N=M=10 si n=m=3,Dynamic,4,0.2251
+N=M=10 si n=m=3,Dynamic,4,0.24373
+N=M=10 si n=m=3,Dynamic,4,0.22144
+N=M=10 si n=m=3,Dynamic,4,0.23529
+N=M=10 si n=m=3,Dynamic,4,0.22855
+N=M=10 si n=m=3,Dynamic,4,0.21485
+N=M=10 si n=m=3,Dynamic,4,0.22067
+N=M=10 si n=m=3,Dynamic,Sequential,0.00908
+N=M=10 si n=m=3,Dynamic,Sequential,0.00978
+N=M=10 si n=m=3,Dynamic,Sequential,0.00981
+N=M=10 si n=m=3,Dynamic,Sequential,0.00909
+N=M=10 si n=m=3,Dynamic,Sequential,0.01042
+N=M=10 si n=m=3,Dynamic,4,0.22736
+N=M=10 si n=m=3,Dynamic,4,0.21661
+N=M=10 si n=m=3,Dynamic,4,0.22655
+N=M=10 si n=m=3,Dynamic,4,0.21521
+N=M=10 si n=m=3,Dynamic,4,0.22876
+N=M=10 si n=m=3,Dynamic,4,0.22688
+N=M=10 si n=m=3,Dynamic,4,0.22292
+N=M=10 si n=m=3,Dynamic,4,0.23102
+N=M=10 si n=m=3,Dynamic,4,0.32302
+N=M=10 si n=m=3,Dynamic,4,0.21874
+N=M=10 si n=m=3,Dynamic,4,0.2222
+N=M=10 si n=m=3,Dynamic,4,0.21759
+N=M=10 si n=m=3,Dynamic,4,0.22494
+N=M=10 si n=m=3,Dynamic,4,0.21878
+N=M=10 si n=m=3,Dynamic,4,0.22312

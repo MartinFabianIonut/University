@@ -7,11 +7,11 @@
 using namespace std;
 
 const string OUTPUT_PATH = "..\\..\\Outputs\\sequential.txt";
-const string INPUT_PATH = "..\\..\\Inputs\\data1000x1000.txt";
-const string CONVOLUTION_PATH = "..\\..\\Inputs\\convolution5x5.txt";
-const int MAX_N = 1000;
-const int MAX_M = 1000;
-const int K = 5;
+const string INPUT_PATH = "..\\..\\Inputs\\data10x10.txt";
+const string CONVOLUTION_PATH = "..\\..\\Inputs\\convolution3x3.txt";
+const int MAX_N = 10;
+const int MAX_M = 10;
+const int K = 3;
 
 int convolutionMatrix[K][K];
 int inputMatrix[MAX_N][MAX_M];
