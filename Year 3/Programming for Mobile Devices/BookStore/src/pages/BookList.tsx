@@ -2,8 +2,6 @@ import React, { useContext } from 'react';
 import { RouteComponentProps } from 'react-router';
 import {
     IonContent,
-    IonDatetime,
-    IonDatetimeButton,
     IonFab,
     IonFabButton,
     IonHeader,
@@ -15,22 +13,30 @@ import {
     IonToolbar,
 } from '@ionic/react';
 import { add } from 'ionicons/icons';
-import Book from './Book'; // Am schimbat denumirea la import
+import Book from './Book';
 import { getLogger } from '../core';
 import { BookContext } from './BookProvider';
 
-const log = getLogger('BookList'); // Am schimbat denumirea logului
+const log = getLogger('BookList');
+
+const styles = {
+    title: {
+        fontFamily: 'Geneva, sans-serif',
+        fontSize: '2rem',
+        fontWeight: 'bold',
+    }
+};
 
 const BookList: React.FC<RouteComponentProps> = ({ history }) => {
-    const { books, fetching, fetchingError } = useContext(BookContext); // Am schimbat la BookContext
+    const { books, fetching, fetchingError } = useContext(BookContext);
 
-    log('render');
+    log('render ' + JSON.stringify(books));
 
     return (
         <IonPage>
             <IonHeader>
                 <IonToolbar>
-                    <IonTitle>Book List</IonTitle>
+                    <IonTitle style={styles.title}>Book List</IonTitle>
                 </IonToolbar>
             </IonHeader>
             <IonContent>
@@ -51,9 +57,7 @@ const BookList: React.FC<RouteComponentProps> = ({ history }) => {
                         ))}
                     </IonList>
                 )}
-                {fetchingError && (
-                    <div>{fetchingError.message || 'Failed to fetch books'}</div>
-                )}
+                {fetchingError && <div>{fetchingError.message || 'Failed to fetch books'}</div>}
                 <IonFab vertical="bottom" horizontal="end" slot="fixed">
                     <IonFabButton onClick={() => history.push('/book')}>
                         <IonIcon icon={add} />
