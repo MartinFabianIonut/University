@@ -30,6 +30,7 @@ Year 2
 
 Year 3
 - 📂 Semester 5
+    - 📘 [Formal Languages and Compilation](https://github.com/MartinFabianIonut/University/tree/main/Year%203/Formal%20Languages%20and%20Compilation)
     - ⚙️ [Parallel and Distributed Programming](https://github.com/MartinFabianIonut/University/tree/main/Year%203/Parallel%20and%20Distributed%20Programming)
     - 📱 [Programming for Mobile Devices](https://github.com/MartinFabianIonut/University/tree/main/Year%203/Programming%20for%20Mobile%20Devices)
     - 🤖 [Robotic Process Automation](https://github.com/MartinFabianIonut/University/tree/main/Year%203/Robotic%20Process%20Automation)
