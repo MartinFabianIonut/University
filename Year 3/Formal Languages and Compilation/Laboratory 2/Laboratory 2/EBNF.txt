@@ -1,0 +1,16 @@
+automaton = states-section alphabet-section initial-state-section final-states-section transitions-section
+
+states-section = state-list NEWLINE
+state-list = state { "," state }
+state = ID
+
+alphabet-section = symbol-list NEWLINE
+symbol-list = symbol { "," symbol }
+symbol = CONST | ID
+
+initial-state-section = state NEWLINE
+
+final-states-section = state-list NEWLINE
+
+transitions-section = { transition NEWLINE }
+transition = state "," symbol "," state
