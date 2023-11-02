@@ -1,0 +1,13 @@
+Tip Matrice,Nr threads,Timp executie
+N=M=10 si n=m=3,Sequential,0.14099
+N=M=10 si n=m=3,2,2.63652
+N=M=1000 si n=m=3,Sequential,20.36893
+N=M=1000 si n=m=3,2,22.41366
+N=M=1000 si n=m=3,4,22.34325
+N=M=1000 si n=m=3,8,28.10746
+N=M=1000  si n=m=3,16,29.18894
+N=M=10000 si n=m=3,Sequential,1459.07605
+N=M=10000 si n=m=3,2,889.89796
+N=M=10000 si n=m=3,4,534.48317
+N=M=10000 si n=m=3,8,355.40912
+N=M=10000  si n=m=3,16,324.61949
