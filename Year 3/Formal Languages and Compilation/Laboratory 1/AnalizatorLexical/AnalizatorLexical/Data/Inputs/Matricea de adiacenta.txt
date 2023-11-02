@@ -1,0 +1,28 @@
+# include < fstream >
+
+using namespace std ;
+ifstream f ( "adiacenta.in" ) ;
+ofstream g ( "adiacenta.out" ) ;
+
+int main ( )
+{
+    int n , m , i , j ;
+    int a [ 101 ] [ 101 ] ;
+    f >> n >> m ;
+    for ( int k = 1 ; k <= n ; k ++ )
+        for ( int l = 1 ; l <= n ; l ++ )
+            a [ k ] [ l ] = 0 ;
+    for ( int k = 1 ; k <= m ; k ++ )
+    {
+        f >> i >> j ;
+        a [ i ] [ j ] = 1 ; 
+        a [ j ] [ i ] = 1 ;
+    }
+    for ( int k = 1 ; k <= n ; k ++ )
+    {
+        for ( int l = 1 ; l <= n ; l ++ )
+            g << a [ k ] [ l ] << " " ;
+        g << '\n' ;
+    }
+    return 0 ;
+}

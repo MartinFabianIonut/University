@@ -1,0 +1,52 @@
+﻿@using AnalizatorLexical.Data.Entities;
+@using AnalizatorLexical.Data.Models;
+
+<table class="table">
+	<thead>
+		<tr>
+			<th>Cod atom</th>
+			<th>Cod TS</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var atomLexical in TableData.LexicalAtoms)
+		{
+			Atom? atom = TableData.Atoms.FirstOrDefault(a => a.Name == atomLexical);
+			@if (atom != null)
+			{
+
+				<tr>
+					<td>@atom.Code</td>
+					<td>-</td>
+				</tr>
+			}
+			else
+			{
+				Symbol? IDsymbol = TableData.TS_ID.FirstOrDefault(s => s.Name == atomLexical);
+				Symbol? CONSTsymbol = TableData.TS_CONST.FirstOrDefault(s => s.Name == atomLexical);
+				<tr>
+					@if (IDsymbol != null)
+					{
+						<td>0</td>
+						<td>@IDsymbol.Code</td>
+					}
+					else if (CONSTsymbol != null)
+					{
+						<td>1</td>
+						<td>@CONSTsymbol.Code</td>
+					}
+					else
+					{
+						<td>Eroare</td>
+						<td>@atomLexical</td>
+					}
+				</tr>
+			}
+		}
+	</tbody>
+</table>
+
+@code {
+	[Parameter]
+	public TableData TableData { get; set; }
+}

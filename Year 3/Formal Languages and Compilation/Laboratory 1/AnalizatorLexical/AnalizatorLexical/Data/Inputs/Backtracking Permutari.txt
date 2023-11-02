@@ -1,0 +1,38 @@
+# include < fstream > 
+using namespace std ; 
+ifstream f ( "permutari.in" ) ; 
+ofstream g ( "permutari.out" ) ; 
+
+int x [ 20 ] , n ; 
+
+void tipar ( ) { 
+	for ( int i = 1 ; i < = n ; i ++ ) 
+		g << x [ i ] << " " ; 
+	g << endl ; 
+} 
+
+int valid ( int k ) { 
+	for ( int i = 1 ; i < = k - 1 ; i ++ ) 
+		if ( x [ i ] == x [ k ] ) 
+			return 0 ; 
+	return 1 ; 
+} 
+
+void bk ( int k ) { 
+	for ( int i = 1 ; i <= n ; i ++ ) { 
+		x [ k ] = i ; 
+		if ( valid ( k ) ) 
+			if ( k == n ) 
+				tipar ( ) ; 
+			else 
+				bk ( k + 1 ) ; 
+	} 
+} 
+
+int  main ( ) { 
+	f >> n ; 
+	bk ( 1 ) ; 
+	f . close ( ) ; 
+	g . close ( ) ; 
+	return 0 ; 
+}
