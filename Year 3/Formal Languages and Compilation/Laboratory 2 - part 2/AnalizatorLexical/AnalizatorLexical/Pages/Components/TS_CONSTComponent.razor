@@ -1,0 +1,24 @@
+﻿@using AnalizatorLexical.Data.Entities;
+
+<table class="table">
+	<thead>
+		<tr>
+			<th>CONST</th>
+			<th>Cod TS_CONST</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var symbol in TS_CONST)
+		{
+			<tr>
+				<td>@symbol.Name</td>
+				<td>@symbol.Code</td>
+			</tr>
+		}
+	</tbody>
+</table>
+
+@code {
+	[Parameter]
+	public List<Symbol>? TS_CONST { get; set; }
+}

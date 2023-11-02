@@ -1,0 +1,78 @@
+﻿@page "/"
+@using AnalizatorLexical.Data.Entities;
+@using AnalizatorLexical.Data;
+@using AnalizatorLexical.Data.Interfaces;
+@inject NavigationManager NavigationManager
+@inject IProgramInputService ProgramInputService
+
+<PageTitle>Home page</PageTitle>
+
+<h1>Hello, programmers!</h1>
+
+This is a simple web application that can analyze your code and show you the compiled tables.
+
+<EditForm Model="ModelProgramInput" OnValidSubmit="HandleValidSubmit">
+	<InputText placeholder="Title" @bind-Value="ModelProgramInput.Title" class="form-control" />
+	<br />
+	<InputText id="TextValue" placeholder="Insert your code here:" @bind-Value="ModelProgramInput.Input" class="form-control" />
+	<br />
+
+	<div class="optional-file-message">
+		(Optional) You can also select your code from a file.
+	</div>
+	<InputFile OnChange="HandleFileChange" accept=".txt, .cpp" />
+	@if (fileValidationError != null)
+	{
+		<div class="validation-error-text">
+			@fileValidationError
+		</div>
+	}
+	<br />
+	<button type="submit" class="btn btn-primary">Submit your code</button>
+	<DataAnnotationsValidator />
+</EditForm>
+
+<style>
+	.optional-file-message {
+		font-style: italic;
+		color: #6c757d;
+		margin-top: 5px;
+	}
+	.validation-error-text{
+		color: #dc3545;
+		margin-top: 5px;
+	}
+</style>
+
+
+@code {
+	private ModelProgramInput ModelProgramInput { get; set; } = new ModelProgramInput();
+	private string? fileValidationError;
+
+	private async Task HandleFileChange(InputFileChangeEventArgs e)
+	{
+		var file = e.File;
+
+		if (!file.Name.EndsWith(".txt", StringComparison.OrdinalIgnoreCase) && !file.Name.EndsWith(".cpp", StringComparison.OrdinalIgnoreCase))
+		{
+			fileValidationError = "Please select a valid text file (.txt or .cpp).";
+		}
+		else
+		{
+			fileValidationError = null;
+			ModelProgramInput.Title = Path.GetFileNameWithoutExtension(file.Name);
+
+			using (var stream = file.OpenReadStream())
+			using (var reader = new StreamReader(stream))
+			{
+				ModelProgramInput.Input = await reader.ReadToEndAsync();
+			}
+		}
+	}
+
+	private void HandleValidSubmit()
+	{
+		ProgramInputService.AddProgramInput(ModelProgramInput);
+		NavigationManager.NavigateTo("/Results");
+	}
+}

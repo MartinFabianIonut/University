@@ -1,0 +1,24 @@
+﻿@using AnalizatorLexical.Data.Entities;
+
+<table class="table">
+	<thead>
+		<tr>
+			<th>Atom</th>
+			<th>Cod atom</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var atom in Atoms)
+		{
+			<tr>
+				<td>@atom.Name</td>
+				<td>@atom.Code</td>
+			</tr>
+		}
+	</tbody>
+</table>
+
+@code {
+	[Parameter]
+	public List<Atom>? Atoms { get; set; }
+}

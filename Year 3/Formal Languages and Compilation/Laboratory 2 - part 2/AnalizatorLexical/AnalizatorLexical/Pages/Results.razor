@@ -1,0 +1,59 @@
+﻿@page "/results"
+
+<PageTitle>Results</PageTitle>
+
+@using AnalizatorLexical.Data
+@using AnalizatorLexical.Data.Entities;
+@using AnalizatorLexical.Data.Interfaces;
+@using AnalizatorLexical.Data.Models;
+@using AnalizatorLexical.Pages.Components
+@inject IProgramInputService ProgramInputService
+
+@if (ProgramInputs == null)
+{
+	<p><em>Loading...</em></p>
+}
+else
+{
+	@foreach (var programInput in ProgramInputs)
+	{
+		<div>
+			<h3>Program Input: @programInput.Title</h3>
+			<pre>@programInput.Input</pre>
+			<button class="btn btn-secondary" @onclick="() => Toggle(programInput)">Toggle Table</button>
+			<br/> <br/>
+			@if (programInput.ShowTable)
+			{
+				@if (programInput.TableData == null)
+				{
+					<p><em>Loading...</em></p>
+				}
+				else
+				{
+					<AtomComponent Atoms="@programInput.TableData.Atoms" />
+					<div class="table-group">
+						<FIPComponent TableData="@programInput.TableData" />
+						<TS_IDComponent TS_ID="@programInput.TableData.TS_ID" />
+						<TS_CONSTComponent TS_CONST="@programInput.TableData.TS_CONST" />
+					</div>
+				}
+			}
+		</div>
+	}
+}
+
+@code {
+	private List<ModelProgramInput>? ProgramInputs;
+
+	protected override async Task OnInitializedAsync() =>
+		ProgramInputs = await ProgramInputService.GetProgramInputsAsync();
+
+	private void Toggle(ModelProgramInput programInput)
+	{
+		programInput.ShowTable = !programInput.ShowTable;
+		if (programInput.Input != null && programInput.ShowTable && programInput.TableData == null)
+		{
+			programInput.TableData = ProgramInputService.LexicalAnalyzer(programInput.Input);
+		}
+	}
+}

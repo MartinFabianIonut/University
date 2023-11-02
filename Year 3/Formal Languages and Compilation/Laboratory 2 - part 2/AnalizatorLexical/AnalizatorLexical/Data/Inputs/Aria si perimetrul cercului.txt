@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+struct cerc
+{
+    int x;
+    int y;
+    double raza;
+};
+
+void afisarePerimetruSiArieCerc(cerc c)
+{
+    cout << 2 * 3.14 * c.raza << endl;
+    cout << 3.14 * c.raza * c.raza << endl;
+}
+
+int main()
+{
+    cerc c;
+    cin >> c.x >> c.y >> c.raza;
+    afisarePerimetruSiArieCerc(c);
+    return 0;
+}
