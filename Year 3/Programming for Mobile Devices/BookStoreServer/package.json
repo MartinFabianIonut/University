@@ -1,21 +1,28 @@
 {
-  "name": "backpack-koa",
+  "name": "Book Store Server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "type": "module",
+  "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src"
+    "start": "node src/index.js"
   },
   "keywords": [],
-  "author": "ilazar",
+  "author": "Martin Fabian",
   "license": "",
   "dependencies": {
-    "koa": "^2.8.2",
-    "koa-bodyparser": "^4.2.1",
-    "koa-convert": "^1.2.0",
-    "koa-cors": "^0.0.16",
-    "koa-router": "^7.4.0",
-    "nodemon": "^3.0.1",
-    "ws": "^7.1.2"
+    "@koa/cors": "^3.1.0",
+    "jsonwebtoken": "9.0.0",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-jwt": "^3.6.0",
+    "koa-router": "^8.0.8",
+    "nedb-promise": "^2.0.1",
+    "ws": "7.4.6"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">= 7.6"
   }
 }
