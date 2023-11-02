@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Convolutions">
+      <UniqueIdentifier>{d3a73153-871b-43a3-9b05-285c3ebfff03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Singleton">
+      <UniqueIdentifier>{4d9ea6d6-33ee-45d5-bade-ea989dec37d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Singleton">
+      <UniqueIdentifier>{fc2b467c-0121-4fd7-aed4-b7a74b74b800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Convolutions">
+      <UniqueIdentifier>{bc0fd262-0ac9-4ff7-8525-f18a1a926cc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Inputs">
+      <UniqueIdentifier>{764ffda9-c661-427c-91e9-42d07564cb6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Outputs">
+      <UniqueIdentifier>{8755f10e-ba96-4882-91ac-5647b420f2e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Paths">
+      <UniqueIdentifier>{157c3d84-9cc5-4901-8cd4-b724564f5731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Paths">
+      <UniqueIdentifier>{b874c09a-65f6-47a7-b332-eac8fdace324}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source Files\MainParallel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Singleton\Convolution.cpp">
+      <Filter>Source Files\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Singleton\IOHandler.cpp">
+      <Filter>Source Files\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Convolutions\ConvolutionTask.cpp">
+      <Filter>Source Files\Convolutions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Convolutions\ConvolutionTaskBlocks.cpp">
+      <Filter>Source Files\Convolutions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Convolutions\ConvolutionTaskCols.cpp">
+      <Filter>Source Files\Convolutions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Paths\InputPaths.cpp">
+      <Filter>Source Files\Paths</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Paths\ConvolutionPaths.cpp">
+      <Filter>Source Files\Paths</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header Files\Convolutions\ConvolutionTask.h">
+      <Filter>Header Files\Convolutions</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Convolutions\ConvolutionTaskBlocks.h">
+      <Filter>Header Files\Convolutions</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Convolutions\ConvolutionTaskCols.h">
+      <Filter>Header Files\Convolutions</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Paths\ConvolutionPaths.h">
+      <Filter>Header Files\Paths</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Paths\InputPaths.h">
+      <Filter>Header Files\Paths</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\IOHandler.h">
+      <Filter>Header Files\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Singleton\Convolution.h">
+      <Filter>Header Files\Singleton</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Resource Files\Inputs\convolution3x3.txt">
+      <Filter>Resource Files\Inputs</Filter>
+    </Text>
+    <Text Include="Resource Files\Inputs\convolution5x5.txt">
+      <Filter>Resource Files\Inputs</Filter>
+    </Text>
+    <Text Include="Resource Files\Inputs\data10x10.txt">
+      <Filter>Resource Files\Inputs</Filter>
+    </Text>
+    <Text Include="Resource Files\Inputs\data10x10000.txt">
+      <Filter>Resource Files\Inputs</Filter>
+    </Text>
+    <Text Include="Resource Files\Inputs\data1000x1000.txt">
+      <Filter>Resource Files\Inputs</Filter>
+    </Text>
+    <Text Include="Resource Files\Inputs\data10000x10.txt">
+      <Filter>Resource Files\Inputs</Filter>
+    </Text>
+    <Text Include="Resource Files\Outputs\parallel.txt">
+      <Filter>Resource Files\Outputs</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
