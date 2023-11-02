@@ -19,7 +19,7 @@ Year 2/Semester 4/SGBD/BibliotecaSGBDLab2/.vs/BibliotecaSGBDLab2/v17/.suo
 /Year 3/Parallel and Distributed Programming/ConvolutionMatrix C++/ConvolutionMatrix C++ Parallel Static
 /Year 3/Parallel and Distributed Programming/ConvolutionMatrix C++/ConvolutionMatrix C++ Sequential
 
-
+.vs/
 
 
 ## Ignore Visual Studio temporary files, build results, and
@@ -385,3 +385,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+*.lock
+Year 2/Semester 4/Database Management Systems/Laboratory 2/Biblioteca2/.vs/BibliotecaSGBDLab2/v17/.suo
+*.cache
+Year 2/Semester 4/Database Management Systems/Laboratory 2/Biblioteca2/.vs/BibliotecaSGBDLab2/v17/.suo
