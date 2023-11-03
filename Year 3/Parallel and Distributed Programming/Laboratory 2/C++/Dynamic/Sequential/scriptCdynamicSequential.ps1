@@ -22,14 +22,6 @@ if (!(Test-Path $outCsvPath)) {
 $suma = 0
 
 for ($i = 0; $i -lt $param3; $i++) {
-    if ($i % $param3 -eq 0 -and $i -ne 0) {
-        $media = $suma / $param3
-        Write-Host "Timp de executie mediu:" $media
-        Write-Host ""
-        Add-Content $outCsvPath "$($param2),Dynamic,Sequential,$($media)"
-        $suma = 0
-    }
-
     # Write-Host "Rulare" ($i + 1)
     $a = & "${param1}" $param4 $param5 $param6 2>&1
     # Write-Host $a

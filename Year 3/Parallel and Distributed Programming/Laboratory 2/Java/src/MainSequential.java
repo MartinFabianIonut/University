@@ -1,6 +1,6 @@
 import Paths.CONVOLUTION_PATHS;
 import Paths.INPUT_PATHS;
-import Singleton.Convolution;
+import Singleton.ConvolutionClassic;
 import Singleton.IOHandler;
 
 import java.io.IOException;
@@ -9,7 +9,7 @@ public class MainSequential {
     private static final String OUTPUT_PATH = "src\\Outputs\\sequential.txt";
     private static final IOHandler ioHandler = IOHandler.getInstance();
 
-    private static final Convolution convolution = Convolution.getInstance();
+    private static final ConvolutionClassic convolution = ConvolutionClassic.getInstance();
 
     public static void main(String[] args) throws IOException {
         String whatMatrix = INPUT_PATHS.values()[Integer.parseInt(args[0])].getPath();

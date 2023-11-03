@@ -1,13 +1,13 @@
 Tip Matrice,Tip alocare,Nr threads,Timp executie
-N=M=10 si n=m=3,Dynamic,Sequential,0.00948
-N=M=10 si n=m=3,Dynamic,2,0.38417
-N=M=1000 si n=m=3,Dynamic,Sequential,83.13466
-N=M=1000 si n=m=3,Dynamic,2,42.30376
-N=M=1000 si n=m=3,Dynamic,4,23.12095
-N=M=1000 si n=m=3,Dynamic,8,12.93338
-N=M=1000 si n=m=3,Dynamic,16,12.58646
-N=M=10000 si n=m=3,Dynamic,Sequential,8419.45201
-N=M=10000 si n=m=3,Dynamic,2,4226.99587
-N=M=10000 si n=m=3,Dynamic,4,2374.90004
-N=M=10000 si n=m=3,Dynamic,8,1462.83327
-N=M=10000 si n=m=3,Dynamic,16,1267.606
+N=M=10 si n=m=3,Dynamic,Sequential,0.01018
+N=M=10 si n=m=3,Dynamic,2,0.44951
+N=M=1000 si n=m=3,Dynamic,Sequential,89.82532
+N=M=1000 si n=m=3,Dynamic,2,15.90082
+N=M=1000 si n=m=3,Dynamic,4,8.58016
+N=M=1000 si n=m=3,Dynamic,8,6.34335
+N=M=1000 si n=m=3,Dynamic,16,5.4872
+N=M=10000 si n=m=3,Dynamic,Sequential,8908.50323
+N=M=10000 si n=m=3,Dynamic,2,1538.45988
+N=M=10000 si n=m=3,Dynamic,4,776.24507
+N=M=10000 si n=m=3,Dynamic,8,463.55248
+N=M=10000 si n=m=3,Dynamic,16,396.94343

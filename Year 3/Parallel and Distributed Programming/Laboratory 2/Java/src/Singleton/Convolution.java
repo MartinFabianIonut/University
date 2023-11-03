@@ -10,15 +10,21 @@ public class Convolution {
         }
         return instance;
     }
-    public int applyConvolution(int[][] inputMatrix, int[][] convolutionMatrix, int i, int j) {
+    public int applyConvolution(int[][] inputMatrix, int[][] convolutionMatrix, int j) {
         int result = 0;
         int n = inputMatrix.length;
         int m = inputMatrix[0].length;
         int k = convolutionMatrix.length;
         for (int p = 0; p < k; p++) {
             for (int q = 0; q < k; q++) {
-                int x = Math.min(Math.max(i - k / 2 + p, 0), n - 1);
-                int y = Math.min(Math.max(j - k / 2 + q, 0), m - 1);
+                int x = 1 - k/2 + p;
+                int y;
+                if (j == 0)
+                    y = Math.max(j - k/2 + q, 0);
+                else if (j == m - 1)
+                    y = Math.min(j - k/2 + q, m - 1);
+                else
+                    y = j - k/2 + q;
                 result += inputMatrix[x][y] * convolutionMatrix[p][q];
             }
         }
