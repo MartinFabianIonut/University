@@ -27,6 +27,7 @@ import { AuthProvider, Login, PrivateRoute } from './auth';
 setupIonicReact();
 
 const App: React.FC = () => (
+
   <IonApp>
     <IonReactRouter>
       <IonRouterOutlet>

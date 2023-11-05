@@ -1,11 +1,14 @@
 import { useEffect, useState } from 'react';
 import { Network, ConnectionStatus } from '@capacitor/network';
 import { PluginListenerHandle } from '@capacitor/core';
+import { getLogger } from '../core';
 
 const initialState = {
   connected: false,
   connectionType: 'unknown',
 }
+
+const log = getLogger('useNetwork:');
 
 export const useNetwork = () => {
   const [networkStatus, setNetworkStatus] = useState(initialState)
@@ -24,7 +27,7 @@ export const useNetwork = () => {
     }
 
     async function handleNetworkStatusChange(status: ConnectionStatus) {
-      console.log('useNetwork - status change', status);
+      log('useNetwork - status change', status);
       if (!canceled) {
         setNetworkStatus(status);
       }

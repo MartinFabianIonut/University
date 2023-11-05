@@ -1,7 +1,6 @@
 import React, { useCallback, useContext, useEffect, useState } from 'react';
 import {
     IonButton,
-    IonButtons,
     IonContent,
     IonHeader,
     IonInput,
@@ -16,7 +15,7 @@ import { RouteComponentProps } from 'react-router';
 import { BookProps } from './BookProps';
 import { format } from 'date-fns';
 import CustomToolbar from '../components/CustomToolbar';
-import { colorFill } from 'ionicons/icons';
+import { useNetwork } from '../use/useNetwork';
 
 const log = getLogger('BookEdit');
 
@@ -64,6 +63,7 @@ const BookEdit: React.FC<BookEditProps> = ({ history, match }) => {
     const [publicationDate, setPublicationDate] = useState<Date | undefined>(undefined);
     const [isAvailable, setIsAvailable] = useState(false);
     const [price, setPrice] = useState(0);
+    const { networkStatus } = useNetwork();
 
     useEffect(() => {
         log('useEffect - Fetching book details');
@@ -154,7 +154,6 @@ const BookEdit: React.FC<BookEditProps> = ({ history, match }) => {
 
 
                 <IonLoading isOpen={saving} />
-                {savingError && <div className='errorMessage'>{savingError.message || 'Failed to save book'}</div>}
             </IonContent>
         </IonPage >
     );

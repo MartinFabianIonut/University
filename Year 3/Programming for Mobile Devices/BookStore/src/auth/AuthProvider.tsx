@@ -106,8 +106,6 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
         const user = JSON.parse(userString.value);
         setState({
           ...state,
-          username: user.username,
-          password: user.password,
           isAuthenticated: true,
           token: user.token,
         });

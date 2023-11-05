@@ -8,14 +8,15 @@ import {
     IonIcon,
     IonList,
     IonLoading,
-    IonPage
+    IonPage,
+    IonToast
 } from '@ionic/react';
 import { add } from 'ionicons/icons';
 import Book from './Book';
 import { getLogger } from '../core';
 import { BookContext } from './BookProvider';
 import CustomToolbar from '../components/CustomToolbar';
-
+import useSyncBooks from "../use/useSyncBooks";
 
 const log = getLogger('BookList');
 
@@ -28,7 +29,26 @@ const styles = {
 };
 
 const BookList: React.FC<RouteComponentProps> = ({ history }) => {
-    const { books, fetching, fetchingError } = useContext(BookContext);
+    const { books, fetching, fetchingError, savingError } = useContext(BookContext);
+    const [showToast, setShowToast] = useState(false);
+    const [toastMessage, setToastMessage] = useState('');
+    const handleToastClose = () => setShowToast(false);
+    useEffect(() => {
+        log('useEffect');
+        if (savingError) {
+            setToastMessage(savingError.message);
+            setShowToast(true);
+        }
+    }, [savingError]);
+    useEffect(() => {
+        log('useEffect');
+        if (fetchingError) {
+            setToastMessage(fetchingError.message);
+            setShowToast(true);
+        }
+    }, [fetchingError]);
+
+    useSyncBooks();
 
     log('render ', 'yes/no: ', fetching, ' ' + JSON.stringify(books));
 
@@ -55,7 +75,14 @@ const BookList: React.FC<RouteComponentProps> = ({ history }) => {
                         ))}
                     </IonList>
                 )}
-                {fetchingError && <div>{fetchingError.message || 'Failed to fetch books'}</div>}
+                <IonToast
+                    isOpen={showToast}
+                    onDidDismiss={handleToastClose}
+                    message={toastMessage}
+                    duration={3000}
+                    cssClass="custom-toast"
+                    position="middle"
+                />
                 <IonFab vertical="bottom" horizontal="end" slot="fixed">
                     <IonFabButton onClick={() => history.push('/book')}>
                         <IonIcon icon={add} />

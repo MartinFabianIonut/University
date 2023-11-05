@@ -4,6 +4,9 @@ import { getLogger } from '../core';
 import { BookProps } from './BookProps';
 import { createBook, getBooks, newWebSocket, updateBook } from './restApi';
 import { AuthContext } from '../auth';
+import { useNetwork } from '../use/useNetwork';
+import { useAppState } from '../use/useAppState';
+import { Preferences } from '@capacitor/preferences';
 
 const log = getLogger('BookProvider');
 
@@ -55,7 +58,7 @@ const reducer: (state: BooksState, action: ActionProps) => BooksState =
                 } else {
                     books[index] = book;
                 }
-                return { ...state, books, saving: false };
+                return { ...state, books, savingEroor: null, saving: false };
             case SAVE_BOOK_FAILED:
                 return { ...state, savingError: payload.error, saving: false };
             default:
@@ -77,6 +80,9 @@ export const BookProvider: React.FC<BookProviderProps> = ({ children }) => {
     useEffect(webSocketEffect, [token]);
     const saveBook = useCallback<SaveBookFn>(saveBookCallback, [token]);
     const value = { books, fetching, fetchingError, saving, savingError, saveBook };
+    const { networkStatus } = useNetwork();
+    const { appState } = useAppState();
+
     log('returns');
     return (
         <BookContext.Provider value={value}>
@@ -99,6 +105,21 @@ export const BookProvider: React.FC<BookProviderProps> = ({ children }) => {
                 log('Info> fetchBooks started!');
                 dispatch({ type: FETCH_BOOKS_STARTED });
                 const books = await getBooks(token);
+                // save the books in the local storage Preferences
+
+                // each book should also have a dirty flag to indicate if it was saved on the server or not
+                const dirty = false;
+                // create a new array of books with the dirty flag in the stringified version
+                const booksArray = books.map((book: BookProps) => {
+                    return { ...book, dirty: dirty };
+                });
+                // save the books in the local storage Preferences
+
+                await Preferences.set({ key: 'books', value: JSON.stringify(booksArray) });
+
+
+                // wait a bit
+                await new Promise(resolve => setTimeout(resolve, 60));
                 log('fetchBooks succeeded');
                 if (!canceled) {
                     dispatch({ type: FETCH_BOOKS_SUCCEEDED, payload: { books } });
@@ -118,8 +139,34 @@ export const BookProvider: React.FC<BookProviderProps> = ({ children }) => {
             log('saveBook succeeded');
             dispatch({ type: SAVE_BOOK_SUCCEEDED, payload: { book: savedBook } });
         } catch (error) {
-            log('saveBook failed');
+            log('saveBook failed - > store the book in the local storage');
+            // if (!networkStatus.connected) {
+            // save the book in the local storage Preferences
+            // the key is the id if it exists, or otherwise generate a negative id (which will be replaced when the book is saved on the server)
+            if (!appState.isActive) {
+                log('saveBook failed - > store the book in the local storage');
+            }
+
+            const bookId = book.id ? book.id : (-(Math.random() * 1000000)).toString();
+            const bookToSave = { ...book, id: bookId, dirty: true };
+            const books = await Preferences.get({ key: 'books' });
+
+            let booksArray: BookProps[] = [];
+            if (books.value) {
+                booksArray = JSON.parse(books.value);
+            }
+            const index = booksArray.findIndex(b => b.id === bookToSave.id);
+            if (index !== -1) {
+                booksArray[index] = bookToSave;
+            } else {
+                booksArray.push(bookToSave);
+            }
+            await Preferences.set({ key: 'books', value: JSON.stringify(booksArray) });
+
+            error = { message: "The book could not be save on the server right now, but it will be as soon as you are back online!" };
             dispatch({ type: SAVE_BOOK_FAILED, payload: { error } });
+            dispatch({ type: SAVE_BOOK_SUCCEEDED, payload: { book: bookToSave } });
+
         }
     }
 
