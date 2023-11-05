@@ -25,7 +25,8 @@ const prefix = '/api';
 // public
 const publicApiRouter = new Router({ prefix });
 publicApiRouter
-  .use('/auth', authRouter.routes());
+  .use('/auth', authRouter.routes())
+  .post('/auth/signup', authRouter.routes()); 
 app
   .use(publicApiRouter.routes())
   .use(publicApiRouter.allowedMethods());

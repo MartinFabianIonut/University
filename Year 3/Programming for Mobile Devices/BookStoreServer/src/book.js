@@ -1,44 +1,54 @@
 import Router from "koa-router";
-import dataStore from "nedb-promise";
 import { broadcast } from "./websocket.js";
 
-export class BookStore {
-    constructor({ filename, autoload }) {
-        this.store = dataStore({ filename, autoload });
-    }
-    async find(query) {
-        return this.store.find(query);
-    }
-    async findOne(query) {
-        return this.store.findOne(query);
-    }
-    async insert(book) {
-        if (!book.title || !book.author) {
-            throw new Error("Title and Author are required");
-        }
-        return this.store.insert(book);
-    }
-    async update(query, book) {
-        return this.store.update(query, book);
-    }
-    async remove(query) {
-        return this.store.remove(query);
-    }
-}
+// import dataStore from "@seald-io/nedb";
+// import Datastore from '@seald-io/nedb';
 
-const bookStore = new BookStore({ filename: "./db/books.json", autoload: true });
+// export class BookStore {
+//     constructor({ filename, autoload }) {
+//         this.store = new Datastore({ filename, autoload });
+//     }
+//     async find(props) {
+//         return this.store.findAsync(props);
+//     }
+//     async findOne(props) {
+//         return this.store.findOneAsync(props);
+//     }
+//     async insert(book) {
+//         if (!book.title || !book.author) {
+//             throw new Error("Title and Author are required");
+//         }
+//         return this.store.insertAsync(book);
+//     }
+//     async update(props, book) {
+//         if (this.findOne(props) === null) {
+//             throw new Error("Book not found");
+//         }
+//         return this.store.updateAsync(props, book);
+//     }
+//     async remove(props) {
+//         return this.store.removeAsync(props);
+//     }
+// }
+
+// const bookStore = new BookStore({ filename: './db/books.json', autoload: true });
+
+import { bookStore } from "./BookStore.js";
 
 export const bookRouter = new Router();
 
 bookRouter.get('/', async (ctx) => {
     const userId = ctx.state.user._id;
-    ctx.response.body = await bookStore.find({ userId });
+    const books = await bookStore.find({ userId });
+    // change ids to strings
+    books.forEach(book => book.id = book.id.toString());
+    ctx.response.body = books;
     ctx.response.status = 200;
 });
 
 bookRouter.get('/:id', async (ctx) => {
     const userId = ctx.state.user._id;
-    const book = await bookStore.findOne({ _id: ctx.params.id });
+    const book = await bookStore.findOne({ id: ctx.params.id });
     const response = ctx.response;
     if (book) {
         if (book.userId === userId) {
@@ -74,8 +84,8 @@ bookRouter.post('/', async (ctx) => {
 
 bookRouter.put('/:id', async (ctx) => {
     const book = ctx.request.body;
-    const bookId = book._id;
     const id = ctx.params.id;
+    const bookId = book.id;
     const response = ctx.response;
     if (bookId && bookId !== id) {
         response.body = { message: 'Unauthorized User' };
@@ -87,8 +97,8 @@ bookRouter.put('/:id', async (ctx) => {
     } else {
         const userId = ctx.state.user._id;
         book.userId = userId;
-        const updatedCount = await bookStore.update({ _id: id }, book);
-        if (updatedCount === 1) {
+        const updated = await bookStore.update({ _id: parseInt(id) }, book);
+        if (updated === 1) {
             response.body = book;
             response.status = 200;
             broadcast(book.userId, {type : 'updated', payload : book});
@@ -101,13 +111,13 @@ bookRouter.put('/:id', async (ctx) => {
 
 bookRouter.del('/:id', async (ctx) => {
     const userId = ctx.state.user._id;
-    const book = await bookStore.findOne({ _id: ctx.params.id });
+    const book = await bookStore.findOne({ id: ctx.params.id });
     if (book && book.userId !== userId) {
         ctx.response.body = { message: 'Unauthorized User' };
         ctx.response.status = 403;
         return;
     }
-    await bookStore.remove({ _id: ctx.params.id });
+    await bookStore.remove({ id: ctx.params.id });
     ctx.response.body = { message: 'success' };
     ctx.response.status = 204;
     broadcast(book.userId, {type : 'deleted', payload : book});

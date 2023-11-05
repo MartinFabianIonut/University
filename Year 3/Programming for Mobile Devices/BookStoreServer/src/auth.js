@@ -1,11 +1,11 @@
 import Router from 'koa-router';
 import jwt from 'jsonwebtoken';
-import dataStore from "nedb-promise";
+import Datastore from '@seald-io/nedb';
 import { jwtConfig } from './utils.js';
 
 export class UserStore {
   constructor({ filename, autoload }) {
-    this.store = dataStore({ filename, autoload });
+    this.store = new Datastore({ filename, autoload });
   }
 
   async findOne(props) {
@@ -28,6 +28,14 @@ export const authRouter = new Router();
 authRouter.post('/signup', async (ctx) => {
   try {
     const user = ctx.request.body;
+
+    const existingUser = await userStore.findOne({ username: user.username });
+    if (existingUser) {
+      ctx.response.body = { error: 'User already exists' };
+      ctx.response.status = 400; // bad request
+      return;
+    }
+
     await userStore.insert(user);
     ctx.response.body = { token: createToken(user) };
     ctx.response.status = 201; // created
@@ -36,7 +44,6 @@ authRouter.post('/signup', async (ctx) => {
     ctx.response.status = 400; // bad request
   }
 
-  await createUser(ctx.request.body, ctx.response)
 });
 
 authRouter.post('/login', async (ctx) => {
