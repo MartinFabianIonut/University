@@ -1,58 +1,34 @@
 import axios from 'axios';
-import { getLogger } from '../core';
+import { authConfig, baseUrl, getLogger, withLogs } from '../core';
 import { BookProps } from './BookProps';
 
 const log = getLogger('restApi');
+const bookUrl = `http://${baseUrl}/api/book`;
 
-const baseUrl = 'localhost:3000';
-const bookUrl = `http://${baseUrl}/book`;
-
-interface ResponseProps<T> {
-    data: T;
+export const getBooks: (token: string) => Promise<BookProps[]> = token => {
+    return withLogs(axios.get(bookUrl, authConfig(token)), 'getBooks');
 }
 
-function withLogs<T>(promise: Promise<ResponseProps<T>>, fnName: string): Promise<T> {
-    log(`${fnName} - started`);
-    return promise
-        .then(res => {
-            log(`${fnName} - succeeded`);
-            return Promise.resolve(res.data);
-        })
-        .catch(err => {
-            log(`${fnName} - failed`);
-            return Promise.reject(err);
-        });
+export const createBook: (token: string, book: BookProps) => Promise<BookProps[]> = (token, book) => {
+    return withLogs(axios.post(bookUrl, book, authConfig(token)), 'createBook');
 }
 
-const config = {
-    headers: {
-        'Content-Type': 'application/json'
-    }
-};
-
-export const getBooks: () => Promise<BookProps[]> = () => {
-    return withLogs(axios.get(bookUrl, config), 'getBooks');
-}
-
-export const createBook: (book: BookProps) => Promise<BookProps[]> = book => {
-    return withLogs(axios.post(bookUrl, book, config), 'createBook');
-}
-
-export const updateBook: (book: BookProps) => Promise<BookProps[]> = book => {
-    return withLogs(axios.put(`${bookUrl}/${book.id}`, book, config), 'updateBook');
+export const updateBook: (token: string, book: BookProps) => Promise<BookProps[]> = (token, book) => {
+    return withLogs(axios.put(`${bookUrl}/${book.id}`, book, authConfig(token)), 'updateBook');
 }
 
 interface MessageData {
-    event: string;
+    type: string;
     payload: {
         book: BookProps;
     };
 }
 
-export const newWebSocket = (onMessage: (data: MessageData) => void) => {
+export const newWebSocket = (token: string, onMessage: (data: MessageData) => void) => {
     const ws = new WebSocket(`ws://${baseUrl}`)
     ws.onopen = () => {
         log('web socket onopen');
+        ws.send(JSON.stringify({ type: 'authorization', payload: { token } }));
     };
     ws.onclose = () => {
         log('web socket onclose');

@@ -8,8 +8,6 @@ import {
     IonLabel,
     IonLoading,
     IonPage,
-    IonTitle,
-    IonToolbar,
     IonCheckbox,
 } from '@ionic/react';
 import { getLogger } from '../core';
@@ -17,61 +15,13 @@ import { BookContext } from './BookProvider';
 import { RouteComponentProps } from 'react-router';
 import { BookProps } from './BookProps';
 import { format } from 'date-fns';
-import moment from 'moment';
-import { render } from '@testing-library/react';
+import CustomToolbar from '../components/CustomToolbar';
+import { colorFill } from 'ionicons/icons';
 
 const log = getLogger('BookEdit');
 
 interface BookEditProps extends RouteComponentProps<{ id?: string }> { }
 
-const styles = {
-    page: {
-        backgroundColor: '#f8f8f8',
-    },
-    header: {
-        backgroundColor: '#333',
-        color: '#fff',
-    },
-    content: {
-        padding: '20px',
-    },
-    inputContainer: {
-        marginBottom: '10px',
-        display: 'flex',
-        alignItems: 'center',
-        boxShadow: '0 4px 8px rgba(22, 14, 143, 0.507)',
-    },
-    label: {
-        marginLeft: '20px',
-        marginRight: '10px',
-        minWidth: '120px',
-        color: 'var(--ion-color-tertiary)',
-        fontWeight: 'bold'
-    },
-    input: {
-        flex: 1,
-        borderRadius: '5px',
-        color: 'var(--ion-color-tertiary-tint)',
-    },
-    checkbox: {
-        marginTop: '20px',
-        marginBottom: '20px'
-    },
-    button: {
-        backgroundColor: '#4caf50',
-        color: '#fff',
-        borderRadius: '15px',
-    },
-    errorMessage: {
-        color: '#ff0000',
-        marginTop: '10px',
-    },
-    title: {
-        fontFamily: 'Geneva, sans-serif',
-        fontSize: '2rem',
-        fontWeight: 'bold',
-    }
-};
 
 function parseDDMMYYYY(dateString: string) {
     const [day, month, year] = dateString.split('/').map(Number);
@@ -150,33 +100,26 @@ const BookEdit: React.FC<BookEditProps> = ({ history, match }) => {
 
     log('render ' + title);
     return (
-        <IonPage style={styles.page} >
-            <IonHeader style={styles.header}>
-                <IonToolbar>
-                    <IonTitle style={styles.title} color="primary">Edit</IonTitle>
-                    <IonButtons slot="end">
-                        <IonButton style={styles.button} onClick={handleSave}>
-                            Save
-                        </IonButton>
-                    </IonButtons>
-                </IonToolbar>
+        <IonPage >
+            <IonHeader>
+                <CustomToolbar title="Edit Book" titleStyle="title" />
             </IonHeader>
-            <IonContent style={styles.content}>
-                <div style={styles.inputContainer}>
-                    <IonLabel style={styles.label}>Title:</IonLabel>
-                    <IonInput style={styles.input} value={title} onIonChange={(e) => setTitle(e.detail.value || '')} />
+            <IonContent>
+                <div className='inputContainer' >
+                    <IonLabel className='label'>Title:</IonLabel>
+                    <IonInput className='input' value={title} onIonChange={(e) => setTitle(e.detail.value || '')} />
                 </div>
 
-                <div style={styles.inputContainer}>
-                    <IonLabel style={styles.label}>Author:</IonLabel>
-                    <IonInput style={styles.input} value={author} onIonChange={(e) => setAuthor(e.detail.value || '')} />
+                <div className='inputContainer'>
+                    <IonLabel className='label'>Author:</IonLabel>
+                    <IonInput className='input' value={author} onIonChange={(e) => setAuthor(e.detail.value || '')} />
                 </div>
 
-                <div style={styles.inputContainer}>
-                    <IonLabel style={styles.label}>Publication Date:</IonLabel>
+                <div className='inputContainer'>
+                    <IonLabel className='label'>Publication Date:</IonLabel>
                     <IonInput
                         class="input"
-                        style={styles.input}
+                        className='input'
                         value={publicationDate ? format(new Date(publicationDate), 'dd/MM/yyyy') : ''}
                         onIonChange={(e) => {
                             const inputDate = parseDDMMYYYY(e.detail.value || '');
@@ -191,20 +134,29 @@ const BookEdit: React.FC<BookEditProps> = ({ history, match }) => {
                     />
                 </div>
 
-                <div style={styles.inputContainer}>
-                    <IonLabel style={styles.label}>Available:</IonLabel>
-                    <IonCheckbox style={styles.checkbox} checked={isAvailable} onIonChange={(e) => setIsAvailable(e.detail.checked)} />
+                <div className='inputContainer'>
+                    <IonLabel className='label'>Available:</IonLabel>
+                    <IonCheckbox className='checkbox' checked={isAvailable} onIonChange={(e) => setIsAvailable(e.detail.checked)} />
                 </div>
 
-                <div style={styles.inputContainer}>
-                    <IonLabel style={styles.label}>Price:</IonLabel>
-                    <IonInput style={styles.input} value={price.toString()} onIonChange={(e) => setPrice(parseInt(e.detail.value || '0'))} />
+                <div className='inputContainer'>
+                    <IonLabel className='label'>Price:</IonLabel>
+                    <IonInput className='input' value={price.toString()} onIonChange={(e) => setPrice(parseInt(e.detail.value || '0'))} />
                 </div>
+
+                <IonButton className="custom-button"
+                    shape='round'
+                    color='secondary'
+                    style={{ marginTop: '20px' }}
+                    onClick={handleSave}>
+                    Save
+                </IonButton>
+
 
                 <IonLoading isOpen={saving} />
-                {savingError && <div style={styles.errorMessage}>{savingError.message || 'Failed to save book'}</div>}
+                {savingError && <div className='errorMessage'>{savingError.message || 'Failed to save book'}</div>}
             </IonContent>
-        </IonPage>
+        </IonPage >
     );
 };
 

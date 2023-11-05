@@ -1,21 +1,28 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import { getLogger } from '../core';
-import { login as loginApi } from './authApi';
+import { login as loginApi, signup as signupApi } from './authApi';
+import { Preferences } from '@capacitor/preferences';
+import { set } from 'date-fns';
 
 const log = getLogger('AuthProvider');
 
 type LoginFn = (username?: string, password?: string) => void;
+type SignupFn = (username?: string, password?: string) => void;
+type LogoutFn = () => void;
 
 export interface AuthState {
   authenticationError: Error | null;
   isAuthenticated: boolean;
   isAuthenticating: boolean;
   login?: LoginFn;
+  signup?: SignupFn;
   pendingAuthentication?: boolean;
+  pendingSignUp?: boolean; // Added
   username?: string;
   password?: string;
   token: string;
+  logout?: LogoutFn;
 }
 
 const initialState: AuthState = {
@@ -23,6 +30,7 @@ const initialState: AuthState = {
   isAuthenticating: false,
   authenticationError: null,
   pendingAuthentication: false,
+  pendingSignUp: false, // Added
   token: '',
 };
 
@@ -34,10 +42,24 @@ interface AuthProviderProps {
 
 export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
   const [state, setState] = useState<AuthState>(initialState);
-  const { isAuthenticated, isAuthenticating, authenticationError, pendingAuthentication, token } = state;
+  const { isAuthenticated, isAuthenticating, authenticationError, pendingAuthentication, pendingSignUp, token } = state;
   const login = useCallback<LoginFn>(loginCallback, []);
-  useEffect(authenticationEffect, [pendingAuthentication]);
-  const value = { isAuthenticated, login, isAuthenticating, authenticationError, token };
+  const signup = useCallback<SignupFn>(signupCallback, []);
+  const logout = useCallback<LogoutFn>(logoutCallback, []);
+  useEffect(() => {
+    // const loadUser = async () => {
+    //   const preferences = await loadUserFromPreferences();
+    //   if (preferences === 0) {
+    //     authenticationEffect();
+    //   }
+    // };
+
+    // loadUser();
+    loadUserFromPreferences();
+    authenticationEffect();
+  }, [pendingAuthentication, pendingSignUp]);
+  const value = { isAuthenticated, login, signup, isAuthenticating, authenticationError, token, pendingSignUp, logout };
+
   log('render');
   return (
     <AuthContext.Provider value={value}>
@@ -50,9 +72,49 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     setState({
       ...state,
       pendingAuthentication: true,
+      pendingSignUp: false, // Reset pendingSignUp when login is triggered
       username,
       password
     });
+  }
+
+  function signupCallback(username?: string, password?: string): void {
+    log('signup');
+    setState({
+      ...state,
+      pendingSignUp: true,
+      pendingAuthentication: false, // Reset pendingAuthentication when signup is triggered
+      username,
+      password
+    });
+  }
+
+  function logoutCallback() {
+    log('logout');
+    Preferences.remove({ key: 'user' });
+
+    // Reset the authentication state
+    setState({
+      ...initialState
+    });
+  }
+
+  async function loadUserFromPreferences() {
+    try {
+      const userString = await Preferences.get({ key: 'user' });
+      if (userString && userString.value) {
+        const user = JSON.parse(userString.value);
+        setState({
+          ...state,
+          username: user.username,
+          password: user.password,
+          isAuthenticated: true,
+          token: user.token,
+        });
+      }
+    } catch (error) {
+      log('Error loading user from Preferences:', error);
+    }
   }
 
   function authenticationEffect() {
@@ -63,8 +125,8 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     }
 
     async function authenticate() {
-      if (!pendingAuthentication) {
-        log('authenticate, !pendingAuthentication, return');
+      if (!pendingAuthentication && !pendingSignUp) {
+        log('authenticate, !pendingAuthentication && !pendingSignUp, return');
         return;
       }
       try {
@@ -74,7 +136,13 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
           isAuthenticating: true,
         });
         const { username, password } = state;
-        const { token } = await loginApi(username, password);
+        let result;
+        if (pendingSignUp) {
+          result = await signupApi(username, password);
+        } else {
+          result = await loginApi(username, password);
+        }
+        const { token } = result;
         if (canceled) {
           return;
         }
@@ -83,8 +151,13 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
           ...state,
           token,
           pendingAuthentication: false,
+          pendingSignUp: false,
           isAuthenticated: true,
           isAuthenticating: false,
+        });
+        Preferences.set({
+          key: 'user',
+          value: JSON.stringify({ token }),
         });
       } catch (error) {
         if (canceled) {
@@ -95,6 +168,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
           ...state,
           authenticationError: error as Error,
           pendingAuthentication: false,
+          pendingSignUp: false,
           isAuthenticating: false,
         });
       }

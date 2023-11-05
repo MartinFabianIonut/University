@@ -33,11 +33,11 @@ const App: React.FC = () => (
         <AuthProvider>
           <Route path="/login" component={Login} exact={true} />
           <BookProvider>
-            <PrivateRoute path="/items" component={BookList} exact={true} />
-            <PrivateRoute path="/item" component={BookEdit} exact={true} />
-            <PrivateRoute path="/item/:id" component={BookEdit} exact={true} />
+            <PrivateRoute path="/books" component={BookList} exact={true} />
+            <PrivateRoute path="/book" component={BookEdit} exact={true} />
+            <PrivateRoute path="/book/:id" component={BookEdit} exact={true} />
           </BookProvider>
-          <Route exact path="/" render={() => <Redirect to="/items" />} />
+          <Route exact path="/" render={() => <Redirect to="/books" />} />
         </AuthProvider>
       </IonRouterOutlet>
     </IonReactRouter>

@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState, useEffect } from 'react';
 import { RouteComponentProps } from 'react-router';
 import {
     IonContent,
@@ -8,14 +8,14 @@ import {
     IonIcon,
     IonList,
     IonLoading,
-    IonPage,
-    IonTitle,
-    IonToolbar,
+    IonPage
 } from '@ionic/react';
 import { add } from 'ionicons/icons';
 import Book from './Book';
 import { getLogger } from '../core';
 import { BookContext } from './BookProvider';
+import CustomToolbar from '../components/CustomToolbar';
+
 
 const log = getLogger('BookList');
 
@@ -30,14 +30,12 @@ const styles = {
 const BookList: React.FC<RouteComponentProps> = ({ history }) => {
     const { books, fetching, fetchingError } = useContext(BookContext);
 
-    log('render ' + JSON.stringify(books));
+    log('render ', 'yes/no: ', fetching, ' ' + JSON.stringify(books));
 
     return (
         <IonPage>
             <IonHeader>
-                <IonToolbar>
-                    <IonTitle style={styles.title}>Book List</IonTitle>
-                </IonToolbar>
+                <CustomToolbar title="Book List" titleStyle="title" />
             </IonHeader>
             <IonContent>
                 <IonLoading isOpen={fetching} message="Fetching books" />
@@ -52,7 +50,7 @@ const BookList: React.FC<RouteComponentProps> = ({ history }) => {
                                 publicationDate={publicationDate}
                                 isAvailable={isAvailable}
                                 price={price}
-                                onEdit={() => history.push(`/book/${id}`)}
+                                onEdit={boodId => history.push(`/book/${boodId}`)}
                             />
                         ))}
                     </IonList>

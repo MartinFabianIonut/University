@@ -1,9 +1,7 @@
 /* Ionic Variables and Theming. For more info, please see:
 http://ionicframework.com/docs/theming/ */
 
-.page {
-  background-color: '#f8f8f8'
-}
+
 .header {
   background-color: '#333';
   color: '#fff'
@@ -11,21 +9,81 @@ http://ionicframework.com/docs/theming/ */
 .content {
   padding: '20px'
 }
+.inputContainer {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(22, 14, 143, 0.507);
+}
+
+.label {
+  margin-left: 20px;
+  margin-right: 10px;
+  min-width: 120px;
+  color: var(--ion-color-tertiary);
+  font-weight: bold;
+}
+
 .input {
-  background-color: '#fff';
-  border-radius: '5px';
-  margin-bottom: '10px'
+  flex: 1;
+  border-radius: 5px;
+  color: var(--ion-color-tertiary-tint);
 }
+
 .checkbox {
-  margin-top: '10px'
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
+
 .button {
-  background-color: '#4caf50';
-  color: '#fff'
+  background-color: #4caf50;
+  color: #fff;
+  border-radius: 15px;
 }
+
 .errorMessage {
-  color: '#ff0000';
-  margin-top: '10px'
+  color: #ff0000;
+  margin-top: 10px;
+}
+
+.title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: '4rem';
+  font-weight:bold;
+  color:var(--ion-color-secondary);
+}
+
+.custom-title{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: '3rem';
+  font-weight: 600;
+  color:var(--ion-color-primary);
+}
+
+.custom-input {
+  width: 75%;
+  margin: 0 auto; /* Centers the input */
+}
+
+.custom-button {
+  width: 75%;
+  margin: 10px auto; 
+  display: block;/* Centers the button with 10px margin at the top and bottom */
+}
+
+.custom-toast {
+  --background: lightcoral; 
+  --border-radius: 10px; 
+  --color: white; 
+  text-align: center; 
+  max-width: 50%; 
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* Book.css */
@@ -40,7 +98,8 @@ http://ionicframework.com/docs/theming/ */
 
 .book-item h2 {
   color: var(--ion-color-secondary-shade);
-  margin-bottom: 5px; /* Add some margin at the bottom of the title */
+  font-weight: bolder;
+  margin-bottom: 10px; 
 }
 
 .book-item p {
