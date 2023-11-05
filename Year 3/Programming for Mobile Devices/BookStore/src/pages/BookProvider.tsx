@@ -5,7 +5,6 @@ import { BookProps } from './BookProps';
 import { createBook, getBooks, newWebSocket, updateBook } from './restApi';
 import { AuthContext } from '../auth';
 import { useNetwork } from '../use/useNetwork';
-import { useAppState } from '../use/useAppState';
 import { Preferences } from '@capacitor/preferences';
 
 const log = getLogger('BookProvider');
@@ -77,11 +76,15 @@ export const BookProvider: React.FC<BookProviderProps> = ({ children }) => {
     const [state, dispatch] = useReducer(reducer, initialState);
     const { books, fetching, fetchingError, saving, savingError } = state;
     useEffect(getBooksEffect, [token]);
-    useEffect(webSocketEffect, [token]);
+    useEffect(webSocketEffect, [token, books]);
     const saveBook = useCallback<SaveBookFn>(saveBookCallback, [token]);
     const value = { books, fetching, fetchingError, saving, savingError, saveBook };
     const { networkStatus } = useNetwork();
-    const { appState } = useAppState();
+    useEffect(() => {
+        if (networkStatus.connected) {
+            syncBooks();
+        }
+    }, [networkStatus.connected, books]);
 
     log('returns');
     return (
@@ -89,6 +92,47 @@ export const BookProvider: React.FC<BookProviderProps> = ({ children }) => {
             {children}
         </BookContext.Provider>
     );
+
+    function syncBooks() {
+        if (networkStatus.connected) {
+            log('syncBooks - networkStatus.connected');
+            // callback to sync the books
+            syncBooksCallback();
+        }
+
+        async function syncBooksCallback() {
+            // get the books from the local storage Preferences
+            const localBooks = await Preferences.get({ key: 'books' });
+            // they have also the dirty flag, map them to the book props
+
+
+            if (localBooks.value) {
+                let booksArray = JSON.parse(localBooks.value);
+
+                // iterate through the books and save them on the server
+                for (const book of booksArray) {
+                    try {
+                        if (book.dirty) {
+                            // remove the dirty flag
+                            book.dirty = false;
+                            await saveBook(book);
+                        }
+                        if (book.id < 0) {
+                            booksArray.splice(booksArray.indexOf(book), 1);
+                        }
+                    } catch (error) {
+                        log('Error syncing book:', error);
+                        // Handle errors as needed
+                    }
+                }
+
+                // remove all the books with negative ids
+
+                Preferences.set({ key: 'books', value: JSON.stringify(booksArray) });
+            }
+        }
+    }
+
 
     function getBooksEffect() {
         let canceled = false;
@@ -104,18 +148,18 @@ export const BookProvider: React.FC<BookProviderProps> = ({ children }) => {
             try {
                 log('Info> fetchBooks started!');
                 dispatch({ type: FETCH_BOOKS_STARTED });
-                const books = await getBooks(token);
+                let books = await getBooks(token);
                 // save the books in the local storage Preferences
 
                 // each book should also have a dirty flag to indicate if it was saved on the server or not
                 const dirty = false;
                 // create a new array of books with the dirty flag in the stringified version
-                const booksArray = books.map((book: BookProps) => {
+                books = books.map((book: BookProps) => {
                     return { ...book, dirty: dirty };
                 });
                 // save the books in the local storage Preferences
 
-                await Preferences.set({ key: 'books', value: JSON.stringify(booksArray) });
+                await Preferences.set({ key: 'books', value: JSON.stringify(books) });
 
 
                 // wait a bit
@@ -143,9 +187,7 @@ export const BookProvider: React.FC<BookProviderProps> = ({ children }) => {
             // if (!networkStatus.connected) {
             // save the book in the local storage Preferences
             // the key is the id if it exists, or otherwise generate a negative id (which will be replaced when the book is saved on the server)
-            if (!appState.isActive) {
-                log('saveBook failed - > store the book in the local storage');
-            }
+
 
             const bookId = book.id ? book.id : (-(Math.random() * 1000000)).toString();
             const bookToSave = { ...book, id: bookId, dirty: true };
@@ -182,6 +224,15 @@ export const BookProvider: React.FC<BookProviderProps> = ({ children }) => {
                 const { type, payload: book } = message;
                 log(`ws message, book ${type}`);
                 if (type === 'created' || type === 'updated') {
+
+                    if (books) {
+                        const dirty = false;
+                        book.book.dirty = dirty;
+                        const booksArray = [...books];
+                        booksArray.push(book.book);
+                        Preferences.set({ key: 'books', value: JSON.stringify(booksArray) });
+                    }
+
                     dispatch({ type: SAVE_BOOK_SUCCEEDED, payload: { book } });
                 }
             });

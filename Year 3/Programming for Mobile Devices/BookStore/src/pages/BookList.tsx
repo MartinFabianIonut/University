@@ -16,7 +16,6 @@ import Book from './Book';
 import { getLogger } from '../core';
 import { BookContext } from './BookProvider';
 import CustomToolbar from '../components/CustomToolbar';
-import useSyncBooks from "../use/useSyncBooks";
 
 const log = getLogger('BookList');
 
@@ -47,8 +46,6 @@ const BookList: React.FC<RouteComponentProps> = ({ history }) => {
             setShowToast(true);
         }
     }, [fetchingError]);
-
-    useSyncBooks();
 
     log('render ', 'yes/no: ', fetching, ' ' + JSON.stringify(books));
 

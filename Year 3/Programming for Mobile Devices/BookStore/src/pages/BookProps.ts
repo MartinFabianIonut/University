@@ -5,4 +5,5 @@ export interface BookProps {
     publicationDate: Date;
     isAvailable: boolean;
     price : number;
+    dirty?: boolean;
 }

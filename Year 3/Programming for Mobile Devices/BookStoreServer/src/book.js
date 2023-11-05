@@ -92,12 +92,12 @@ bookRouter.put('/:id', async (ctx) => {
         response.status = 403;
         return;
     }
-    if (!bookId) {
+    if (!bookId || bookId < 0) {
         await createBook(ctx, book, response);
     } else {
         const userId = ctx.state.user._id;
         book.userId = userId;
-        const updated = await bookStore.update({ _id: parseInt(id) }, book);
+        const updated = await bookStore.update({ id: parseInt(id) }, book);
         if (updated === 1) {
             response.body = book;
             response.status = 200;
