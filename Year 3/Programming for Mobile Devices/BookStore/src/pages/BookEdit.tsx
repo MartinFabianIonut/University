@@ -56,14 +56,13 @@ function parseDDMMYYYY(dateString: string) {
 }
 
 const BookEdit: React.FC<BookEditProps> = ({ history, match }) => {
-    const { books, saving, savingError, saveBook: saveBook } = useContext(BookContext);
+    const { books, saving, saveBook } = useContext(BookContext);
     const [book, setBook] = useState<BookProps | undefined>(undefined);
     const [title, setTitle] = useState('Type a title');
     const [author, setAuthor] = useState('Type an author');
     const [publicationDate, setPublicationDate] = useState<Date | undefined>(undefined);
     const [isAvailable, setIsAvailable] = useState(false);
     const [price, setPrice] = useState(0);
-    const { networkStatus } = useNetwork();
 
     useEffect(() => {
         log('useEffect - Fetching book details');

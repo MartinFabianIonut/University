@@ -25,22 +25,27 @@ interface MessageData {
 }
 
 export const newWebSocket = (token: string, onMessage: (data: MessageData) => void) => {
-    const ws = new WebSocket(`ws://${baseUrl}`)
-    ws.onopen = () => {
-        log('web socket onopen');
-        ws.send(JSON.stringify({ type: 'authorization', payload: { token } }));
-    };
-    ws.onclose = () => {
-        log('web socket onclose');
-    };
-    ws.onerror = error => {
-        log('web socket onerror', error);
-    };
-    ws.onmessage = messageEvent => {
-        log('web socket onmessage');
-        onMessage(JSON.parse(messageEvent.data));
-    };
-    return () => {
-        ws.close();
+    try {
+        const ws = new WebSocket(`ws://${baseUrl}`)
+        ws.onopen = () => {
+            log('web socket onopen');
+            ws.send(JSON.stringify({ type: 'authorization', payload: { token } }));
+        };
+        ws.onclose = () => {
+            log('web socket onclose');
+        };
+        ws.onerror = error => {
+            log('web socket onerror', error);
+        };
+        ws.onmessage = messageEvent => {
+            log('web socket onmessage');
+            onMessage(JSON.parse(messageEvent.data));
+        };
+        return () => {
+            ws.close();
+        }
+    }
+    catch (error) {
+        log('We are offline, so no ws can be established: ', error);
     }
 }
