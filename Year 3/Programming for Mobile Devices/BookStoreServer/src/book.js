@@ -68,11 +68,14 @@ bookRouter.get('/:id', async (ctx) => {
 const createBook = async (ctx, book, response) => {
     try {
         book.userId = ctx.state.user._id;
+        console.log(book);
         const newBook = await bookStore.insert(book);
+        console.log(newBook);
         response.body = newBook;
         response.status = 201;
         broadcast(book.userId, {type : 'created', payload : book});
     } catch (err) {
+        console.log(err);
         response.body = { message: err.message };
         response.status = 400;
     }
