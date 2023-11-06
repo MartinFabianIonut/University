@@ -9,7 +9,9 @@ import {
     IonList,
     IonLoading,
     IonPage,
-    IonToast
+    IonToast,
+    IonInfiniteScroll,
+    IonInfiniteScrollContent,
 } from '@ionic/react';
 import { add } from 'ionicons/icons';
 import Book from './Book';
@@ -18,14 +20,6 @@ import { BookContext } from './BookProvider';
 import CustomToolbar from '../components/CustomToolbar';
 
 const log = getLogger('BookList');
-
-const styles = {
-    title: {
-        fontFamily: 'Geneva, sans-serif',
-        fontSize: '2rem',
-        fontWeight: 'bold',
-    }
-};
 
 const BookList: React.FC<RouteComponentProps> = ({ history }) => {
     const { books, fetching, fetchingError, savingError } = useContext(BookContext);
@@ -47,7 +41,20 @@ const BookList: React.FC<RouteComponentProps> = ({ history }) => {
         }
     }, [fetchingError]);
 
-    log('render ', 'yes/no: ', fetching, ' ' + JSON.stringify(books));
+    const [loadedBooks, setLoadedBooks] = useState(4);
+    const [disableInfiniteScroll, setDisableInfiniteScroll] = useState<boolean>(false);
+
+    const loadMoreData = () => {
+        const nextSetOfBooks = loadedBooks + 4;
+        setLoadedBooks(nextSetOfBooks);
+        setDisableInfiniteScroll(nextSetOfBooks >= books?.length!);
+    };
+
+    useEffect(() => {
+        setLoadedBooks(4);
+    }, [books]);
+
+    log('render ', 'yes/no: ', fetching, ' ' + JSON.stringify(books?.slice(0, loadedBooks)));
 
     return (
         <IonPage>
@@ -57,8 +64,8 @@ const BookList: React.FC<RouteComponentProps> = ({ history }) => {
             <IonContent>
                 <IonLoading isOpen={fetching} message="Fetching books" />
                 {books && (
-                    <IonList>
-                        {books.map(({ id, title, author, publicationDate, isAvailable, price }) => (
+                    <><IonList>
+                        {books.slice(0, loadedBooks).map(({ id, title, author, publicationDate, isAvailable, price }) => (
                             <Book
                                 key={id}
                                 id={id}
@@ -67,10 +74,21 @@ const BookList: React.FC<RouteComponentProps> = ({ history }) => {
                                 publicationDate={publicationDate}
                                 isAvailable={isAvailable}
                                 price={price}
-                                onEdit={boodId => history.push(`/book/${boodId}`)}
+                                onEdit={(bookId) => history.push(`/book/${bookId}`)}
                             />
                         ))}
                     </IonList>
+                        <IonInfiniteScroll
+                            threshold="50px"
+                            disabled={disableInfiniteScroll}
+                            onIonInfinite={(e: CustomEvent<void>) => {
+                                loadMoreData();
+                                (e.target as HTMLIonInfiniteScrollElement).complete();
+                            }}
+                        >
+                            <IonInfiniteScrollContent loadingText="Loading more data..."></IonInfiniteScrollContent>
+                        </IonInfiniteScroll>
+                    </>
                 )}
                 <IonToast
                     isOpen={showToast}
