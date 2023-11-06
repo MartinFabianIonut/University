@@ -43,6 +43,7 @@ const reducer: (state: BooksState, action: ActionProps) => BooksState =
             case FETCH_BOOKS_STARTED:
                 return { ...state, fetching: true, fetchingError: null };
             case FETCH_BOOKS_SUCCEEDED:
+                log('payload.books in FETCH_BOOKS_SUCCEEDED:', payload.books);
                 return { ...state, books: payload.books, fetching: false };
             case FETCH_BOOKS_FAILED:
                 return { ...state, fetchingError: payload.error, fetching: false };
@@ -53,10 +54,12 @@ const reducer: (state: BooksState, action: ActionProps) => BooksState =
                 const book = payload.book;
                 const index = books.findIndex(b => b.id === book.id);
                 if (index === -1) {
-                    books.splice(0, 0, book);
+                    // add in back
+                    books.splice(books.length, 0, book);
                 } else {
                     books[index] = book;
                 }
+                log('books in SAVE_BOOK_SUCCEEDED:', books);
                 return { ...state, books, savingEroor: null, saving: false };
             case SAVE_BOOK_FAILED:
                 return { ...state, savingError: payload.error, saving: false };
@@ -84,7 +87,7 @@ export const BookProvider: React.FC<BookProviderProps> = ({ children }) => {
         if (networkStatus.connected) {
             syncBooks();
         }
-    }, [networkStatus.connected, books]);
+    }, [networkStatus.connected, books, token]);
 
     log('returns');
     return (
@@ -94,8 +97,9 @@ export const BookProvider: React.FC<BookProviderProps> = ({ children }) => {
     );
 
     function syncBooks() {
-        if (networkStatus.connected) {
-            log('syncBooks - networkStatus.connected');
+        log('syncBooks - networkStatus.connected', networkStatus.connected);
+        log('syncBooks - networkStatus.shouldSync', networkStatus.shouldSync);
+        if (networkStatus.connected && networkStatus.shouldSync === 'disconnected') {
             // callback to sync the books
             syncBooksCallback();
         }
@@ -104,31 +108,107 @@ export const BookProvider: React.FC<BookProviderProps> = ({ children }) => {
             // get the books from the local storage Preferences
             const localBooks = await Preferences.get({ key: 'books' });
             // they have also the dirty flag, map them to the book props
+            // if localbooks contain books with dirty flag, save them on the server
 
 
             if (localBooks.value) {
-                let booksArray = JSON.parse(localBooks.value);
+                // if exists dirty books, save them on the server
 
-                // iterate through the books and save them on the server
-                for (const book of booksArray) {
-                    try {
-                        if (book.dirty) {
-                            // remove the dirty flag
-                            book.dirty = false;
-                            await saveBook(book);
+                let booksArray: BookProps[] = JSON.parse(localBooks.value);
+
+                // Check if there is at least one book with dirty flag
+                const hasDirtyBooks = booksArray.some((book) => book?.dirty?.valueOf() === true);
+
+                if (hasDirtyBooks) {
+                    // iterate through the books and save them on the server
+                    for (const book of booksArray) {
+                        try {
+                            if (book?.dirty?.valueOf() === true) {
+                                // remove the dirty flag
+                                book.dirty = false;
+                                log('here is the book to be saved:')
+                                const savedBook = await saveBook(book);
+
+                                setTimeout(() => {
+                                    if (book.id && savedBook.id) {
+                                        if (parseFloat(book.id) < 0) {
+                                            // remove the book from the state
+                                            // const updatedBooks = state.books?.filter(b => b.id !== book.id);
+                                            // log('here i start the dispatch')
+                                            // dispatch({ type: FETCH_BOOKS_SUCCEEDED, payload: { books: updatedBooks } });
+                                            // log('here i end the dispatch')
+                                            // Remove the book from local storage
+                                            booksArray = booksArray.filter(b => b.id !== book.id);
+                                        } else {
+                                            // update the book in the local storage Preferences
+                                            const index = booksArray.findIndex(b => b.id === book.id);
+                                            if (index !== -1) {
+                                                booksArray[index] = savedBook;
+                                            } else {
+                                                booksArray.push(savedBook);
+                                            }
+                                        }
+                                    }
+                                }, 100);
+                            }
+                        } catch (error) {
+                            log('Error syncing book:', error);
+                            // Handle errors as needed
                         }
-                        if (book.id < 0) {
-                            booksArray.splice(booksArray.indexOf(book), 1);
-                        }
-                    } catch (error) {
-                        log('Error syncing book:', error);
-                        // Handle errors as needed
                     }
+                    // change network status to connected
+                    networkStatus.shouldSync = 'do-not-sync';
+
+                    // remove all the books with negative ids
+                    Preferences.set({ key: 'books', value: JSON.stringify(booksArray) });
+                    // also from books
+                    getBooksEffect();
+                    // const updatedBooks = await getBooks(token);
+                    // dispatch({ type: FETCH_BOOKS_SUCCEEDED, payload: { books: updatedBooks } });
+
                 }
 
-                // remove all the books with negative ids
 
-                Preferences.set({ key: 'books', value: JSON.stringify(booksArray) });
+                // let booksArray: BookProps[] = [];
+                // booksArray = JSON.parse(localBooks.value);
+
+                // // iterate through the books and save them on the server
+                // for (const book of booksArray) {
+                //     try {
+                //         if (book?.dirty?.valueOf() === true) {
+                //             // remove the dirty flag
+                //             book.dirty = false;
+                //             log('here is the book to be saved:')
+                //             const savedBook = await saveBook(book);
+                //             if (book.id && savedBook.id) {
+                //                 if (parseFloat(book.id) < 0) {
+                //                     // remove the book from the state
+                //                     // const updatedBooks = state.books?.filter(b => b.id !== book.id);
+                //                     // log('here i start the dispatch')
+                //                     // dispatch({ type: FETCH_BOOKS_SUCCEEDED, payload: { books: updatedBooks } });
+                //                     // log('here i end the dispatch')
+                //                     // Remove the book from local storage
+                //                     booksArray = booksArray.filter(b => b.id !== book.id);
+                //                 }
+                //                 else {
+                //                     // update the book in the local storage Preferences
+                //                     const index = booksArray.findIndex(b => b.id === book.id);
+                //                     if (index !== -1) {
+                //                         booksArray[index] = savedBook;
+                //                     }
+                //                     else {
+                //                         booksArray.push(savedBook);
+                //                     }
+                //                 }
+                //             }
+                //         }
+                //     } catch (error) {
+                //         log('Error syncing book:', error);
+                //         // Handle errors as needed
+                //     }
+                // }
+
+
             }
         }
     }
@@ -182,13 +262,12 @@ export const BookProvider: React.FC<BookProviderProps> = ({ children }) => {
             const savedBook = await (book.id ? updateBook(token, book) : createBook(token, book));
             log('saveBook succeeded');
             dispatch({ type: SAVE_BOOK_SUCCEEDED, payload: { book: savedBook } });
+            return savedBook;
         } catch (error) {
             log('saveBook failed - > store the book in the local storage');
             // if (!networkStatus.connected) {
             // save the book in the local storage Preferences
             // the key is the id if it exists, or otherwise generate a negative id (which will be replaced when the book is saved on the server)
-
-
             const bookId = book.id ? book.id : (-(Math.random() * 1000000)).toString();
             const bookToSave = { ...book, id: bookId, dirty: true };
             const books = await Preferences.get({ key: 'books' });
@@ -208,39 +287,45 @@ export const BookProvider: React.FC<BookProviderProps> = ({ children }) => {
             error = { message: "The book could not be save on the server right now, but it will be as soon as you are back online!" };
             dispatch({ type: SAVE_BOOK_FAILED, payload: { error } });
             dispatch({ type: SAVE_BOOK_SUCCEEDED, payload: { book: bookToSave } });
-
         }
     }
 
     function webSocketEffect() {
         let canceled = false;
         log('wsEffect - connecting');
-        let closeWebSocket: () => void;
+        let closeWebSocket: (() => void) | undefined;
+
         if (token?.trim()) {
-            closeWebSocket = newWebSocket(token, message => {
+            closeWebSocket = newWebSocket(token, async message => {
                 if (canceled) {
                     return;
                 }
                 const { type, payload: book } = message;
                 log(`ws message, book ${type}`);
                 if (type === 'created' || type === 'updated') {
-
                     if (books) {
                         const dirty = false;
-                        book.book.dirty = dirty;
+                        book.book = { ...book.book, dirty: dirty };
                         const booksArray = [...books];
-                        booksArray.push(book.book);
+                        const index = booksArray.findIndex(b => b.id === book.book.id);
+                        if (index === -1) {
+                            // add in back
+                            booksArray.splice(booksArray.length, 0, book.book);
+                        } else {
+                            booksArray[index] = book.book;
+                        }
                         Preferences.set({ key: 'books', value: JSON.stringify(booksArray) });
                     }
-
                     dispatch({ type: SAVE_BOOK_SUCCEEDED, payload: { book } });
                 }
             });
         }
+
         return () => {
             log('wsEffect - disconnecting');
             canceled = true;
-            closeWebSocket?.();
+            closeWebSocket?.(); // Check if closeWebSocket is defined before calling it
         }
     }
+
 };
