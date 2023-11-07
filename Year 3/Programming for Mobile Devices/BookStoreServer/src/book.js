@@ -1,38 +1,5 @@
 import Router from "koa-router";
 import { broadcast } from "./websocket.js";
-
-// import dataStore from "@seald-io/nedb";
-// import Datastore from '@seald-io/nedb';
-
-// export class BookStore {
-//     constructor({ filename, autoload }) {
-//         this.store = new Datastore({ filename, autoload });
-//     }
-//     async find(props) {
-//         return this.store.findAsync(props);
-//     }
-//     async findOne(props) {
-//         return this.store.findOneAsync(props);
-//     }
-//     async insert(book) {
-//         if (!book.title || !book.author) {
-//             throw new Error("Title and Author are required");
-//         }
-//         return this.store.insertAsync(book);
-//     }
-//     async update(props, book) {
-//         if (this.findOne(props) === null) {
-//             throw new Error("Book not found");
-//         }
-//         return this.store.updateAsync(props, book);
-//     }
-//     async remove(props) {
-//         return this.store.removeAsync(props);
-//     }
-// }
-
-// const bookStore = new BookStore({ filename: './db/books.json', autoload: true });
-
 import { bookStore } from "./BookStore.js";
 
 export const bookRouter = new Router();
@@ -73,7 +40,7 @@ const createBook = async (ctx, book, response) => {
         console.log(newBook);
         response.body = newBook;
         response.status = 201;
-        broadcast(book.userId, {type : 'created', payload : book});
+        broadcast(book.userId, { type: 'created', payload: book });
     } catch (err) {
         console.log(err);
         response.body = { message: err.message };
@@ -104,7 +71,7 @@ bookRouter.put('/:id', async (ctx) => {
         if (updated === 1) {
             response.body = book;
             response.status = 200;
-            broadcast(book.userId, {type : 'updated', payload : book});
+            broadcast(book.userId, { type: 'updated', payload: book });
         } else {
             response.body = { message: `book with id ${bookId} not found` };
             response.status = 404;
@@ -123,5 +90,5 @@ bookRouter.del('/:id', async (ctx) => {
     await bookStore.remove({ id: ctx.params.id });
     ctx.response.body = { message: 'success' };
     ctx.response.status = 204;
-    broadcast(book.userId, {type : 'deleted', payload : book});
+    broadcast(book.userId, { type: 'deleted', payload: book });
 });
