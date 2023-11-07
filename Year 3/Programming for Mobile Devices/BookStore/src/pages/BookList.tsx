@@ -79,7 +79,7 @@ const BookList: React.FC<RouteComponentProps> = ({ history }) => {
                         ))}
                     </IonList>
                         <IonInfiniteScroll
-                            threshold="50px"
+                            threshold="88px"
                             disabled={disableInfiniteScroll}
                             onIonInfinite={(e: CustomEvent<void>) => {
                                 loadMoreData();
@@ -100,7 +100,7 @@ const BookList: React.FC<RouteComponentProps> = ({ history }) => {
                 />
                 <IonFab vertical="bottom" horizontal="end" slot="fixed">
                     <IonFabButton onClick={() => history.push('/book')}>
-                        <IonIcon icon={add} />
+                        <IonIcon icon={add} title='add' aria-label='Add' />
                     </IonFabButton>
                 </IonFab>
             </IonContent>

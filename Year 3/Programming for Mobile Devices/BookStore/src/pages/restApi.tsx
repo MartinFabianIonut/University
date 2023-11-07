@@ -19,9 +19,7 @@ export const updateBook: (token: string, book: BookProps) => Promise<BookProps[]
 
 interface MessageData {
     type: string;
-    payload: {
-        book: BookProps;
-    };
+    payload: BookProps;
 }
 
 export const newWebSocket = (token: string, onMessage: (data: MessageData) => void) => {
@@ -38,10 +36,11 @@ export const newWebSocket = (token: string, onMessage: (data: MessageData) => vo
             log('web socket onerror', error);
         };
         ws.onmessage = messageEvent => {
-            log('web socket onmessage');
+            log('web socket onmessage', messageEvent.data);
             onMessage(JSON.parse(messageEvent.data));
         };
         return () => {
+            log('web socket onclose PROBLEM HERE MAYBE???');
             ws.close();
         }
     }

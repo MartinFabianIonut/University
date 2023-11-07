@@ -17,7 +17,7 @@ const CustomToolbar: React.FC<CustomToolbarProps> = ({ title, titleStyle }) => {
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
-        width: '100%', // Optionally set the width to 100% for full width
+        width: '99%', // Optionally set the width to 100% for full width
     };
 
     const rightContentStyle: React.CSSProperties = {

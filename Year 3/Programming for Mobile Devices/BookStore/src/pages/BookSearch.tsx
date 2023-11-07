@@ -61,12 +61,13 @@ const BookSearch: React.FC<RouteComponentProps> = ({ history }) => {
                     placeholder="Search by author"
                 ></IonSearchbar>
                 <IonList>
-                    {books && books.slice(0, loadedBooks)
+                    {books && books
                         .filter((book) => {
                             const titleMatch = book.title.toLowerCase().includes(titleSearch.toLowerCase());
                             const authorMatch = book.author.toLowerCase().includes(authorSearch.toLowerCase());
                             return titleMatch && authorMatch;
                         })
+                        .slice(0, loadedBooks)
                         .map(({ id, title, author, publicationDate, isAvailable, price }) => (
                             <Book
                                 key={id}
