@@ -10,7 +10,7 @@ struct cerc
 
 void afisarePerimetruSiArieCerc(cerc c)
 {
-    cout << 2 * 3.14 * c.raza << endl;
+    cout << 2 * 3.14e-0f * c.raza << endl;
     cout << 3.14 * c.raza * c.raza << endl;
 }
 

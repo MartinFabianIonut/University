@@ -1,6 +1,7 @@
 ﻿using AnalizatorLexical.Data.Entities;
 using AnalizatorLexical.Data.Interfaces;
 using AnalizatorLexical.Data.Models;
+using System.ComponentModel.DataAnnotations;
 using System.Reflection;
 
 namespace AnalizatorLexical.Data.Services
@@ -43,7 +44,7 @@ namespace AnalizatorLexical.Data.Services
 			var automatonPath = Path.Combine(parentDirectory, "Data", "Automatons");
 			var identifierAutomatonPath = Path.Combine(automatonPath, "identifier.txt");
 			var realNrAutomatonPath = Path.Combine(automatonPath, "realNr.txt");
-			var integerNrAutomatonPath = Path.Combine(automatonPath, "integerNr.txt");
+			var integerNrAutomatonPath = Path.Combine(automatonPath, "integerNrWithSuffix.txt");
 			ReadFromFile(identifierAutomatonPath);
 			identifierAutomaton = new FiniteAutomaton(alphabet, initialState, finalStates, delta);
 			ReadFromFile(realNrAutomatonPath);
@@ -176,6 +177,21 @@ namespace AnalizatorLexical.Data.Services
 			return null;
 		}
 
+		private string GetLongestPrefix(params string[] prefixes)
+		{
+			string longest = string.Empty;
+
+			foreach (var prefix in prefixes)
+			{
+				if (prefix.Length > longest.Length)
+				{
+					longest = prefix;
+				}
+			}
+
+			return longest;
+		}
+
 		private string AnalyzeTheLine(string line, List<Atom> Atoms, List<string> ID, List<string> CONST, int lineNumber, List<string> lexicalAtoms)
 		{
 
@@ -183,10 +199,11 @@ namespace AnalizatorLexical.Data.Services
 				line = line.Substring(1);
 			while (!string.IsNullOrWhiteSpace(line))
 			{
-				var longestAcceptedPrefix = (identifierAutomaton.LongestAcceptedPrefix(line) ?? "")
-					.Length > (realNrAutomaton.LongestAcceptedPrefix(line) ?? "").Length ?
-					(identifierAutomaton.LongestAcceptedPrefix(line) ?? "") :
-					(realNrAutomaton.LongestAcceptedPrefix(line) ?? "");
+				var longestInteger = integerNrAutomaton.LongestAcceptedPrefix(line);
+				var longestReal = realNrAutomaton.LongestAcceptedPrefix(line);
+				var longestIdentifier = identifierAutomaton.LongestAcceptedPrefix(line);
+
+				var longestAcceptedPrefix = GetLongestPrefix(longestInteger, longestReal, longestIdentifier);
 				if (longestAcceptedPrefix.Length == 0)
 				{
 					longestAcceptedPrefix = line[0].ToString();

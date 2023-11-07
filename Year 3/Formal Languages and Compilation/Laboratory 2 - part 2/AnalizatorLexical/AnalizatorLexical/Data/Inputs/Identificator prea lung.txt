@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int sumaNumere(int n)
+{
+    int numar, suma = 0;
+    for (int i = 0; i < n; i = i + 1)
+    {
+        cin >> numar;
+        suma = suma + numar;
+    }
+    return suma;
+}
+
+int main()
+{
+    int _abcdefghijklmnopqerstuvwxyABCDEFGHIJKLMNOPQRSTUVWXY_abcdefghijklmnopqerstuvwxyABCDEFGHIJKLMNOPQRSTUVWXY_abcdefghijklmnopqerstuvwxyABCDEFGHIJKLMNOPQRSTUVWXY_abcdefghijklmnopqerstuvwxyABCDEFGHIJKLMNOPQRSTUVWXY_abcdefghijklmnopqerstuvwxyABCDEFGHIJKLMNO;
+    cin >> n;
+    cout << sumaNumere(n);
+    return 0;
+}
