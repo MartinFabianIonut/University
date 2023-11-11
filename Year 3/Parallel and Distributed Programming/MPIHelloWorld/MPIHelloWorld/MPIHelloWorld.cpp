@@ -1,6 +1,7 @@
 #include <iostream>
 #include <mpi.h>
 
+using namespace std;
 
 int main()
 {
@@ -12,7 +13,7 @@ int main()
 	MPI_Comm_size(MPI_COMM_WORLD, &world_size);
 	MPI_Comm_rank(MPI_COMM_WORLD, &my_rank);
 
-	std::cout << "Hello World from process " << my_rank << " out of " << world_size << " processes!!!" << std::endl;
+	cout << "Hello World from process " << my_rank << " out of " << world_size << " processes!!!" << endl;
 
 	MPI_Finalize();
 	return 0;
