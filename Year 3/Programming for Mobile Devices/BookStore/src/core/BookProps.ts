@@ -1,3 +1,5 @@
+import { MyPhoto } from "../hooks/usePhotos";
+
 export interface BookProps {
     id?: string;
     title: string;
@@ -5,4 +7,6 @@ export interface BookProps {
     publicationDate: Date;
     isAvailable: boolean;
     price : number;
+    dirty?: boolean;
+    photo?: string;
 }

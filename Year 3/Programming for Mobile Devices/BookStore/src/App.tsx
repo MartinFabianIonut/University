@@ -1,5 +1,5 @@
 import { Redirect, Route } from 'react-router-dom';
-import { IonApp, IonRouterOutlet, setupIonicReact } from '@ionic/react';
+import { IonApp, IonIcon, IonLabel, IonRouterOutlet, IonTab, IonTabBar, IonTabButton, IonTabs, setupIonicReact } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 
 /* Core CSS required for Ionic components to work properly */
@@ -20,26 +20,45 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
-import { BookList, BookEdit } from './pages';
-import { BookProvider } from './pages/BookProvider';
-import { AuthProvider, Login, PrivateRoute } from './auth';
+import { BookList, BookEdit, BookSearch, BookFilter, Login } from './pages';
+import { AuthProvider, BookProvider, PrivateRoute } from './providers';
+import { book, filter, searchCircle } from 'ionicons/icons';
 
 setupIonicReact();
 
 const App: React.FC = () => (
+
   <IonApp>
     <IonReactRouter>
-      <IonRouterOutlet>
-        <AuthProvider>
-          <Route path="/login" component={Login} exact={true} />
-          <BookProvider>
-            <PrivateRoute path="/books" component={BookList} exact={true} />
-            <PrivateRoute path="/book" component={BookEdit} exact={true} />
-            <PrivateRoute path="/book/:id" component={BookEdit} exact={true} />
-          </BookProvider>
-          <Route exact path="/" render={() => <Redirect to="/books" />} />
-        </AuthProvider>
-      </IonRouterOutlet>
+      <IonTabs>
+        <IonRouterOutlet>
+          <AuthProvider>
+            <Route path="/login" component={Login} exact={true} />
+            <BookProvider>
+              <PrivateRoute path="/books" component={BookList} exact={true} />
+              <PrivateRoute path="/book" component={BookEdit} exact={true} />
+              <PrivateRoute path="/book/:id" component={BookEdit} exact={true} />
+              <PrivateRoute path="/search" component={BookSearch} exact={true} />
+              <PrivateRoute path="/filter" component={BookFilter} exact={true} />
+            </BookProvider>
+            <Route exact path="/" render={() => <Redirect to="/books" />} />
+          </AuthProvider>
+        </IonRouterOutlet>
+        <IonTabBar slot="bottom">
+          <IonTabButton tab="books" href="/books">
+            <IonIcon icon={book} />
+            <IonLabel>Books</IonLabel>
+          </IonTabButton>
+          <IonTabButton tab="search" href="/search">
+            <IonIcon icon={searchCircle} />
+            <IonLabel>Search</IonLabel>
+          </IonTabButton>
+          <IonTabButton tab="filter" href="/filter">
+            <IonIcon icon={filter} />
+            <IonLabel>Filter</IonLabel>
+          </IonTabButton>
+        </IonTabBar>
+      </IonTabs>
     </IonReactRouter>
   </IonApp>
 );

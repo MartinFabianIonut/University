@@ -1,25 +1,25 @@
 import React, { useCallback, useContext, useEffect, useState } from 'react';
 import { RouteComponentProps } from 'react-router';
 import { IonButton, IonContent, IonHeader, IonInput, IonLoading, IonPage, IonTitle, IonToolbar, IonToast } from '@ionic/react';
-import { AuthContext } from './AuthProvider';
+import { AuthContext } from '../providers/AuthProvider';
 import { getLogger } from '../core';
+import { useIonToast } from '../hooks/useIonToast';
 
 const log = getLogger('Login');
 
 interface LoginState {
   username?: string;
   password?: string;
-  showToast: boolean;
-  toastMessage: string;
 }
 
-export const Login: React.FC<RouteComponentProps> = ({ history }) => {
+const Login: React.FC<RouteComponentProps> = ({ history }) => {
   const { isAuthenticated, isAuthenticating, login, signup, authenticationError } = useContext(AuthContext);
   const [state, setState] = useState<LoginState>({
-    showToast: false,
-    toastMessage: '',
+    username: '',
+    password: ''
   });
-  const { username, password, showToast, toastMessage } = state;
+  const { username, password } = state;
+  const { showToast, ToastComponent, getErrorMessage } = useIonToast();
 
   const isLoginDisabled = !username || !password;
   const isSignupDisabled = isLoginDisabled || isAuthenticating;
@@ -57,21 +57,11 @@ export const Login: React.FC<RouteComponentProps> = ({ history }) => {
 
   useEffect(() => {
     if (authenticationError) {
-      setState({
-        ...state,
-        showToast: true,
-        toastMessage: getErrorMessage(authenticationError) || 'Failed to authenticate',
+      showToast({
+        message: getErrorMessage(authenticationError) || 'Failed to authenticate',
       });
     }
-  }, [authenticationError]);
-
-  const handleToastClose = () => {
-    setState({
-      ...state,
-      showToast: false,
-      toastMessage: '',
-    });
-  };
+  }, [authenticationError, showToast]);
 
   return (
     <IonPage>
@@ -103,22 +93,10 @@ export const Login: React.FC<RouteComponentProps> = ({ history }) => {
           Login
         </IonButton>
         <IonButton className="custom-button" disabled={isSignupDisabled} onClick={handleSignup}>Signup</IonButton>
-        <IonToast
-          isOpen={showToast}
-          onDidDismiss={handleToastClose}
-          message={toastMessage}
-          duration={3000}
-          cssClass="custom-toast"
-          position="middle"
-        />
+        {ToastComponent}
       </IonContent>
     </IonPage>
   );
 };
 
-function getErrorMessage(error: any): string {
-  if (error.response && error.response.data && error.response.data.error) {
-    return error.response.data.error;
-  }
-  return 'Failed to authenticate';
-}
+export default Login;

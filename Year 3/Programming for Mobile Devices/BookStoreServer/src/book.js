@@ -1,38 +1,5 @@
 import Router from "koa-router";
 import { broadcast } from "./websocket.js";
-
-// import dataStore from "@seald-io/nedb";
-// import Datastore from '@seald-io/nedb';
-
-// export class BookStore {
-//     constructor({ filename, autoload }) {
-//         this.store = new Datastore({ filename, autoload });
-//     }
-//     async find(props) {
-//         return this.store.findAsync(props);
-//     }
-//     async findOne(props) {
-//         return this.store.findOneAsync(props);
-//     }
-//     async insert(book) {
-//         if (!book.title || !book.author) {
-//             throw new Error("Title and Author are required");
-//         }
-//         return this.store.insertAsync(book);
-//     }
-//     async update(props, book) {
-//         if (this.findOne(props) === null) {
-//             throw new Error("Book not found");
-//         }
-//         return this.store.updateAsync(props, book);
-//     }
-//     async remove(props) {
-//         return this.store.removeAsync(props);
-//     }
-// }
-
-// const bookStore = new BookStore({ filename: './db/books.json', autoload: true });
-
 import { bookStore } from "./BookStore.js";
 
 export const bookRouter = new Router();
@@ -40,7 +7,6 @@ export const bookRouter = new Router();
 bookRouter.get('/', async (ctx) => {
     const userId = ctx.state.user._id;
     const books = await bookStore.find({ userId });
-    // change ids to strings
     books.forEach(book => book.id = book.id.toString());
     ctx.response.body = books;
     ctx.response.status = 200;
@@ -68,11 +34,16 @@ bookRouter.get('/:id', async (ctx) => {
 const createBook = async (ctx, book, response) => {
     try {
         book.userId = ctx.state.user._id;
+        const bookToLog = { ...book, photo: null };
+        console.log(bookToLog);
         const newBook = await bookStore.insert(book);
+        const newBookToLog = { ...newBook, photo: null };
+        console.log(newBookToLog);
         response.body = newBook;
         response.status = 201;
-        broadcast(book.userId, {type : 'created', payload : book});
+        broadcast(book.userId, { type: 'created', payload: book });
     } catch (err) {
+        console.log(err);
         response.body = { message: err.message };
         response.status = 400;
     }
@@ -92,16 +63,16 @@ bookRouter.put('/:id', async (ctx) => {
         response.status = 403;
         return;
     }
-    if (!bookId) {
+    if (!bookId || bookId < 0) {
         await createBook(ctx, book, response);
     } else {
         const userId = ctx.state.user._id;
         book.userId = userId;
-        const updated = await bookStore.update({ _id: parseInt(id) }, book);
+        const updated = await bookStore.update({ id: parseInt(id) }, book);
         if (updated === 1) {
             response.body = book;
             response.status = 200;
-            broadcast(book.userId, {type : 'updated', payload : book});
+            broadcast(book.userId, { type: 'updated', payload: book });
         } else {
             response.body = { message: `book with id ${bookId} not found` };
             response.status = 404;
@@ -120,5 +91,5 @@ bookRouter.del('/:id', async (ctx) => {
     await bookStore.remove({ id: ctx.params.id });
     ctx.response.body = { message: 'success' };
     ctx.response.status = 204;
-    broadcast(book.userId, {type : 'deleted', payload : book});
+    broadcast(book.userId, { type: 'deleted', payload: book });
 });

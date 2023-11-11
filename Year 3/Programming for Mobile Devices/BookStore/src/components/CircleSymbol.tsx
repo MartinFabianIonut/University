@@ -1,7 +1,7 @@
 import React from 'react';
 
 interface CircleSymbolProps {
-    status: boolean;
+    status: boolean | null;
 }
 
 const CircleSymbol: React.FC<CircleSymbolProps> = ({ status }) => {

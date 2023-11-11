@@ -1,9 +1,8 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import { getLogger } from '../core';
-import { login as loginApi, signup as signupApi } from './authApi';
+import { login as loginApi, signup as signupApi } from '../api/authApi';
 import { Preferences } from '@capacitor/preferences';
-import { set } from 'date-fns';
 
 const log = getLogger('AuthProvider');
 
@@ -46,15 +45,8 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
   const login = useCallback<LoginFn>(loginCallback, []);
   const signup = useCallback<SignupFn>(signupCallback, []);
   const logout = useCallback<LogoutFn>(logoutCallback, []);
-  useEffect(() => {
-    // const loadUser = async () => {
-    //   const preferences = await loadUserFromPreferences();
-    //   if (preferences === 0) {
-    //     authenticationEffect();
-    //   }
-    // };
 
-    // loadUser();
+  useEffect(() => {
     loadUserFromPreferences();
     authenticationEffect();
   }, [pendingAuthentication, pendingSignUp]);
@@ -72,7 +64,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     setState({
       ...state,
       pendingAuthentication: true,
-      pendingSignUp: false, // Reset pendingSignUp when login is triggered
+      pendingSignUp: false,
       username,
       password
     });
@@ -83,7 +75,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     setState({
       ...state,
       pendingSignUp: true,
-      pendingAuthentication: false, // Reset pendingAuthentication when signup is triggered
+      pendingAuthentication: false,
       username,
       password
     });
@@ -91,9 +83,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
 
   function logoutCallback() {
     log('logout');
-    Preferences.remove({ key: 'user' });
-
-    // Reset the authentication state
+    Preferences.clear();
     setState({
       ...initialState
     });
@@ -106,8 +96,6 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
         const user = JSON.parse(userString.value);
         setState({
           ...state,
-          username: user.username,
-          password: user.password,
           isAuthenticated: true,
           token: user.token,
         });
@@ -126,7 +114,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
 
     async function authenticate() {
       if (!pendingAuthentication && !pendingSignUp) {
-        log('authenticate, !pendingAuthentication && !pendingSignUp, return');
+        log('now we are waiting for user to press login or signup');
         return;
       }
       try {

@@ -20,7 +20,7 @@ export class UserStore {
 const userStore = new UserStore({ filename: './db/users.json', autoload: true });
 
 const createToken = (user) => {
-  return jwt.sign({ username: user.username, _id: user._id }, jwtConfig.secret, { expiresIn: 60 * 60 * 60 });
+  return jwt.sign({ username: user.username, _id: user._id }, jwtConfig.secret, { expiresIn: 60 * 60 * 24 * 7 });
 };
 
 export const authRouter = new Router();
