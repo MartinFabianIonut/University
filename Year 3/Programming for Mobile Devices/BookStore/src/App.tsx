@@ -20,11 +20,9 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
-import { BookList, BookEdit, BookSearch } from './pages';
-import { BookProvider } from './pages/BookProvider';
-import { AuthProvider, Login, PrivateRoute } from './auth';
+import { BookList, BookEdit, BookSearch, BookFilter, Login } from './pages';
+import { AuthProvider, BookProvider, PrivateRoute } from './providers';
 import { book, filter, searchCircle } from 'ionicons/icons';
-import BookFilter from './pages/BookFilter';
 
 setupIonicReact();
 

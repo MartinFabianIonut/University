@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
 import { IonToolbar, IonTitle, IonButton } from '@ionic/react';
 import CircleSymbol from './CircleSymbol';
-import { useNetwork } from '../use/useNetwork';
-import { AuthContext } from '../auth/AuthProvider';
+import { useNetwork } from '../hooks/useNetwork';
+import { AuthContext } from '../providers/AuthProvider';
 
 interface CustomToolbarProps {
     title: string;
@@ -17,7 +17,7 @@ const CustomToolbar: React.FC<CustomToolbarProps> = ({ title, titleStyle }) => {
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
-        width: '99%', // Optionally set the width to 100% for full width
+        width: '99%',
     };
 
     const rightContentStyle: React.CSSProperties = {
