@@ -14,32 +14,36 @@ import {
     IonInfiniteScrollContent,
 } from '@ionic/react';
 import { add } from 'ionicons/icons';
-import Book from './Book';
+import Book from '../core/Book';
 import { getLogger } from '../core';
-import { BookContext } from './BookProvider';
+import { BookContext } from '../providers/BookProvider';
 import CustomToolbar from '../components/CustomToolbar';
+import { useIonToast } from '../hooks/useIonToast';
 
 const log = getLogger('BookList');
 
 const BookList: React.FC<RouteComponentProps> = ({ history }) => {
     const { books, fetching, fetchingError, savingError } = useContext(BookContext);
-    const [showToast, setShowToast] = useState(false);
-    const [toastMessage, setToastMessage] = useState('');
-    const handleToastClose = () => setShowToast(false);
+    const { showToast, ToastComponent, getErrorMessage } = useIonToast();
+
     useEffect(() => {
-        log('useEffect');
-        if (savingError) {
-            setToastMessage(savingError.message);
-            setShowToast(true);
-        }
-    }, [savingError]);
-    useEffect(() => {
-        log('useEffect');
         if (fetchingError) {
-            setToastMessage(fetchingError.message);
-            setShowToast(true);
+            showToast({
+                message: getErrorMessage(fetchingError) || 'Failed to fetch books',
+            });
+            log('fetchingError: ', fetchingError);
         }
     }, [fetchingError]);
+
+    useEffect(() => {
+        if (savingError) {
+            showToast({
+                message: getErrorMessage(savingError) || 'Failed to save book',
+            });
+            log('savingError: ', savingError);
+        }
+    }, [savingError]);
+
 
     const [loadedBooks, setLoadedBooks] = useState(4);
     const [disableInfiniteScroll, setDisableInfiniteScroll] = useState<boolean>(false);
@@ -54,7 +58,8 @@ const BookList: React.FC<RouteComponentProps> = ({ history }) => {
         setLoadedBooks(4);
     }, [books]);
 
-    log('render ', 'yes/no: ', fetching, ' ' + JSON.stringify(books?.slice(0, loadedBooks)));
+    log('render ', 'yes/no: ', fetching, ' ' + JSON.stringify(books?.slice(0, loadedBooks).map(book => ({ ...book, photo: undefined }))));
+
 
     return (
         <IonPage>
@@ -65,7 +70,7 @@ const BookList: React.FC<RouteComponentProps> = ({ history }) => {
                 <IonLoading isOpen={fetching} message="Fetching books" />
                 {books && (
                     <><IonList>
-                        {books.slice(0, loadedBooks).map(({ id, title, author, publicationDate, isAvailable, price }) => (
+                        {books.slice(0, loadedBooks).map(({ id, title, author, publicationDate, isAvailable, price, photo }) => (
                             <Book
                                 key={id}
                                 id={id}
@@ -74,6 +79,7 @@ const BookList: React.FC<RouteComponentProps> = ({ history }) => {
                                 publicationDate={publicationDate}
                                 isAvailable={isAvailable}
                                 price={price}
+                                photo={photo}
                                 onEdit={(bookId) => history.push(`/book/${bookId}`)}
                             />
                         ))}
@@ -90,14 +96,7 @@ const BookList: React.FC<RouteComponentProps> = ({ history }) => {
                         </IonInfiniteScroll>
                     </>
                 )}
-                <IonToast
-                    isOpen={showToast}
-                    onDidDismiss={handleToastClose}
-                    message={toastMessage}
-                    duration={3000}
-                    cssClass="custom-toast"
-                    position="middle"
-                />
+                {ToastComponent}
                 <IonFab vertical="bottom" horizontal="end" slot="fixed">
                     <IonFabButton onClick={() => history.push('/book')}>
                         <IonIcon icon={add} title='add' aria-label='Add' />

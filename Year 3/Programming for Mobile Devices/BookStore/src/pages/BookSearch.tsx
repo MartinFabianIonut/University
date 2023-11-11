@@ -2,21 +2,16 @@ import React, { useState, useContext, useEffect } from 'react';
 import {
     IonContent,
     IonHeader,
-    IonItem,
-    IonLabel,
     IonList,
     IonPage,
     IonSearchbar,
-    IonTitle,
-    IonToolbar,
-    useIonViewWillEnter,
     IonInfiniteScroll,
     IonInfiniteScrollContent
 } from '@ionic/react';
 import { getLogger } from '../core';
-import { BookContext } from './BookProvider';
+import { BookContext } from '../providers/BookProvider';
 import CustomToolbar from '../components/CustomToolbar';
-import Book from './Book';
+import Book from '../core/Book';
 import { RouteComponentProps } from 'react-router';
 
 const log = getLogger('BookSearch');

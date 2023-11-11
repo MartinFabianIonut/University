@@ -8,20 +8,16 @@ import {
     IonSelect,
     IonSelectOption,
     IonPage,
-    IonSearchbar,
-    IonTitle,
-    IonToolbar,
-    useIonViewWillEnter,
     IonInfiniteScroll,
     IonInfiniteScrollContent,
     IonRange
 } from '@ionic/react';
 import { getLogger } from '../core';
-import { BookContext } from './BookProvider';
+import { BookContext } from '../providers/BookProvider';
 import CustomToolbar from '../components/CustomToolbar';
-import Book from './Book';
+import Book from '../core/Book';
 import { RouteComponentProps } from 'react-router';
-import { BookProps } from './BookProps';
+import { BookProps } from '../core/BookProps';
 
 const log = getLogger('BookSearch');
 
