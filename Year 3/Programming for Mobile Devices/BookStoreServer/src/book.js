@@ -7,7 +7,6 @@ export const bookRouter = new Router();
 bookRouter.get('/', async (ctx) => {
     const userId = ctx.state.user._id;
     const books = await bookStore.find({ userId });
-    // change ids to strings
     books.forEach(book => book.id = book.id.toString());
     ctx.response.body = books;
     ctx.response.status = 200;
@@ -35,9 +34,11 @@ bookRouter.get('/:id', async (ctx) => {
 const createBook = async (ctx, book, response) => {
     try {
         book.userId = ctx.state.user._id;
-        console.log(book);
+        const bookToLog = { ...book, photo: null };
+        console.log(bookToLog);
         const newBook = await bookStore.insert(book);
-        console.log(newBook);
+        const newBookToLog = { ...newBook, photo: null };
+        console.log(newBookToLog);
         response.body = newBook;
         response.status = 201;
         broadcast(book.userId, { type: 'created', payload: book });

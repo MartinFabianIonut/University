@@ -1,3 +1,5 @@
+import jwt from 'jsonwebtoken';
+
 export const jwtConfig = { secret: 'my-secret' };
 
 export const exceptionHandler = async (ctx, next) => {
@@ -5,8 +7,17 @@ export const exceptionHandler = async (ctx, next) => {
     return await next();
   } catch (err) {
     console.log(err);
-    ctx.body = { message: err.message || 'Unexpected error.' };
-    ctx.status = err.status || 500;
+    const originalError = err.originalError || err;
+    if (originalError instanceof jwt.TokenExpiredError) {
+      ctx.body = { error: 'It has been a while since we saw you! Please log in again.' };
+      ctx.status = 401;
+    } else if (originalError instanceof jwt.JsonWebTokenError) {
+      ctx.body = { error: 'Invalid credentials. Please log in again.' };
+      ctx.status = 401;
+    } else {
+      ctx.body = { error: err.message || 'Unexpected error.' };
+      ctx.status = err.status || 500;
+    }
   }
 };
 

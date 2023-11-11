@@ -1,4 +1,3 @@
-
 import { open } from 'sqlite';
 
 import sqlite3 from 'sqlite3';
@@ -22,7 +21,8 @@ export class BookStore {
                 publicationDate TEXT,
                 isAvailable INTEGER,
                 price NUMERIC,
-                userId TEXT
+                userId TEXT,
+                photo TEXT
             );
         `);
     }
@@ -49,18 +49,15 @@ export class BookStore {
             [title, author, publicationDate, isAvailable, price, userId]
         );
 
-        // Get the last inserted row id
         const { lastID } = await this.db.get('SELECT last_insert_rowid() as lastID');
-        // put as string
         book.id = lastID.toString();
         return book;
     }
 
     async update(props, book) {
-        const { title, author, publicationDate, isAvailable, price } = book;
-        await this.db.run('UPDATE books SET title = ?, author = ?, publicationDate = ?, isAvailable = ?, price  = ? WHERE id = ?', 
-        [title, author, publicationDate, isAvailable, price, props.id]);
-        // return number of rows updated
+        const { title, author, publicationDate, isAvailable, price, photo } = book;
+        await this.db.run('UPDATE books SET title = ?, author = ?, publicationDate = ?, isAvailable = ?, price  = ?, photo = ? WHERE id = ?',
+            [title, author, publicationDate, isAvailable, price, photo, props.id]);
         return 1;
     }
 
@@ -71,6 +68,6 @@ export class BookStore {
 }
 
 const bookStore = new BookStore({ filename: './db/books.db' });
-await bookStore.init(); 
+await bookStore.init();
 
 export { bookStore };

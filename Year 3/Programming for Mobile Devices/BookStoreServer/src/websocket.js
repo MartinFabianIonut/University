@@ -31,7 +31,7 @@ export const broadcast = (userId, data) => {
       console.log('client', client.user);
 
       if (client.readyState === WebSocket.OPEN && userId === client.user._id) {
-        console.log(`broadcast sent to ${client.user.username} ->` + JSON.stringify(data));
+        console.log(`broadcast sent to ${client.user.username}`);
         client.send(JSON.stringify(data));
       }
     }
