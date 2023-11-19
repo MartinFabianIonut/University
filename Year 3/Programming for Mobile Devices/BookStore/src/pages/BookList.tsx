@@ -70,7 +70,7 @@ const BookList: React.FC<RouteComponentProps> = ({ history }) => {
                 <IonLoading isOpen={fetching} message="Fetching books" />
                 {books && (
                     <><IonList>
-                        {books.slice(0, loadedBooks).map(({ id, title, author, publicationDate, isAvailable, price, photo }) => (
+                        {books.slice(0, loadedBooks).map(({ id, title, author, publicationDate, isAvailable, price, photo, lat, lng }) => (
                             <Book
                                 key={id}
                                 id={id}
@@ -80,6 +80,8 @@ const BookList: React.FC<RouteComponentProps> = ({ history }) => {
                                 isAvailable={isAvailable}
                                 price={price}
                                 photo={photo}
+                                lat={lat}
+                                lng={lng}
                                 onEdit={(bookId) => history.push(`/book/${bookId}`)}
                             />
                         ))}

@@ -63,7 +63,7 @@ const BookSearch: React.FC<RouteComponentProps> = ({ history }) => {
                             return titleMatch && authorMatch;
                         })
                         .slice(0, loadedBooks)
-                        .map(({ id, title, author, publicationDate, isAvailable, price }) => (
+                        .map(({ id, title, author, publicationDate, isAvailable, price, photo }) => (
                             <Book
                                 key={id}
                                 id={id}
@@ -72,6 +72,7 @@ const BookSearch: React.FC<RouteComponentProps> = ({ history }) => {
                                 publicationDate={publicationDate}
                                 isAvailable={isAvailable}
                                 price={price}
+                                photo={photo}
                                 onEdit={id => history.push(`/book/${id}`)}
                             />
                         ))

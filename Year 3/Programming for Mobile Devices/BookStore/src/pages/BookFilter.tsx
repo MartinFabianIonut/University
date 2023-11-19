@@ -117,7 +117,7 @@ const BookFilter: React.FC<RouteComponentProps> = ({ history }) => {
 
 
                 <IonList>
-                    {!loading && filteredBooks && filteredBooks.slice(0, loadedBooks).map(({ id, title, author, publicationDate, isAvailable, price }) => (
+                    {!loading && filteredBooks && filteredBooks.slice(0, loadedBooks).map(({ id, title, author, publicationDate, isAvailable, price, photo }) => (
                         <Book
                             key={id}
                             id={id}
@@ -126,6 +126,7 @@ const BookFilter: React.FC<RouteComponentProps> = ({ history }) => {
                             publicationDate={publicationDate}
                             isAvailable={isAvailable}
                             price={price}
+                            photo={photo}
                             onEdit={() => history.push(`/book/${id}`)}
                         />
                     ))}

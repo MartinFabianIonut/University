@@ -9,4 +9,6 @@ export interface BookProps {
     price : number;
     dirty?: boolean;
     photo?: string;
+    lat?: number;
+    lng?: number;
 }
