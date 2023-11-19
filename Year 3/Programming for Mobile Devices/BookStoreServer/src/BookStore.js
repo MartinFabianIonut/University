@@ -22,7 +22,9 @@ export class BookStore {
                 isAvailable INTEGER,
                 price NUMERIC,
                 userId TEXT,
-                photo TEXT
+                photo TEXT,
+                lat REAL,
+                lng REAL
             );
         `);
     }
@@ -42,11 +44,11 @@ export class BookStore {
             throw new Error("Title, Author, and UserId are required");
         }
 
-        const { title, author, publicationDate, isAvailable, price, userId } = book;
+        const { title, author, publicationDate, isAvailable, price, userId, photo, lat, lng } = book;
 
         await this.db.run(
-            'INSERT INTO books (title, author, publicationDate, isAvailable, price, userId) VALUES (?, ?, ?, ?, ?, ?)',
-            [title, author, publicationDate, isAvailable, price, userId]
+            'INSERT INTO books (title, author, publicationDate, isAvailable, price, userId, photo, lat, lng) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)',
+            [title, author, publicationDate, isAvailable, price, userId, photo, lat, lng]
         );
 
         const { lastID } = await this.db.get('SELECT last_insert_rowid() as lastID');
@@ -55,9 +57,10 @@ export class BookStore {
     }
 
     async update(props, book) {
-        const { title, author, publicationDate, isAvailable, price, photo } = book;
-        await this.db.run('UPDATE books SET title = ?, author = ?, publicationDate = ?, isAvailable = ?, price  = ?, photo = ? WHERE id = ?',
-            [title, author, publicationDate, isAvailable, price, photo, props.id]);
+        const { title, author, publicationDate, isAvailable, price, photo, lat, lng } = book;
+        await this.db.run('UPDATE books SET title = ?, author = ?, publicationDate = ?, isAvailable = ?, price  = ?, photo = ?, ' +
+            'lat = ?, lng = ? WHERE id = ?',
+            [title, author, publicationDate, isAvailable, price, photo, lat, lng, props.id]);
         return 1;
     }
 
