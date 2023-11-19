@@ -24,6 +24,9 @@ import { format, set } from 'date-fns';
 import CustomToolbar from '../components/CustomToolbar';
 import { camera, images, trash, close } from 'ionicons/icons';
 import { MyPhoto, usePhotos } from '../hooks/usePhotos';
+import { useMyLocation } from '../hooks/useMyLocation';
+import MyMap from '../components/MyMap';
+import { createAnimation } from '@ionic/react';
 
 const log = getLogger('BookEdit');
 
@@ -58,14 +61,27 @@ const BookEdit: React.FC<BookEditProps> = ({ history, match }) => {
     const { books, saving, saveBook } = useContext(BookContext);
     const { takePhoto, deletePhoto } = usePhotos();
     const [book, setBook] = useState<BookProps | undefined>(undefined);
-    const [title, setTitle] = useState('Type a title');
-    const [author, setAuthor] = useState('Type an author');
+    const [title, setTitle] = useState('');
+    const [author, setAuthor] = useState('');
     const [publicationDate, setPublicationDate] = useState<Date | undefined>(undefined);
     const [isAvailable, setIsAvailable] = useState(false);
     const [price, setPrice] = useState(0);
     const [photo, setPhoto] = useState<string | undefined>(undefined);
+    const [lat, setLat] = useState<number | undefined>(undefined);
+    const [lng, setLng] = useState<number | undefined>(undefined);
     const [photoToDelete, setPhotoToDelete] = useState<MyPhoto>();
     const [unsavedChanges, setUnsavedChanges] = useState(false);
+    const myLocation = useMyLocation();
+    const [shakeAnimation, setShakeAnimation] = useState(false);
+
+    useEffect(() => {
+        if (myLocation.position?.coords && !lat && !lng) {
+            const { latitude, longitude } = myLocation.position.coords;
+            log(`useEffect - Setting lat: ${latitude}, lng: ${longitude}`);
+            setLat(latitude);
+            setLng(longitude);
+        }
+    }, [myLocation]);
 
     useEffect(() => {
         log('useEffect - Fetching book details');
@@ -81,6 +97,8 @@ const BookEdit: React.FC<BookEditProps> = ({ history, match }) => {
             setIsAvailable(foundBook.isAvailable);
             setPrice(foundBook.price);
             setPhoto(foundBook.photo);
+            setLat(foundBook.lat);
+            setLng(foundBook.lng);
         }
     }, [match.params.id, books]);
 
@@ -90,6 +108,13 @@ const BookEdit: React.FC<BookEditProps> = ({ history, match }) => {
     } : undefined;
 
     const handleSave = useCallback(() => {
+        if (!title || !author) {
+            setShakeAnimation(true);
+            setTimeout(() => {
+                setShakeAnimation(false);
+            }, 1000);
+            return;
+        }
         const editedBook: BookProps = {
             id: book?.id,
             title,
@@ -97,7 +122,9 @@ const BookEdit: React.FC<BookEditProps> = ({ history, match }) => {
             publicationDate: publicationDate || new Date(),
             isAvailable,
             price,
-            photo
+            photo,
+            lat,
+            lng,
         };
         setUnsavedChanges(false);
         log('handleSave - Saving edited book');
@@ -105,7 +132,60 @@ const BookEdit: React.FC<BookEditProps> = ({ history, match }) => {
             log('handleSave - Book saved successfully. Navigating back.');
             history.goBack();
         });
-    }, [book, saveBook, title, author, publicationDate, isAvailable, price, photo, history]);
+    }, [book, saveBook, title, author, publicationDate, isAvailable, price, photo, lat, lng, history]);
+
+    const handleMapClick = useCallback((latLng: { latitude: number; longitude: number }) => {
+        const { latitude, longitude } = latLng;
+        log(`handleMapClick - lat: ${latitude}, lng: ${longitude}`);
+        setLat(latitude);
+        setLng(longitude);
+        setUnsavedChanges(true);
+    }, []);
+
+    useEffect(() => {
+        if (shakeAnimation) {
+            const emptyInputFields = [];
+
+            // Check if title is empty
+            if (!title.trim()) {
+                const titleInput = document.querySelector('.inputContainer.title input');
+                if (titleInput) {
+                    emptyInputFields.push(titleInput);
+                }
+            }
+
+            // Check if author is empty
+            if (!author.trim()) {
+                const authorInput = document.querySelector('.inputContainer.author input');
+                if (authorInput) {
+                    emptyInputFields.push(authorInput);
+                }
+            }
+
+            if (emptyInputFields.length > 0) {
+                emptyInputFields.forEach((inputField) => {
+                    const container = inputField.closest('.inputContainer');
+                    if (container) {
+                        const animation = createAnimation()
+                            .addElement(container)
+                            .duration(500)
+                            .direction('alternate')
+                            .iterations(3)
+                            .keyframes([
+                                { offset: 0, transform: 'translateX(0)' },
+                                { offset: 0.25, transform: 'translateX(-10px)' },
+                                { offset: 0.5, transform: 'translateX(10px)' },
+                                { offset: 0.75, transform: 'translateX(-10px)' },
+                                { offset: 1, transform: 'translateX(0)' }
+                            ]);
+                        animation.play();
+                    }
+                });
+            }
+        }
+    }, [shakeAnimation, title, author]);
+
+
 
     log('render ' + title);
     return (
@@ -114,17 +194,17 @@ const BookEdit: React.FC<BookEditProps> = ({ history, match }) => {
                 <CustomToolbar title="Edit Book" titleStyle="title" />
             </IonHeader>
             <IonContent>
-                <div className='inputContainer' >
+                <div className='inputContainer title' >
                     <IonLabel className='label'>Title:</IonLabel>
-                    <IonInput className='input' value={title} onIonChange={(e) => {
+                    <IonInput className='input' placeholder='Type a title' value={title} onIonChange={(e) => {
                         setTitle(e.detail.value || '');
                         setUnsavedChanges(true);
                     }} />
                 </div>
 
-                <div className='inputContainer'>
+                <div className='inputContainer author'>
                     <IonLabel className='label'>Author:</IonLabel>
-                    <IonInput className='input' value={author} onIonChange={(e) => {
+                    <IonInput className='input' placeholder='Type an author' value={author} onIonChange={(e) => {
                         setAuthor(e.detail.value || '');
                         setUnsavedChanges(true);
                     }} />
@@ -135,6 +215,7 @@ const BookEdit: React.FC<BookEditProps> = ({ history, match }) => {
                     <IonInput
                         class="input"
                         className='input'
+                        placeholder='dd/MM/yyyy'
                         value={publicationDate ? format(new Date(publicationDate), 'dd/MM/yyyy') : ''}
                         onIonChange={(e) => {
                             const inputDate = parseDDMMYYYY(e.detail.value || '');
@@ -173,6 +254,13 @@ const BookEdit: React.FC<BookEditProps> = ({ history, match }) => {
                         style={{ width: '100%', height: 'auto' }}
                     />
                 )}
+
+                {lat && lng &&
+                    <MyMap
+                        lat={lat}
+                        lng={lng}
+                        onMapClick={(e) => handleMapClick(e)}
+                    />}
 
                 <IonButton className="custom-button"
                     shape='round'
