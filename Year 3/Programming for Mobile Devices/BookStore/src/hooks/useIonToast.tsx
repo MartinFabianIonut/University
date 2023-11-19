@@ -1,5 +1,5 @@
-import { useState, useCallback, useMemo } from 'react';
-import { IonToast } from '@ionic/react';
+import React, { useState, useCallback, useMemo } from 'react';
+import { IonToast, createAnimation } from '@ionic/react';
 import { useContext } from 'react';
 import { AuthContext } from '../providers/AuthProvider';
 
@@ -26,18 +26,45 @@ export const useIonToast = () => {
         if (m.message.toLowerCase().includes('log in again')) {
             setTimeout(() => {
                 logout?.();
-            }, 3050);
+            }, 1550);
         }
     }, []);
+
+    // Custom enter animation for the toast
+    const enterAnimation = (baseEl: any) => {
+        const root = baseEl.shadowRoot;
+        const backdropAnimation = createAnimation()
+            .addElement(root.querySelector('ion-backdrop')!)
+            .fromTo('opacity', '0.01', 'var(--backdrop-opacity)');
+
+        const wrapperAnimation = createAnimation()
+            .addElement(root.querySelector('.toast-wrapper')!)
+            .keyframes([
+                { offset: 0, opacity: '0', transform: 'scale(0)' },
+                { offset: 1, opacity: '0.99', transform: 'scale(1)' }
+            ]);
+
+        return createAnimation()
+            .addElement(baseEl)
+            .easing('ease-out')
+            .duration(500)
+            .addAnimation([backdropAnimation, wrapperAnimation]);
+    }
+
+    const leaveAnimation = (baseEl: any) => {
+        return enterAnimation(baseEl).direction('reverse');
+    }
 
     const ToastComponent = useMemo(() => (
         <IonToast
             isOpen={!!toastMessage}
             onDidDismiss={() => setToastMessage(null)}
             message={toastMessage?.message || ''}
-            duration={3000}
+            duration={1000}
             position={'middle'}
             cssClass={'custom-toast'}
+            enterAnimation={enterAnimation}
+            leaveAnimation={leaveAnimation}
         />
     ), [toastMessage]);
 
