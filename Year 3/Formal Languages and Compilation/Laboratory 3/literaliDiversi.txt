@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 42;
+    int c = -73;
+    int d = 255u;
+    int e = 123456789L;
+    int f = 9876543210LL;
+
+    float g = 633.14f;
+    float h = 032.71828;
+    float i = 0.12345678901234567890L;
+
+    int octalNumber = 075;     
+    int hexNumber = 0x1A;      
+    int binaryNumber = 0b1101; 
+
+    int x = a - c;
+
+    float scientificNotation = 6.022e23f;  
+    float largeNumber = 19.8e12;   
+    float largeNumber2 = 9.8e-12F32;
+    float longDoubleLiteral = 1.2345678901234567890123L;
+
+    return 0;
+}
