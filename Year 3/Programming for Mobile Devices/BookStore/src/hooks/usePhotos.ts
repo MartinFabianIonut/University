@@ -12,18 +12,6 @@ export function usePhotos() {
   const { getPhoto } = useCamera();
   const { writeFile, deleteFile } = useFilesystem();
 
-  useEffect(() => {
-    // // make a setup function that will run once
-    // setup();
-
-    // async function setup() {
-    //   const photos = await readPhotos();
-    //   for (const photo of photos) {
-    //     await deletePhoto(photo);
-    //   }
-    // }
-  }, []);
-
   return {
     takePhoto,
     deletePhoto,
