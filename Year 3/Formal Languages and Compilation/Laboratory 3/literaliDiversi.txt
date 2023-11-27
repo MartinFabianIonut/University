@@ -16,11 +16,9 @@ int main() {
     int hexNumber = 0x1A;      
     int binaryNumber = 0b1101; 
 
-    int x = a - c;
-
     float scientificNotation = 6.022e23f;  
     float largeNumber = 19.8e12;   
-    float largeNumber2 = 9.8e-12F32;
+    float largeNumber2 = 9.8e-12F;
     float longDoubleLiteral = 1.2345678901234567890123L;
 
     return 0;

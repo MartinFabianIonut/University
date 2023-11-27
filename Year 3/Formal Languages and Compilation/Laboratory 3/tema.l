@@ -209,7 +209,7 @@ void dealloc() {
 
 %}
 
-INTEGER      [+-]?((0[bB][01]+(u|U|l|L|ul|uL|Ul|UL|lu|lU|Lu|LU|llu|llU|LL|LLu|LLU)?)|(0[0-7]+(u|U|l|L|ul|uL|Ul|UL|lu|lU|Lu|LU|llu|llU|LL|LLu|LLU)?)|(0[xX][0-9a-fA-F]+(u|U|l|L|ul|uL|Ul|UL|lu|lU|Lu|LU|llu|llU|LLu|LL|LLU)?)|([1-9][0-9]*(u|U|l|L|ul|uL|Ul|UL|lu|lU|Lu|LU|llu|llU|LLu|LL|LLU)?)|(0(u|U|l|L|ul|uL|Ul|UL|lu|lU|Lu|LU|llu|llU|LLu|LL|LLU)?))
+INTEGER      [+-]?((0[bB][01]+(u|U|l|L|z|Z|uz|uZ|Uz|UZ|zu|zU|Zu|ZU|ul|uL|Ul|UL|lu|lU|Lu|LU|ll|lL|Ll|LL|llu|llU|lLu|lLU|Llu|LLu|LLU|ull|ulL|uLl|uLL|Ull|UlL|ULl|ULL)?)|(0[0-7]+(u|U|l|L|z|Z|uz|uZ|Uz|UZ|zu|zU|Zu|ZU|ul|uL|Ul|UL|lu|lU|Lu|LU|ll|lL|Ll|LL|llu|llU|lLu|lLU|Llu|LLu|LLU|ull|ulL|uLl|uLL|Ull|UlL|ULl|ULL)?)|(0[xX][0-9a-fA-F]+(u|U|l|L|z|Z|uz|uZ|Uz|UZ|zu|zU|Zu|ZU|ul|uL|Ul|UL|lu|lU|Lu|LU|ll|lL|Ll|LL|llu|llU|lLu|lLU|Llu|LLu|LLU|ull|ulL|uLl|uLL|Ull|UlL|ULl|ULL)?)|([1-9][0-9]*(u|U|l|L|z|Z|uz|uZ|Uz|UZ|zu|zU|Zu|ZU|ul|uL|Ul|UL|lu|lU|Lu|LU|ll|lL|Ll|LL|llu|llU|lLu|lLU|Llu|LLu|LLU|ull|ulL|uLl|uLL|Ull|UlL|ULl|ULL)?)|(0(u|U|l|L|z|Z|uz|uZ|Uz|UZ|zu|zU|Zu|ZU|ul|uL|Ul|UL|lu|lU|Lu|LU|ll|lL|Ll|LL|llu|llU|lLu|lLU|Llu|LLu|LLU|ull|ulL|uLl|uLL|Ull|UlL|ULl|ULL)?))
 REAL_NUMBER  [+-]?((0(l|f|f16|f32|f64|f128|bf16|L|F|F16|F32|F64|F128|BF16)?|[1-9][0-9]*)(\.[0-9]+)?([eE][+-]?[0-9]+)?(l|f|f16|f32|f64|f128|bf16|L|F|F16|F32|F64|F128|BF16)?|([0-9]+\.[0-9]*)([eE][+-]?[0-9]+)?(l|f|f16|f32|f64|f128|bf16|L|F|F16|F32|F64|F128|BF16)?)
 IDENTIFIER   [a-zA-Z_][a-zA-Z0-9_]{0,249}  
 STRING       \".*\"
