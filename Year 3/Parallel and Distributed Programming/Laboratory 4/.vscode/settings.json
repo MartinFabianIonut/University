@@ -1,0 +1,8 @@
+{
+	"files.associations": {
+		"iosfwd": "cpp",
+		"xstring": "cpp",
+		"iostream": "cpp",
+		"queue": "cpp"
+	}
+}
