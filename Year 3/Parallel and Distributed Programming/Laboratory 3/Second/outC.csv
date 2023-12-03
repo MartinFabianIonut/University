@@ -2,3 +2,4 @@ Tip Matrice,Nr procese,Timp executie total, Timp executie calcule
 N=M=1000, p=4,4,3374.04862,156.9664
 N=M=1000, p=8,8,3380.99782,183.94071
 N=M=1000, p=20,20,3401.6776,338.42125
+N=M=1000, p=20,20,3559.77393,354.68589

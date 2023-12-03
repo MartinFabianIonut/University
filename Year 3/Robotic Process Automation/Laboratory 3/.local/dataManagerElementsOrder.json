@@ -1,0 +1,37 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "table&Sequence_1",
+        "list_of_names&Sequence_1",
+        "list_of_departments&Sequence_1",
+        "list_of_salaries&Sequence_1",
+        "new_employee&Sequence_1",
+        "new_table&Sequence_1",
+        "index&Sequence_1",
+        "new_row&Sequence_1",
+        "gross&Sequence_2",
+        "net_salary&Sequence_2",
+        "gross_salary&Sequence_2",
+        "name&Sequence_3",
+        "department&Sequence_3",
+        "salary&Sequence_3",
+        "is_error&Sequence_3",
+        "salary_as_string&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}

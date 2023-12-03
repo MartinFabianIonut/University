@@ -1,7 +1,6 @@
 
 $param1 = $args[0] # No of runs
 Write-Host "Numar de rulari: $param1"
-$param2 = $args[1] # Name of the program
 
 # Get the grandparent folder of the script's folder
 $parentFolder = $PSScriptRoot
