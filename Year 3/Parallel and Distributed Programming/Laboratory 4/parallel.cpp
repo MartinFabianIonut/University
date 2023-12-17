@@ -45,10 +45,6 @@ public:
         }
         Participant participant = participants.front();
         participants.pop();
-        if (participant.tara < 1)
-        {
-            cout << "In queue: Participantul " << participant.ID << " nu a participat la problema " << participant.punctaj << endl;
-        }
         return {participant, true};
     }
 
