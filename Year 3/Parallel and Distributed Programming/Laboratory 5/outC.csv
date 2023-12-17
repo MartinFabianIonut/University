@@ -1,0 +1,5 @@
+Nr readers, Nr workers,Timp executie total
+Secvential,cu timpul,344.3
+4,2,40.02
+4,4,26.98
+4,12,19.16
