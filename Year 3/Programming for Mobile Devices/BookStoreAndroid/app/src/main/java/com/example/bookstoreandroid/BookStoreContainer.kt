@@ -9,9 +9,11 @@ import com.example.bookstoreandroid.auth.data.AuthRepository
 import com.example.bookstoreandroid.auth.data.remote.AuthDataSource
 import com.example.bookstoreandroid.core.data.UserPreferencesRepository
 import com.example.bookstoreandroid.core.data.remote.Api
+import com.example.bookstoreandroid.core.utils.ConnectivityManagerNetworkMonitor
 import com.example.bookstoreandroid.todo.data.BookRepository
 import com.example.bookstoreandroid.todo.data.remote.BookService
 import com.example.bookstoreandroid.todo.data.remote.BookWsClient
+import com.example.bookstoreandroid.todo.data.remote.BookApi
 
 val Context.userPreferencesDataStore by preferencesDataStore(
     name = "user_preferences"
@@ -29,7 +31,7 @@ class BookStoreContainer(val context: Context) {
     private val database: BookStoreAndroidDatabase by lazy { BookStoreAndroidDatabase.getDatabase(context) }
 
     val bookRepository: BookRepository by lazy {
-        BookRepository(bookService, bookWsClient, database.bookDao())
+        BookRepository(bookService, bookWsClient, database.bookDao(), ConnectivityManagerNetworkMonitor(context))
     }
 
     val authRepository: AuthRepository by lazy {
@@ -38,5 +40,9 @@ class BookStoreContainer(val context: Context) {
 
     val userPreferencesRepository: UserPreferencesRepository by lazy {
         UserPreferencesRepository(context.userPreferencesDataStore)
+    }
+    // init BookApi BookService
+    init {
+        BookApi.bookRepository = bookRepository
     }
 }

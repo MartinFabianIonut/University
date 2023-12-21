@@ -1,5 +1,6 @@
 package com.example.bookstoreandroid
 
+import android.Manifest
 import android.os.Bundle
 import android.util.Log
 import androidx.activity.ComponentActivity
@@ -9,16 +10,34 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.lifecycleScope
 import com.example.bookstoreandroid.core.TAG
+import com.example.bookstoreandroid.core.ui.MyNetworkStatus
+import com.example.bookstoreandroid.core.utils.Permissions
+import com.example.bookstoreandroid.core.utils.createNotificationChannel
+import com.example.bookstoreandroid.todo.data.BookRepository
 import com.example.bookstoreandroid.ui.theme.BookStoreAndroidTheme
+import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import kotlinx.coroutines.launch
 
 class MainActivity : ComponentActivity() {
+    @OptIn(ExperimentalPermissionsApi::class)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
+            createNotificationChannel(channelId = "Books Channel",context = this@MainActivity)
+            (application as BookStoreAndroid).container.bookRepository.setContext(this@MainActivity)
             Log.d(TAG, "onCreate")
-            BookStoreAndroid {
-                BookStoreAndroidNavHost()
+            Permissions(
+                permissions = listOf(
+                    Manifest.permission.ACCESS_COARSE_LOCATION,
+                    Manifest.permission.ACCESS_FINE_LOCATION
+                ),
+                rationaleText = "Please allow app to use location (coarse or fine)",
+                dismissedText = "O noes! No location provider allowed!"
+            ) {
+                BookStoreAndroid {
+                    BookStoreAndroidNavHost()
+                }
+                MyNetworkStatus()
             }
         }
     }
@@ -27,6 +46,7 @@ class MainActivity : ComponentActivity() {
         super.onResume()
         lifecycleScope.launch {
             (application as BookStoreAndroid).container.bookRepository.openWsClient()
+            (application as BookStoreAndroid).container.bookRepository.setContext(this@MainActivity)
         }
     }
 
@@ -34,6 +54,7 @@ class MainActivity : ComponentActivity() {
         super.onPause()
         lifecycleScope.launch {
             (application as BookStoreAndroid).container.bookRepository.closeWsClient()
+            (application as BookStoreAndroid).container.bookRepository.setContext(this@MainActivity)
         }
     }
 }

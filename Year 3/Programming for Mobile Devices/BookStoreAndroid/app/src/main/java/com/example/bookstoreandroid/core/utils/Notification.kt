@@ -9,11 +9,13 @@ import android.content.Intent
 import android.media.MediaPlayer
 import android.net.Uri
 import android.os.Build
+import android.util.Log
 import androidx.core.app.ActivityCompat
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import androidx.core.content.ContextCompat
 import androidx.core.content.ContextCompat.getSystemService
+import com.example.bookstoreandroid.BookStoreAndroid
 import com.example.bookstoreandroid.MainActivity
 import com.example.bookstoreandroid.R
 
@@ -58,6 +60,7 @@ fun showSimpleNotificationWithTapAction(
         .setAutoCancel(true)
         .setSound(sound)
 
+    Log.d("Notification about to be sent", "Context: $context")
     with(NotificationManagerCompat.from(context)) {
         if (ContextCompat.checkSelfPermission(context, android.Manifest.permission.POST_NOTIFICATIONS) != android.content.pm.PackageManager.PERMISSION_GRANTED) {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
@@ -65,6 +68,8 @@ fun showSimpleNotificationWithTapAction(
                     arrayOf(android.Manifest.permission.POST_NOTIFICATIONS), 1)
             }
         }
+        Log.d("Notification about to be built", "Context: $context")
         notify(notificationId, builder.build())
+        Log.d("Notification sent", "Context: $context")
     }
 }

@@ -22,6 +22,7 @@ abstract class BookStoreAndroidDatabase : RoomDatabase() {
                     BookStoreAndroidDatabase::class.java,
                     "app_database"
                 )
+                    .setJournalMode(JournalMode.WRITE_AHEAD_LOGGING)
                     .build()
                 INSTANCE = instance
                 instance

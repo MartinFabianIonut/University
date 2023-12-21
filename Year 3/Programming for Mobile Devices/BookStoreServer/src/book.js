@@ -8,6 +8,8 @@ bookRouter.get('/', async (ctx) => {
     const userId = ctx.state.user._id;
     const books = await bookStore.find({ userId });
     books.forEach(book => book.id = book.id.toString());
+    // make each book isAvailable a boolean
+    books.forEach(book => book.isAvailable = book.isAvailable === 1 ? true : false);
     ctx.response.body = books;
     ctx.response.status = 200;
 });
@@ -18,6 +20,7 @@ bookRouter.get('/:id', async (ctx) => {
     const response = ctx.response;
     if (book) {
         if (book.userId === userId) {
+            book.isAvailable = book.isAvailable === 1 ? true : false;
             response.body = book;
             response.status = 200;
         } else {

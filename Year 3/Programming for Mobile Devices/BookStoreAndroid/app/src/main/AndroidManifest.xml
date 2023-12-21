@@ -4,6 +4,14 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
 
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
     <application
         android:name=".BookStoreAndroid"
         android:usesCleartextTraffic="true"
@@ -16,6 +24,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BookStoreAndroid"
         tools:targetApi="31">
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="${MAPS_API_KEY}"/>
+        <meta-data android:name="com.google.android.gms.maps.MapView" android:value="${MAP_ID}" />
         <activity
             android:name=".MainActivity"
             android:exported="true"

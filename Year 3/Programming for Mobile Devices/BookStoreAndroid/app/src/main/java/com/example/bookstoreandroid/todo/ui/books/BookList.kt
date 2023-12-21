@@ -14,24 +14,24 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CornerSize
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.example.bookstoreandroid.core.DateUtils
 import com.example.bookstoreandroid.todo.data.Book
-import kotlin.math.pow
 
 typealias OnBookFn = (id: String?) -> Unit
 
 @Composable
 fun BookList(bookList: List<Book>, onBookClick: OnBookFn, modifier: Modifier) {
     Log.d("BookList", "recompose")
+    for (book in bookList){
+        Log.d("BookList", book.title)
+    }
     LazyColumn(
         modifier = modifier
             .fillMaxSize()
@@ -56,10 +56,10 @@ fun BookDetail(book: Book, onBookClick: OnBookFn) {
             .padding(6.dp)
             .clip(
                 shape = RoundedCornerShape(
-                    topStart = CornerSize(16.dp),
-                    topEnd = CornerSize(16.dp),
-                    bottomStart = CornerSize(16.dp),
-                    bottomEnd = CornerSize(16.dp)
+                    topStart = CornerSize(5.dp),
+                    topEnd = CornerSize(30.dp),
+                    bottomStart = CornerSize(30.dp),
+                    bottomEnd = CornerSize(5.dp)
                 )
             )
             .background(brush = Brush.linearGradient(gradientColors))

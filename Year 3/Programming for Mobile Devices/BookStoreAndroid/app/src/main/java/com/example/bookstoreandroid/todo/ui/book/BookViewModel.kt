@@ -46,10 +46,13 @@ class BookViewModel(private val bookId: String?, private val bookRepository: Boo
     fun loadBook() {
         viewModelScope.launch {
             bookRepository.bookStream.collect { books ->
+                Log.d(TAG, "Collecting books")
                 if (!(uiState.loadResult is Result.Loading)) {
                     return@collect
                 }
+                Log.d(TAG, "Collecting books - loadResult is loading, attempting to find book with id: $bookId")
                 val book = books.find { it.id == bookId } ?: Book()
+                Log.d(TAG, "Collecting books - book: $book")
                 uiState = uiState.copy(book = book, loadResult = Result.Success(book))
             }
         }
@@ -60,7 +63,9 @@ class BookViewModel(private val bookId: String?, private val bookRepository: Boo
         author: String,
         publicationDate: String,
         isAvailable: Boolean,
-        price: Double
+        price: Double,
+        lat: Double,
+        lng: Double
     ) {
         viewModelScope.launch {
             try {
@@ -79,7 +84,9 @@ class BookViewModel(private val bookId: String?, private val bookRepository: Boo
                     author = author,
                     publicationDate = formattedDateStr,
                     isAvailable = isAvailable,
-                    price = price
+                    price = price,
+                    lat = lat,
+                    lng = lng
                 )
 
                 val savedBook: Book
