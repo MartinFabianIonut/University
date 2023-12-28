@@ -1,11 +1,13 @@
 package com.example.bookstoreandroid.todo.data.remote
 
+import android.annotation.SuppressLint
 import android.util.Log
 import com.example.bookstoreandroid.todo.data.Book
 import com.example.bookstoreandroid.todo.data.BookRepository
 
 object BookApi {
 
+    @SuppressLint("StaticFieldLeak")
     lateinit var bookRepository: BookRepository
 
     suspend fun createBook(book: Book): Boolean {

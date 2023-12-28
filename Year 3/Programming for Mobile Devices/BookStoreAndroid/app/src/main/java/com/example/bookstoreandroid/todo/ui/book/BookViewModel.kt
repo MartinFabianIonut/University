@@ -10,15 +10,12 @@ import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import com.example.bookstoreandroid.BookStoreAndroid
+import com.example.bookstoreandroid.core.DateUtils
 import com.example.bookstoreandroid.core.Result
 import com.example.bookstoreandroid.core.TAG
 import com.example.bookstoreandroid.todo.data.Book
 import com.example.bookstoreandroid.todo.data.BookRepository
 import kotlinx.coroutines.launch
-import java.text.SimpleDateFormat
-import java.util.*
-import com.example.bookstoreandroid.core.DateUtils
-
 
 
 data class BookUiState(
@@ -43,11 +40,11 @@ class BookViewModel(private val bookId: String?, private val bookRepository: Boo
         }
     }
 
-    fun loadBook() {
+    private fun loadBook() {
         viewModelScope.launch {
             bookRepository.bookStream.collect { books ->
                 Log.d(TAG, "Collecting books")
-                if (!(uiState.loadResult is Result.Loading)) {
+                if (uiState.loadResult !is Result.Loading) {
                     return@collect
                 }
                 Log.d(TAG, "Collecting books - loadResult is loading, attempting to find book with id: $bookId")
@@ -90,10 +87,10 @@ class BookViewModel(private val bookId: String?, private val bookRepository: Boo
                 )
 
                 val savedBook: Book
-                if (bookId == null) {
-                    savedBook = bookRepository.save(book)
+                savedBook = if (bookId == null) {
+                    bookRepository.save(book)
                 } else {
-                    savedBook = bookRepository.update(book)
+                    bookRepository.update(book)
                 }
 
                 uiState = uiState.copy(submitResult = Result.Success(savedBook))

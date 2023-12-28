@@ -79,9 +79,6 @@ fun MyLocation(lat: Double? = null, lng: Double? = null,  onLocationUpdated: (La
     }
 }
 
-
-val TAG = "MyMap"
-
 @Composable
 fun MyMap(lat: Double, long: Double, onMapLongClick: (LatLng) -> Unit) {
     val markerState = rememberMarkerState(position = LatLng(lat, long))
@@ -89,7 +86,7 @@ fun MyMap(lat: Double, long: Double, onMapLongClick: (LatLng) -> Unit) {
         position = CameraPosition.fromLatLngZoom(markerState.position, 10f)
     }
     val mapId = "mapId"
-    val mapFragment = MapFragment.newInstance(
+    MapFragment.newInstance(
         GoogleMapOptions()
             .mapId(mapId)
     )

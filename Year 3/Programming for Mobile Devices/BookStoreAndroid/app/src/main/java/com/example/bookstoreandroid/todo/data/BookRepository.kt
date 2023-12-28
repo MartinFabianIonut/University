@@ -2,8 +2,6 @@ package com.example.bookstoreandroid.todo.data
 
 import android.content.Context
 import android.util.Log
-import androidx.compose.ui.platform.LocalContext
-import com.example.bookstoreandroid.MainActivity
 import com.example.bookstoreandroid.core.TAG
 import com.example.bookstoreandroid.core.data.remote.Api
 import com.example.bookstoreandroid.core.utils.ConnectivityManagerNetworkMonitor
@@ -89,7 +87,7 @@ class BookRepository (
         }
     }
 
-    private suspend fun getBookEvents(): Flow<kotlin.Result<BookEvent>> = callbackFlow {
+    private suspend fun getBookEvents(): Flow<Result<BookEvent>> = callbackFlow {
         Log.d(TAG, "getBookEvents started")
         bookWsClient.openSocket(
             onEvent = {

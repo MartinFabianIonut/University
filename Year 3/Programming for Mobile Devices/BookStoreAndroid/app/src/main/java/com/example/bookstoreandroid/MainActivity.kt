@@ -1,7 +1,10 @@
 package com.example.bookstoreandroid
 
 import android.Manifest
+import android.content.Context
+import android.content.Intent
 import android.os.Bundle
+import android.provider.Settings
 import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -13,10 +16,11 @@ import com.example.bookstoreandroid.core.TAG
 import com.example.bookstoreandroid.core.ui.MyNetworkStatus
 import com.example.bookstoreandroid.core.utils.Permissions
 import com.example.bookstoreandroid.core.utils.createNotificationChannel
-import com.example.bookstoreandroid.todo.data.BookRepository
+import com.example.bookstoreandroid.sensors.LightSensor
 import com.example.bookstoreandroid.ui.theme.BookStoreAndroidTheme
 import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import kotlinx.coroutines.launch
+import okio.AsyncTimeout.Companion.lock
 
 class MainActivity : ComponentActivity() {
     @OptIn(ExperimentalPermissionsApi::class)
@@ -26,6 +30,9 @@ class MainActivity : ComponentActivity() {
             createNotificationChannel(channelId = "Books Channel",context = this@MainActivity)
             (application as BookStoreAndroid).container.bookRepository.setContext(this@MainActivity)
             Log.d(TAG, "onCreate")
+            lock.lock()
+            askPermissions(this)
+            lock.unlock()
             Permissions(
                 permissions = listOf(
                     Manifest.permission.ACCESS_COARSE_LOCATION,
@@ -38,7 +45,15 @@ class MainActivity : ComponentActivity() {
                     BookStoreAndroidNavHost()
                 }
                 MyNetworkStatus()
+                LightSensor()
             }
+        }
+    }
+
+    private fun askPermissions(context: Context) {
+        if (!Settings.System.canWrite(context)) {
+            val i = Intent(Settings.ACTION_MANAGE_WRITE_SETTINGS);
+            context.startActivity(i);
         }
     }
 

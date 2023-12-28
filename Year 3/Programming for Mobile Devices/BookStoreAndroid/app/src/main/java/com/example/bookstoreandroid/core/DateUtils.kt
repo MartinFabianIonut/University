@@ -2,8 +2,11 @@ package com.example.bookstoreandroid.core
 
 import android.util.Log
 import java.text.SimpleDateFormat
-import java.util.*
-import com.example.bookstoreandroid.core.TAG
+import java.util.Calendar
+import java.util.Date
+import java.util.Locale
+import java.util.TimeZone
+
 class DateUtils {
 
     companion object {
@@ -54,7 +57,7 @@ class DateUtils {
                 return Date(parsedDate.time)
             } catch (e: Exception) {
                 // Handle parsing errors
-                Log.e(TAG, "Error parsing date: ${e.toString()}")
+                Log.e(TAG, "Error parsing date: $e")
                 return null
             }
         }

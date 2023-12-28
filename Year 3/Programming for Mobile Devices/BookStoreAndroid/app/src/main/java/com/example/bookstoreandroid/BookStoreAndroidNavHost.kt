@@ -1,6 +1,5 @@
 package com.example.bookstoreandroid
 
-import android.content.res.Resources.Theme
 import android.os.Handler
 import android.util.Log
 import androidx.compose.foundation.layout.Box
@@ -16,7 +15,6 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight

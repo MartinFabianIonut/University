@@ -15,7 +15,7 @@ import okhttp3.WebSocketListener
 import okio.ByteString
 class BookWsClient(private val okHttpClient: OkHttpClient) {
 
-    lateinit var webSocket: WebSocket
+    private lateinit var webSocket: WebSocket
 
     suspend fun openSocket(
         onEvent: (bookEvent: BookEvent?) -> Unit,
