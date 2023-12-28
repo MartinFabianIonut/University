@@ -79,6 +79,7 @@ fun MyLocation(lat: Double? = null, lng: Double? = null,  onLocationUpdated: (La
     }
 }
 
+const val TAG = "MyMap"
 @Composable
 fun MyMap(lat: Double, long: Double, onMapLongClick: (LatLng) -> Unit) {
     val markerState = rememberMarkerState(position = LatLng(lat, long))

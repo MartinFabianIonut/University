@@ -2,6 +2,12 @@ package com.example.bookstoreandroid.todo.ui.book
 
 import android.app.Application
 import android.util.Log
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.core.FastOutLinearInEasing
+import androidx.compose.animation.core.LinearOutSlowInEasing
+import androidx.compose.animation.core.tween
+import androidx.compose.animation.slideInVertically
+import androidx.compose.animation.slideOutVertically
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -9,13 +15,17 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material3.Button
 import androidx.compose.material3.Checkbox
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.Icon
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
 import androidx.compose.material3.TextFieldDefaults
@@ -43,6 +53,7 @@ import com.example.bookstoreandroid.core.DateUtils
 import com.example.bookstoreandroid.core.Result
 import com.example.bookstoreandroid.core.ui.MyLocation
 import com.example.bookstoreandroid.core.ui.MyLocationViewModel
+import kotlinx.coroutines.delay
 
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -86,22 +97,63 @@ fun BookScreen(bookId: String?, onClose: () -> Unit) {
         }
     }
 
+    var canSave by rememberSaveable { mutableStateOf(true) }
+    var errorMessage by rememberSaveable { mutableStateOf("") }
+
     Scaffold(
         topBar = {
             TopAppBar(
                 title = { Text(text = stringResource(id = R.string.book)) },
                 actions = {
-                    Button(onClick = {
-                        bookViewModel.saveOrUpdateBook(
-                            title,
-                            author,
-                            DateUtils.convertToDDMMYYYY(publicationDate) ?: publicationDate,
-                            isAvailable,
-                            price.toDoubleOrNull() ?: 0.0,
-                            lat,
-                            lng
-                        )
-                    }) { Text("Save") }
+                    Button(
+                        enabled = canSave,
+                        onClick = {
+                        if (title.length < 3) {
+                            errorMessage += "\n\tTitle must be at least 3 characters long!"
+                            canSave = false
+                        }
+
+                        if (author.length < 3) {
+                            errorMessage += "\n\tAuthor must be at least 3 characters long!"
+                            canSave = false
+                        }
+
+                        val convertedDate = DateUtils.convertToDDMMYYYY(publicationDate)
+                        if (convertedDate == null) {
+                            errorMessage += "\n\tInvalid date format!"
+                            canSave = false
+                        }
+
+                        if (canSave) {
+                            errorMessage = ""  // Reset error message if conditions are met
+                            bookViewModel.saveOrUpdateBook(
+                                title,
+                                author,
+                                convertedDate ?: publicationDate,
+                                isAvailable,
+                                price.toDoubleOrNull() ?: 0.0,
+                                lat,
+                                lng
+                            )
+                        }
+                    })
+                    {
+                        Row(
+                            modifier = Modifier.padding(horizontal = 1.dp)
+                        ) {
+                            Icon(
+                                imageVector = Icons.Default.Edit,
+                                contentDescription = null
+                            )
+                            AnimatedVisibility(visible = canSave) {
+                                Text(
+                                    text = "Save",
+                                    modifier = Modifier
+                                        .padding(start = 8.dp, top = 3.dp)
+                                )
+                            }
+                        }
+                    }
 
                 }
             )
@@ -129,15 +181,24 @@ fun BookScreen(bookId: String?, onClose: () -> Unit) {
 
             // UI for loaded state
             Row {
-                StyledTextField(value = title, onValueChange = {title = it}, label = "Title")
+                StyledTextField(
+                    value = title,
+                    onValueChange = { title = it },
+                    label = "Title"
+                )
             }
             Row {
-                StyledTextField(value = author, onValueChange = {author = it}, label = "Author")
+                StyledTextField(
+                    value = author,
+                    onValueChange = { author = it },
+                    label = "Author")
             }
             Row {
-                StyledTextField(value = DateUtils.convertToDDMMYYYY(publicationDate) ?: publicationDate,
-                    onValueChange = { publicationDate = it },
-                    label = "Publication Date" )
+                StyledTextField(
+                    value = DateUtils.convertToDDMMYYYY(publicationDate)?.let { DateUtils.convertToDDMMYYYY(publicationDate).toString() } ?: publicationDate,
+                    onValueChange = { publicationDate = DateUtils.parseDDMMYYYY(it)?.let { dateString -> DateUtils.parseDDMMYYYY(it).toString() } ?: it },
+                    label = "Publication Date"
+                )
             }
             Row(
                 modifier = Modifier
@@ -206,7 +267,60 @@ fun BookScreen(bookId: String?, onClose: () -> Unit) {
                 )
             }
         }
+        LaunchedEffect(canSave) {
+            if (!canSave) {
+                delay(5000L)
+                canSave = true
+            }
+            else{
+                delay(1500L)
+                errorMessage = ""
+            }
+        }
+        CanAddABook(canSave, "You cannot save this because:$errorMessage")
     }
+}
+
+@Composable
+fun CanAddABook(canSave: Boolean, message: String) {
+    Log.d("CanAddABook", "canSave = $canSave")
+    AnimatedVisibility(
+        visible = !canSave,
+        enter = slideInVertically(
+            initialOffsetY = { fullHeight -> -fullHeight },
+            animationSpec = tween(durationMillis = 1500, easing = LinearOutSlowInEasing)
+        ),
+        exit = slideOutVertically(
+            targetOffsetY = { fullHeight -> -fullHeight },
+            animationSpec = tween(durationMillis = 1500, easing = FastOutLinearInEasing)
+        )
+    ) {
+        Surface(
+            tonalElevation = 100.dp,
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(horizontal = 15.dp, vertical = 60.dp)
+                .clip(RoundedCornerShape(30.dp))
+                .background(
+                    brush = Brush.horizontalGradient(
+                        listOf(
+                            MaterialTheme.colorScheme.tertiary,
+                            MaterialTheme.colorScheme.primary,
+                        )
+                    )
+                )
+
+        ) {
+            Text(
+                text = message,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(15.dp),
+                color = MaterialTheme.colorScheme.primary
+            )
+        }
+    }
+
 }
 
 

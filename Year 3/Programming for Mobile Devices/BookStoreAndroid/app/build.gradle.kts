@@ -109,5 +109,7 @@ dependencies {
     implementation ("com.google.maps.android:maps-compose:2.7.2")
     implementation ("com.google.android.gms:play-services-maps:18.1.0")
 
+    implementation("androidx.compose.animation:animation:1.5.4")
+    implementation("androidx.transition:transition-ktx:1.4.1")
 
 }

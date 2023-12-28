@@ -40,9 +40,9 @@ fun BooksScreen(onBookClick: (id: String?) -> Unit, onAddBook: () -> Unit, onLog
         floatingActionButton = {
             FloatingActionButton(
                 onClick = {
-                    Log.d("BooksScreen", "add")
+                    Log.d("BooksScreen", "Add a new book")
                     onAddBook()
-                },
+                }
             ) { Icon(Icons.Rounded.Add, "Add") }
         }
     ) {
