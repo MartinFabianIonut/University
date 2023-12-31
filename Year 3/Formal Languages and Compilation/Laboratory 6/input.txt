@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a, b, c, d;
+    cin >> a;
+    b = a * 3 + 21;
+    c = b / a;
+    d = (a % c + b) / (2 * 3);
+    cout << c;
+    cout << d;
+    return 0;
+}

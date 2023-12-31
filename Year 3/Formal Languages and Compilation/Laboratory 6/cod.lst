@@ -1,0 +1,98 @@
+     1                                  bits 32
+     2                                  global start
+     3                                  
+     4                                  extern exit, printf, scanf
+     5                                  import exit msvcrt.dll
+     6                                  import printf msvcrt.dll
+     7                                  import scanf msvcrt.dll
+     8                                  
+     9                                  segment code use32 class=code
+    10                                  	start:bits 32
+    11                                  
+    12                                  global start
+    13                                  
+    14 00000000 68[0C000000]            push dword a 
+    15 00000005 68[2C000000]            push dword format_citire 
+    16 0000000A FF15[00000000]          call [scanf] 
+    17 00000010 83C408                  add esp, 8 
+    18                                  
+    19                                  
+    20                                  
+    21 00000013 A1[0C000000]            mov eax, [a] 
+    22 00000018 6BC003                  imul eax, 3 
+    23 0000001B A3[10000000]            mov [temp1], eax 
+    24                                  
+    25                                  
+    26 00000020 A1[10000000]            mov eax, [temp1] 
+    27 00000025 83C015                  add eax, 21 
+    28 00000028 A3[14000000]            mov [temp2], eax 
+    29                                  
+    30 0000002D A1[14000000]            mov eax, [temp2]
+    31 00000032 A3[08000000]            mov [b],eax
+    32                                  
+    33                                  
+    34 00000037 A1[08000000]            mov eax, [b] 
+    35 0000003C 8B1D[0C000000]          mov ebx, [a] 
+    36 00000042 31D2                    xor edx, edx 
+    37 00000044 F7F3                    div ebx 
+    38 00000046 A3[18000000]            mov [temp3], eax 
+    39                                  
+    40 0000004B A1[18000000]            mov eax, [temp3]
+    41 00000050 A3[04000000]            mov [c],eax
+    42                                  
+    43                                  
+    44 00000055 A1[0C000000]            mov eax, [a] 
+    45 0000005A 8B1D[04000000]          mov ebx, [c] 
+    46 00000060 31D2                    xor edx, edx 
+    47 00000062 F7F3                    div ebx 
+    48 00000064 8915[1C000000]          mov [temp4], edx 
+    49                                  
+    50                                  
+    51 0000006A A1[1C000000]            mov eax, [temp4] 
+    52 0000006F 0305[08000000]          add eax, [b] 
+    53 00000075 A3[20000000]            mov [temp5], eax 
+    54                                  
+    55                                  
+    56                                  
+    57 0000007A B802000000              mov eax, 2 
+    58 0000007F 6BC003                  imul eax, 3 
+    59 00000082 A3[24000000]            mov [temp6], eax 
+    60                                  
+    61 00000087 A1[20000000]            mov eax, [temp5] 
+    62 0000008C 8B1D[24000000]          mov ebx, [temp6] 
+    63 00000092 31D2                    xor edx, edx 
+    64 00000094 F7F3                    div ebx 
+    65 00000096 A3[28000000]            mov [temp7], eax 
+    66                                  
+    67 0000009B A1[28000000]            mov eax, [temp7]
+    68 000000A0 A3[00000000]            mov [d],eax
+    69 000000A5 A1[04000000]            mov eax, [c] 
+    70 000000AA 50                      push dword eax 
+    71 000000AB 68[2F000000]            push dword format_afisare_c 
+    72 000000B0 FF15[00000000]          call [printf] 
+    73 000000B6 83C408                  add esp, 8 
+    74                                  
+    75 000000B9 A1[00000000]            mov eax, [d] 
+    76 000000BE 50                      push dword eax 
+    77 000000BF 68[36000000]            push dword format_afisare_d 
+    78 000000C4 FF15[00000000]          call [printf] 
+    79 000000CA 83C408                  add esp, 8 
+    80                                  
+    81 000000CD 6A00                    push dword 0
+    82 000000CF FF15[00000000]          call [exit]
+    83                                  
+    84                                  segment data use32 class=data
+    85 00000000 00000000                	d dd 0
+    86 00000004 00000000                	c dd 0
+    87 00000008 00000000                	b dd 0
+    88 0000000C 00000000                	a dd 0
+    89 00000010 00000000                	temp1 dd 0
+    90 00000014 00000000                	temp2 dd 0
+    91 00000018 00000000                	temp3 dd 0
+    92 0000001C 00000000                	temp4 dd 0
+    93 00000020 00000000                	temp5 dd 0
+    94 00000024 00000000                	temp6 dd 0
+    95 00000028 00000000                	temp7 dd 0
+    96 0000002C 256400                  	format_citire db "%d", 0
+    97 0000002F 63203D20256400          	format_afisare_c db "c = %d", 0
+    98 00000036 64203D20256400          	format_afisare_d db "d = %d", 0
