@@ -4,11 +4,15 @@ using namespace std;
 int main()
 {
     int a, b, c, d;
+    cout << "Introduceti un numar a = ";
     cin >> a;
     b = a * 3 + 21;
+    cout << "Am calculat b = a * 3 + 21, iar rezultatul este: " << b << endl;
     c = b / a;
+    cout << "Am calculat c = b / a, iar rezultatul este: " << c << endl;
     d = (a % c + b) / (2 * 3);
-    cout << c;
-    cout << d;
+    cout << "Am calculat d = (a % c + b) / (2 * 3), iar rezultatul este: " << d << endl;
+    a = d + b;
+    cout << "Am calculat a = d + b, iar rezultatul este: " << a << endl;
     return 0;
 }

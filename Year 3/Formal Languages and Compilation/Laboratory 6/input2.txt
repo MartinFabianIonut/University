@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int mama, tata, copil1, copil2; 
+    cout << "Introduceti varsta mamei: ";
+    cin >> mama;
+    cout << "Introduceti varsta tatalui: ";
+    cin >> tata;
+    cout << "Introduceti varsta primului copil: ";
+    cin >> copil1;
+    cout << "Introduceti varsta celui de-al doilea copil: ";
+    cin >> copil2;
+    double medie = (mama + tata + copil1 + copil2) / 4;
+    cout << "Media aritmetica a varstelor este: " << medie << endl;
+    double catLaSuta = (copil1 * 100) / mama;
+    cout << "Primul copil are: " << catLaSuta << " la suta din varsta mamei" << endl;
+    double catLaSuta2 = (copil2 * 100) / tata;
+    cout << "Al doilea copil are: " << catLaSuta2 << " la suta din varsta tatalui" << endl;
+    int restul = copil1 % copil2;
+    cout << "Restul impartirii varstei primului copil la varsta celui de-al doilea copil este: " << restul << endl;
+    return 0;
+}

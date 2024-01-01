@@ -44,4 +44,16 @@ call [scanf] \n\
 add esp, 8 \n\
 "
 
+#define PRINTF_CONST_ASM_FORMAT "\
+push dword %s \n\
+call [printf] \n\
+add esp, 4 \n\
+"
+
+#define PRINTF_ENDL_ASM_FORMAT "\
+push dword format_afisare_endl \n\
+call [printf] \n\
+add esp, 4 \n\
+"
+
 #endif

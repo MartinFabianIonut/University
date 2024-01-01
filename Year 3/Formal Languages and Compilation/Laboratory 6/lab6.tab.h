@@ -40,45 +40,34 @@
       know about them.  */
    enum yytokentype {
      ID = 258,
-     CONST = 259,
-     INCLUDE_CPP = 260,
-     HEADER_CPP = 261,
-     USING = 262,
-     SEMICOLON = 263,
-     INT = 264,
-     DOUBLE = 265,
-     STRUCT = 266,
-     VOID = 267,
-     IF = 268,
-     WHILE = 269,
-     FOR = 270,
-     DO = 271,
-     RETURN = 272,
-     CIN = 273,
-     COUT = 274,
-     ENDL = 275,
-     NEQ = 276,
-     EQ = 277,
-     LT = 278,
-     GT = 279,
-     LE = 280,
-     GE = 281,
-     COMMA = 282,
-     DOT = 283,
-     OPEN_PAR = 284,
-     CLOSE_PAR = 285,
-     OPEN_BRACE = 286,
-     CLOSE_BRACE = 287,
-     ASSIGN = 288,
-     PLUS = 289,
-     TIMES = 290,
-     MOD = 291,
-     DIV = 292,
-     SHIFT_LEFT = 293,
-     SHIFT_RIGHT = 294,
-     AND = 295,
-     OR = 296,
-     NOT = 297
+     INTEGER = 259,
+     REAL_NUMBER = 260,
+     STRING = 261,
+     INCLUDE_CPP = 262,
+     HEADER_CPP = 263,
+     USING = 264,
+     SEMICOLON = 265,
+     INT = 266,
+     DOUBLE = 267,
+     STRUCT = 268,
+     VOID = 269,
+     RETURN = 270,
+     CIN = 271,
+     COUT = 272,
+     ENDL = 273,
+     COMMA = 274,
+     DOT = 275,
+     OPEN_PAR = 276,
+     CLOSE_PAR = 277,
+     OPEN_BRACE = 278,
+     CLOSE_BRACE = 279,
+     ASSIGN = 280,
+     PLUS = 281,
+     TIMES = 282,
+     MOD = 283,
+     DIV = 284,
+     SHIFT_LEFT = 285,
+     SHIFT_RIGHT = 286
    };
 #endif
 
@@ -89,7 +78,7 @@ typedef union YYSTYPE
 {
 
 /* Line 1676 of yacc.c  */
-#line 103 "lab6.y"
+#line 139 "lab6.y"
 
  char varname[10];
  attributes attrib;
@@ -98,7 +87,7 @@ typedef union YYSTYPE
 
 
 /* Line 1676 of yacc.c  */
-#line 102 "lab6.tab.h"
+#line 91 "lab6.tab.h"
 } YYSTYPE;
 # define YYSTYPE_IS_TRIVIAL 1
 # define yystype YYSTYPE /* obsolescent; will be withdrawn */
