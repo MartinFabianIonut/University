@@ -1,0 +1,5 @@
+First place for Spain! It has a total score of 2643.0
+Second place for France! It has a total score of 2475.0
+Third place for Italy! It has a total score of 2439.0
+Fourth place for Germany! It has a total score of 2299.0
+Fifth place for Romania! It has a total score of 2256.0

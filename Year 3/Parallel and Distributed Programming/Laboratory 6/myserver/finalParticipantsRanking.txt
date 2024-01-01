@@ -1,0 +1,476 @@
+Participant with id: 48 and score: 78.0 from country: France
+
+Participant with id: 180 and score: 72.0 from country: Italy
+
+Participant with id: 294 and score: 71.0 from country: Spain
+
+Participant with id: 186 and score: 71.0 from country: Italy
+
+Participant with id: 309 and score: 70.0 from country: Spain
+
+Participant with id: 371 and score: 70.0 from country: Romania
+
+Participant with id: 281 and score: 70.0 from country: Spain
+
+Participant with id: 353 and score: 70.0 from country: Romania
+
+Participant with id: 94 and score: 70.0 from country: Germany
+
+Participant with id: 215 and score: 69.0 from country: Italy
+
+Participant with id: 251 and score: 69.0 from country: Spain
+
+Participant with id: 222 and score: 68.0 from country: Italy
+
+Participant with id: 207 and score: 68.0 from country: Italy
+
+Participant with id: 203 and score: 67.0 from country: Italy
+
+Participant with id: 375 and score: 66.0 from country: Romania
+
+Participant with id: 359 and score: 66.0 from country: Romania
+
+Participant with id: 153 and score: 65.0 from country: Germany
+
+Participant with id: 201 and score: 65.0 from country: Italy
+
+Participant with id: 130 and score: 65.0 from country: Germany
+
+Participant with id: 32 and score: 65.0 from country: France
+
+Participant with id: 73 and score: 64.0 from country: France
+
+Participant with id: 63 and score: 64.0 from country: France
+
+Participant with id: 154 and score: 64.0 from country: Germany
+
+Participant with id: 199 and score: 64.0 from country: Italy
+
+Participant with id: 190 and score: 64.0 from country: Italy
+
+Participant with id: 16 and score: 64.0 from country: France
+
+Participant with id: 365 and score: 63.0 from country: Romania
+
+Participant with id: 208 and score: 63.0 from country: Italy
+
+Participant with id: 286 and score: 63.0 from country: Spain
+
+Participant with id: 278 and score: 63.0 from country: Spain
+
+Participant with id: 173 and score: 63.0 from country: Italy
+
+Participant with id: 4 and score: 63.0 from country: France
+
+Participant with id: 252 and score: 63.0 from country: Spain
+
+Participant with id: 90 and score: 63.0 from country: Germany
+
+Participant with id: 224 and score: 62.0 from country: Italy
+
+Participant with id: 42 and score: 62.0 from country: France
+
+Participant with id: 125 and score: 62.0 from country: Germany
+
+Participant with id: 2 and score: 62.0 from country: France
+
+Participant with id: 258 and score: 62.0 from country: Spain
+
+Participant with id: 244 and score: 62.0 from country: Spain
+
+Participant with id: 64 and score: 61.0 from country: France
+
+Participant with id: 220 and score: 61.0 from country: Italy
+
+Participant with id: 155 and score: 61.0 from country: Germany
+
+Participant with id: 367 and score: 61.0 from country: Romania
+
+Participant with id: 113 and score: 61.0 from country: Germany
+
+Participant with id: 100 and score: 61.0 from country: Germany
+
+Participant with id: 9 and score: 61.0 from country: France
+
+Participant with id: 383 and score: 60.0 from country: Romania
+
+Participant with id: 211 and score: 60.0 from country: Italy
+
+Participant with id: 272 and score: 60.0 from country: Spain
+
+Participant with id: 33 and score: 60.0 from country: France
+
+Participant with id: 169 and score: 60.0 from country: Italy
+
+Participant with id: 85 and score: 60.0 from country: Germany
+
+Participant with id: 71 and score: 59.0 from country: France
+
+Participant with id: 230 and score: 59.0 from country: Italy
+
+Participant with id: 228 and score: 59.0 from country: Italy
+
+Participant with id: 314 and score: 59.0 from country: Spain
+
+Participant with id: 306 and score: 59.0 from country: Spain
+
+Participant with id: 43 and score: 59.0 from country: France
+
+Participant with id: 35 and score: 59.0 from country: France
+
+Participant with id: 343 and score: 59.0 from country: Romania
+
+Participant with id: 170 and score: 59.0 from country: Italy
+
+Participant with id: 337 and score: 59.0 from country: Romania
+
+Participant with id: 336 and score: 59.0 from country: Romania
+
+Participant with id: 59 and score: 58.0 from country: France
+
+Participant with id: 197 and score: 58.0 from country: Italy
+
+Participant with id: 356 and score: 58.0 from country: Romania
+
+Participant with id: 74 and score: 57.0 from country: France
+
+Participant with id: 239 and score: 57.0 from country: Italy
+
+Participant with id: 300 and score: 57.0 from country: Spain
+
+Participant with id: 279 and score: 57.0 from country: Spain
+
+Participant with id: 358 and score: 57.0 from country: Romania
+
+Participant with id: 109 and score: 57.0 from country: Germany
+
+Participant with id: 174 and score: 57.0 from country: Italy
+
+Participant with id: 259 and score: 57.0 from country: Spain
+
+Participant with id: 18 and score: 57.0 from country: France
+
+Participant with id: 321 and score: 57.0 from country: Romania
+
+Participant with id: 316 and score: 56.0 from country: Spain
+
+Participant with id: 302 and score: 56.0 from country: Spain
+
+Participant with id: 299 and score: 56.0 from country: Spain
+
+Participant with id: 131 and score: 56.0 from country: Germany
+
+Participant with id: 177 and score: 56.0 from country: Italy
+
+Participant with id: 161 and score: 56.0 from country: Italy
+
+Participant with id: 114 and score: 55.0 from country: Germany
+
+Participant with id: 166 and score: 55.0 from country: Italy
+
+Participant with id: 80 and score: 55.0 from country: Germany
+
+Participant with id: 320 and score: 55.0 from country: Romania
+
+Participant with id: 396 and score: 54.0 from country: Romania
+
+Participant with id: 394 and score: 54.0 from country: Romania
+
+Participant with id: 315 and score: 54.0 from country: Spain
+
+Participant with id: 149 and score: 54.0 from country: Germany
+
+Participant with id: 57 and score: 54.0 from country: France
+
+Participant with id: 134 and score: 54.0 from country: Germany
+
+Participant with id: 195 and score: 54.0 from country: Italy
+
+Participant with id: 191 and score: 54.0 from country: Italy
+
+Participant with id: 334 and score: 54.0 from country: Romania
+
+Participant with id: 67 and score: 53.0 from country: France
+
+Participant with id: 72 and score: 53.0 from country: France
+
+Participant with id: 69 and score: 53.0 from country: France
+
+Participant with id: 312 and score: 53.0 from country: Spain
+
+Participant with id: 157 and score: 53.0 from country: Germany
+
+Participant with id: 141 and score: 53.0 from country: Germany
+
+Participant with id: 13 and score: 53.0 from country: France
+
+Participant with id: 257 and score: 53.0 from country: Spain
+
+Participant with id: 361 and score: 52.0 from country: Romania
+
+Participant with id: 297 and score: 52.0 from country: Spain
+
+Participant with id: 183 and score: 52.0 from country: Italy
+
+Participant with id: 342 and score: 52.0 from country: Romania
+
+Participant with id: 340 and score: 52.0 from country: Romania
+
+Participant with id: 112 and score: 52.0 from country: Germany
+
+Participant with id: 110 and score: 52.0 from country: Germany
+
+Participant with id: 256 and score: 52.0 from country: Spain
+
+Participant with id: 253 and score: 52.0 from country: Spain
+
+Participant with id: 89 and score: 52.0 from country: Germany
+
+Participant with id: 45 and score: 51.0 from country: France
+
+Participant with id: 291 and score: 51.0 from country: Spain
+
+Participant with id: 193 and score: 51.0 from country: Italy
+
+Participant with id: 348 and score: 51.0 from country: Romania
+
+Participant with id: 116 and score: 51.0 from country: Germany
+
+Participant with id: 96 and score: 51.0 from country: Germany
+
+Participant with id: 7 and score: 51.0 from country: France
+
+Participant with id: 160 and score: 51.0 from country: Italy
+
+Participant with id: 242 and score: 51.0 from country: Spain
+
+Participant with id: 79 and score: 50.0 from country: France
+
+Participant with id: 319 and score: 50.0 from country: Spain
+
+Participant with id: 310 and score: 50.0 from country: Spain
+
+Participant with id: 158 and score: 50.0 from country: Germany
+
+Participant with id: 81 and score: 50.0 from country: Germany
+
+Participant with id: 333 and score: 50.0 from country: Romania
+
+Participant with id: 330 and score: 50.0 from country: Romania
+
+Participant with id: 196 and score: 49.0 from country: Italy
+
+Participant with id: 357 and score: 49.0 from country: Romania
+
+Participant with id: 350 and score: 49.0 from country: Romania
+
+Participant with id: 249 and score: 49.0 from country: Spain
+
+Participant with id: 327 and score: 49.0 from country: Romania
+
+Participant with id: 311 and score: 48.0 from country: Spain
+
+Participant with id: 144 and score: 48.0 from country: Germany
+
+Participant with id: 142 and score: 48.0 from country: Germany
+
+Participant with id: 376 and score: 48.0 from country: Romania
+
+Participant with id: 284 and score: 48.0 from country: Spain
+
+Participant with id: 55 and score: 48.0 from country: France
+
+Participant with id: 133 and score: 48.0 from country: Germany
+
+Participant with id: 24 and score: 48.0 from country: France
+
+Participant with id: 255 and score: 48.0 from country: Spain
+
+Participant with id: 75 and score: 47.0 from country: France
+
+Participant with id: 62 and score: 47.0 from country: France
+
+Participant with id: 308 and score: 47.0 from country: Spain
+
+Participant with id: 40 and score: 47.0 from country: France
+
+Participant with id: 138 and score: 47.0 from country: Germany
+
+Participant with id: 122 and score: 47.0 from country: Germany
+
+Participant with id: 36 and score: 47.0 from country: France
+
+Participant with id: 103 and score: 47.0 from country: Germany
+
+Participant with id: 254 and score: 47.0 from country: Spain
+
+Participant with id: 226 and score: 46.0 from country: Italy
+
+Participant with id: 317 and score: 46.0 from country: Spain
+
+Participant with id: 307 and score: 46.0 from country: Spain
+
+Participant with id: 283 and score: 46.0 from country: Spain
+
+Participant with id: 31 and score: 46.0 from country: France
+
+Participant with id: 346 and score: 46.0 from country: Romania
+
+Participant with id: 19 and score: 46.0 from country: France
+
+Participant with id: 10 and score: 46.0 from country: France
+
+Participant with id: 248 and score: 46.0 from country: Spain
+
+Participant with id: 86 and score: 46.0 from country: Germany
+
+Participant with id: 332 and score: 46.0 from country: Romania
+
+Participant with id: 326 and score: 46.0 from country: Romania
+
+Participant with id: 399 and score: 45.0 from country: Romania
+
+Participant with id: 390 and score: 45.0 from country: Romania
+
+Participant with id: 304 and score: 45.0 from country: Spain
+
+Participant with id: 213 and score: 45.0 from country: Italy
+
+Participant with id: 30 and score: 45.0 from country: France
+
+Participant with id: 176 and score: 45.0 from country: Italy
+
+Participant with id: 8 and score: 45.0 from country: France
+
+Participant with id: 82 and score: 45.0 from country: Germany
+
+Participant with id: 389 and score: 44.0 from country: Romania
+
+Participant with id: 70 and score: 44.0 from country: France
+
+Participant with id: 285 and score: 44.0 from country: Spain
+
+Participant with id: 27 and score: 44.0 from country: France
+
+Participant with id: 23 and score: 44.0 from country: France
+
+Participant with id: 187 and score: 44.0 from country: Italy
+
+Participant with id: 338 and score: 44.0 from country: Romania
+
+Participant with id: 322 and score: 44.0 from country: Romania
+
+Participant with id: 234 and score: 43.0 from country: Italy
+
+Participant with id: 292 and score: 43.0 from country: Spain
+
+Participant with id: 243 and score: 43.0 from country: Spain
+
+Participant with id: 78 and score: 42.0 from country: France
+
+Participant with id: 232 and score: 42.0 from country: Italy
+
+Participant with id: 143 and score: 42.0 from country: Germany
+
+Participant with id: 370 and score: 42.0 from country: Romania
+
+Participant with id: 137 and score: 42.0 from country: Germany
+
+Participant with id: 266 and score: 42.0 from country: Spain
+
+Participant with id: 263 and score: 42.0 from country: Spain
+
+Participant with id: 12 and score: 42.0 from country: France
+
+Participant with id: 351 and score: 41.0 from country: Romania
+
+Participant with id: 111 and score: 41.0 from country: Germany
+
+Participant with id: 108 and score: 41.0 from country: Germany
+
+Participant with id: 172 and score: 41.0 from country: Italy
+
+Participant with id: 246 and score: 41.0 from country: Spain
+
+Participant with id: 46 and score: 40.0 from country: France
+
+Participant with id: 126 and score: 40.0 from country: Germany
+
+Participant with id: 268 and score: 40.0 from country: Spain
+
+Participant with id: 38 and score: 40.0 from country: France
+
+Participant with id: 181 and score: 40.0 from country: Italy
+
+Participant with id: 175 and score: 40.0 from country: Italy
+
+Participant with id: 167 and score: 40.0 from country: Italy
+
+Participant with id: 93 and score: 40.0 from country: Germany
+
+Participant with id: 236 and score: 39.0 from country: Italy
+
+Participant with id: 373 and score: 39.0 from country: Romania
+
+Participant with id: 194 and score: 39.0 from country: Italy
+
+Participant with id: 104 and score: 39.0 from country: Germany
+
+Participant with id: 88 and score: 39.0 from country: Germany
+
+Participant with id: 388 and score: 38.0 from country: Romania
+
+Participant with id: 385 and score: 38.0 from country: Romania
+
+Participant with id: 52 and score: 38.0 from country: France
+
+Participant with id: 355 and score: 38.0 from country: Romania
+
+Participant with id: 66 and score: 37.0 from country: France
+
+Participant with id: 391 and score: 37.0 from country: Romania
+
+Participant with id: 313 and score: 37.0 from country: Spain
+
+Participant with id: 150 and score: 37.0 from country: Germany
+
+Participant with id: 206 and score: 37.0 from country: Italy
+
+Participant with id: 296 and score: 37.0 from country: Spain
+
+Participant with id: 107 and score: 37.0 from country: Germany
+
+Participant with id: 382 and score: 35.0 from country: Romania
+
+Participant with id: 305 and score: 35.0 from country: Spain
+
+Participant with id: 274 and score: 35.0 from country: Spain
+
+Participant with id: 349 and score: 34.0 from country: Romania
+
+Participant with id: 117 and score: 34.0 from country: Germany
+
+Participant with id: 152 and score: 33.0 from country: Germany
+
+Participant with id: 267 and score: 33.0 from country: Spain
+
+Participant with id: 3 and score: 33.0 from country: France
+
+Participant with id: 184 and score: 32.0 from country: Italy
+
+Participant with id: 229 and score: 31.0 from country: Italy
+
+Participant with id: 121 and score: 31.0 from country: Germany
+
+Participant with id: 165 and score: 31.0 from country: Italy
+
+Participant with id: 397 and score: 30.0 from country: Romania
+
+Participant with id: 25 and score: 30.0 from country: France
+
+Participant with id: 14 and score: 30.0 from country: France
+
+Participant with id: 37 and score: 28.0 from country: France
+
+Participant with id: 264 and score: 27.0 from country: Spain
+
