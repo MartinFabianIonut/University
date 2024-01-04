@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+    int a;
+    cin >> n;
+    a = n + 15;
+    cout << a;
+    return 0;
+}
