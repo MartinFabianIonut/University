@@ -43,31 +43,36 @@
      INTEGER = 259,
      REAL_NUMBER = 260,
      STRING = 261,
-     INCLUDE_CPP = 262,
-     HEADER_CPP = 263,
-     USING = 264,
-     SEMICOLON = 265,
-     INT = 266,
-     DOUBLE = 267,
-     STRUCT = 268,
-     VOID = 269,
-     RETURN = 270,
-     CIN = 271,
-     COUT = 272,
-     ENDL = 273,
-     COMMA = 274,
-     DOT = 275,
-     OPEN_PAR = 276,
-     CLOSE_PAR = 277,
-     OPEN_BRACE = 278,
-     CLOSE_BRACE = 279,
-     ASSIGN = 280,
-     PLUS = 281,
-     TIMES = 282,
-     MOD = 283,
-     DIV = 284,
-     SHIFT_LEFT = 285,
-     SHIFT_RIGHT = 286
+     HASH = 262,
+     INCLUDE_CPP = 263,
+     HEADER_CPP = 264,
+     USING = 265,
+     SEMICOLON = 266,
+     INT = 267,
+     DOUBLE = 268,
+     STRUCT = 269,
+     VOID = 270,
+     RETURN = 271,
+     CIN = 272,
+     COUT = 273,
+     ENDL = 274,
+     COMMA = 275,
+     DOT = 276,
+     OPEN_PAR = 277,
+     CLOSE_PAR = 278,
+     OPEN_BRACE = 279,
+     CLOSE_BRACE = 280,
+     ASSIGN = 281,
+     PLUS = 282,
+     TIMES = 283,
+     MOD = 284,
+     DIV = 285,
+     SHIFT_LEFT = 286,
+     SHIFT_RIGHT = 287,
+     LESS_THAN = 288,
+     GREATER_THAN = 289,
+     NAMESPACE = 290,
+     ACTUAL_NAMESPACE = 291
    };
 #endif
 
@@ -87,7 +92,7 @@ typedef union YYSTYPE
 
 
 /* Line 1676 of yacc.c  */
-#line 91 "lab6.tab.h"
+#line 96 "lab6.tab.h"
 } YYSTYPE;
 # define YYSTYPE_IS_TRIVIAL 1
 # define yystype YYSTYPE /* obsolescent; will be withdrawn */

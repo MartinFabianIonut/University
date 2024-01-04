@@ -11,7 +11,7 @@ void newTempName(char* s){
   tempnr++;
 }
 
-char tempbuffer[250];
+char tempbuffer[1050];
 
 struct Variable {
     char name[30];
@@ -152,10 +152,13 @@ yyerror(char *s) {
 %type <attrib> expr_aritm
 %type <attrib> lista_de_citit
 %type <attrib> lista_de_iesiri
+%type <attrib> term
+%type <attrib> factor
 
-%token INCLUDE_CPP HEADER_CPP USING SEMICOLON INT DOUBLE STRUCT VOID RETURN CIN COUT ENDL
+%token HASH INCLUDE_CPP HEADER_CPP USING SEMICOLON INT DOUBLE STRUCT VOID RETURN CIN COUT ENDL
 %token COMMA DOT OPEN_PAR CLOSE_PAR OPEN_BRACE CLOSE_BRACE ASSIGN
-%token PLUS TIMES MOD DIV SHIFT_LEFT SHIFT_RIGHT
+%token PLUS TIMES MOD DIV SHIFT_LEFT SHIFT_RIGHT LESS_THAN GREATER_THAN
+%token NAMESPACE ACTUAL_NAMESPACE
 %left PLUS
 %left TIMES MOD DIV
 
@@ -199,12 +202,12 @@ preamble:
         }
         ;
 
-multiple_includes: INCLUDE_CPP HEADER_CPP multiple_includes
-                 | INCLUDE_CPP HEADER_CPP
+multiple_includes: HASH INCLUDE_CPP LESS_THAN HEADER_CPP GREATER_THAN multiple_includes
+                 | HASH INCLUDE_CPP LESS_THAN HEADER_CPP GREATER_THAN
                  ;
 
-usings: USING SEMICOLON usings
-      | USING SEMICOLON
+usings: USING NAMESPACE ACTUAL_NAMESPACE SEMICOLON usings
+      | USING NAMESPACE ACTUAL_NAMESPACE SEMICOLON
       ;
 
 decl_functions: function
@@ -271,68 +274,74 @@ instr: atr SEMICOLON
      | instr_afisare
      ;
 
-expr_aritm: expr_aritm PLUS expr_aritm 
-                                    { 
-                                        newTempName($$.varn);
-                                        sprintf($$.code,"%s\n%s\n",$1.code,$3.code);
-                                        sprintf(tempbuffer,ADD_ASM_FORMAT,$1.varn,$3.varn,$$.varn);
-                                        strcat($$.code,tempbuffer);
-                                        addTempVariable($$.varn); 
-                                    }
-            | expr_aritm TIMES expr_aritm 
-                { 
-                    newTempName($$.varn);
-                    sprintf($$.code, "%s\n%s\n", $1.code, $3.code);
-                    sprintf(tempbuffer, MUL_ASM_FORMAT, $1.varn, $3.varn, $$.varn);
-                    strcat($$.code, tempbuffer);
-                    addTempVariable($$.varn); 
-                }
-            | expr_aritm MOD expr_aritm 
-                { 
-                    newTempName($$.varn);
-                    sprintf($$.code, "%s\n%s\n", $1.code, $3.code);
-                    sprintf(tempbuffer, MOD_ASM_FORMAT, $1.varn, $3.varn, $$.varn);
-                    strcat($$.code, tempbuffer);
-                    addTempVariable($$.varn); 
-                }
-            | expr_aritm DIV expr_aritm 
-                { 
-                    newTempName($$.varn);
-                    sprintf($$.code, "%s\n%s\n", $1.code, $3.code);
-                    sprintf(tempbuffer, DIV_ASM_FORMAT, $1.varn, $3.varn, $$.varn);
-                    strcat($$.code, tempbuffer);
-                    addTempVariable($$.varn); 
-                }
-            | OPEN_PAR expr_aritm CLOSE_PAR 
-                {
-                    strcpy($$.code,$2.code);
-                    strcpy($$.varn,$2.varn);
-                }
-            | ID 
-                {
-                    strcpy($$.code,"");
-                    strcpy($$.varn,$1); 
-                    strcpy($$.type,"ID");
-                }
-            | INTEGER 
-                {
-                    strcpy($$.code,"");
-                    strcpy($$.varn,$1); 
-                    strcpy($$.type,"INTEGER");
-                }
-            | REAL_NUMBER 
-                {
-                    strcpy($$.code,"");
-                    strcpy($$.varn,$1); 
-                    strcpy($$.type,"REAL");
-                }
-            | STRING 
-                {
-                    strcpy($$.code,"");
-                    strcpy($$.varn,$1); 
-                    strcpy($$.type,"STRING");
-                }
+expr_aritm: term |
+            expr_aritm PLUS term 
+            { 
+                newTempName($$.varn);
+                sprintf($$.code,"%s\n%s\n",$1.code,$3.code);
+                sprintf(tempbuffer,ADD_ASM_FORMAT,$1.varn,$3.varn,$$.varn);
+                strcat($$.code,tempbuffer);
+                addTempVariable($$.varn); 
+            }
             ;
+
+term: factor
+    | term TIMES factor 
+        { 
+            newTempName($$.varn);
+            sprintf($$.code, "%s\n%s\n", $1.code, $3.code);
+            sprintf(tempbuffer, MUL_ASM_FORMAT, $1.varn, $3.varn, $$.varn);
+            strcat($$.code, tempbuffer);
+            addTempVariable($$.varn); 
+        }
+    | term MOD factor 
+        { 
+            newTempName($$.varn);
+            sprintf($$.code, "%s\n%s\n", $1.code, $3.code);
+            sprintf(tempbuffer, MOD_ASM_FORMAT, $1.varn, $3.varn, $$.varn);
+            strcat($$.code, tempbuffer);
+            addTempVariable($$.varn); 
+        }
+    | term DIV factor 
+        { 
+            newTempName($$.varn);
+            sprintf($$.code, "%s\n%s\n", $1.code, $3.code);
+            sprintf(tempbuffer, DIV_ASM_FORMAT, $1.varn, $3.varn, $$.varn);
+            strcat($$.code, tempbuffer);
+            addTempVariable($$.varn); 
+        }
+        ;
+
+factor: ID 
+        {
+            strcpy($$.code,"");
+            strcpy($$.varn,$1); 
+            strcpy($$.type,"ID");
+        }
+        | INTEGER 
+        {
+            strcpy($$.code,"");
+            strcpy($$.varn,$1); 
+            strcpy($$.type,"INTEGER");
+        }
+        | REAL_NUMBER 
+        {
+            strcpy($$.code,"");
+            strcpy($$.varn,$1); 
+            strcpy($$.type,"REAL");
+        }
+        | STRING 
+        {
+            strcpy($$.code,"");
+            strcpy($$.varn,$1); 
+            strcpy($$.type,"STRING");
+        }
+        | OPEN_PAR expr_aritm CLOSE_PAR 
+        {
+            strcpy($$.code,$2.code);
+            strcpy($$.varn,$2.varn);
+        }
+        ;
 
 instr_return: RETURN expr_aritm SEMICOLON
             ;

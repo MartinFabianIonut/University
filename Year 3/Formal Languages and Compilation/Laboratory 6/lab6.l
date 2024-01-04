@@ -15,7 +15,6 @@ INTEGER      [+-]?((0[bB][01]+(u|U|l|L|z|Z|uz|uZ|Uz|UZ|zu|zU|Zu|ZU|ul|uL|Ul|UL|l
 REAL_NUMBER  [+-]?((0(l|f|f16|f32|f64|f128|bf16|L|F|F16|F32|F64|F128|BF16)?|[1-9][0-9]*)(\.[0-9]+)?([eE][+-]?[0-9]+)?(l|f|f16|f32|f64|f128|bf16|L|F|F16|F32|F64|F128|BF16)?|([0-9]+\.[0-9]*)([eE][+-]?[0-9]+)?(l|f|f16|f32|f64|f128|bf16|L|F|F16|F32|F64|F128|BF16)?)
 IDENTIFIER   [a-zA-Z_][a-zA-Z0-9_]{0,249}  
 STRING       \"[^\"]*\"
-HEADER       <[^>\n]*>
 
 %%
 
@@ -29,8 +28,8 @@ HEADER       <[^>\n]*>
 "endl"      { return ENDL; }
 "'\\n'"     { return ENDL; }
 "\"\\n\""   { return ENDL; }
-"#include"  { return INCLUDE_CPP; }
-"using namespace std"     { return USING; }
+"#"         { return HASH; }
+"include"   { return INCLUDE_CPP; }
 ";"         { return SEMICOLON; }
 ","         { return COMMA; }
 "("         { return OPEN_PAR;}
@@ -45,6 +44,14 @@ HEADER       <[^>\n]*>
 "<<"        { return SHIFT_LEFT; }
 ">>"        { return SHIFT_RIGHT; }
 "."         { return DOT; }
+"<"         { return LESS_THAN; }
+">"         { return GREATER_THAN; }
+"iostream"  { return HEADER_CPP; }
+"fstream"   { return HEADER_CPP; }
+"using"     { return USING; }
+"namespace" { return NAMESPACE; }
+"std"       { return ACTUAL_NAMESPACE; }
+
 
 {IDENTIFIER}    {
                   strcpy(yylval.varname, "[");
@@ -64,7 +71,6 @@ HEADER       <[^>\n]*>
                   strcpy(yylval.varname,yytext); 
                   return STRING; 
                 }
-{HEADER}        { return HEADER_CPP; }
 [^ \t\n;]{251,} { printf("Lexical error - identifier is too long at line %d: %s\n", lineNumber, yytext); errorFound = 1; return ID; }
 "{"[^}\n]*"}"   { ; }
 [ \t]+          
