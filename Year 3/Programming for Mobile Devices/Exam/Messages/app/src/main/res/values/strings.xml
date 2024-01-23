@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Messages</string>
+    <string name="message">Message</string>
+    <string name="messages">Messages</string>
+    <string name="login">Login</string>
+    <string name="map_id">MAP_ID</string>
+</resources>
