@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Questions</string>
+    <string name="question">Question</string>
+    <string name="questions">Questions</string>
+    <string name="login">Login</string>
+    <string name="map_id">MAP_ID</string>
+</resources>
