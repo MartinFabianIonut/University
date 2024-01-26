@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Orders</string>
+    <string name="order">Order</string>
+    <string name="orders">Orders</string>
+    <string name="login">Login</string>
+    <string name="map_id">MAP_ID</string>
+</resources>
