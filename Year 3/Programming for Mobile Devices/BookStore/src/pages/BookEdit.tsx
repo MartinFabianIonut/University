@@ -27,6 +27,7 @@ import { MyPhoto, usePhotos } from '../hooks/usePhotos';
 import { useMyLocation } from '../hooks/useMyLocation';
 import MyMap from '../components/MyMap';
 import { createAnimation } from '@ionic/react';
+import Bruckner8 from '../core/audio/Celibidache_Bruckner_8_Finale.mp3'
 
 const log = getLogger('BookEdit');
 
@@ -128,6 +129,14 @@ const BookEdit: React.FC<BookEditProps> = ({ history, match }) => {
         };
         setUnsavedChanges(false);
         log('handleSave - Saving edited book');
+        const audio = new Audio(Bruckner8);
+        //audio.play();
+
+        setTimeout(() => {
+            audio.pause();
+            audio.currentTime = 0;
+        }, 10000);
+
         saveBook && saveBook(editedBook).then(() => {
             log('handleSave - Book saved successfully. Navigating back.');
             history.goBack();

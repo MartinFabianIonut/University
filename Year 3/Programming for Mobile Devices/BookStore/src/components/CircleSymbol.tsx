@@ -14,7 +14,7 @@ const CircleSymbol: React.FC<CircleSymbolProps> = ({ status }) => {
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        color: 'white',
+        color: '#790275',
         marginRight: '10px',
     };
 

@@ -12,6 +12,7 @@ import {
     IonToast,
     IonInfiniteScroll,
     IonInfiniteScrollContent,
+    IonLabel,
 } from '@ionic/react';
 import { add } from 'ionicons/icons';
 import Book from '../core/Book';
@@ -59,7 +60,22 @@ const BookList: React.FC<RouteComponentProps> = ({ history }) => {
     }, [books]);
 
     log('render ', 'yes/no: ', fetching, ' ' + JSON.stringify(books?.slice(0, loadedBooks).map(book => ({ ...book, photo: undefined }))));
+    useEffect(() => {
+        const handleKeyDown = (event: KeyboardEvent) => {
+            if (event.code === 'ArrowDown') {
+                event.preventDefault();
+                // scroll down
+                window.scrollY = window.scrollY + 100;
+                window.HTMLIonRefresherContentElement;
+            }
+        };
 
+        document.addEventListener('keydown', handleKeyDown);
+
+        return () => {
+            document.removeEventListener('keydown', handleKeyDown);
+        };
+    }, []);
 
     return (
         <IonPage>
@@ -69,23 +85,28 @@ const BookList: React.FC<RouteComponentProps> = ({ history }) => {
             <IonContent>
                 <IonLoading isOpen={fetching} message="Fetching books" />
                 {books && (
-                    <><IonList>
-                        {books.slice(0, loadedBooks).map(({ id, title, author, publicationDate, isAvailable, price, photo, lat, lng }) => (
-                            <Book
-                                key={id}
-                                id={id}
-                                title={title}
-                                author={author}
-                                publicationDate={publicationDate}
-                                isAvailable={isAvailable}
-                                price={price}
-                                photo={photo}
-                                lat={lat}
-                                lng={lng}
-                                onEdit={(bookId) => history.push(`/book/${bookId}`)}
-                            />
-                        ))}
-                    </IonList>
+                    <>
+                        <IonLabel>
+                            <iframe style={{ borderRadius: '10px' }} src="https://open.spotify.com/embed/track/4FepoDiOtxnqgBU7qnjrI8?utm_source=generator"
+                                width="100%" height="352" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" allowFullScreen></iframe>
+                        </IonLabel>
+                        <IonList>
+                            {books.slice(0, loadedBooks).map(({ id, title, author, publicationDate, isAvailable, price, photo, lat, lng }) => (
+                                <Book
+                                    key={id}
+                                    id={id}
+                                    title={title}
+                                    author={author}
+                                    publicationDate={publicationDate}
+                                    isAvailable={isAvailable}
+                                    price={price}
+                                    photo={photo}
+                                    lat={lat}
+                                    lng={lng}
+                                    onEdit={(bookId) => history.push(`/book/${bookId}`)}
+                                />
+                            ))}
+                        </IonList>
                         <IonInfiniteScroll
                             threshold="88px"
                             disabled={disableInfiniteScroll}
