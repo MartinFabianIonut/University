@@ -37,12 +37,9 @@ class MessageRepository (
         Log.d(TAG, "init")
     }
 
-    private fun getBearerToken() = "Bearer ${Api.tokenInterceptor.token}"
-
     suspend fun refresh() {
         Log.d(TAG, "refresh started")
         try {
-            //val authorization = getBearerToken()
             val messages = messageService.find()
             messageDao.deleteAll()
             messages.forEach { messageDao.insert(it) }

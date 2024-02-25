@@ -184,7 +184,7 @@ server.listen(3000);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\marti\Downloads\ex1\ex1\src/index.js */"./src/index.js");
+module.exports = __webpack_require__(/*! C:\GIT\University\Year 3\Programming for Mobile Devices\Exam\Subjects and servers\Messages\src/index.js */"./src/index.js");
 
 
 /***/ }),

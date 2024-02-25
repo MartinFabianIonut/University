@@ -17,7 +17,6 @@ import androidx.compose.foundation.shape.CornerSize
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Edit
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -26,7 +25,6 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -35,7 +33,6 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.messages.core.DateUtils
 import com.example.messages.todo.data.Message
 import com.example.messages.todo.ui.message.MessageViewModel
 import kotlinx.coroutines.delay
@@ -59,19 +56,14 @@ fun MessageList(messageList: List<Message>, onMessageClick: OnMessageFn, modifie
             val groupedMessages = messageList.groupBy { it.sender }.entries.sortedByDescending {
                 it.value.filter { !it.read }.maxByOrNull { it.created }?.created
             }
-            // Iterate through sorted senders
             groupedMessages.forEach { (sender, messages) ->
-                // Show sender with unread count
                 val unreadCount = messages.count { !it.read }
                 item {
                     SenderHeader(sender, unreadCount) {
-                        // Callback when a user is clicked
-                        // Toggle the selected user
                         selectedUser = if (selectedUser == sender) null else sender
                     }
                 }
 
-                // Show messages for the sender if selected
                 if (selectedUser == sender) {
                     items(messages.sortedBy { it.created }) { message ->
                         Log.d("MessageList", message.toString())

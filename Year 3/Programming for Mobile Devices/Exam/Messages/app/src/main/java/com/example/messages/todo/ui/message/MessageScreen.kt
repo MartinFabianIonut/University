@@ -1,6 +1,5 @@
 package com.example.messages.todo.ui.message
 
-import android.app.Application
 import android.util.Log
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.FastOutLinearInEasing
@@ -42,17 +41,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.messages.R
-import com.example.messages.core.DateUtils
 import com.example.messages.core.Result
-import com.example.messages.core.ui.MyLocation
-import com.example.messages.core.ui.MyLocationViewModel
 import kotlinx.coroutines.delay
 
 
@@ -102,10 +97,6 @@ fun MessageScreen(messageId: Int?, onClose: () -> Unit) {
                     Button(
                         enabled = canSave,
                         onClick = {
-//                        if (text.length < 3) {
-//                            errorMessage += "\n\tTitle must be at least 3 characters long!"
-//                            canSave = false
-//                        }
 
                         if (canSave) {
                             errorMessage = ""  // Reset error message if conditions are met
@@ -209,27 +200,6 @@ fun MessageScreen(messageId: Int?, onClose: () -> Unit) {
                 Text(text = if (read) "Read" else "Not read", color = MaterialTheme.colorScheme.onPrimary, modifier = Modifier.fillMaxWidth())
             }
             Row {
-//                val myLocationViewModel = viewModel<MyLocationViewModel>(
-//                    factory = MyLocationViewModel.Factory(
-//                        LocalContext.current.applicationContext as Application
-//                    )
-//                )
-//                val location = myLocationViewModel.uiState
-//                if (lat != 0.0 && lng != 0.0) {
-//                    MyLocation(lat, lng) { newLatLng ->
-//                        lat = newLatLng.latitude
-//                        lng = newLatLng.longitude
-//                    }
-//                } else if (location != null) {
-//                    MyLocation(location.latitude, location.longitude) { newLatLng ->
-//                        lat = newLatLng.latitude
-//                        lng = newLatLng.longitude
-//                    }
-//                    lat = location.latitude
-//                    lng = location.longitude
-//                } else {
-//                    LinearProgressIndicator()
-//                }
             }
             if (messageUiState.submitResult is Result.Error) {
                 Text(

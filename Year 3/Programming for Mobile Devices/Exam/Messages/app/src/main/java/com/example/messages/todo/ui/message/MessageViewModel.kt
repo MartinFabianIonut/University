@@ -10,7 +10,6 @@ import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import com.example.messages.MessageStoreAndroid
-import com.example.messages.core.DateUtils
 import com.example.messages.core.Result
 import com.example.messages.core.TAG
 import com.example.messages.todo.data.Message
@@ -65,14 +64,6 @@ class MessageViewModel(private val messageId: Int?, private val messageRepositor
         viewModelScope.launch {
             try {
                 uiState = uiState.copy(submitResult = Result.Loading)
-
-                // Convert publicationDate to a valid date format if needed
-//                val formattedDate = DateUtils.parseDDMMYYYY(publicationDate)
-//                if (formattedDate == null) {
-//                    uiState = uiState.copy(submitResult = Result.Error(Exception("Invalid date format")))
-//                    return@launch
-//                }
-//                val formattedDateStr = formattedDate.toString()
 
                 val message = uiState.message.copy(
                     id = id,

@@ -87,23 +87,6 @@ fun MessageStoreAndroidNavHost() {
                     }
                 })
         }
-        composable(
-            route = "$messagesRoute/{id}",
-            arguments = listOf(navArgument("id") { type = NavType.StringType })
-        )
-        {
-            MessageScreen(
-                messageId = it.arguments?.getInt("id"),
-                onClose = { onCloseMessage() }
-            )
-        }
-//        composable(route = "$messagesRoute-new")
-//        {
-//            MessageScreen(
-//                messageId = null,
-//                onClose = { onCloseMessage() }
-//            )
-//        }
         composable(route = authRoute)
         {
             LoginScreen(
@@ -113,18 +96,6 @@ fun MessageStoreAndroidNavHost() {
                 }
             )
         }
-    }
-    LaunchedEffect(userPreferencesUiState.token) {
-//        if (userPreferencesUiState.token.isNotEmpty()) {
-//            delay(1500)
-//            Log.d("MyAppNavHost", "Lauched effect navigate to messages")
-//            Api.tokenInterceptor.token = userPreferencesUiState.token
-//            myAppViewModel.setToken(userPreferencesUiState.token)
-//            navController.navigate(messagesRoute) {
-//                popUpTo(0)
-//            }
-//        }
-
     }
     LaunchedEffect(true){
         delay(1500)
