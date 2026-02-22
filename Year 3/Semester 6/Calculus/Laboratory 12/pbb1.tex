@@ -1,0 +1,148 @@
+% This LaTeX was auto-generated from MATLAB code.
+% To make changes, update the MATLAB code and export to LaTeX again.
+
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{epstopdf}
+\usepackage[table]{xcolor}
+\usepackage{matlab}
+
+\sloppy
+\epstopdfsetup{outdir=./}
+\graphicspath{ {./pbb1_images/} }
+
+\begin{document}
+
+\begin{par}
+\begin{flushleft}
+Examen Calcul numeric - Fabian-Ionuț Martin, grupa 234/2
+\end{flushleft}
+\end{par}
+
+\begin{matlabcode}
+syms x
+f = @(x) (x*exp(x)-1);
+f_sym = f(x)
+\end{matlabcode}
+\begin{matlabsymbolicoutput}
+f\_sym = 
+
+\hskip1em $\displaystyle x\,{\mathrm{e}}^x -1$
+\end{matlabsymbolicoutput}
+\begin{matlabcode}
+fd = derivataDeOrdinNPlusUnu(f,0)
+\end{matlabcode}
+\begin{matlabsymbolicoutput}
+fd = 
+
+\hskip1em $\displaystyle {\mathrm{e}}^x +x\,{\mathrm{e}}^x $
+\end{matlabsymbolicoutput}
+\begin{matlabcode}
+fd = matlabFunction(fd);
+fdd = derivataDeOrdinNPlusUnu(f,1)
+\end{matlabcode}
+\begin{matlabsymbolicoutput}
+fdd = 
+
+\hskip1em $\displaystyle 2\,{\mathrm{e}}^x +x\,{\mathrm{e}}^x $
+\end{matlabsymbolicoutput}
+\begin{matlabcode}
+fdd = matlabFunction(fdd);
+
+eroare = 1e-10;
+maxIteratii = 200;
+[z, ni] = Aproximare(f,fd,fdd,0,eroare, maxIteratii);
+
+
+fprintf("Metoda lui Newton:");
+\end{matlabcode}
+\begin{matlaboutput}
+Metoda lui Newton:
+\end{matlaboutput}
+\begin{matlabcode}
+fprintf("f(x) = x*exp(x)-1");
+\end{matlabcode}
+\begin{matlaboutput}
+f(x) = x*exp(x)-1
+\end{matlaboutput}
+\begin{matlabcode}
+fprintf("Numărul de iterații efectuate: %d", ni);
+\end{matlabcode}
+\begin{matlaboutput}
+Numărul de iterații efectuate: 4
+\end{matlaboutput}
+\begin{matlabcode}
+fprintf("Valoarea este = %.10f", z);
+\end{matlabcode}
+\begin{matlaboutput}
+Valoarea este = 0.5671432904
+\end{matlaboutput}
+\begin{matlabcode}
+fprintf("Valoarea aproximata de Matlab prin fzero: %.10f", fzero(f, 0));
+\end{matlabcode}
+\begin{matlaboutput}
+Valoarea aproximata de Matlab prin fzero: 0.5671432904
+\end{matlaboutput}
+\begin{matlabcode}
+fprintf("Valoarea aproximata de Matlab prin solve: %.10f", solve(f_sym));
+\end{matlabcode}
+\begin{matlaboutput}
+Valoarea aproximata de Matlab prin solve: 0.5671432904
+\end{matlaboutput}
+
+
+\begin{par}
+\begin{flushleft}
+Proceduri folosite:
+\end{flushleft}
+\end{par}
+
+\begin{par}
+\begin{flushleft}
+1) pentru aproximare
+\end{flushleft}
+\end{par}
+
+\begin{matlabcode}
+function [z,ni]=Aproximare(f,fd,fdd,x0,eroarea,maxIteratii)
+    if nargin < 6, maxIteratii=50; end
+    xp=x0(:);   %x precedent
+    for k=1:maxIteratii
+        xc=xp-f(xp)/sqrt(fd(xp)^2-f(xp)*fdd(xp)); 
+        if abs(xc-xp)<eroarea
+            z=xc; %succes
+            ni=k;
+            return
+        end
+        xp=xc;
+    end
+    error('S-a depasit numarul maxim de iteratii');
+end
+\end{matlabcode}
+
+\begin{par}
+\begin{flushleft}
+2) pentru derivate
+\end{flushleft}
+\end{par}
+
+\begin{matlabcode}
+function [dfN] = derivataDeOrdinNPlusUnu(f, n) 
+    syms x; 
+    % Calculează derivata funcției f în raport cu x
+    for i=1:n+1
+        dfN = diff(f, x);
+        f = dfN;
+    end
+end
+\end{matlabcode}
+
+\end{document}

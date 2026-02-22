@@ -59,6 +59,7 @@ const MyMap: React.FC<MyMapProps> = ({ lat, lng, onMapClick }) => {
           }
         });
         console.log('FabianMap was successfully created!');
+        console.log(mapsApiKey);
         let marker = await googleMap.addMarker({ coordinate: { lat, lng }, title: 'My Marker' });
         listOfMarkers.push(marker);
 
